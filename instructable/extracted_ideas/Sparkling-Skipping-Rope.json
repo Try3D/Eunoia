@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Sparkling-Skipping-Rope/",
+        "creator": "RR 1409",
+        "subcategory": "Art",
+        "title": "Sparkling Skipping Rope",
+        "images": [
+            "https://content.instructables.com/FKE/BQOM/IJ8Z7JPV/FKEBQOMIJ8Z7JPV.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF8/799W/IJ8Z777G/FF8799WIJ8Z777G.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMS/STA5/IJ8Z6C9R/FMSSTA5IJ8Z6C9R.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR6/WVCM/IJ8Z7I16/FR6WVCMIJ8Z7I16.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F01/C4TG/IJ8Z7I17/F01C4TGIJ8Z7I17.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTN/C5J7/IJ8Z7J8J/FTNC5J7IJ8Z7J8J.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKE/BQOM/IJ8Z7JPV/FKEBQOMIJ8Z7JPV.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Two 9v batteries",
+            "4-5m Led strip (You can use waterproof one too)",
+            "Battery Snap"
+        ],
+        "description": "This project creates a skipping rope that glows using an LED strip, batteries, and a battery snap.",
+        "steps": [
+            "Roll the LED strip onto the skipping rope. Use tape if the strip isn't sticky to ensure it adheres firmly.",
+            "Connect the wires of the battery snap to the LED strip. Test the connection. Then remove the battery, secure the wires with tape, and firmly attach the battery with tape (without using the snap).",
+            "Place the second battery on the opposite handle to balance the weight (this battery can replace the first when it is exhausted).",
+            "Cover the LED strip with 3-4 layers of tape to protect it from damage when the rope hits the floor during skipping. (Skip this step if using a waterproof strip)",
+            "Connect the battery snap to the battery to power the sparkling skipping rope."
+        ]
+    }
+]

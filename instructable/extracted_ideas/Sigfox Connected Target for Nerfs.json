@@ -1,0 +1,59 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Sigfox-Connected-Target-for-Nerfs/",
+        "creator": "luisomoreau",
+        "subcategory": "Wireless",
+        "title": "Sigfox Connected Target for Nerfs",
+        "images": [
+            "https://content.instructables.com/F9I/GSLB/IP49R39D/F9IGSLBIP49R39D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJB/8YPP/IP2UDSNI/FJB8YPPIP2UDSNI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9C/B2VL/INPCSYZQ/F9CB2VLINPCSYZQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7B/IKSI/IT22NB2Y/F7BIKSIIT22NB2Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHG/IQUK/IT08XZJ8/FHGIQUKIT08XZJ8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMA/XQ4S/ISB3G3KI/FMAXQ4SISB3G3KI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKE/PORQ/IP2UDSV8/FKEPORQIP2UDSV8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6W/5SA5/IP2UDSOO/F6W5SA5IP2UDSOO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F29/FTZ1/IP2UDSQR/F29FTZ1IP2UDSQR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9D/GF5I/IP2UDSR0/F9DGF5IIP2UDSR0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBJ/RY81/IP2UDSR9/FBJRY81IP2UDSR9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F32/E57E/IP2UDSRQ/F32E57EIP2UDSRQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHF/1AYM/IP2UDSTE/FHF1AYMIP2UDSTE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8U/PYSB/IP2UDSU2/F8UPYSBIP2UDSU2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKW/2WEV/IP2UDSO1/FKW2WEVIP2UDSO1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVY/YI2A/IP2UDSSU/FVYYI2AIP2UDSSU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJV/6HZF/IP2UDSS7/FJV6HZFIP2UDSS7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Y/KS78/IP2UDSO0/F4YKS78IP2UDSO0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXQ/QRBK/IP49U6UN/FXQQRBKIP49U6UN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FII/G80V/IP2UDSPP/FIIG80VIP2UDSPP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSU/NRLA/IP2UDSQ4/FSUNRLAIP2UDSQ4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIQ/Y241/IP2UDSMT/FIQY241IP2UDSMT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7K/5HST/IP49UAPH/F7K5HSTIP49UAPH.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTR/RCAD/IP49VBM3/FTRRCADIP49VBM3.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUS/SXY0/IP49VBM5/FUSSXY0IP49VBM5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDN/XRLO/IP49VBM9/FDNXRLOIP49VBM9.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8A/RSOE/IP49VBMD/F8ARSOEIP49VBMD.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8Z/4BW0/IP49VBMJ/F8Z4BW0IP49VBMJ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMM/YPFU/IP49VBME/FMMYPFUIP49VBME.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSJ/MIZN/IP49VBMF/FSJMIZNIP49VBMF.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU1/TD37/IP49VBMI/FU1TD37IP49VBMI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOK/7422/IP2UDSNR/FOK7422IP2UDSNR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0O/S4P2/IP2UDSUJ/F0OS4P2IP2UDSUJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWB/AQ3D/IP2UDSPC/FWBAQ3DIP2UDSPC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "The AirBoard",
+            "Atim SigBee shield",
+            "Piezo sensor"
+        ],
+        "description": "This project details how to build a connected target for Nerf guns that sends a message to Slack whenever it's hit. It utilizes an AirBoard with a SigBee shield to transmit data through the Sigfox network.",
+        "steps": [
+            "Connect the positive wire of the piezo sensor to the 3.3V pin and the negative wire to the A4 pin on the AirBoard.",
+            "Install the Arduino IDE and necessary libraries (API for ARM modules, AirBoard libraries).",
+            "Download and run the provided Arduino code, selecting the Arduino Fio board and uploading the program via the BLE-LINK/XBee shield. Then replace it with the SIGFOX shield.",
+            "Connect to the SIGFOX backend (http://backend.sigfox.com) and configure the device.",
+            "Build a target using a cardboard box or any other suitable material.",
+            "Connect the target to Slack using Zapier. Create a Zap and configure a callback in the Sigfox Backend, using the URL provided by Zapier WebHook.",
+            "Activate your board through the Sigfox Backend by choosing the AirBoard and your country. Fill the information asked, then go to devices and choose your device by clicking on the ID. Finally go to messages to verify receipt."
+        ]
+    }
+]

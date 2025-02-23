@@ -1,0 +1,51 @@
+[
+    {
+        "url": "https://www.instructables.com/id/SOFT-DIGITAL-ARTWORK/",
+        "creator": "Paola Guimerans",
+        "subcategory": "Art",
+        "title": "SOFT DIGITAL ARTWORK",
+        "images": [
+            "https://content.instructables.com/F5B/US70/IXAQ1KJR/F5BUS70IXAQ1KJR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVJ/25YD/I6QD50VB/FVJ25YDI6QD50VB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLA/3SDG/L6Z2072B/FLA3SDGL6Z2072B.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNK/AV4A/JJEK47XC/FNKAV4AJJEK47XC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAP/MFC0/JJEK49N5/FAPMFC0JJEK49N5.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5G/N5D5/IXAQ1KMY/F5GN5D5IXAQ1KMY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4I/3XF9/IXAQ1KJW/F4I3XF9IXAQ1KJW.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1E/BHMU/IXAQ1KMO/F1EBHMUIXAQ1KMO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3R/QZDL/IXAQ1KM1/F3RQZDLIXAQ1KM1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F56/PG03/IXAQ1KLO/F56PG03IXAQ1KLO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHE/VG14/IXAQ1KLK/FHEVG14IXAQ1KLK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT0/GWSY/IXAQ1KKZ/FT0GWSYIXAQ1KKZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F23/GJBI/IXAQ1KKU/F23GJBIIXAQ1KKU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDD/6FT9/IXAQ1KKC/FDD6FT9IXAQ1KKC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ0/EDXA/IXAQ1KKR/FQ0EDXAIXAQ1KKR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH7/DNJU/IXAQ1KJY/FH7DNJUIXAQ1KJY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV6/L09S/J1QOZSMD/FV6L09SJ1QOZSMD.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LilyTiny Arduino",
+            "Diffused RGB (tri-color) LED",
+            "Conductive thread",
+            "Lithium 3V Batteries",
+            "Sewable CR2032 Battery Holder",
+            "Agic Silver Ink Marker",
+            "Wool Knitting Yarns",
+            "Cube beads",
+            "Metal beads",
+            "Sewing needles",
+            "Glossy Photo Inkjet Papers",
+            "Clear Nail Polish"
+        ],
+        "description": "This project is a tutorial on creating an interactive abstract digital artwork using soft circuits. It combines digital art techniques with conductive thread and AgIC's circuit marker to create a circuit on paper. The aim is to explore new possibilities for digital art education within the soft circuits field.",
+        "steps": [
+            "Create an abstract digital artwork using image-editing software, inspired by artists like Wassily Kandinsky, considering the elements of shape, form, color, and line.",
+            "Incorporate a soft circuit with color-changing LEDs and a LilyTiny Arduino into the artwork, utilizing conductive paint and thread as artistic materials. Analyze the artwork's compositional elements before starting.",
+            "Print the abstract digital art and understand the circuit's functioning before adding light and electronic components, considering soft circuits concepts.",
+            "Draw the circuit areas on the paper using Agic silver ink, using a ruler to create straight lines.",
+            "Use a sewing machine with conductive thread in the bobbin to complete the circuit. Alternatively, sew by hand to connect the conductive ink and the thread. Secure knots with clear nail polish and use paper hole punches for electronics components.",
+            "Assemble all the components together.",
+            "Have fun!"
+        ]
+    }
+]

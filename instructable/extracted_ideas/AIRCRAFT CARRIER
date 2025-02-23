@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/AIRCRAFT-CARRIER/",
+        "creator": "deinstein",
+        "subcategory": "Art",
+        "title": "AIRCRAFT CARRIER",
+        "images": [
+            "https://content.instructables.com/F0B/NHZ0/I2XIF0XD/F0BNHZ0I2XIF0XD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGV/ZMOT/I2XIF0Y2/FGVZMOTI2XIF0Y2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPD/S3KK/I3BHIQ1Z/FPDS3KKI3BHIQ1Z.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Headphone plastic",
+            "Plywood",
+            "Flash light reflector",
+            "Blue LED bulb",
+            "Toy plane",
+            "Propeller"
+        ],
+        "description": "This project details the construction of a model aircraft carrier using readily available materials. The model features a plywood deck coated with sand-mixed paint, a satellite dish made from a flashlight reflector and LED, and a toy plane to complete the design.",
+        "steps": [
+            "Use headphone plastic to form the base of the ship and paint it.",
+            "Create the deck using plywood, painting it black mixed with sand for texture.",
+            "Craft the satellite dish with a flashlight reflector and fit a blue LED bulb.",
+            "Apply a logo of your choice (e.g., paramilitary organization).",
+            "Install a propeller (not visible) for movement on water.",
+            "Utilize the captain's bridge as the power house of the ship.",
+            "Add a toy plane to the deck to complete the model."
+        ]
+    }
+]

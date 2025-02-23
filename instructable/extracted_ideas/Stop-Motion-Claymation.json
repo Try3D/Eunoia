@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Stop-Motion-Claymation/",
+        "creator": "lipscombtech",
+        "subcategory": "Art",
+        "title": "Stop-Motion Claymation",
+        "images": [
+            "https://content.instructables.com/FOY/KQCQ/IAAG3KNP/FOYKQCQIAAG3KNP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/attachment-video.png"
+        ],
+        "materials_required": [
+            "Clay or other pliable material for characters",
+            "Camera or smartphone for taking pictures",
+            "Computer with video editing software"
+        ],
+        "description": "This project outlines the process of creating a stop-motion claymation video. Stop-motion animation involves moving a figure slightly between each photograph, and then compiling the photos into a video to create the illusion of movement.",
+        "steps": [
+            "Create a set using paper, paint, and sand to represent a town called 'Crooks'. The buildings are made from black, white, and gray paper. The water is painted and the beach is made from sand.",
+            "Plan the scene and characters for the movie.",
+            "Create characters for the scene.",
+            "Practice the scene to refine the animation.",
+            "Film the stop-motion video by taking pictures after slightly moving the characters.",
+            "Combine all the still images into a video using video editing software and add sound effects to complete the final product."
+        ]
+    }
+]

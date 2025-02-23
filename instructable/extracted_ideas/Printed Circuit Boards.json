@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Printed-Circuit-Boards/",
+        "creator": "CFL_Browncoat",
+        "subcategory": "Electronics",
+        "title": "Printed Circuit Boards",
+        "images": [
+            "https://content.instructables.com/FOI/TT2I/IQMMNR55/FOITT2IIQMMNR55.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/F69/0SYT/ILY98FYH/F690SYTILY98FYH.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FH7/YGOY/IM55VABR/FH7YGOYIM55VABR.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FEI/E6OF/I72P6TDZ/FEIE6OFI72P6TDZ.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FKW/ID6V/I93F6ZI9/FKWID6VI93F6ZI9.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/FY1/7VBR/HUPHN4N6/FY17VBRHUPHN4N6.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FL6/7VAI/I9RLBMC2/FL67VAII9RLBMC2.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FKC/90N6/IF6NN3O2/FKC90N6IF6NN3O2.jpg?auto=webp&crop=1.2%3A1&frame=1"
+        ],
+        "materials_required": [
+            "PCB Etchant",
+            "Toner Transfer Paper",
+            "Copper Clad Board",
+            "Stepcraft Mill (for milling PCBs)",
+            "3D Printer (for PCB vise)"
+        ],
+        "description": "This compilation of projects and tutorials covers various aspects of Printed Circuit Board (PCB) creation, from etching using toner transfer methods to milling with CNC machines and designing custom PCBs.",
+        "steps": [
+            "Etch PCBs using the toner transfer method.",
+            "Create helping hands for PCB work.",
+            "Design and 3D print a PCB vise.",
+            "Develop PCBs using prototyping tutorials.",
+            "Design a custom PCB business card.",
+            "Explore alternative PCB etchants.",
+            "Design and mill PCBs using free software.",
+            "Mill a circuit board with a Stepcraft Mill and EagleCAD."
+        ]
+    }
+]

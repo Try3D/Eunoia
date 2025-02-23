@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Altera-CPLD-Max-II-Blink-Led/",
+        "creator": "MaryoriS",
+        "subcategory": "Electronics",
+        "title": "Altera CPLD Max II Blink Led",
+        "images": [
+            "https://content.instructables.com/FOU/8ASI/ICG2DWXG/FOU8ASIICG2DWXG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQT/5AR7/ICG2DWYH/FQT5AR7ICG2DWYH.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCQ/CS0C/ICG2DWX7/FCQCS0CICG2DWX7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRX/I5DV/ICG2DNWJ/FRXI5DVICG2DNWJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZI/CYLW/ICICZNG6/FZICYLWICICZNG6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FB7/IC2E/ICGW6NJX/FB7IC2EICGW6NJX.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK0/E7GU/ICG2DVRN/FK0E7GUICG2DVRN.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Altera CPLD Max II",
+            "Datasheet"
+        ],
+        "description": "This project demonstrates how to blink an LED using an Altera CPLD Max II and Verilog code. The code utilizes a counter to toggle the LED state at a specific frequency.",
+        "steps": [
+            "Write the Verilog code: module ledblink(clk,led); input clk; output led; reg led; reg[23:0] cnt; always @(posedge clk) begin cnt<= cnt + 1'b1; led<=cnt[23]; end endmodule",
+            "Compile and upload the Verilog code to the Altera CPLD Max II using appropriate software.",
+            "Connect an LED to the designated output pin of the CPLD.",
+            "Connect a clock signal to the designated clock input pin of the CPLD.",
+            "Observe the LED blinking."
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Microbit-Experiment-11-NeoPixel-Elecfreaks-Mirco-B/",
+        "creator": "ElecFreaks",
+        "subcategory": "Art",
+        "title": "Micro:bit Experiment 11: NeoPixel \u2014\u2014 Elecfreaks Mirco: Bit Starter Kit Course",
+        "images": [
+            "https://content.instructables.com/F8L/W516/J86HOBNK/F8LW516J86HOBNK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDJ/GDWX/KLQLGRNP/FDJGDWXKLQLGRNP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FS8/NGM6/L9H2QU59/FS8NGM6L9H2QU59.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFR/T2JK/L81MYEOJ/FFRT2JKL81MYEOJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUX/4BAN/L79251R6/FUX4BANL79251R6.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Micro:bit Board",
+            "Microbit Breadboard Adapter",
+            "8 RGB LED NeoPixel Ring",
+            "Alligator Clip Wires"
+        ],
+        "description": "This project uses a Micro:bit to drive an 8 RGB LED NeoPixel Ring and create a rainbow color gradual change effect.",
+        "steps": [
+            "Connect the hardware components according to the provided diagram, ensuring to connect the DI cable of the NeoPixel ring.",
+            "Open the Microsoft Makecode online editor and add the NeoPixel package to the code.",
+            "Initialize the NeoPixel bead by setting the pin, the number of LEDs, and the type of bead.",
+            "Use the 'show rainbow' function to create a rainbow color effect on the LED strip.",
+            "Use the 'show' function to display the color on the LED.",
+            "Use the 'rotate pixels' function to make the LED color move in a circle.",
+            "Download the code to the Micro:bit and observe the rotating rainbow color effect on the NeoPixel ring."
+        ]
+    }
+]

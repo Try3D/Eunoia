@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Led-desk-lamp-1/",
+        "creator": "Filip Peeters",
+        "subcategory": "Art",
+        "title": "Led desk lamp",
+        "images": [
+            "https://content.instructables.com/FI1/RYAP/I1MQBDBQ/FI1RYAPI1MQBDBQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMN/L1QN/I1MQBDLR/FMNL1QNI1MQBDLR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNE/FNAQ/I1MQBMTZ/FNEFNAQI1MQBMTZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVR/C1S1/I1NUGRI8/FVRC1S1I1NUGRI8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVX/P4XF/HZQTDIH7/FVXP4XFHZQTDIH7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FG9/5KMM/HZPDXK0E/FG95KMMHZPDXK0E.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRI/GD2N/I1MQBK63/FRIGD2NI1MQBK63.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/F61/MPWC/I1MQBEDB/F61MPWCI1MQBEDB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/FOB/FA4F/I1MQBCTU/FOBFA4FI1MQBCTU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP1/T02V/I1MQBD2T/FP1T02VI1MQBD2T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH8/N3I0/I1MQBDR4/FH8N3I0I1MQBDR4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F48/9ZD8/I1MQBE3L/F489ZD8I1MQBE3L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2J/IE5R/I1MQBEJS/F2JIE5RI1MQBEJS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRZ/KX1T/I1MQBCJI/FRZKX1TI1MQBCJI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZW/FILK/I1MQBCPX/FZWFILKI1MQBCPX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Led strip 1 meter",
+            "Carton, steel, aluminum, plastic plate",
+            "Wooden plate",
+            "Switch (optional)",
+            "Soldering iron"
+        ],
+        "description": "This project describes how to build a simple LED desk lamp using wood, LED strips and other easily obtainable materials.",
+        "steps": [
+            "Saw the wooden side plates using a jigsaw, referring to the provided 1:1 drawing in the PDF.",
+            "Cut the back side plate, using carton or similar material.",
+            "Glue offset blocks between the wooden side plates for firmness, and then glue the back plate into the grooves.",
+            "Cut the 1-meter LED strip into two pieces and solder them together with a small wire.  Solder the connector to the controller."
+        ]
+    }
+]

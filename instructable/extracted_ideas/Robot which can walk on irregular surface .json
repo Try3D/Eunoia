@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Robot-which-can-walk-on-irregular-surface/",
+        "creator": "Saurav Chakraborty",
+        "subcategory": "Electronics",
+        "title": "Robot which can walk on irregular surface ",
+        "images": [
+            "https://content.instructables.com/FWF/87UA/IHAWF8M2/FWF87UAIHAWF8M2.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQO/UO60/IC5C9FG9/FQOUO60IC5C9FG9.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY1/36VJ/JXSTHJLE/FY136VJJXSTHJLE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9Z/RTVT/JTYNFB0Y/F9ZRTVTJTYNFB0Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4X/VJ4P/J8YRHW0A/F4XVJ4PJ8YRHW0A.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEF/NJEH/IHAWF9O9/FEFNJEHIHAWF9O9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/A2NO/IHAWF9OG/FJRA2NOIHAWF9OG.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTR/L9F3/IHAWF9ON/FTRL9F3IHAWF9ON.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHB/U23U/IHAWFA7K/FHBU23UIHAWFA7K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMH/KGBD/IHAWFAAX/FMHKGBDIHAWFAAX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5W/W0BX/IHAWFAAY/F5WW0BXIHAWFAAY.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "120 RPM geared motor",
+            "200mAH Li-po battery",
+            "Plastic screws",
+            "U shaped aluminum clamps"
+        ],
+        "description": "This project details how to build a simple, non-wheel based walking robot capable of traversing irregular surfaces.",
+        "steps": [
+            "Watch the video instruction for a detailed guide.",
+            "Create a robot base using cardboard.",
+            "Use a 120 RPM geared motor powered by a 200mAH Li-po battery to drive the robot.",
+            "Fabricate legs from plastic screws and attach triangular cardboard pieces as feet to both sides.",
+            "Craft three U-shaped aluminum clamps to secure the motor to the base and connect the front and middle legs.",
+            "Attach the rear legs directly to the motor shaft."
+        ]
+    }
+]

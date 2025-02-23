@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Dr-Who-Tardis-Night-Light-With-Google-Assistant/",
+        "creator": "JonP103",
+        "subcategory": "Raspberry Pi",
+        "title": "Dr Who Tardis Night Light With Google Assistant ",
+        "images": [
+            "https://content.instructables.com/FUE/FLVI/JFX0M6CH/FUEFLVIJFX0M6CH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F81/6BUT/J6MG8OEW/F816BUTJ6MG8OEW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2A/L1EL/JTWSV4FN/F2AL1ELJTWSV4FN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIO/H0MW/JG2J08BI/FIOH0MWJG2J08BI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9J/E2UH/JFX0M9RW/F9JE2UHJFX0M9RW.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFN/ZUGY/JFX0M9S5/FFNZUGYJFX0M9S5.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC2/1Q1C/JFX0M9SF/FC21Q1CJFX0M9SF.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOF/7FTX/JFX0MDN2/FOF7FTXJFX0MDN2.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1G/UGLD/JFX0MDPU/F1GUGLDJFX0MDPU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F74/3MVN/JFX0MDQ2/F743MVNJFX0MDQ2.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FF2/VGAT/JFX0MHKB/FF2VGATJFX0MHKB.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0N/C170/JFX0MHMD/F0NC170JFX0MHMD.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5R/DQ99/JFX0MHMG/F5RDQ99JFX0MHMG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWZ/54QL/JFX0MMON/FWZ54QLJFX0MMON.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FUK/M0CC/JFX0MNF0/FUKM0CCJFX0MNF0.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4X/XNPQ/JFX0MOP3/F4XXNPQJFX0MOP3.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBI/0292/JFX0MOV2/FBI0292JFX0MOV2.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "4 sheets of 6mm Birch ply 300-600mm",
+            "1 sheet of LEDTro-glass or equivalent acrylic",
+            "1 small sheet of white acrylic",
+            "1.2m of Addressable LEDs",
+            "2m Red, White and Black 0.2mm Electrical Wire",
+            "Wemos D1 Mini Pro",
+            "Raspberry Pi 3",
+            "8Gb SD card With AIY Projects Build loaded on",
+            "AIY Voice Kit Boards",
+            "Blue Tardis Paint"
+        ],
+        "description": "This project is a large 35cm Tardis night light powered by an ESP8266 with Google Assistant, which is powered by a Raspberry Pi3. It is designed in Illustrator and cut on a Trotec Speedy 300.",
+        "steps": [
+            "Laser cut the wooden parts, windows/roof parts, and phone box signs from the provided files using appropriate material and laser cutter settings. Remember to add microphone holes if using Google Assistant.",
+            "Glue the sides of the Tardis together, ensuring they fit correctly. Use filler to smooth any gaps. Paint the wooden parts with 3 coats of Tardis blue paint. Then, glue in the plastic parts, leaving the top open.",
+            "Cut the LED strip into 25cm strips and solder them in series. Wire the LEDs into the WEMOS D1 mini Pro. Load the provided Arduino code onto the WEMOS, adjusting the number of LEDs in the code as needed.",
+            "Set up the Google Assistant following the instructions on the AIY Voice page. Fit the speaker in the base and the microphone board inside, aligning with the previously cut holes. Plug everything into the Raspberry Pi Hat. Glue the top on after testing. Provide separate power supplies for Google Assistant and WEMOS."
+        ]
+    }
+]

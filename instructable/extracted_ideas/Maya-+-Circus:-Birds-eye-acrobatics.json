@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Maya-Circus-Birds-eye-acrobatics/",
+        "creator": "neweccentric",
+        "subcategory": "Art",
+        "title": "Maya + Circus: Birds-eye acrobatics",
+        "images": [
+            "https://content.instructables.com/FX1/S4EM/I6WOQKTS/FX1S4EMI6WOQKTS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWK/RSYB/I6WOQMHK/FWKRSYBI6WOQMHK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM8/BJ2Z/I6WOQOJ8/FM8BJ2ZI6WOQOJ8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-video.png"
+        ],
+        "materials_required": [
+            "Rock climbing harness",
+            "WHITE climbing rope",
+            "Autodesk Maya (or similar animation software)",
+            "Projection surface",
+            "Soundtrack (optional)"
+        ],
+        "description": "This project demonstrates how to create a \"matrix-style\" perspective for live theater and circus performances by suspending a performer horizontally against a wall, animating camera paths in Autodesk Maya, and choreographing the animation with the performer's movements to give the illusion of movement.",
+        "steps": [
+            "Train in aerial dance. Purchase a rock climbing harness and white climbing rope.",
+            "Seek professional instruction in rigging, climbing, and acrobatics at a rock climbing gym to learn safe practices.",
+            "Measure the intended projection area and position the dancer in the center.",
+            "Rig the harness and brake according to professional instruction. Position yourself below the wall, and pull in the slack till your dancer reaches the vertical center of your projection area. To lower your dancer into place vertically, pull your rope over the beveled edge of your belay device, and turn the brake lever. Pull down on the rope to allow your dancer to lower themselves down into the middle of the projection area. Now close the break lever again.",
+            "Practice top-down walking and jumping effects. Train at an acrobatics and aerial dance gym for more complex effects.",
+            "Create the environment in Maya where the performer will be moving.",
+            "Draw a curve for the camera path.",
+            "Create a camera and attach it to the motion path (Animate > Motion Paths > Attach to Motion Path).",
+            "Animate the camera path in time with a soundtrack.",
+            "Coordinate the animation and the performer's movements with a director. Use a straight line for a walking effect, or a curved path for jumps and freeze-frame perspective changes."
+        ]
+    }
+]

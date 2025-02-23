@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Build-Solar-Based-Power-Bank-Using-Dead-Mob/",
+        "creator": "embpic",
+        "subcategory": "Electronics",
+        "title": "How to Build Solar Based Power Bank Using Dead Mobile's Battery",
+        "images": [
+            "https://content.instructables.com/F9B/N6U8/JO4NK1I3/F9BN6U8JO4NK1I3.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL8/7LVW/JM0V3QZ5/FL87LVWJM0V3QZ5.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FR3/CYYY/KPOE4BFY/FR3CYYYKPOE4BFY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0D/ZGQA/KPO1Y0G9/F0DZGQAKPO1Y0G9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMZ/KUY6/K7RRB8TC/FMZKUY6K7RRB8TC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5S/D0NI/JO4NJY42/F5SD0NIJO4NJY42.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F05/E78Y/JO4NJY4X/F05E78YJO4NJY4X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXT/E0QN/JO4NJY5S/FXTE0QNJO4NJY5S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ0/HGDV/JO4NJY5V/FZ0HGDVJO4NJY5V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBU/HFK7/JO4NJY5X/FBUHFK7JO4NJY5X.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Solar Panel 6V output",
+            "Mobile Phone Battery",
+            "TP4056",
+            "USB Boost Converter"
+        ],
+        "description": "This project details how to build a solar-powered power bank using a dead mobile phone battery. A solar panel charges the battery, and the battery's power is then used to charge a mobile phone.",
+        "steps": [
+            "Connect the 6V solar panel to the TP4056 charging module.  The solar panel will provide approximately 5V when exposed to sunlight, which will be used to charge the battery.",
+            "Connect the mobile phone battery to the TP4056 charging module. The TP4056 will charge the battery to 4.2V. A red light will indicate the charging status, and a green light will indicate that the battery is fully charged.",
+            "Connect the output pins of the TP4056 to the USB boost converter.",
+            "Connect the output of the USB boost converter to a USB connector. This connector will provide 5V output to charge a mobile phone."
+        ]
+    }
+]

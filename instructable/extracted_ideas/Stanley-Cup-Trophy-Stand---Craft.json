@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Stanley-Cup-Trophy-Stand-1/",
+        "creator": "John Helfen",
+        "subcategory": "Art",
+        "title": "Stanley Cup Trophy Stand - Craft",
+        "images": [
+            "https://content.instructables.com/FEI/CZTP/IMRYSEPM/FEICZTPIMRYSEPM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOO/DLHF/IJEORPCK/FOODLHFIJEORPCK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYD/QURC/IQ2O47X6/FYDQURCIQ2O47X6.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYD/QURC/IQ2O47X6/FYDQURCIQ2O47X6.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3Y/YPK7/IPZMNWEQ/F3YYPK7IPZMNWEQ.png?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Foam core (170mm x 70mm)",
+            "X-Acto knife",
+            "Compass",
+            "Hot glue gun"
+        ],
+        "description": "This project explains how to create a Stanley Cup trophy stand with foam core, for those who don't have access to a 3D printer. The stand will have an opening on the top to place the trophy.",
+        "steps": [
+            "Measure and mark lines on the foam core to create the top (70mm x 50mm), side walls (70mm x 20mm, two pieces), end walls (70mm x 20mm, two pieces which will be trimmed to 40mm x 20mm), and support sections.",
+            "Cut 4 support pieces from a 70mm x 20mm foam core piece, each 5mm wide and 20mm long.",
+            "Trim two of the 70mm x 20mm pieces down to 40mm x 20mm to create the end boards.",
+            "Create a 30mm diameter circle opening in the center of the top piece (70mm x 50mm) using a compass and X-Acto knife.",
+            "Glue the four support pieces to the bottom of the circle at equal distances from each other.",
+            "Glue the tops of the support posts, with the circle attached, to the bottom of the large foam core top section, ensuring that the supports do not obstruct the opening.",
+            "Glue the side walls and end walls to the top piece to form the stand's box shape.",
+            "Cut a small 5mm x 5mm opening on the end wall opposite the stand opening for wires, if needed.",
+            "Test the fit of the trophy in the opening and make any necessary adjustments."
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/ark-reactor-1/",
+        "creator": "Sentient Meat",
+        "subcategory": "Art",
+        "title": "arc reactor",
+        "images": [
+            "https://content.instructables.com/FR4/4CM9/IBDTKISX/FR44CM9IBDTKISX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFY/0MC7/IBC2STLZ/FFY0MC7IBC2STLZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F44/QXK0/JBE14DLK/F44QXK0JBE14DLK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FV0/YOK5/IR5MV2MT/FV0YOK5IR5MV2MT.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8F/LUOE/IR5MUHOZ/F8FLUOEIR5MUHOZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9I/EYNA/IBDTKIVC/F9IEYNAIBDTKIVC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXY/8SQF/IBDTKIVF/FXY8SQFIBDTKIVF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7H/ZMMS/IBDTKIWK/F7HZMMSIBDTKIWK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLR/XEL8/IBDTKJ1G/FLRXEL8IBDTKJ1G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN2/WVO0/IBDTKJ1K/FN2WVO0IBDTKJ1K.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIF/FWSM/IBDTKJ2R/FIFFWSMIBDTKJ2R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTT/1CUO/IBDTKJ9W/FTT1CUOIBDTKJ9W.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG3/61SX/IBDTKJHO/FG361SXIBDTKJHO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEJ/JOG6/IBDTKJHU/FEJJOG6IBDTKJHU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8W/TUVL/IBDTKJKC/F8WTUVLIBDTKJKC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LED's",
+            "Plastic",
+            "Screws",
+            "12 volt battery",
+            "Switch",
+            "Plastic mesh",
+            "Golden rings"
+        ],
+        "description": "This project describes how to build a simple arc reactor using common materials.",
+        "steps": [
+            "Create the base by using a lid and drilling a hole for wires.",
+            "Feed wires through the hole in the base, connecting one to the LEDs and the other to a switch connected to a 12-volt battery.",
+            "Create 3 small wire circles to use in the center of the reactor.",
+            "Cut a black circle, paint it black, and glue it to the reactor's body.",
+            "Create the body by attaching three small pieces of plastic to the ring, using screws in the middle, and add a plastic mesh underneath, and place 2 golden rings above the mesh.",
+            "Glue all the components together to complete the arc reactor."
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/IMPROVISED-DYNAMO-POWER-SUPPLYwith-charger-portsle/",
+        "creator": "christianjaicramos",
+        "subcategory": "Reuse",
+        "title": "IMPROVISED DYNAMO POWER SUPPLY(with charger ports,led light,mini fan)",
+        "images": [
+            "https://content.instructables.com/FEG/O899/HL5FA3DI/FEGO899HL5FA3DI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKQ/03QT/HL5FA3DT/FKQ03QTHL5FA3DT.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFT/PWEX/HL5FA3DU/FFTPWEXHL5FA3DU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXA/CD6S/HL5FA3EU/FXACD6SHL5FA3EU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWH/1EI1/HL5FA3EV/FWH1EI1HL5FA3EV.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSU/UAGG/HL5FA3EW/FSUUAGGHL5FA3EW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJE/JUBD/HL5FA3FK/FJEJUBDHL5FA3FK.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ0/VQU4/HL5FA3FQ/FJ0VQU4HL5FA3FQ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/VA1C/HL5FA3FR/F3IVA1CHL5FA3FR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDM/4N5F/HL5FA3GB/FDM4N5FHL5FA3GB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIQ/5V0Q/HL5FA3GC/FIQ5V0QHL5FA3GC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEY/QH4T/HL5FA3GD/FEYQH4THL5FA3GD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSF/2EBX/HL5FA3J1/FSF2EBXHL5FA3J1.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "2 Hobby Motors",
+            "Gears",
+            "Capacitors (eight 1000\u00b5f)",
+            "6V Battery (two 3V in series)",
+            "USB port (female) & charger ports (male)",
+            "Case for the dynamo",
+            "Case of the mini fan",
+            "Propeller for the mini fan",
+            "Rotating knob"
+        ],
+        "description": "This project is about creating an improvised dynamo power supply with charger ports, LED light, and a mini fan, using recycled materials. The dynamo can charge a mobile phone, light LEDs, and turn the mini fan's propeller. It also functions as a power bank by storing energy in a rechargeable battery when the dynamo is turned.",
+        "steps": [
+            "Collect the necessary materials, including motors, gears, capacitors, battery, LEDs, switches, wires, USB port, cases, propeller, and a rotating knob. These are scavenged from old electronics",
+            "Connect the motor to the gears. Ensure that rotating the knob turns the motor's shaft.",
+            "Solder all the capacitors in parallel. Use solid wire for connecting and test each capacitor before soldering. Take precautions when soldering.",
+            "Fit the switch, USB ports, and LEDs into the dynamo case. Drill holes as needed.",
+            "Connect all the components according to a schematic diagram. Use a PCB for a tougher build.",
+            "Make the mini fan by using a mouse as a case. Open the mouse, create a hole for the motor, and fit the motor. Connect the motor and switches for on/off functionality.",
+            "Inspect the final product and enjoy its functionality."
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Create-a-movie-from-stop-motion-frames-in-Final-Cu/",
+        "creator": "hzimmerman",
+        "subcategory": "Art",
+        "title": "Create a movie from stop motion frames in Final Cut Pro X",
+        "images": [
+            "https://content.instructables.com/F20/Y2Q7/I5UXAPC9/F20Y2Q7I5UXAPC9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQQ/PE9F/ISCB9GDZ/FQQPE9FISCB9GDZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAU/OXIP/IEX516MF/FAUOXIPIEX516MF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK5/QELE/IB22B49M/FK5QELEIB22B49M.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6F/I8GJ/I5UXAPDC/F6FI8GJI5UXAPDC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRU/W554/I5UXAPF5/FRUW554I5UXAPF5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY0/GPG4/I5UXAPHA/FY0GPG4I5UXAPHA.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F04/8TRY/I5UXAPHB/F048TRYI5UXAPHB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0S/48CJ/I5UXAPJY/F0S48CJI5UXAPJY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F48/ZGGW/I5UXAPRP/F48ZGGWI5UXAPRP.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB5/JD8Q/I5UXAPYH/FB5JD8QI5UXAPYH.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMT/I00S/I5UXAQ8V/FMTI00SI5UXAQ8V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNO/NIPJ/I5UXAQ8W/FNONIPJI5UXAQ8W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F62/H1RJ/I5UXAQZR/F62H1RJI5UXAQZR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Still frame images",
+            "Final Cut Pro X"
+        ],
+        "description": "This project provides a method for easily creating a stop motion movie from a series of still frames within Final Cut Pro X.",
+        "steps": [
+            "Create a new project in Final Cut Pro X, ensuring that the project dimensions match the resolution of your still frames.  You can find the resolution of a still frame by selecting it in Finder and pressing Command+I.",
+            "Import your still frame images into a new or existing event in Final Cut Pro X. Analysing the images is not required, and using proxy media is acceptable for faster processing. Select all your images to import.",
+            "In the browser, select all the imported images by pressing Command+A.  The selected images will be highlighted in yellow.",
+            "Add all selected images to the timeline at once by pressing \"D\". This will overwrite edit them into the timeline. Dragging will work, but may cause an application crash.",
+            "Select all the images in the timeline by clicking in the timeline and then pressing Command+A. They should now have yellow outlines. As a default, all still frame images are 2 seconds long. The goal is to adjust all the images to be one frame long.",
+            "With all the images selected in the timeline, change the duration of each clip to 1 frame by pressing Control+D, then typing '1', and finally pressing Enter. The images will now be condensed together.",
+            "Render the sequence to a new video file by using the menu command File - Share - Master file (default)....In the dialog that opens, be sure to set Format to Video Only, as there is no audio in this stop motion sequence."
+        ]
+    }
+]

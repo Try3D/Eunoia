@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Image-Relief-in-Oil/",
+        "creator": "mkoehle",
+        "subcategory": "Art",
+        "title": "Image Relief in Oil",
+        "images": [
+            "https://content.instructables.com/FYI/LEE4/IOEKAP23/FYILEE4IOEKAP23.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUJ/QZ9D/IOD4FTV9/FUJQZ9DIOD4FTV9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/8MH1/IDBHXK7C/FF78MH1IDBHXK7C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/MYZJ/JE4KKXXW/FL0MYZJJE4KKXXW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/5SBG/JE4KKXS5/FFF5SBGJE4KKXS5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPV/OENC/JE4KKXNU/FPVOENCJE4KKXNU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYL/07L3/IOD4FW7B/FYL07L3IOD4FW7B.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDW/M316/IOCE8Y08/FDWM316IOCE8Y08.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FTZ/E5FF/IOCE8YAX/FTZE5FFIOCE8YAX.tif?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/F3X/GB04/IOD4FWCL/F3XGB04IOD4FWCL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6S/69H1/IOD4FWHK/F6S69H1IOD4FWHK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024"
+        ],
+        "materials_required": [
+            "1/2\" aluminum plate",
+            "Oil soluble dye",
+            "Haas Vertical Mill",
+            "ArtCAM software",
+            "1/2\" end mill",
+            "1/4\" ball mill",
+            "1/8\" ball mill",
+            "1/16\" ball mill",
+            "Coolant",
+            "Candle dye"
+        ],
+        "description": "This project creates an image relief using a two-layer process. A base layer of aluminum is covered with a semi-transparent layer of dyed oil. By varying the depth of the oil, different shades of gray are achieved, reproducing the image. This project is inspired by the tintype photographic process, aiming to echo its unique characteristics using aluminum and oil.",
+        "steps": [
+            "Map the image by adjusting the intensity to depth since light doesn\u2019t attenuate linearly in oil. Use the exponential equation provided, modify curves in Photoshop, or feed intensity values into the equation to get the depths. Reference the provided Instructables link for more details.",
+            "Use ArtCAM software to generate the relief based on the mapped image and generate CAM. Create a profile path for a trough around the image. Perform a roughing pass with a 1/2\" end mill, followed by consecutive finishing passes using 1/4\", 1/8\", and finally a 1/16\" ball mill. Ensure coolant is used to prevent overheating and bit breakage.",
+            "Find a dye that is completely soluble in oil. Candle dye is recommended because pigment powders and oil paints might not dissolve correctly. Use a smaller prototype to adjust the mixture of oil to dye until the correct color is achieved. "
+        ]
+    }
+]

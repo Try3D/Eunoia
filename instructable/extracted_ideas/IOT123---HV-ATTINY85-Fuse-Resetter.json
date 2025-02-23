@@ -1,0 +1,63 @@
+[
+    {
+        "url": "https://www.instructables.com/id/IOT123-HV-ATTINY85-Fuse-Resetter/",
+        "creator": "IOT_123",
+        "subcategory": "Electronics",
+        "title": "IOT123 - HV ATTINY85 Fuse Resetter",
+        "images": [
+            "https://content.instructables.com/FRY/ZB9G/JFX0N90S/FRYZB9GJFX0N90S.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8A/2YX8/JFX0N90O/F8A2YX8JFX0N90O.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6H/9QB4/JFX0N0IZ/F6H9QB4JFX0N0IZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F02/F92J/JFX0N90L/F02F92JJFX0N90L.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAG/XTD4/JFX0N90P/FAGXTD4JFX0N90P.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB6/SX6H/JFX0N90Q/FB6SX6HJFX0N90Q.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJI/CCHJ/JFX0N90N/FJICCHJJFX0N90N.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUD/GWEB/J9YJFXFC/FUDGWEBJ9YJFXFC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLE/YWBD/JKWUM7L0/FLEYWBDJKWUM7L0.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFX/RMIP/JKCUL2GY/FFXRMIPJKCUL2GY.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO3/BOB1/JJ8UATOG/FO3BOB1JJ8UATOG.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBH/3XCN/JFX0NAHF/FBH3XCNJFX0NAHF.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F00/4CM4/JFX0NAC7/F004CM4JFX0NAC7.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F38/TCZJ/JFX0NA9R/F38TCZJJFX0NA9R.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIY/AD1S/JFX0NA9Q/FIYAD1SJFX0NA9Q.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7Z/VCIF/JFX0NAI4/F7ZVCIFJFX0NAI4.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM9/Z44M/JFX0NA9Y/FM9Z44MJFX0NA9Y.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNB/G287/JFX0NA9T/FNBG287JFX0NA9T.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4K/D5BW/JFX0NAJ3/F4KD5BWJFX0NAJ3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOR/8I7Y/JFX0NALC/FOR8I7YJFX0NALC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPK/EWNY/JFX0NA9Z/FPKEWNYJFX0NA9Z.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN4/QCNV/JFX0NA9U/FN4QCNVJFX0NA9U.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNF/FRX9/JFX0NA9X/FNFFRX9JFX0NA9X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWZ/PD1Y/JFX0NANR/FWZPD1YJFX0NANR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5A/ST5C/JFX0NAX3/F5AST5CJFX0NAX3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9R/EOBW/JG2J03HG/F9REOBWJG2J03HG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNO/CQ0Z/JFX0N0J1/FNOCQ0ZJFX0N0J1.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSC/APDL/JFX0N0HB/FSCAPDLJFX0N0HB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3K/CNW4/JG74X3PU/F3KCNW4JG74X3PU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIG/LA49/JFX0N0I6/FIGLA49JFX0N0I6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3N/83A0/JFX0NK4Z/F3N83A0JFX0NK4Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM2/1YFH/JFX0NN18/FM21YFHJFX0NN18.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "4x6cm Universal PCB",
+            "5V Arduino Pro Mini with male headers",
+            "ATTINY85-20PU",
+            "8 Pin DIL IC Socket",
+            "2.1 x 5.5 mm DC Power Supply Jack Socket",
+            "BC547 NPN Transistor",
+            "1K resistors",
+            "150R resistor",
+            "5V Buzzer (optional)",
+            "LED (optional)",
+            "12V Power Supply",
+            "RTL-232 FTDI chip"
+        ],
+        "description": "This project creates an ATTINY85 Fuse Resetter that allows the user to sacrifice the reset pin on an ATTINY85 for use as a GPIO. It uses an Arduino Pro Mini and provides simplified build instructions.",
+        "steps": [
+            "Assemble the PCB by inserting and soldering components like the power socket, 2P header, Arduino Pro Mini, 8P DIL socket, and BC547 transistor. Follow the wiring diagram provided by tracing wires and resistors between specified points on the PCB, soldering each connection. Optionally install a buzzer and/or LED indicator.",
+            "Upload the firmware to the Arduino Pro Mini using a FTDI232 USB to TTL converter. Ensure the 5V setting is selected on the FTDI232. Use the provided code and instructions to flash the Arduino Pro Mini.",
+            "Use the HV ATTINY85 Fuse Resetter by setting the Serial Monitor in the Arduino IDE to 9600 baud. Remove the Voltage selector Jumper from FTDI converter. Plug the 12V power supply into the board, connect the FTDI converter, and choose the correct COM port in the Arduino IDE. Follow the instructions in the serial monitor, inputting '1' or '2' to enable or disable the reset pin as GPIO.",
+            "Test the functionality by enabling the reset function, uploading firmware to the ATTINY85 that utilizes the reset pin as a GPIO, and then disabling the reset function using the device. Verify that the pin functions as a GPIO without triggering a reset."
+        ]
+    }
+]

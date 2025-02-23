@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Have-Fun-and-Make-Money-Easily-Using-Zazzle/",
+        "creator": "fozzy13",
+        "subcategory": "Art",
+        "title": "How to Have Fun and Make Money Easily Using Zazzle",
+        "images": [
+            "https://content.instructables.com/F0B/7ENX/G6MPPL8A/F0B7ENXG6MPPL8A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLK/ILS0/G6MPPL89/FLKILS0G6MPPL89.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW0/5Z6U/G6MPPL88/FW05Z6UG6MPPL88.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLG/3B6V/FOHU2MKW/FLG3B6VFOHU2MKW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F26/7W6D/IY3CU6GE/F267W6DIY3CU6GE.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX7/0YDV/IPJZN5TS/FX70YDVIPJZN5TS.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FE2/OL9R/IP0914A3/FE2OL9RIP0914A3.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW0/5Z6U/G6MPPL88/FW05Z6UG6MPPL88.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPJ/JEV1/G6MPPLAH/FPJJEV1G6MPPLAH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAP/83QP/G6MPPLAS/FAP83QPG6MPPLAS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWC/KNRN/G6MPPLL4/FWCKNRNG6MPPLL4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYE/9UZZ/G6MPPLLJ/FYE9UZZG6MPPLLJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ9/3WT1/G6MPPLLY/FJ93WT1G6MPPLLY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDS/652M/G6MPPLNY/FDS652MG6MPPLNY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHU/FQVJ/G6MPPLMH/FHUFQVJG6MPPLMH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Image editing program (GIMP recommended)"
+        ],
+        "description": "This project describes how to design custom T-shirts, hoodies, and other products using Zazzle.com, starting from a simple sketch. It covers image editing to prepare the sketch for upload and the process of uploading and selling the design on Zazzle.",
+        "steps": [
+            "Scan the image you want to use for your design.",
+            "Open the scanned image in an image editing program like GIMP.",
+            "Scale up the image using the Scale Tool to avoid it appearing too small on Zazzle.",
+            "Use the Pencil Tool to trace over your sketch, creating the final lines of your design.",
+            "Desaturate the image by going to 'Colors > Desaturate' in GIMP to make it black and white.",
+            "Posterize the image by going to 'Colors > Posterize' and setting the number to '2' to limit the colors to black and white for a clean-cut image.",
+            "Ensure the background of your image is transparent for better blending on different shirt colors. Save your final design as a PNG file.",
+            "Sign up for a Zazzle account at www.zazzle.com.",
+            "Navigate to 'My Account' and click on the 'Create a product button'.",
+            "Choose the desired product category (e.g., 'Mens' shirts').",
+            "Use the shirt-making wizard to upload your image and arrange it on the shirt.",
+            "Adjust the size, position, and scale of your image on the shirt.",
+            "Click 'Add to cart' to buy the shirt for yourself or 'Post for sale' to sell the design.",
+            "On the final page, specify details, tags, and the royalty percentage you want to receive.",
+            "Set up a PayPal account or choose to be paid by check for your Zazzle earnings."
+        ]
+    }
+]

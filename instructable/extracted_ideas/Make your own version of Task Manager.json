@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Make-your-own-version-of-Task-Manager/",
+        "creator": "love2make",
+        "subcategory": "Computers",
+        "title": "Make your own version of Task Manager",
+        "images": [
+            "https://content.instructables.com/F7Y/ZU8W/HQYWRYNH/F7YZU8WHQYWRYNH.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTI/ZV3O/HW4OEIIV/FTIZV3OHW4OEIIV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHZ/GXKZ/GLWQVS8O/FHZGXKZGLWQVS8O.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2W/6VB8/GELYWQWK/F2W6VB8GELYWQWK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0I/NJHA/GELYWQPO/F0INJHAGELYWQPO.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBY/VM5B/HQYWRYNZ/FBYVM5BHQYWRYNZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPD/7UUD/HQYWRYO2/FPD7UUDHQYWRYO2.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDQ/IED8/HQYWRYO9/FDQIED8HQYWRYO9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1L/FL1V/HQYWRYOY/F1LFL1VHQYWRYOY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIH/F381/HQYWRYPT/FIHF381HQYWRYPT.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH1/BV1H/HQYWRYQW/FH1BV1HHQYWRYQW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3N/QLHY/HQYWRYQX/F3NQLHYHQYWRYQX.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7Q/9GWH/HQYWRYSS/F7Q9GWHHQYWRYSS.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHO/UAZU/HQYWRYST/FHOUAZUHQYWRYST.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/D4J5/HQYWRYSX/F3ID4J5HQYWRYSX.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD6/PO8P/HQYWRYU4/FD6PO8PHQYWRYU4.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIC/35ZX/HQYWRYU5/FIC35ZXHQYWRYU5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDB/JJ6E/HQVLDKDC/FDBJJ6EHQVLDKDC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Notepad (or any text editor)"
+        ],
+        "description": "This project creates a simple task manager using a batch script. It displays a list of running processes and allows the user to terminate processes by entering their name.",
+        "steps": [
+            "Open Notepad (or any text editor).",
+            "Enter the following code into the text editor:\n@echo off\ntitle Task Manager V1 by Elysium\necho Task Manager V1 by Elysium\necho Start Tasklist?\nREM -------------------------------------------------------------\nSET /P M=Type Selection:\nIF \"%M%\"==\"yes\" GOTO A\nIF \"%M%\"==\"no\" GOTO B\n:A\nping Localhost -n 2 >nul\nstart /max cmd.exe /k \"\"tasklist\" & pause\"\ngoto :b\nREM --------------------------------------------------------------------------\n:b\ncls\nTask Manager V1 by Elysium\nset /p question= Which program would you like to close:\nTASKKILL/IM %question% /F\npause\ncls\ngoto :b",
+            "Save the file with a .bat extension (e.g., taskmanager.bat)."
+        ]
+    }
+]

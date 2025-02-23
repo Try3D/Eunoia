@@ -1,0 +1,23 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Crowd-Sourced-Sketches/",
+        "creator": "strandedcity",
+        "subcategory": "Art",
+        "title": "Crowd-Sourced Sketches",
+        "images": [
+            "https://content.instructables.com/FFU/DV7F/HWP88EFC/FFUDV7FHWP88EFC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0S/MMHF/HWLD98AY/F0SMMHFHWLD98AY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1F/Z55O/HWP88E69/F1FZ55OHWP88E69.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0N/7QWG/HWP88EAK/F0N7QWGHWP88EAK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project is a crowd-sourced drawing experiment inspired by Sol LeWitt's Wall Drawings. Users contribute to shared drawings by following instructions to add lines and shapes to existing images. The project aims to create collaborative artwork through a simple, accessible online interface.",
+        "steps": [
+            "Browse the available drawings.",
+            "Choose a drawing you'd like to contribute to.",
+            "Follow the provided instructions to add lines or shapes to the drawing directly on the screen.",
+            "Save your contribution.",
+            "Optionally, start a new drawing with your own set of instructions for others to follow."
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Typewriter-Turned-Plotter/",
+        "creator": "FabianoMazza",
+        "subcategory": "Arduino",
+        "title": "Typewriter Turned Plotter",
+        "images": [
+            "https://content.instructables.com/F9H/UR7X/JVWNT58E/F9HUR7XJVWNT58E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSM/KIA9/JVWNT8W8/FSMKIA9JVWNT8W8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/NZ4T/JVWNT7C8/FW9NZ4TJVWNT7C8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3P/HF28/JVWNT7UQ/F3PHF28JVWNT7UQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVP/8D9B/JVWNT58H/FVP8D9BJVWNT58H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV2/QS7Z/JVWNT58I/FV2QS7ZJVWNT58I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR7/BK1G/JVWNT59H/FR7BK1GJVWNT59H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPW/BX6Q/JVWNT8T2/FPWBX6QJVWNT8T2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMK/X160/JVWNT8T9/FMKX160JVWNT8T9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV9/IO2T/JVWNT8W1/FV9IO2TJVWNT8W1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6M/USZ9/JVWNT58K/F6MUSZ9JVWNT58K.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCG/R9OZ/JVWNT59I/FCGR9OZJVWNT59I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Cheap, used electronic typewriter with stepper motors",
+            "Small tin can stepper with reduction gear from an old scanner",
+            "Arduino UNO running standard GRBL",
+            "CNC shield with A4988 motor drivers",
+            "12V power supply",
+            "Universal G-code Sender (UGS) Platform running on a PC",
+            "Limit switches",
+            "Slim DVD ROM drive (for Z axis)",
+            "String",
+            "Small pulley",
+            "Small spring"
+        ],
+        "description": "This project repurposes a cheap, used electronic typewriter into a plotter controlled by an Arduino and GRBL. It involves modifying the typewriter's carriage for finer resolution and adding a Z-axis mechanism to lift and lower a pen.",
+        "steps": [
+            "Choose an electronic typewriter with stepper motors for paper feed, carriage, and daisywheel movement.",
+            "Address the carriage resolution issue by adding a small tin can stepper with reduction gear from an old scanner. Glue the pinion from the original motor to the output gear of the scanner assembly to add reduction gears.",
+            "Set up the software and hardware: Use an Arduino UNO running standard GRBL, a CNC shield with A4988 motor drivers, a 12V power supply, and Universal G-code Sender (UGS) Platform on a PC. Add limit switches for safety and homing.",
+            "Implement Z-axis movement (pen up/down) by disassembling a slim DVD ROM drive and using its frame, rails, and a metal piece. Connect a string from the daisywheel motor disk through a pulley to a pen carriage. Adjust travel limits in UGS."
+        ]
+    }
+]

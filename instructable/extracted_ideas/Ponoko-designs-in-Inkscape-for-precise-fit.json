@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Ponoko-designs-in-Inkscape-for-precise-fit/",
+        "creator": "arghc",
+        "subcategory": "Art",
+        "title": "Ponoko designs in Inkscape for precise fit",
+        "images": [
+            "https://content.instructables.com/FIH/XY78/GJHVGCU2/FIHXY78GJHVGCU2.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Z/Q2BJ/FZQ1FKWM/F4ZQ2BJFZQ1FKWM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9K/92CP/L91CX1RU/F9K92CPL91CX1RU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2T/1C0B/L7YS5Z9Y/F2T1C0BL7YS5Z9Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH7/DB7L/L7VX54NB/FH7DB7LL7VX54NB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FJG/GOOC/GJHVCR3L/FJGGOOCGJHVCR3L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0Z/LEEP/GJHVKXM6/F0ZLEEPGJHVKXM6.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHX/PNF2/GJHV8HLG/FHXPNF2GJHV8HLG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F5Q/7WDE/GJHVKXRP/F5Q7WDEGJHVKXRP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXI/S9K6/GJHV8HDR/FXIS9K6GJHV8HDR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY6/1VCW/GJHV8HDY/FY61VCWGJHV8HDY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU8/JJ1C/GJHVGC8X/FU8JJ1CGJHVGC8X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQS/OIY7/GJHVKXM7/FQSOIY7GJHVKXM7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXY/417A/GJHVGCGA/FXY417AGJHVGCGA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "3mm black acrylic sheet"
+        ],
+        "description": "This project details how to create precise-fitting interlocking pieces for Ponoko designs using Inkscape. It addresses the issue of material removal (kerf) by the laser cutting process and provides a method for compensating for it to achieve snug fits in 2D graphic designs.",
+        "steps": [
+            "Create your design in Inkscape using the provided templates, separating the design into inset and frame components and grouping them accordingly.",
+            "Convert all objects to paths (Path > Object to Path).",
+            "Set the stroke width to 0.4mm and convert paths to strokes (Path > Stroke to Path).",
+            "Set Fill to None, Stroke Paint to a flat color (Blue and Alpha to 255), and Stroke Width to 0.01mm to visualize the inner and outer paths.",
+            "Identify the outer path for inset objects and the inner path for frame objects, using the Edit path by nodes tool to remove undesired path segments.",
+            "Laser cut the design and test the fit of the pieces.  Note any gaps or areas of tightness.",
+            "Modify the design to account for kerf by adjusting paths as needed.",
+            "Prototype and test designs thoroughly before going into production."
+        ]
+    }
+]

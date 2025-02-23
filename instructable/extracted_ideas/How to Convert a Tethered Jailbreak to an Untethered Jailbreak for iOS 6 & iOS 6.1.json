@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Convert-a-Tethered-Jailbreak-to-an-Untether/",
+        "creator": "mfrontuto",
+        "subcategory": "Mobile",
+        "title": "How to Convert a Tethered Jailbreak to an Untethered Jailbreak for iOS 6 & iOS 6.1",
+        "images": [
+            "https://content.instructables.com/F2Q/A0Q0/HD4VOEVG/F2QA0Q0HD4VOEVG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ5/OTF9/HD4VOEWC/FZ5OTF9HD4VOEWC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9M/4Z2X/HD4VOEYH/F9M4Z2XHD4VOEYH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8N/GXPT/IBQCHBO5/F8NGXPTIBQCHBO5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0X/GDEN/I516RCNL/F0XGDENI516RCNL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPN/6U5H/HW6I0NJV/FPN6U5HHW6I0NJV.bmp?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKO/UVEY/HD4VOEX4/FKOUVEYHD4VOEX4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6X/Q0Q4/HD4VOEXH/F6XQ0Q4HD4VOEXH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ6/HFA1/HD4VOEVT/FJ6HFA1HD4VOEVT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FES/72V8/HD4VOEXM/FES72V8HD4VOEXM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRZ/8011/HD4VOEXS/FRZ8011HD4VOEXS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0W/D96W/HD4VOEY0/F0WD96WHD4VOEY0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Cydia (program)",
+            "evasi0n (program)",
+            "TinyUmbrella (program)"
+        ],
+        "description": "This project outlines the process of converting a tethered jailbreak to an untethered jailbreak for iOS 6 and iOS 6.1 on devices like iPhone 4, 4S, 3GS, or iPod touch 4th gen.",
+        "steps": [
+            "Backup SHSH blobs for iOS 6 using TinyUmbrella. Connect your device, select it in TinyUmbrella, go to the Advanced tab, uncheck \"Save ALL Available SHSH\" and \"Request SHSH From Cydia\", and click \"Save SHSH\".",
+            "Backup your device to iTunes, and disable the lock passcode.",
+            "Open Cydia on your device, search for \"evasi0n\", and install the \"evasion 6.x Untether\" package. Reboot/respring your device.",
+            "Download the evasi0n app specific to your device.",
+            "Connect your device to your computer and click \"Jailbreak\" in the evasi0n app. When prompted, tap the evasi0n jailbreak icon on your device.",
+            "Wait for the process to complete (approximately 5 minutes), allowing your device to restart as needed.",
+            "Open Cydia on your device."
+        ]
+    }
+]

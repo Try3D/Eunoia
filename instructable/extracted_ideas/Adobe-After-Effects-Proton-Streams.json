@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Adobe-After-Effects-Proton-Streams/",
+        "creator": "ATimeForHeroics",
+        "subcategory": "Art",
+        "title": "Adobe After Effects Proton Streams",
+        "images": [
+            "https://content.instructables.com/F9N/D34K/GITHPYAI/F9ND34KGITHPYAI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBA/GH29/GITHISE3/FBAGH29GITHISE3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRF/3ATZ/GITHPY0M/FRF3ATZGITHPY0M.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F42/PBWB/GITHISFL/F42PBWBGITHISFL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/P1V6/GITHPY11/FP5P1V6GITHPY11.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQM/GIIJ/GITHPY1A/FQMGIIJGITHPY1A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6Q/GBAN/GITHISI3/F6QGBANGITHISI3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM7/ST5Q/GITI77FL/FM7ST5QGITI77FL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHA/B2QU/GITHPY33/FHAB2QUGITHPY33.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This tutorial provides a guide on creating Ghostbusters-themed proton stream special effects using Adobe After Effects.",
+        "steps": [
+            "Start a new composition and add a solid layer. Apply the 'Beam' effect (Effects > Generate > Beam) and adjust the length to 100%. Modify the colors to a light-medium orange inside and a red-deep orange outside. Adjust the starting and ending points to ensure the starting point is close to the left edge.",
+            "Add another solid layer and change the transfer mode to 'Screen'. Apply the 'Lightning' plug-in (Effects > Generate > Lightning). Line up the starting and ending points with the core beam.",
+            "Adjust the 'Segments' setting to add more bends and angles to the electricity. Experiment with the 'Amplitude' setting to control the tightness of the bends.",
+            "Adjust the 'Detail' setting to control the brightness of the beam core. Set 'Detail Amplitude' to control the number of wiggles. Adjust 'Branching' and 'Re-Branching' to control electricity branching.",
+            "Set the 'Branch Width' and 'Width' to even out the arcs. Adjust 'Stability' and 'Speed' to control the beam's movement. Set the 'Outside Color' to black and the 'Inside Color' to light blue. Set 'Width Variation' to 0 and adjust 'Core Width'.",
+            "Add the 'Glow' effect (Effects > Stylize > Glow) to both layers. For the lightning, set 'Threshold' to 0, 'Radius' to 18, and 'Intensity' to 2. Set 'Glow Colors' to A>B Colors and adjust the colors to separate shades of blue. For the core, set 'Threshold' to 0, 'Radius' to 47, and 'Intensity' to 2.7, and change the colors to red and orange.",
+            "Add a new adjustment layer and apply the 'Wave Warp' effect (Effects > Distort > Wave Warp). Set the 'Pinning' option to 'Left Edge'. Adjust 'Speed', 'Wave Width', and 'Wave Height' to animate the beam.",
+            "Add a lens flare effect and animate its brightness. Use particle effects for sparks falling from the barrel, and add the 'Glow' effect to them. Finally, add another adjustment layer and apply the 'CC Force Motion Blur' effect (TIME > CC FORCE MOTION BLUR), setting the shutter angle to 360 and samples to 4-8."
+        ]
+    }
+]

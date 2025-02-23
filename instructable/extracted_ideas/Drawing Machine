@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Drawing-Machine/",
+        "creator": "hay_jumper",
+        "subcategory": "Art",
+        "title": "Drawing Machine",
+        "images": [
+            "https://content.instructables.com/FS9/O020/87NEWIJM3HZ/FS9O02087NEWIJM3HZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0B/214A/Y5VEWIJM3H9/F0B214AY5VEWIJM3H9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB3/KT3K/DAYEWP8784G/FB3KT3KDAYEWP8784G.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKZ/46E8/I1K3MND6/FKZ46E8I1K3MND6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYV/QM59/FDLVOWOB/FYVQM59FDLVOWOB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUJ/FYHH/FCHYNT95/FUJFYHHFCHYNT95.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0B/214A/Y5VEWIJM3H9/F0B214AY5VEWIJM3H9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6M/5AO1/ADKEWIJM3B2/F6M5AO1ADKEWIJM3B2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDU/4U3L/AH9EWIJM3AB/FDU4U3LAH9EWIJM3AB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFQ/OL9L/MKTEWIJM3DI/FFQOL9LMKTEWIJM3DI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQS/J2F5/BRHEWIJM393/FQSJ2F5BRHEWIJM393.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1M/4K90/7AEEWIJM3BN/F1M4K907AEEWIJM3BN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9Q/AR5C/A7GEWIJM3GK/F9QAR5CA7GEWIJM3GK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIU/NJC7/WDKEWIJM3FN/FIUNJC7WDKEWIJM3FN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQF/URGL/UEIEWIJM3EQ/FQFURGLUEIEWIJM3EQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3R/D3SE/KILEWIJM3FB/F3RD3SEKILEWIJM3FB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4F/87FI/3O9EWIJM38H/F4F87FI3O9EWIJM38H.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTM/AYMP/8R4EWIJM37V/FTMAYMP8R4EWIJM37V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9Q/AR5C/A7GEWIJM3GK/F9QAR5CA7GEWIJM3GK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNU/TZB5/BUQEWIJM39P/FNUTZB5BUQEWIJM39P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS9/O020/87NEWIJM3HZ/FS9O02087NEWIJM3HZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCA/4XHV/NSNEWIJM3JT/FCA4XHVNSNEWIJM3JT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTE/RYZS/NFDEWIJM3J7/FTERYZSNFDEWIJM3J7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/EUBF/9E3EWIJM3IL/FP5EUBF9E3EWIJM3IL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Power drill",
+            "1/8 inch copper sheet",
+            "Thick copper stem",
+            "Pencil leads",
+            "Super ball, baseball guts, tennis ball, rawhide (various stylus objects)",
+            "Acid resist (optional, for etching)"
+        ],
+        "description": "This project details how to build a drawing machine using an old power drill and various stylus attachments. The machine creates abstract drawings by jigging the stylus across the paper.",
+        "steps": [
+            "Create an offset cam by using a hole saw on 1/8 inch copper sheet, and hard solder a thick copper stem off center.",
+            "Clamp the power drill to a box with the offset cam in the chuck.",
+            "Create a stylus by hot-gluing pencil leads onto various objects (e.g., super ball, baseball guts, tennis ball, rawhide).",
+            "Build a fence on the face of the machine using scrap cardboard and duct tape to keep the stylus on the paper.",
+            "Place paper within the fence.",
+            "Plug in the drawing machine and observe the drawing process. Secure the machine to a table or allow it to move freely.",
+            "Optionally, modify the machine to accommodate larger paper sizes or use a sharp, steel stylus on copper plate with acid resist for etching."
+        ]
+    }
+]

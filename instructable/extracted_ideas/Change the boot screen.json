@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Change-the-boot-screen/",
+        "creator": "EoflaOE",
+        "subcategory": "Microsoft",
+        "title": "Change the boot screen",
+        "images": [
+            "https://content.instructables.com/FDD/PSTY/IA6M82QV/FDDPSTYIA6M82QV.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F81/50B5/I7GS041F/F8150B5I7GS041F.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3E/COJN/I1NUKMGA/F3ECOJNI1NUKMGA.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGV/K3DM/HZV3Q6OM/FGVK3DMHZV3Q6OM.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFA/L3EY/IA6M830M/FFAL3EYIA6M830M.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMV/M9TS/IA6M835T/FMVM9TSIA6M835T.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEG/HIT2/IA6M838Q/FEGHIT2IA6M838Q.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK7/YV8C/IA6M83BO/FK7YV8CIA6M83BO.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/63H5/IA6M83EF/F5Q63H5IA6M83EF.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB0/XEV8/IA6M83G6/FB0XEV8IA6M83G6.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/9OT8/IA6M83KL/FLF9OT8IA6M83KL.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI8/3ZJB/IA6M86T1/FI83ZJBIA6M86T1.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Windows XP Operating System",
+            "Windows XP Boot Screen application"
+        ],
+        "description": "This project guides you through the process of changing the boot screen in Windows XP. It involves using a specific boot screen application to modify the existing boot screen without deleting system files.",
+        "steps": [
+            "Download and Install the Windows XP Boot Screen Application (if needed)",
+            "Open the boot screen application and select \"Apply a new Windows XP Boot Screen\".",
+            "Choose a desired boot screen and click \"Activate\". Note that you cannot remove the default Microsoft boot screen entirely.",
+            "Apply the selected boot screen by clicking \"Apply\".",
+            "Wait for the installation process to complete and click \"Done\".",
+            "Restart your computer using the Start Menu or the power button.",
+            "Observe the changed boot screen upon restarting."
+        ]
+    }
+]

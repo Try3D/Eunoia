@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-relay-module-bluetooth-upgrade/",
+        "creator": "planetleak",
+        "subcategory": "Arduino",
+        "title": "Arduino relay module bluetooth upgrade",
+        "images": [
+            "https://content.instructables.com/F25/NP6H/I14UNMWS/F25NP6HI14UNMWS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8P/2KDU/IX6G0Y5F/F8P2KDUIX6G0Y5F.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM2/9CAG/ISCBW955/FM29CAGISCBW955.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOH/3QAE/IFPMM6KB/FOH3QAEIFPMM6KB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9K/3I6U/I14UNMZK/F9K3I6UI14UNMZK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFK/F0G0/I14UNMXB/FFKF0G0I14UNMXB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "1 channel relay module",
+            "Attiny45/85",
+            "HC-05/06 bluetooth module",
+            "USB mini pcb connector",
+            "IC holder"
+        ],
+        "description": "This project describes how to upgrade an Arduino relay module with Bluetooth control, allowing you to turn on/off devices remotely using an Android phone. It involves using an Attiny microcontroller to receive commands from a Bluetooth module and control the relay.",
+        "steps": [
+            "Remove the 3-pin terminal from the relay module.",
+            "Solder the mini board (containing the Attiny and Bluetooth module) to the location where the terminal was removed.",
+            "Place the Attiny into the IC holder.",
+            "Place the Bluetooth module onto the pin header.",
+            "Power the circuit from USB."
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Silkscreening-Sexy-Circuits/",
+        "creator": "tessel8r",
+        "subcategory": "Art",
+        "title": "Silkscreening Sexy Circuits",
+        "images": [
+            "https://content.instructables.com/FI4/77XV/HYJ3UIPX/FI477XVHYJ3UIPX.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F73/6BXH/HYJ3UIPY/F736BXHHYJ3UIPY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZZ/6WP8/HYJ3UIQ3/FZZ6WP8HYJ3UIQ3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHP/P5ME/HYPNWGK2/FHPP5MEHYPNWGK2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJS/UFU9/HYJ3VXRC/FJSUFU9HYJ3VXRC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTG/3LTE/HYJ3VY44/FTG3LTEHYJ3VY44.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPS/JEG8/HYJ3VXZT/FPSJEG8HYJ3VXZT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVO/TDLX/HYJ3VY8F/FVOTDLXHYJ3VY8F.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHA/J7DA/HYJ3VY8K/FHAJ7DAHYJ3VY8K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTL/2OOW/HYJ3VY8L/FTL2OOWHYJ3VY8L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG5/VHP7/HYJ3VYA2/FG5VHP7HYJ3VYA2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAK/0M18/HYJ3VYA7/FAK0M18HYJ3VYA7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Y/YPBL/HYJ3VW95/F4YYPBLHYJ3VW95.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F84/00R9/HYJ3VWAP/F8400R9HYJ3VWAP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA4/2SKM/HYJ3VWAQ/FA42SKMHYJ3VWAQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9E/O1CN/HYJ3VWAT/F9EO1CNHYJ3VWAT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "copper pcb",
+            "silkscreen (230-305 mesh count depending on design intricacy)",
+            "water based silkscreen ink",
+            "ferric chloride",
+            "glass dish/container for ferric chloride",
+            "steel wool",
+            "masking tape",
+            "safety goggles",
+            "latex/nitrile gloves"
+        ],
+        "description": "This project outlines the process of creating elegant and technical facades for fine art objects or products by silkscreening and etching copper PCBs. It blends form and function, allowing the creation of visually appealing and technically functional pieces.",
+        "steps": [
+            "Design an image and set up your screen for printing on copper. Consider electron flow and resistance if creating a functional circuit board.",
+            "Choose a screen with appropriate mesh count. 230 mesh is suited for large open areas, while 305 mesh is better for finer line work.",
+            "Degrease your copper board. Ajax or Comet works, otherwise this is not usually necessary.",
+            "Secure the board to a flat surface with a registration system. Ensure that there is a 'snapback' in the screen.",
+            "Apply a line of ink above the image on the screen. Quickly grab your squeegee at a 45 degree angle and flood the screens open areas with ink, making sure that every area is properly filled.",
+            "Apply firm pressure, pulling the squeegee towards you over the image. Hear the screen snap back and quickly lift the screen and replace the board. Flood, stroke, rinse, repeat.",
+            "If ink stays in the screen, clean it with a garden hose or pressure washer and screen opener.",
+            "Allow the printed boards to dry sufficiently before etching.",
+            "Prepare a ferric chloride bath in a glass, pyrex or plastic dish. Agitate the solution during etching.",
+            "Etch the boards in the ferric chloride bath for 2-24 hours, depending on the etchant strength.",
+            "Remove the boards from the bath and let excess FeCl3 drip off.",
+            "Neutralize any leftover etchant by spraying or washing with a mixture of baking soda and water.",
+            "Remove the resist ink with steel wool.",
+            "Wash with water and dry."
+        ]
+    }
+]

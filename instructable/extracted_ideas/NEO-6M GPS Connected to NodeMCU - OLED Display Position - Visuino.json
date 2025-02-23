@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/NEO-6M-GPS-Connected-to-NodeMCU-OLED-Display-Posit/",
+        "creator": "RonFrtek",
+        "subcategory": "Arduino",
+        "title": "NEO-6M GPS Connected to NodeMCU - OLED Display Position - Visuino",
+        "images": [
+            "https://content.instructables.com/FAM/ZL32/JEYJ02HT/FAMZL32JEYJ02HT.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYH/OF6G/KTFSTQYW/FYHOF6GKTFSTQYW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSE/72Q7/KSZ81EV7/FSE72Q7KSZ81EV7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F13/K5LK/KSJD45OI/F13K5LKKSJD45OI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7H/38IH/JLMKOKOP/F7H38IHJLMKOKOP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCT/66JR/JLMKOKRL/FCT66JRJLMKOKRL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F86/DBQ5/JLMKOKOO/F86DBQ5JLMKOKOO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUC/YRES/JLMKOKOM/FUCYRESJLMKOKOM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAG/2VG1/JLMKOKON/FAG2VG1JLMKOKON.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVC/3SMN/JLMKOKX2/FVC3SMNJLMKOKX2.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKX/3D6A/JLMKOL26/FKX3D6AJLMKOL26.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB6/YSWD/JLMKOL25/FB6YSWDJLMKOL25.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQC/W0DH/JLMKOKOI/FQCW0DHJLMKOKOI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN1/PCZ5/JLMKOLBT/FN1PCZ5JLMKOLBT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIY/GKMQ/JLMKONA9/FIYGKMQJLMKONA9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1T/VLKC/JLMKONCS/F1TVLKCJLMKONCS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG6/CTXE/JLMKONCR/FG6CTXEJLMKONCR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "NodeMCU Mini",
+            "NEO-6M GPS module",
+            "OLED Lcd",
+            "Visuino program"
+        ],
+        "description": "This project uses a NodeMCU Mini, OLED LCD, NEO-6M GPS module, and Visuino to display live GPS position and data on the LCD.",
+        "steps": [
+            "Connect the NodeMCU Mini, OLED LCD, and NEO-6M GPS module according to the provided circuit diagram: connect GND and 5V pins, connect SCL and SDA pins between NodeMCU and OLED LCD, connect RX from NodeMCU to TXD of GPS module.",
+            "Start Visuino, select NodeMCU ESP-12 as the board, ensure you are using a compatible Arduino IDE version.",
+            "In Visuino, add a DisplayOLED component and add six Text Field elements to it, setting the Y property for each text field incremented by 10.",
+            "Add a GPS component in Visuino.",
+            "Connect the components in Visuino: NodeMCU I2C to DisplayOLED I2C, NodeMCU Serial IN to GPS, and GPS longitude, latitude, count, speed, course, and azimuth pins to respective Text Field elements on the OLED display.",
+            "Generate, compile, and upload the Arduino code using Visuino, then upload the code to the NodeMCU board through the Arduino IDE.",
+            "Power the NodeMCU module and ensure the GPS module has a clear view of the sky. The OLED Lcd should display GPS position, speed, and other data."
+        ]
+    }
+]

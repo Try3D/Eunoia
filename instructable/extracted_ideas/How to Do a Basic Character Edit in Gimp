@@ -1,0 +1,55 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Do-a-Basic-Character-Edit-in-Gimp/",
+        "creator": "Domition",
+        "subcategory": "Art",
+        "title": "How to Do a Basic Character Edit in Gimp",
+        "images": [
+            "https://content.instructables.com/FMI/444Z/IGHVEQ2D/FMI444ZIGHVEQ2D.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV0/JAR1/IGHVEN3C/FV0JAR1IGHVEN3C.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI0/0V8F/IGHVEN3J/FI00V8FIGHVEN3J.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT4/X1VL/IGHVEN3K/FT4X1VLIGHVEN3K.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWU/K1RF/IGHVEN3R/FWUK1RFIGHVEN3R.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7B/VPLZ/IGHVEN3S/F7BVPLZIGHVEN3S.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEW/AG9P/IGHVEN7Z/FEWAG9PIGHVEN7Z.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEL/PX30/IGHVEN84/FELPX30IGHVEN84.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGP/7VT3/IGHVEN86/FGP7VT3IGHVEN86.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU5/8G45/IGHVEN87/FU58G45IGHVEN87.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9J/38U4/IGHVEN8G/F9J38U4IGHVEN8G.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBP/5IB8/IGHVEN8N/FBP5IB8IGHVEN8N.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7S/5E77/IGHVEN8P/F7S5E77IGHVEN8P.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGO/2ZZZ/IGHVEN8Q/FGO2ZZZIGHVEN8Q.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHR/GTQ9/IGHVEN8R/FHRGTQ9IGHVEN8R.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1S/KVFS/IGHVEN8S/F1SKVFSIGHVEN8S.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUY/11MK/IGHVEN8T/FUY11MKIGHVEN8T.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F79/6PQ3/IGHVEN8U/F796PQ3IGHVEN8U.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEY/Z703/IGHVEN8V/FEYZ703IGHVEN8V.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1D/OFY8/IGHVENFU/F1DOFY8IGHVENFU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/CL6Z/IGHVENFV/FW9CL6ZIGHVENFV.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F07/SBIF/IGHVENFY/F07SBIFIGHVENFY.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXP/FJ43/IGHVENMX/FXPFJ43IGHVENMX.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJQ/UGAP/IGHVENMY/FJQUGAPIGHVENMY.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJW/99B9/IGHVEO0X/FJW99B9IGHVEO0X.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYD/P1EE/IGHVEO0Z/FYDP1EEIGHVEO0Z.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9C/Q1IZ/IGHVG7LD/F9CQ1IZIGHVG7LD.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC7/ZWKM/IGHVG8G0/FC7ZWKMIGHVG8G0.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Original character image",
+            "Color Palette"
+        ],
+        "description": "This project details how to perform a basic character edit using GIMP (GNU Image Manipulation Program). The purpose is to modify an existing anime/manga character image to better match a character concept from creative writing, focusing on changes to hair color, eye color, and clothing. It is a guide for creating visual aids for character inspiration using the free GIMP software.",
+        "steps": [
+            "Load the desired character image into GIMP.",
+            "Use the Free Select Tool (lasso icon) to select the area of the hair that you want to change. Ensure the 'Add' mode is selected in the tool's options.",
+            "Create a new layer in the Layers dropdown and name it appropriately.",
+            "Select the Paintbrush Tool, choose the desired hair color, and increase the brush size for better coverage.",
+            "With the new layer selected, fill in the hair selection by clicking and dragging the mouse until fully covered. Adjust the Layer Mode (e.g., Color mode) to achieve the desired effect.",
+            "To add depth, create another new layer (e.g., 'Hair_Burn'), select a light grey color, and ensure this layer is below the hair color layer.",
+            "Fill the hair selection on the 'Hair_Burn' layer with the light grey color. Change the layer mode to 'Burn' to darken the dark areas and add contrast.",
+            "Repeat the selection and layer creation process for the eyes, using a Hue layer mode or experimenting with others to achieve the desired eye color.",
+            "Apply similar techniques to other details like nails, flowers, or clothing, considering the material's texture and how it reflects light. Adjust layer modes and opacity for different effects.",
+            "Save the project as a .xcf file and then export the image in a preferred format (e.g., .png) with desired settings to minimize quality loss."
+        ]
+    }
+]

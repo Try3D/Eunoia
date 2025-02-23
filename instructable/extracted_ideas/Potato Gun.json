@@ -1,0 +1,55 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Potato-Gun-1/",
+        "creator": "harby00",
+        "subcategory": "Gadgets",
+        "title": "Potato Gun",
+        "images": [
+            "https://content.instructables.com/F9G/EMGS/HNXRTPR3/F9GEMGSHNXRTPR3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F12/M4IC/HNXRTPR2/F12M4ICHNXRTPR2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOK/C4YL/HNXRLBKH/FOKC4YLHNXRLBKH.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTP/5YAC/HNXRLBKG/FTP5YACHNXRLBKG.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/1EUK/HQPQVTRU/FU31EUKHQPQVTRU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPM/DIMA/HVPEM3ZM/FPMDIMAHVPEM3ZM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNW/QW35/HNXRLBKI/FNWQW35HNXRLBKI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEF/3K82/HNXRLBKJ/FEF3K82HNXRLBKJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F47/FZ23/HNXRLBKF/F47FZ23HNXRLBKF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA5/TC1D/HNXRLBKO/FA5TC1DHNXRLBKO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFT/20PS/HNXRLBKP/FFT20PSHNXRLBKP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPQ/2MTQ/HNXRLBKQ/FPQ2MTQHNXRLBKQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOQ/F957/HNXRLBKT/FOQF957HNXRLBKT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG5/OQSU/HNXRLBKR/FG5OQSUHNXRLBKR.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY2/69BI/HNXRLBKS/FY269BIHNXRLBKS.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPE/S8CK/HNXRLBKX/FPES8CKHNXRLBKX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCE/P9JI/HNXRLBKU/FCEP9JIHNXRLBKU.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO7/NGKN/HNXRLBKV/FO7NGKNHNXRLBKV.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "1 1/2' long 3\" diameter abs pipe",
+            "3' long 2\" diameter abs pipe",
+            "3\" to 2\" diameter reducer abs pipe",
+            "3\" diameter abs cap",
+            "3\" diameter abs cap screw",
+            "gas grill igniter",
+            "3\" diameter drain with large holes",
+            "abs glue ONLY ABS NOT PVC",
+            "Hairspray",
+            "3' wooden dowel"
+        ],
+        "description": "This project describes how to build a simple potato gun using ABS pipes, a gas grill igniter, and hairspray for propellant. The potato gun uses a combustion chamber and a barrel to launch potatoes as projectiles.",
+        "steps": [
+            "Glue the drain into the 3\" side of the reducer using ABS glue.",
+            "Attach the 1 1/2' 3\" diameter ABS pipe to the 3\" side of the reducer using ABS glue.",
+            "Attach the 3' 2\" diameter ABS pipe to the 2\" side of the reducer using ABS glue.",
+            "Attach the 3\" diameter ABS cap to the end of the 3\" diameter ABS pipe using ABS glue, ensuring the screw cap is accessible.",
+            "Let the glue dry completely for 3-6 hours.",
+            "Drill two holes in the combustion chamber for the metal prongs of the gas grill igniter.",
+            "Insert the metal prongs into the holes and secure them with tape or ABS glue.",
+            "Optionally grind down the end of the 3' 2\" ABS pipe to sharpen it for easier potato insertion.",
+            "Smash the potato against the ground to cut it and insert it into the 3' 2\" ABS pipe, pushing it down until it is snug.",
+            "Unscrew the cap screw, spray a short burst of hairspray into the combustion chamber, and screw the cap back on.",
+            "Aim the potato gun in a safe direction (preferably from the ground like a mortar or from the hip), and click the igniter button to launch the potato.",
+            "If it doesn't fire, try clicking the igniter button multiple times and/or spraying more hairspray into the chamber before trying again."
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Como-Darle-Color-a-Tu-Caricatura-Favorita-En-Adobe/",
+        "creator": "Emanuel luciano",
+        "subcategory": "Art",
+        "title": "Como Darle Color a Tu Caricatura Favorita En Adobe Ilustrator",
+        "images": [
+            "https://content.instructables.com/FOP/LYE1/IRWF0OSW/FOPLYE1IRWF0OSW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRP/91TS/IQLI9ZHP/FRP91TSIQLI9ZHP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F87/UYM6/ISCB9X7G/F87UYM6ISCB9X7G.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVV/99X9/ISCB9WHD/FVV99X9ISCB9WHD.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3J/QAE6/ISCB9UW2/F3JQAE6ISCB9UW2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK9/936I/IRWF0OMX/FK9936IIRWF0OMX.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUE/DXS0/IRWF0ONP/FUEDXS0IRWF0ONP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIQ/6ANL/IRWF0ONU/FIQ6ANLIRWF0ONU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA9/UXYM/IRWF0OP4/FA9UXYMIRWF0OP4.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGY/MZPU/IRWF0OQB/FGYMZPUIRWF0OQB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNA/96H0/IRWF0OQI/FNA96H0IRWF0OQI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQM/PAGP/IRWF0ORB/FQMPAGPIRWF0ORB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQN/H7ZR/IRWF0ORC/FQNH7ZRIRWF0ORC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLA/C3OB/IRWF0OS4/FLAC3OBIRWF0OS4.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9G/M42H/IRWF0OS5/F9GM42HIRWF0OS5.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Adobe Illustrator",
+            "Scanned drawing or digital image of a drawing"
+        ],
+        "description": "This project explains how to color your drawings using Adobe Illustrator to achieve a style similar to that seen in cartoons.",
+        "steps": [
+            "Open a new document in Adobe Illustrator with the dimensions of your drawing and import the scanned or digital image.",
+            "Use the pen tool to vectorize your drawing, tracing each part (hair, face, eyes, etc.) separately.",
+            "Create a color palette by making small colored circles with the colors you plan to use for your character.",
+            "Select each vectorized part individually, then use the eyedropper tool to select the desired color from your color palette and apply it to the selected part."
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.instructables.com/id/ITTT-Project-2018-Earth/",
+        "creator": "Catiza",
+        "subcategory": "Arduino",
+        "title": "ITTT Project 2018 | Earth",
+        "images": [
+            "https://content.instructables.com/FS4/XU8W/JXSTF669/FS4XU8WJXSTF669.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2D/2Y9T/JXOYQPSJ/F2D2Y9TJXOYQPSJ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVU/MYCC/JXOYHUPH/FVUMYCCJXOYHUPH.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZP/O5FM/JXOYHUPI/FZPO5FMJXOYHUPI.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F91/AEHF/JXOYHUPN/F91AEHFJXOYHUPN.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAS/E7CM/JXOYHUPJ/FASE7CMJXOYHUPJ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSO/BK21/JXOYHUPM/FSOBK21JXOYHUPM.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPN/GMNZ/JXSTD7WD/FPNGMNZJXSTD7WD.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FSL/WUW5/JXSTF5G6/FSLWUW5JXSTF5G6.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO9/DLG3/JXSTF5G7/FO9DLG3JXSTF5G7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8Y/4H6L/JXSTF5G9/F8Y4H6LJXSTF5G9.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Wood plank (40 x 40 CM)",
+            "Wood plank (30 x 30 CM)",
+            "Round styrofoam ball with 30 CM \u00d8 and 20 CM \u00d8 (20 is optional)",
+            "Acrylic paint (Black, blue, green, purple, white)",
+            "Soldering iron",
+            "Arduino UNO",
+            "Breadboard",
+            "Jumper wires or soldering wires",
+            "2x LED lights",
+            "HC-SR04 Ultrasonic distance sensor",
+            "2x Potentiometer 10K (breadboard friendly)",
+            "NeoPixel LED strip",
+            "Resistors 220\u03a9",
+            "Micro Servo",
+            "Wheels"
+        ],
+        "description": "This project is an interactive world globe using Arduino. Interaction with sensors and buttons will light up countries and make the globe spin.",
+        "steps": [
+            "Gather all necessary supplies.",
+            "Cut and paint the wooden base pieces (40x40cm and 30x30cm). The 40cm plank is painted with a galaxy theme. The 30cm base requires holes to be drilled for wires and sensors.",
+            "Sketch the world map on the large styrofoam ball (30 \u00d8) using a highlighter marker.",
+            "(Optional) Add an inner styrofoam globe to support the LED lights and wires, cutting holes for wire access.",
+            "Attach wheels to the 40cm wooden base to support and rotate the globe using hot glue.",
+            "Solder wires to components, ensuring sufficient length for connections and rotation.",
+            "Assemble the project by attaching the motor and other components to the wooden base. Fit the lights inside the small globe and attach the LED strip to the inside of the globe, routing the wiring appropriately.",
+            "Connect the components so that the remote turns on the table on which the earth is laying, a sensor lights up the Netherlands, and a rotating button lights up Australia."
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-As-a-Cheap-Breadboard-FPGA/",
+        "creator": "JeremyW96",
+        "subcategory": "Microcontrollers",
+        "title": "Arduino As a Cheap Breadboard FPGA",
+        "images": [
+            "https://content.instructables.com/FAC/ZT8P/JH6JCXY2/FACZT8PJH6JCXY2.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWV/P5H0/JH6JCY1R/FWVP5H0JH6JCY1R.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW0/JA7Y/JH6JCXC8/FW0JA7YJH6JCXC8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG6/QD1Z/JH6JCXCB/FG6QD1ZJH6JCXCB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1Q/3Y7A/JH6JCYE6/F1Q3Y7AJH6JCYE6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA8/B4BD/JH6JCYE4/FA8B4BDJH6JCYE4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOT/FGLW/JH6JDAB2/FOTFGLWJH6JDAB2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FE6/SGFH/JH6JCXCA/FE6SGFHJH6JCXCA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSS/0TD7/JH6JCXC9/FSS0TD7JH6JCXC9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino UNO with removable Atmega 328P CPU",
+            "Another Atmega 328P with Arduino bootloader (optional)",
+            "16MHz quartz crystal",
+            "22pF capacitors"
+        ],
+        "description": "This project demonstrates how to use an Atmega 328P chip from an Arduino UNO as a cheap, breadboard-friendly alternative to an FPGA. The project involves converting a Verilog design for a 2-bit adder into an Arduino project, loading it onto the Atmega 328P, and then using the chip independently on a breadboard.",
+        "steps": [
+            "Design the digital logic circuit. For example, a 2-bit + 2-bit adder using NAND gates.",
+            "Design the circuit using Verilog and create a .pcf file to assign pins.",
+            "Install Verilator and Arduino IDE.",
+            "Modify the pin names in the Verilog file by adding an underscore to the beginning of each.",
+            "Use Verilator to translate the Verilog file into C++ code for Arduino.",
+            "Create a new Arduino sketch and copy the generated C++ files into the sketch directory.",
+            "Copy the 'verilated*' header files from the Verilator installation and the StandardCplusplus library into the Arduino libraries folder.",
+            "Replace the content of the Arduino sketch file with the provided test harness code.",
+            "Upload the sketch to the Arduino UNO.",
+            "Carefully remove the Atmega 328P from the Arduino UNO.",
+            "Place the Atmega 328P onto the breadboard, orienting it correctly.",
+            "Connect pins 8 and 22 to ground, and pin 7 to VCC (+5V).",
+            "Connect a 16MHz quartz crystal between pins 9 and 10, and 22pF capacitors from each of these pins to ground.",
+            "Connect input and output pins to the appropriate GPIO ports on the Atmega 328P according to the original Arduino sketch."
+        ]
+    }
+]

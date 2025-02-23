@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Beats-by-Midori-and-Carlie-DIY-HEADPHONES/",
+        "creator": "carliem7 ",
+        "subcategory": "Electronics",
+        "title": " Coco-Beats by Midori and Carlie (DIY HEADPHONES)",
+        "images": [
+            "https://content.instructables.com/FIM/9AEN/IL8W0NU3/FIM9AENIL8W0NU3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY8/M5TW/ILCFWUEA/FY8M5TWILCFWUEA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6J/OOUH/ILA1CQU3/F6JOOUHILA1CQU3.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVR/FQMK/ILE0IHD2/FVRFQMKILE0IHD2.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS8/7CDN/ILCFWQ3X/FS87CDNILCFWQ3X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSY/2CZN/ILCFWQQ9/FSY2CZNILCFWQQ9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWV/21RC/ILCFWYHG/FWV21RCILCFWYHG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX4/7TAJ/ILCN5TB7/FX47TAJILCN5TB7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Copper wire",
+            "2 neodymium magnets",
+            "AUX cord",
+            "1 plastic cup"
+        ],
+        "description": "This project guides you through the process of creating your own headphones using basic materials. The headphones work by converting electrical energy into vibrations, which are then amplified to produce sound.",
+        "steps": [
+            "Assemble the voice coil by wrapping copper wire around a cylindrical object (like a glue stick) approximately 40 times, then carefully removing it and securing the coil's shape.",
+            "Sand the ends of the copper wire to remove any coating, ensuring a good electrical connection.",
+            "Place one magnet on top of the plastic cup and another inside. Position the voice coil on top of the cup, over the magnet, and secure it with electrical tape, leaving the wire ends exposed.",
+            "Attach the copper wire ends to the aux plug holes, twisting to ensure a secure connection.",
+            "Plug the aux cord into a phone or device and play music at full volume to test the headphones."
+        ]
+    }
+]

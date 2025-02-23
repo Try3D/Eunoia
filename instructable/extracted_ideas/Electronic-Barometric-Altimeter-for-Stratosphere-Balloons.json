@@ -1,0 +1,61 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Electronic-Barometric-Altimeter-for-Stratosphere-B/",
+        "creator": "El_mot",
+        "subcategory": "Electronics",
+        "title": "Electronic Barometric Altimeter for Stratosphere Balloons",
+        "images": [
+            "https://content.instructables.com/FYJ/U6JF/JGCJ34VN/FYJU6JFJGCJ34VN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQU/EWG1/JGGTD488/FQUEWG1JGGTD488.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6R/0Y6J/JGGTD596/F6R0Y6JJGGTD596.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDQ/4SPC/JYOOO6LE/FDQ4SPCJYOOO6LE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FS1/4CU8/JGCJ35DF/FS14CU8JGCJ35DF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW1/SVGG/JGCJ3DA1/FW1SVGGJGCJ3DA1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX9/4KIU/JGCJ3D61/FX94KIUJGCJ3D61.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/IDXY/JGCJ3JR8/FF7IDXYJGCJ3JR8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFX/VWJI/JGCJ3KDS/FFXVWJIJGCJ3KDS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7F/JAQW/JGCJ3LXS/F7FJAQWJGCJ3LXS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5D/5MQX/JGCJ3MZ3/F5D5MQXJGCJ3MZ3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDY/LQ8L/JGCJ66MF/FDYLQ8LJGCJ66MF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBG/ONR6/JGCJ66K7/FBGONR6JGCJ66K7.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4O/ZKQM/JGCJ66IV/F4OZKQMJGCJ66IV.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FZG/OEFJ/JGCJ5TKL/FZGOEFJJGCJ5TKL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWW/KFTA/JGCJ5MXV/FWWKFTAJGCJ5MXV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP2/NSC8/JGCJ6M5F/FP2NSC8JGCJ6M5F.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Clone of Maple Mini MCU board",
+            "4*1 2.54mm(0.1\") pin row",
+            "1S LiPo battery",
+            "1S LiPo charger board",
+            "MS5534 barometric sensor",
+            "MS5534 breakout board",
+            "1N5819 Schottky diode or similar",
+            "JST RCY pigtails, 1*Female, 2*Male",
+            "Empty aluminium beer can",
+            "Thermal shrink tube D=2,5mm(0.1\") of any color",
+            "Thermal shrink tube D=20mm(0.8\"), transparent",
+            "STM32 demo board to be used as an MCU flashing device"
+        ],
+        "description": "This project describes how to build a light and cheap electronic barometric altimeter for stratosphere balloons using a Maple Mini board and an MS5534 air pressure sensor. The device logs data for at least 5 hours and is powered by a lithium battery from an old mobile phone.",
+        "steps": [
+            "Solder the MS5534 sensor onto the breakout board using soldering paste and a soldering fan or a regular soldering iron.",
+            "Cut a four-pin row and two pieces of wire, about 4 cm each. Solder them to the breakout board, connecting pins + and - to wires, and the other four pins to the pin row.",
+            "Stack the sensor board and MCU board, ensuring the sensor is placed over the MCU chip.",
+            "Connect the breakout board pins to the MCU board pins as follows: '+' to 'Vcc', 'GND' to 'GND', '8', '9', '10', '11' to the corresponding numbered pins on the MCU board. Connect the JST RCY male black wire to another 'GND' pin of the MCU board. Connect the JST RCY male red wire to the anode of the diode. Connect the diode cathode to the MCU board 'Vin' pin.",
+            "Before connecting the JST pigtail, put a piece of thin thermal stretch tube on the red wire. Insulate the diode with thermal shrink tube by pulling it over the diode and heating it with a soldering fan or a cigarette lighter.",
+            "Solder the female pigtail to the battery, red wire to '+' and black to '-'. Protect the connection with thermal glue, duct tape, or insulation tape.",
+            "Solder the male pigtail to the charger board, red wire to 'B+' and black to 'B-'. Secure the board with a piece of thermal shrink tube.",
+            "Connect the charger to the battery and the charger to any USB power supply or computer port. Check for the red LED indicating charging and the green LED indicating a fully charged battery.",
+            "Flash the device by temporarily soldering two more pins to contacts 21 and 22 of the MCU board.",
+            "Connect MCU pin 21 to pin 2 of Nucleo CN4 connector, connect black battery wire to pin 3 of Nucleo CN4 connector, and connect MCU pin 22 to pin 4 of Nucleo CN4 connector.",
+            "Flash the firmware to the board, using Windows (STM32 ST-LINK Utility) or Linux/Mac (OpenOCD).",
+            "After flashing, test the device by connecting the battery. The LED should start blinking. Press and hold the user button for 2-3 seconds until the LED starts blinking rapidly, indicating data is being erased. After a while, the LED will start to blink once per second.",
+            "Disconnect the battery and connect the device to a computer with a USB cable. Check the BARO.TXT file for reasonable temperature and pressure data.",
+            "Unsolder flashing pins. Cut tails of pins connecting the sensor and the MCU board.",
+            "Create a sunlight protector from an aluminum beer can. Cut a piece of aluminum, bend it to make a small tray, and put it on top of the sensor (without touching any contacts).",
+            "Put the device with the tray into a piece of thermal shrink tube and heat it well."
+        ]
+    }
+]

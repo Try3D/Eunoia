@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Amplified-indoor-Speaker-System-from-Scrap-parts/",
+        "creator": "rajavesw",
+        "subcategory": "Audio",
+        "title": "Amplified indoor Speaker System from Scrap parts",
+        "images": [
+            "https://content.instructables.com/FA6/DOST/I7IJ550Q/FA6DOSTI7IJ550Q.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV0/FVR1/KAB2NU30/FV0FVR1KAB2NU30.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJK/KTO1/I7MY4DTA/FJKKTO1I7MY4DTA.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHF/RM95/I6NIBMN6/FHFRM95I6NIBMN6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHD/318S/I6NIBXT7/FHD318SI6NIBXT7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F22/SEUZ/I7IJ552M/F22SEUZI7IJ552M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGL/MQ6O/I7IJ55RG/FGLMQ6OI7IJ55RG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6K/RVRT/I7IJ550R/F6KRVRTI7IJ550R.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7I/CL2S/I7IJ550P/F7ICL2SI7IJ550P.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Old discarded Car Cassette stereo player",
+            "Computer SMPS (for providing 12 Volts Power)",
+            "Speakers (I have re-used the speakers from a Dead Home theater system)",
+            "Cassette adapter",
+            "Piezo tweeters (optional)"
+        ],
+        "description": "This project aims to repurpose old discarded items into an amplified indoor speaker system. It utilizes a car cassette stereo player as an amplifier and a computer SMPS as a power supply to create a functional audio setup.",
+        "steps": [
+            "Prepare the power supply by using a computer SMPS (ATX power supply). Ensure it is properly grounded to avoid noise. Connect a multimeter to confirm a 12V output.",
+            "Prepare the amplifier by opening up the car stereo cassette player. Connect the 12V power supply wires from the SMPS to the car stereo according to the model-specific connections. Then, connect the speakers to the appropriate outputs (e.g., Front Left, Front Right, Rear Left).",
+            "Add Piezo tweeters in parallel to the existing speakers to improve the high frequency response. Power up the system and inspect for any issues. Insert the cassette adapter and connect it to your audio source (mobile phone, TV, computer). Adjust the volume to enjoy your music."
+        ]
+    }
+]

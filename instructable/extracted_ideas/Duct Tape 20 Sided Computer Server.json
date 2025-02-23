@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Duct-Tape-20-Sided-Computer-Server/",
+        "creator": "flaming_pele!",
+        "subcategory": "Computers",
+        "title": "Duct Tape 20 Sided Computer Server",
+        "images": [
+            "https://content.instructables.com/FQG/I385/GFPQR3MR/FQGI385GFPQR3MR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRJ/HO81/GFPQR3MS/FRJHO81GFPQR3MS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7O/SETM/HU1RQL65/F7OSETMHU1RQL65.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX8/E8IR/J9SVTX19/FX8E8IRJ9SVTX19.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF7/7KXS/I2BR4T87/FF77KXSI2BR4T87.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUC/TAGI/HNVJ17RJ/FUCTAGIHNVJ17RJ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTK/OVKQ/GGPEUE9I/FTKOVKQGGPEUE9I.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F27/HL55/GGPEUE8M/F27HL55GGPEUE8M.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F98/X9LS/GGPEUEDC/F98X9LSGGPEUEDC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7I/FFBD/GGPEYNCD/F7IFFBDGGPEYNCD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOF/SIU5/GGPFCDYR/FOFSIU5GGPFCDYR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJG/G5D7/GGPF4UQZ/FJGG5D7GGPF4UQZ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBO/KAI6/GGPEUEFK/FBOKAI6GGPEUEFK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMV/8IF9/GGPFCE0N/FMV8IF9GGPFCE0N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/ZGAS/GGPF4UXD/F3IZGASGGPF4UXD.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTM/KF4S/GGPFCFVB/FTMKF4SGGPFCFVB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQP/FXEL/GGPEYNJQ/FQPFXELGGPEYNJQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F30/N2Y2/GGPEUEUT/F30N2Y2GGPEUEUT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7G/795H/GGPEUEUU/F7G795HGGPEUEUU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F94/0M3R/GGPEYNOI/F940M3RGGPEYNOI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Duct tape (22 rolls)",
+            "Pentium P4 3.0 GHz",
+            "Intel SFF Motherboard",
+            "2GB DDR2 RAM",
+            "80GB SATA HDD",
+            "475W PSU",
+            "1 120mm LED fan (rear)",
+            "1 92mm fan (cpu)",
+            "Red cathode tube",
+            "Red LEDs",
+            "Translucent duct tape"
+        ],
+        "description": "This project details the construction of a functional computer server housed inside a large, 20-sided die (D20) made entirely of duct tape. The server is designed to run games and applications at a LAN party and features cosmetic enhancements like LEDs and a cathode tube.",
+        "steps": [
+            "Plan the server layout based on the size of the motherboard, aiming for a symmetric design with the power supply at the bottom and the motherboard in the center.",
+            "Create sturdy duct tape tubes by layering duct tape to create thick sheets, rolling them tightly, and wrapping with another layer of tape for added strength. Stuff the tubes with duct tape scraps for added rigidity.",
+            "Construct triangles using the duct tape tubes, taping the corners together. Use a miter saw to ensure precise cuts and snug fits (use appropriate caution, it can get gummy).",
+            "Build the structure from the bottom up, adding an inner triangle to support the power supply. Add a large internal triangle to support the shape and hold the motherboard, and additional tubes for bracing.",
+            "Install the computer components, mounting the power supply and hard drive on the bottom face, the motherboard in the center, and a large fan to a tape-made side panel. Add cosmetic elements like a red cathode tube and flashing LEDs.",
+            "Finish the build by adding translucent duct tape faces to some sides while leaving others open for viewing the internal components. Add numbers and decorative elements using cut duct tape."
+        ]
+    }
+]

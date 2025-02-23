@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Industrial-Style-Instructables-Robot/",
+        "creator": "sweetrocketsky",
+        "subcategory": "Art",
+        "title": "Female Instructables Robot",
+        "images": [
+            "https://content.instructables.com/FY6/Q4G6/HWC4LA3F/FY6Q4G6HWC4LA3F.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC0/4WER/HW1MB0L4/FC04WERHW1MB0L4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJY/HRVY/I55MW34M/FJYHRVYI55MW34M.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPT/1XJD/HXG6Q3LI/FPT1XJDHXG6Q3LI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6I/OTQF/HX1IBORD/F6IOTQFHX1IBORD.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5A/N86M/HWC4LA40/F5AN86MHWC4LA40.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F10/YTP2/HWC4LA3Z/F10YTP2HWC4LA3Z.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F80/EGI8/HWC4LA3W/F80EGI8HWC4LA3W.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCA/3IYL/HWC4LA3V/FCA3IYLHWC4LA3V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWS/8THE/HWC4LA3S/FWS8THEHWC4LA3S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8H/M2KR/HWC4LA3P/F8HM2KRHWC4LA3P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLR/RBDR/HWC4LA3K/FLRRBDRHWC4LA3K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSP/KJ4P/HWC4LA9R/FSPKJ4PHWC4LA9R.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQM/7DIE/HWC4LA3N/FQM7DIEHWC4LA3N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Wooden block that looks like a dress",
+            "Metal head that looks like a robot face (e.g., sewing machine motor covering)",
+            "Cotter pins",
+            "Screws"
+        ],
+        "description": "This project aims to create a female Instructables robot, exploring the feminization of masculine technology within the Maker movement, specifically within Steampunk and Science Fiction genres. The design utilizes a dress-shaped wooden block and other materials to create a robot figure.",
+        "steps": [
+            "Drill two holes into the bottom of the wooden block.",
+            "Insert wheels into the drilled holes to serve as feet.",
+            "Attach the metal head to the wooden block, potentially by drilling holes and using fasteners.",
+            "Add cotter pins and screws to the top of the head to create details like a mouth and antenna.",
+            "Add screws to the wooden block to create arms, and finally paint the robot."
+        ]
+    }
+]

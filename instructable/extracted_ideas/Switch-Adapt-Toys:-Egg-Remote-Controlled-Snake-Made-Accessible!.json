@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Switch-Adapt-Toys-Egg-Remote-Controlled-Snake-Made/",
+        "creator": "uwtcat",
+        "subcategory": "Assistive Tech",
+        "title": "Switch-Adapt Toys: Egg Remote Controlled Snake Made Accessible!",
+        "images": [
+            "https://content.instructables.com/FK7/T3CE/K02P2GX5/FK7T3CEK02P2GX5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDH/09C1/KI34XL2T/FDH09C1KI34XL2T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQH/ZO46/KHKK6FLN/FQHZO46KHKK6FLN.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX0/EFXE/KI34XLPH/FX0EFXEKI34XLPH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHK/JDNL/K02P27M8/FHKJDNLK02P27M8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8H/YOO4/K02P27J7/F8HYOO4K02P27J7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5M/NFG9/K02P27J8/F5MNFG9K02P27J8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8J/GF7O/K02P27M9/F8JGF7OK02P27M9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5M/NFG9/K02P27J8/F5MNFG9K02P27J8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBW/ZC34/K02P27J9/FBWZC34K02P27J9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1H/6XM0/K02P27JE/F1H6XM0K02P27JE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR9/JH1C/K02P27LJ/FR9JH1CK02P27LJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8J/GF7O/K02P27M9/F8JGF7OK02P27M9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ7/NQ4Q/K02P27JD/FZ7NQ4QK02P27JD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSS/ORDL/K02P27JF/FSSORDLK02P27JF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH8/EPLW/K02P27JK/FH8EPLWK02P27JK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP8/Z1ZP/K02P27JJ/FP8Z1ZPK02P27JJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F84/W0T3/K02P27MA/F84W0T3K02P27MA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5M/NFG9/K02P27J8/F5MNFG9K02P27J8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Egg Remote Controlled Snake",
+            "Female mono jacks with lead wires",
+            "Solder",
+            "Electrical tape",
+            "Batteries",
+            "Switch of their choice"
+        ],
+        "description": "This project adapts the remote for a remote-control snake so that it can be operated by individuals with limited motor abilities by adding female mono jacks into which the user can plug in their own switch.",
+        "steps": [
+            "Ensure the remote-control snake is functional by inserting batteries into the egg remote and turning on the snake. Remove batteries after testing.",
+            "Prepare the mono jack with a lead wire.",
+            "Mark a spot on the bottom half of the egg remote, under the buttons, where the lead wires will exit.",
+            "Open the egg remote by locating and removing the screw in the battery compartment.",
+            "Carefully remove the circuit board from the front side of the remote, avoiding pulling on the wires.",
+            "Tape down the black and red wires connecting the egg remote's shell to the circuit board.",
+            "Drill a hole at the marked spot, large enough to accommodate the lead wire(s).",
+            "Thread the lead wire(s) through the hole, ensuring the jack faces outward.",
+            "Solder the mono jack wires to the silver dots on the circuit board corresponding to the desired buttons.",
+            "Wrap electrical tape around any exposed wiring to prevent shorts.",
+            "Test the connections by inserting batteries and plugging a switch into the mono jack(s).",
+            "Reassemble the egg remote, carefully managing the lead wires within the shell and replace the screw."
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Image-Relief-in-Water/",
+        "creator": "mkoehle",
+        "subcategory": "Art",
+        "title": "Image Relief in Water",
+        "images": [
+            "https://content.instructables.com/FWM/V07R/IP0904SN/FWMV07RIP0904SN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F94/2VTC/IOK9N307/F942VTCIOK9N307.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJJ/QCDW/IOCE8XTX/FJJQCDWIOCE8XTX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0M/5PDW/IOCE8XTY/F0M5PDWIOCE8XTY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/8MH1/IDBHXK7C/FF78MH1IDBHXK7C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/MYZJ/JE4KKXXW/FL0MYZJJE4KKXXW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/5SBG/JE4KKXS5/FFF5SBGJE4KKXS5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPV/OENC/JE4KKXNU/FPVOENCJE4KKXNU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF3/CQ5S/IOCE8XYF/FF3CQ5SIOCE8XYF.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDW/M316/IOCE8Y08/FDWM316IOCE8Y08.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FTZ/E5FF/IOCE8YAX/FTZE5FFIOCE8YAX.tif?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FEW/Y3PQ/IOCE8YPD/FEWY3PQIOCE8YPD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ4/CEBY/IOCE8YQP/FQ4CEBYIOCE8YQP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "ArtCAM",
+            "DMS 5-axis CNC",
+            "A sheet of Corian",
+            "dye"
+        ],
+        "description": "This project creates an image relief in a material like Corian. The depth of the relief corresponds to the intensity of the image, with darker areas carved deeper. Tinted water is then added to the relief, creating darker shades in the deeper areas and lighter shades where the material is more visible, thus recreating the original image.",
+        "steps": [
+            "Prepare the image by adjusting the intensity values to account for the non-linear attenuation of light in water. Add a white border around the image to create a wall to contain the water.",
+            "Convert the image into a three-dimensional relief using software like ArtCAM, basing the depth on the image's intensity. Specify the dimensions of the relief.",
+            "Generate toolpaths using CAM software like ArtCAM. Rough the material with a 1/2\u201d ball mill, then finish with a 1/4\" ball mill. Use a 3/8 end mill to cut the material from the stock, ensuring the profile pass is not too tight to avoid ruining the water-containing wall.",
+            "Mix ink with water to create a tinted solution. Pour the tinted water into the relief, revealing the image."
+        ]
+    }
+]

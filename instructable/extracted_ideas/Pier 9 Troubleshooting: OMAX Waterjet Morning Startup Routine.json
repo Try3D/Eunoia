@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Pier-9-Workshop-Omax-Waterjet-Morning-Start-Up-Rou/",
+        "creator": "madebymei",
+        "subcategory": "Tools",
+        "title": "Pier 9 Troubleshooting: OMAX Waterjet Morning Startup Routine",
+        "images": [
+            "https://content.instructables.com/FE4/GFOA/IEGXQLBT/FE4GFOAIEGXQLBT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXJ/LJKT/I2MXZTSM/FXJLJKTI2MXZTSM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW8/RHR7/J6WG9NJF/FW8RHR7J6WG9NJF.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FV5/OVC2/IYYT3IYM/FV5OVC2IYYT3IYM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8Z/Z3EK/IRSB4DD5/F8ZZ3EKIRSB4DD5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUA/EVXJ/IEGXQMNR/FUAEVXJIEGXQMNR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F28/YD33/IEGXQNG6/F28YD33IEGXQNG6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWN/SWJB/IEGXQQSB/FWNSWJBIEGXQQSB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHV/Q8IF/IEN4PC89/FHVQ8IFIEN4PC89.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTV/CMGK/IEGXQZ9L/FTVCMGKIEGXQZ9L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY5/1J9W/IEGXQZ7Y/FY51J9WIEGXQZ7Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7P/X03A/IEGXR0GG/F7PX03AIEGXR0GG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRL/O3J0/IEGXR0UK/FRLO3J0IEGXR0UK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRB/QRFE/IEGXR1RX/FRBQRFEIEGXR1RX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This Instructable is for trained Shoparones and Shop Staff at Pier 9. It teaches you how to run a Water and Abrasive Test, Home the X&Y axes, and Square the A-Jet. These operations should be run anytime the computer is restarted to keep the machines in operating order.",
+        "steps": [
+            "Turn on the computer and waterjet by pressing the green button on the front panel.",
+            "Open the Make Software.",
+            "Prepare to run a Water and Abrasive Test: Use the green arrow keys to move head up and jog head within a few inches of the user home. Move head so it is between slats. Ensure the head is positioned over the reinforced steel plate area of the water jet tank.",
+            "Run Water and Abrasive Test: Select 'Test' button, then 'Water and Abrasive', then press 'Start'. Check overall status of machine (ie garnet is flowing, hose is attached, etc). The test will run for 60 seconds; press stop if less time is needed.",
+            "Auto Square A-Jet: Move the head about one foot away from user home to allow room for the head to rotate. Make sure head is above all fixtures. Select 'Homes' Menu, then 'Auto Square A-Jet (re-calibrate)'. When prompted if it should move the head up, check 'No' if you have followed above instructions. It will now start rotating head and squaring the A-Jet.",
+            "Home the Axis: Ensure the head is within one foot of User Home. Select 'Homes' Menu, then 'Advanced', then 'Auto Home'. Hit 'Okay' on 2 consecutive windows. The machine will start moving. Watch the machine until it is done homing. Leave the 'Homed' window on the screen."
+        ]
+    }
+]

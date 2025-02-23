@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Party-Box-Basic-Spin-Your-Disco-Ball-and-More/",
+        "creator": "SirLucians Solutions",
+        "subcategory": "Arduino",
+        "title": "The Party Box - Basic (Spin Your Disco Ball and More)",
+        "images": [
+            "https://content.instructables.com/F7I/ORCF/JVWNQ5YZ/F7IORCFJVWNQ5YZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2L/FGQ2/JZ8OT67S/F2LFGQ2JZ8OT67S.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FXE/4B2O/L4MR2ISS/FXE4B2OL4MR2ISS.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYL/Y7H0/JYG85YZL/FYLY7H0JYG85YZL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDL/A6X8/JXEYGVWH/FDLA6X8JXEYGVWH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLO/FX1Q/JVWNQ5UE/FLOFX1QJVWNQ5UE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYT/EW2D/JVWNQ5VA/FYTEW2DJVWNQ5VA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE2/DBTF/JVWNQ5W3/FE2DBTFJVWNQ5W3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ8/SHWB/JVWNQ5X4/FQ8SHWBJVWNQ5X4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FO6/5NG5/JVWNQ5XR/FO65NG5JVWNQ5XR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBH/UJEB/JVWNQ5U1/FBHUJEBJVWNQ5U1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE3/HAE5/JVWNQ5SF/FE3HAE5JVWNQ5SF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino",
+            "Continuously rotational servo",
+            "Disco Ball",
+            "Firefly string",
+            "Individually addressable LED strips (WS2812)",
+            "Laser"
+        ],
+        "description": "This project is about creating a simple, portable party accessory using an Arduino, servo motor, disco ball, and optional LEDs and laser. The device spins the disco ball and provides light effects, making it a self-contained party in a box.",
+        "steps": [
+            "Assemble the base by attaching the servo to the battery bank, ensuring the weight is distributed centrally. Secure the Arduino and breadboard to the battery bank using cable ties or other means. Insulate the Arduino if the battery bank is conductive.",
+            "Connect the firefly string to the 5V and ground rails on the breadboard to power it.",
+            "Add optional components such as a downfacing LED with a 330-ohm resistor, individually addressable LEDs (WS2812B), and a laser, connecting them to appropriate power and ground pins on the breadboard and Arduino.",
+            "Upload the provided Arduino code, adjusting the variables for the number of LEDs, servo speed, and desired patterns.  Ensure you have the FastLED library installed. Connect the servo data pin to digital port 9 and the LED strip data pin to digital port 10, or adjust the code to your specific setup.",
+            "Before powering up, test the setup. Hang the device from a suitable location using the firefly string and a clip.  Adjust the hanging point to ensure it hangs straight.",
+            "Attach the disco ball to the servo arm. Plug in the USB cable to power the device and start the party."
+        ]
+    }
+]

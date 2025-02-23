@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Midnight-Meet-using-pixlr/",
+        "creator": "newkreig",
+        "subcategory": "Art",
+        "title": "The Midnight Meet (using pixlr)",
+        "images": [
+            "https://content.instructables.com/F2O/2GG1/H7996MM9/F2O2GG1H7996MM9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSQ/OCYJ/H742ZT2Y/FSQOCYJH742ZT2Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOP/TLT7/H7996MMA/FOPTLT7H7996MMA.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR0/0QMW/H7996MMD/FR00QMWH7996MMD.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIM/DWIU/H7996MMF/FIMDWIUH7996MMF.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLU/MKPA/H7996MMH/FLUMKPAH7996MMH.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK7/OZ0Y/H7996MMI/FK7OZ0YH7996MMI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ0/QD5Q/H7996MMJ/FJ0QD5QH7996MMJ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWB/LEED/H7996MMN/FWBLEEDH7996MMN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Original picture",
+            "Pixlr (or similar image editing software)",
+            "Pictures of witches flying on broomsticks",
+            "Pictures of skeletons",
+            "Picture of a cat",
+            "Pictures of banshees",
+            "Picture of a devil with a staff",
+            "Picture of a coffin",
+            "Pictures of bats",
+            "Pictures of ghosts",
+            "Pictures of houses",
+            "Pictures of graves and tombstones"
+        ],
+        "description": "This project uses Pixlr (or a similar image editing software) to create a spooky Halloween-themed image by editing an original picture and adding various Halloween elements like witches, skeletons, and ghosts.",
+        "steps": [
+            "Start with an original picture.",
+            "Adjust the picture's saturation and contrast, increasing blue and green tinges for a spookier feel.",
+            "Add witches flying on broomsticks by copying and pasting them from another photo using the magic wand tool.",
+            "Add two skeletons hanging from a tree and another leaning against the tree using the wand and lasso tools.",
+            "Add a cat on a fence along with banshees and a devil with a staff using the same tools.",
+            "Add a coffin, some bats, and ghosts to enhance the spookiness.",
+            "Use the burn tool and adjustment tabs to darken the color of a skeleton and add houses in the background for a close-to-civilization feel; add graves and tombstones."
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Sound-Map-Animation/",
+        "creator": "bsauta",
+        "subcategory": "Art",
+        "title": "Sound Map Animation",
+        "images": [
+            "https://content.instructables.com/FQU/DOAW/I2KBSD62/FQUDOAWI2KBSD62.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUN/TZ7I/I2KBSD4V/FUNTZ7II2KBSD4V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCI/QEZE/I2KBSELZ/FCIQEZEI2KBSELZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9R/HZ8M/I2KBSCGA/F9RHZ8MI2KBSCGA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJJ/DDVJ/I2KBSD4Z/FJJDDVJI2KBSD4Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-video.png"
+        ],
+        "materials_required": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Recording device",
+            "Music creation software (e.g., GarageBand)"
+        ],
+        "description": "This project allows you to create a visual representation of sounds around you by creating an animated sound map using Photoshop and Illustrator. This provides a better understanding of how sounds can be interpreted in different ways.",
+        "steps": [
+            "Gather sounds by recording them in your neighborhood using a recording device, aiming for a variety of sounds.",
+            "Use music creation software to compile the sounds together to create a composition.",
+            "In Illustrator, create different shapes and colors to visually represent the sounds, saving each shape separately as a TIFF file for transparency.",
+            "Import all the shape files into Photoshop, placing each shape on a different layer, and arrange the composition of the sounds. Open the animation tab (Window > Animation).",
+            "Hide the layers you don't want to be visible at the start. Unhide layers on new frames to create movement and animation.",
+            "Export the video (File > Export) and play it with your sound piece for a visual and sound experience."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/Sound-Map-Animation/",
+        "creator": "bsauta",
+        "subcategory": "Art",
+        "title": "Sound Map Animation",
+        "images": [
+            "https://content.instructables.com/FQU/DOAW/I2KBSD62/FQUDOAWI2KBSD62.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUN/TZ7I/I2KBSD4V/FUNTZ7II2KBSD4V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCI/QEZE/I2KBSELZ/FCIQEZEI2KBSELZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9R/HZ8M/I2KBSCGA/F9RHZ8MI2KBSCGA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJJ/DDVJ/I2KBSD4Z/FJJDDVJI2KBSD4Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-video.png"
+        ],
+        "materials_required": [
+            "Photoshop",
+            "Illustrator",
+            "Garage Band (or other music creation software)",
+            "Recording device"
+        ],
+        "description": "This project allows you to create a visual representation of sounds around you, resulting in an animated sound map for a better understanding of how sounds can be interpreted.",
+        "steps": [
+            "Gather a variety of sounds from your neighborhood using a recording device.",
+            "Create a composition of the gathered sounds using GarageBand or another music creation program.",
+            "In Illustrator, create visual symbols to represent each sound, considering their size, color, and interaction with other shapes. Save each symbol as a separate TIFF file.",
+            "Import all symbols into Photoshop, placing each on a separate layer. Arrange the composition of the sounds and open the animation tab (Window > Animation).",
+            "Create the animation by hiding layers you don't want visible at the start and unhiding layers on each new frame to create movement. Each frame adds movement by revealing the selected layer.",
+            "Export the animation as a video (File > Export).",
+            "Play the exported video with your sound piece for a combined visual and sound experience."
+        ]
+    }
+]

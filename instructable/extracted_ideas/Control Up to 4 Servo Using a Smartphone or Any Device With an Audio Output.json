@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Control-Up-to-4-Servo-Using-a-Smartphone-or-Any-De/",
+        "creator": "DoMias",
+        "subcategory": "Electronics",
+        "title": "Control Up to 4 Servo Using a Smartphone or Any Device With an Audio Output",
+        "images": [
+            "https://content.instructables.com/FCD/XFY4/JDYUW3WW/FCDXFY4JDYUW3WW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAY/T52K/JDYUWG1Y/FAYT52KJDYUWG1Y.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAV/NT7D/JDYUWFZC/FAVNT7DJDYUWFZC.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "12 10k resistors",
+            "6 NPN transistors (BC337 or equivalent)",
+            "2 PNP transistors (BC327 or equivalent)",
+            "Breadboard power supply (5v)",
+            "4 servos"
+        ],
+        "description": "This project presents a simple electronic montage to control up to four servos with any device able to read an audio file. It uses an amplified audio signal to drive the servos via PWM signals.",
+        "steps": [
+            "Understand the principle: Servos are driven using a PWM signal between 1ms to 2ms, spaced by 20ms.",
+            "Amplify the audio signal: Use two transistors to amplify the audio signal to a high enough voltage. The first transistor is an NPN, activated by a positive voltage. Add a second amplifier with a PNP transistor activated by a negative voltage. This allows controlling two servos per audio channel.",
+            "Connect the hardware: Connect the resistors, transistors (NPN and PNP), and servos to the breadboard according to the provided schematic.",
+            "Generate audio files: Use the provided python script (mkServoSound2.py) to produce audio files that position the servos accordingly. The script generates pulses from 0.8 to 2.6 ms.",
+            "Control with App Inventor: Utilize the App Inventor project to play the generated audio files based on slider positions."
+        ]
+    }
+]

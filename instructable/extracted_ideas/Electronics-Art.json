@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Electronics-Art/",
+        "creator": "hobby king",
+        "subcategory": "Art",
+        "title": "Electronics Art",
+        "images": [
+            "https://content.instructables.com/FZD/T7E7/HCJOGHKC/FZDT7E7HCJOGHKC.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO1/PCYA/HCRVR64S/FO1PCYAHCRVR64S.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUG/GR09/J86HJHW1/FUGGR09J86HJHW1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM1/CUUA/IWE4O9HF/FM1CUUAIWE4O9HF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F82/5HFU/IVCVUUIF/F825HFUIVCVUUIF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGG/OWVV/HCJOGHKE/FGGOWVVHCJOGHKE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJM/JRSL/HCJOGHKF/FJMJRSLHCJOGHKF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0S/1D5Q/HCJOGHKH/F0S1D5QHCJOGHKH.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F03/52XT/HCJOGHKG/F0352XTHCJOGHKG.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT2/OG4D/HCJOGHKI/FT2OG4DHCJOGHKI.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEQ/H4JA/HCJOGHKK/FEQH4JAHCJOGHKK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOD/QIIJ/HCJOGHKL/FODQIIJHCJOGHKL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYQ/MR9Q/HCJOGHKO/FYQMR9QHCJOGHKO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9W/R0P5/HCJOGHKQ/F9WR0P5HCJOGHKQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB7/59CH/HCJOGHKV/FB759CHHCJOGHKV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPI/L17Q/HCJOGHKU/FPIL17QHCJOGHKU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F46/NO9B/HCJOGHKX/F46NO9BHCJOGHKX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8B/6LNQ/HCJOGHKW/F8B6LNQHCJOGHKW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPA/U5HF/HCJOGHKY/FPAU5HFHCJOGHKY.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Old tube radio (unsalvageable)",
+            "Capacitors",
+            "Resistors",
+            "Tubes",
+            "Mounting board (e.g., pine board)",
+            "Nails or all metal pins",
+            "Solder",
+            "Hanger"
+        ],
+        "description": "This project involves disassembling an old, non-functional tube radio and using its electrical components to create an art piece. The purpose is to preserve the original craftsmanship in a visually appealing way by mounting the components on a substrate and wiring them together to create the illusion of a circuit.",
+        "steps": [
+            "Deconstruct the old tube radio by cutting the power and carefully disassembling the components. Harvest interesting components like capacitors, resistors, and tubes, leaving some wire at each terminal. Remove wire pieces in the longest lengths possible and clean all desired components with a damp cloth.",
+            "Select a suitable mounting board that can withstand soldering heat. Ensure it is sized well for the components. Experiment with different arrangements to find the most pleasing layout.",
+            "Affix the components to the substrate using nails or metal pins. Arrange them in a pleasing and not overly crowded grouping, leaving space for wiring.",
+            "Cut and strip the saved wire pieces to connect between components. Use color and direction creatively to enhance the artistic effect.",
+            "Carefully solder all components together using the prepared wire. Use the solder to permanently connect the wires and to create the look of a real circuit. Be cautious when soldering old wax components, as they can melt if overheated. Place solder at all wire joints and on all nail heads.",
+            "Attach a hanger to the completed project for displaying it. This piece makes a perfect gift for an engineer's office or any space where industrial art is appreciated."
+        ]
+    }
+]

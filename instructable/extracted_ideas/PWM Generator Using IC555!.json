@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/PWM-Generator-Using-IC555/",
+        "creator": "Nematic!",
+        "subcategory": "Electronics",
+        "title": "PWM Generator Using IC555!",
+        "images": [
+            "https://content.instructables.com/FYF/5EI8/JZ2YTAZ7/FYF5EI8JZ2YTAZ7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6I/HIN8/IZT6PSYC/F6IHIN8IZT6PSYC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F19/IMZL/KH69Q3I8/F19IMZLKH69Q3I8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOC/OYPP/KH104WHK/FOCOYPPKH104WHK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUO/ZOPR/KH104WJ1/FUOZOPRKH104WJ1.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO8/XD4G/JZ2YTBBY/FO8XD4GJZ2YTBBY.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMJ/VMGQ/JZ2YTBCC/FMJVMGQJZ2YTBCC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4O/79XX/JZ2YTBCP/F4O79XXJZ2YTBCP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8N/5POL/JZ2YTBDC/F8N5POLJZ2YTBDC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/FNJ/WY60/JZ2YTBD3/FNJWY60JZ2YTBD3.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWI/1Z0R/JZ2YTBDN/FWI1Z0RJZ2YTBDN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGU/CDOW/JV2RHK95/FGUCDOWJV2RHK95.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSP/TH19/JZ2YTBDW/FSPTH19JZ2YTBDW.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYO/49C7/JZ2YTBBM/FYO49C7JZ2YTBBM.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYF/5EI8/JZ2YTAZ7/FYF5EI8JZ2YTAZ7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "IC555 timer",
+            "Resistor",
+            "Potentiometer P1",
+            "Capacitor C1",
+            "PCB (optional)",
+            "Oscilloscope (for testing)"
+        ],
+        "description": "This project demonstrates a simple method to generate a Pulse Width Modulation (PWM) signal using an IC555 timer. PWM signals are widely used for controlling devices in electronics, such as motors and LED lighting. The circuit allows adjustment of the duty cycle and frequency of the PWM signal.",
+        "steps": [
+            "Refer to the provided schematic to build the circuit on a breadboard.",
+            "Connect an Oscilloscope to observe the generated PWM signal and verify it's working.",
+            "Optionally, design and order a custom PCB for a more permanent and compact solution.",
+            "Once the PCB arrives, place and solder all the components according to the schematic.",
+            "Test the assembled PCB to ensure the PWM signal is generated correctly."
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Measurement-of-Temperature-Using-LM75BIMM-and-Ardu/",
+        "creator": "Dcube Tech Ventures",
+        "subcategory": "Electronics",
+        "title": "Measurement of Temperature Using LM75BIMM and Arduino Nano",
+        "images": [
+            "https://content.instructables.com/F9E/8LCR/IKYGBR1C/F9E8LCRIKYGBR1C.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FT4/HXDC/K14V8IPU/FT4HXDCK14V8IPU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTL/J1I7/JPCY6YIF/FTLJ1I7JPCY6YIF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFP/DY6Z/ITKJFS2O/FFPDY6ZITKJFS2O.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FC5/B955/IR3E53HQ/FC5B955IR3E53HQ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQS/OGWP/IR3E53LB/FQSOGWPIR3E53LB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT8/FOI2/IR3E544C/FT8FOI2IR3E544C.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2U/XYNL/IR3E54DS/F2UXYNLIR3E54DS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3P/J8ER/IR3HKAFL/F3PJ8ERIR3HKAFL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTY/LDLU/IR3HKAFY/FTYLDLUIR3HKAFY.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5J/U608/IR3HKAMI/F5JU608IR3HKAMI.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5J/BQ2A/IR3HKB24/F5JBQ2AIR3HKB24.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LM75BIMM",
+            "I2C Cable",
+            "I2C Shield for arduino nano"
+        ],
+        "description": "This project illustrates the interfacing of the LM75BIMM sensor module with an Arduino Nano to measure temperature. It utilizes an I2C adapter for easy and reliable connection to the sensor module, which is a digital temperature sensor with a thermal watchdog.",
+        "steps": [
+            "Connect the LM75BIMM to the Arduino Nano using the I2C cable and I2C shield. Connect Vcc, Gnd, SCL, and SDA pins of the sensor to the corresponding pins on the Arduino Nano.",
+            "Include the Wire.h library in the Arduino code to facilitate I2C communication.",
+            "Initialize I2C communication and serial communication in the setup() function.",
+            "In the loop() function, start I2C transmission, select the temperature data register, request 2 bytes of data, and read the data.",
+            "Convert the received data to 9-bits to obtain the temperature value.",
+            "Convert the temperature value to Celsius and Fahrenheit.",
+            "Output the temperature values to the serial monitor using Serial.print() and Serial.println().",
+            "Add a delay of 1000ms."
+        ]
+    }
+]

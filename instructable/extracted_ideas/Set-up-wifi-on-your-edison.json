@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Set-up-wifi-on-your-edison/",
+        "creator": "rnyairo",
+        "subcategory": "Art",
+        "title": "Set up wifi on your edison",
+        "images": [
+            "https://content.instructables.com/FUL/YOB7/IGY253BY/FULYOB7IGY253BY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTS/4SUE/IB8IHJQZ/FTS4SUEIB8IHJQZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJD/GOYK/IH0U70WA/FJDGOYKIH0U70WA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5B/905T/IGY2520C/F5B905TIGY2520C.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC5/6A30/IGY251ZZ/FC56A30IGY251ZZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Intel Edison",
+            "Serial terminal (e.g., PuTTY)"
+        ],
+        "description": "This project guides you through setting up a WiFi connection on your Intel Edison board using a serial terminal.",
+        "steps": [
+            "Connect your Edison to your computer via a serial terminal program like PuTTY.",
+            "Log in to the Edison through the serial terminal.",
+            "Type the command `configure_edison --wifi` to initiate the WiFi setup.",
+            "The Edison will scan and display a list of available WiFi networks.",
+            "Select the desired network by entering its corresponding number.",
+            "Enter the password for the selected WiFi network to connect."
+        ]
+    }
+]

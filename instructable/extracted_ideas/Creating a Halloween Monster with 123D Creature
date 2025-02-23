@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Creating-a-Halloween-Monster-with-123D-Creature/",
+        "creator": "Adam Beamish",
+        "subcategory": "Art",
+        "title": "Creating a Halloween Monster with 123D Creature",
+        "images": [
+            "https://content.instructables.com/FF9/FHX1/HNLCD98E/FF9FHX1HNLCD98E.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO5/B5N5/HN8286MC/FO5B5N5HN8286MC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV7/EE8A/HMVJ24NF/FV7EE8AHMVJ24NF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FG7/83O3/HNLCD98C/FG783O3HNLCD98C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVF/75HC/HNLCD97L/FVF75HCHNLCD97L.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLK/32OV/HN8287BT/FLK32OVHN8287BT.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVT/EJRL/HN8286HU/FVTEJRLHN8286HU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXS/4NHK/HN8286KY/FXS4NHKHN8286KY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "123D Creature App (available from the Apple App Store)"
+        ],
+        "description": "This project guides you through creating a Halloween-themed candy monster, candy bucket, and lollipop using the 123D Creature app. You'll learn how to sculpt, paint, and export your models for 3D printing or image rendering.",
+        "steps": [
+            "Model the Candy Monster: Start with the basic figure shape in 123D Creature. Add skeleton appendages using the create tool. Bake the skeleton. Sculpt the model using the Grab, Sculpt Out, and Flatten tools. Maintain symmetry and save regularly. Add details like fur using the Grab, Sculpt Out, Sculpt In, Sharpen, Flatten, and Smooth tools.",
+            "Paint the Candy Monster: Apply a solid base color, then add extra colors and highlights. Paint specular highlights and reflections, considering the light direction. Add details to the eyes, building up the color pattern and adding reflective colors. Paint any fine details like fur that couldn't be modeled.",
+            "Model and Texture the Candy Bucket: Follow the same modeling steps as the Candy Monster. Decide what items you want in the bucket or keep it empty.",
+            "Model and Texture the Lollipop: Follow the same modeling steps as the Candy Monster and Bucket. Choose the size and shape of the lollipop. Use a small brush for painting details.",
+            "Export and Final Model: Use the Render section of the App to adjust lighting, backgrounds, and effects. Export the model as an OBJ file for use in other programs like 123D Make or for 3D printing. You can also order a 3D print directly from the app."
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Ningenisu/",
+        "creator": "takako.ikemoto",
+        "subcategory": "Art",
+        "title": "Ningen_isu",
+        "images": [
+            "https://content.instructables.com/FTQ/UXHH/HZ2IVFRI/FTQUXHHHZ2IVFRI.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZV/8Q8A/HZ5DQKH7/FZV8Q8AHZ5DQKH7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHO/DCB0/HZ3GBT7T/FHODCB0HZ3GBT7T.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F81/BHSW/HZ3GBT88/F81BHSWHZ3GBT88.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD6/NI1P/HZ3GBT8H/FD6NI1PHZ3GBT8H.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT2/JQ28/HZ3GBWK7/FT2JQ28HZ3GBWK7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F14/FUR1/HZ3GBWL8/F14FUR1HZ3GBWL8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0M/V4IO/HZ3GC0I4/F0MV4IOHZ3GC0I4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8X/2CT5/HZ3GC0JO/F8X2CT5HZ3GC0JO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV1/JDWG/HZ3GC0KJ/FV1JDWGHZ3GC0KJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2N/06FH/HZ5DQKGY/F2N06FHHZ5DQKGY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8C/L9NW/IW6PETMU/F8CL9NWIW6PETMU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCG/8QEM/IFR41M76/FCG8QEMIFR41M76.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png"
+        ],
+        "materials_required": [
+            "ningenisu.dxf",
+            "ningenisu.stl",
+            "left_leg.pdf",
+            "right_leg.pdf",
+            "body2.pdf",
+            "arm2.pdf"
+        ],
+        "description": "This project describes the creation of an unusual stool designed to be uncomfortable in 3D despite appearing normal in 2D. The author was inspired to create something with a weird shape and the prototype was quite shocking, and was created for the Tenkaizu Budokai 3rd stool contest at Ogaki Mini Maker 2014.",
+        "steps": [
+            "Download the attached files: ningenisu.dxf, ningenisu.stl, left_leg.pdf, right_leg.pdf, body2.pdf, and arm2.pdf."
+        ]
+    }
+]

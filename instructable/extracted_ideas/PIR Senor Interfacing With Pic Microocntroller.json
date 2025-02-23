@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/PIR-Senor-Interfacing-With-Pic-Microocntroller/",
+        "creator": "MicrocontrollerLab",
+        "subcategory": "Microcontrollers",
+        "title": "PIR Senor Interfacing With Pic Microocntroller",
+        "images": [
+            "https://content.instructables.com/FFN/I39C/IAUWL8PV/FFNI39CIAUWL8PV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8R/4NZF/IUSLI10N/F8R4NZFIUSLI10N.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2Q/1NTR/IMJGDORN/F2Q1NTRIMJGDORN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYE/I5GX/IBQCEN72/FYEI5GXIBQCEN72.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7S/NVVC/J3AFKGOM/F7SNVVCJ3AFKGOM.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "PIC 16F887 Microcontroller",
+            "LCD 16x2",
+            "BISS0001 PIR chip"
+        ],
+        "description": "This project details how to interface a PIR (Passive Infrared) sensor with a PIC microcontroller to detect motion. The PIR sensor detects infrared light emitted by warm objects and generates an electrical signal that is processed by the microcontroller. The microcontroller then displays the detected motion on an LCD screen.",
+        "steps": [
+            "Understand PIR sensors: PIR sensors detect infrared light radiated by warm objects. Changes in infrared radiation striking the sensor generate an electrical charge.",
+            "Gather components: Ensure availability of PIC 16F887, LCD 16x2, PIR sensor (with BISS0001 chip), and other components like resistors, buzzer, etc",
+            "Connect PIR sensor: Connect Vcc (3-5V), Output (to microcontroller), and Ground pins of the PIR sensor.",
+            "Connect LCD: Interface the LCD 16x2 with the PIC microcontroller to display alpha numeric characters and show whether motion is detected or not",
+            "Design circuit based on the provided circuit diagram. Note that the diagram provided interfaces with arduino. Make the necessary adjustments so that it interfaces with a PIC Microcontroller"
+        ]
+    }
+]

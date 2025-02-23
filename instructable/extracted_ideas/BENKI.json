@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/BENKI/",
+        "creator": "mkitagawa",
+        "subcategory": "Art",
+        "title": "BENKI",
+        "images": [
+            "https://content.instructables.com/F88/NQSV/HN82O1HD/F88NQSVHN82O1HD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1G/WC08/HN82O1H9/F1GWC08HN82O1H9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png"
+        ],
+        "materials_required": [
+            "MDF 2.5mm (1820x910mm, 2 sheets)",
+            "Laser cutting machine (Trotec Speedy 300)",
+            "3D printer (Cube)"
+        ],
+        "description": "This project is for creating a stool named BENKI. The stool is designed to be fragile, as indicated by the warning 'Suwaru to KowareruKIWOTSUKERO!!!!' (Be careful, it breaks when you sit on it!). The stool's dimensions are H250*W330*L420.",
+        "steps": [
+            "Design the stool using Thinkercad.",
+            "Unfold the 3D design into 2D patterns using 123D Make.",
+            "Refine the 2D patterns using Illustrator.",
+            "Cut the MDF sheets according to the patterns using a laser cutting machine.",
+            "3D print any necessary components.",
+            "Assemble the stool."
+        ]
+    }
+]

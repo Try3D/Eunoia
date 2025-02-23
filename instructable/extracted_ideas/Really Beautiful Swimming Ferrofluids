@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Really-Beautiful-Swimming-Ferrofluids/",
+        "creator": "rogercarr",
+        "subcategory": "Art",
+        "title": "Really Beautiful Swimming Ferrofluids",
+        "images": [
+            "https://content.instructables.com/F6D/16JF/IZ6C5WNY/F6D16JFIZ6C5WNY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTC/ABK8/IZ6C5WWN/FTCABK8IZ6C5WWN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEH/733G/IZ6C5X3N/FEH733GIZ6C5X3N.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBT/PZW4/IZ6C5XD5/FBTPZW4IZ6C5XD5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCD/JRH0/IZ6C5XK8/FCDJRH0IZ6C5XK8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBB/K2P0/IZ6C5XNN/FBBK2P0IZ6C5XNN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMN/W9F9/IZ6C5XPW/FMNW9F9IZ6C5XPW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Ferrotec EFH1 Ferrofluid",
+            "Kosher salt or pure NaCl",
+            "Clean glass vessel with airtight cap",
+            "Petri dish or equivalent",
+            "Lab gloves",
+            "Glass thermometer",
+            "Pipette"
+        ],
+        "description": "This project describes how to create a stable and visually appealing ferrofluid display where the ferrofluid blob swims freely in a clear liquid, forms beautiful shapes with a magnet, and does not stick to the vessel.",
+        "steps": [
+            "Prepare the ferrofluid by heating it in a shallow dish on a hotplate at 100C until its weight is reduced by about 10% to increase its viscosity. This should be done in a well-ventilated area.",
+            "Prepare the suspension solution by cleaning a glass container with a harsh cleaning solution until water runs off in sheets. Then, dissolve Kosher salt in distilled water until a saturated solution is achieved, with some undissolved salt remaining. Remove any undissolved salt and add a small percentage of distilled water.",
+            "Prepare the glass vessel by thoroughly cleaning it. Consider baking it at 300C and soaking it in vinegar, followed by rinsing with distilled water. Pre-soak the vessel with the brine solution for a day or two before introducing the ferrofluid.",
+            "Pour the brine solution into the prepared glass vessel, filling it to the top. Using a pipette, carefully transfer droplets of ferrofluid into the brine solution, ensuring the pipette tip is submerged. Seal the vessel with a small air bubble at the top."
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Opto-Scopic-Rotator/",
+        "creator": "bluedali73",
+        "subcategory": "Art",
+        "title": "Opto-Scopic Rotator",
+        "images": [
+            "https://content.instructables.com/FOP/SJKA/FRMMFMDH/FOPSJKAFRMMFMDH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCH/LA0J/FRML72W8/FCHLA0JFRML72W8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDJ/2TD9/FRML72WD/FDJ2TD9FRML72WD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5P/IGW7/FRML72WJ/F5PIGW7FRML72WJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8U/OILR/FRML72WS/F8UOILRFRML72WS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO0/5BBV/FRML72X2/FO05BBVFRML72X2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY6/WG18/FRML72XG/FY6WG18FRML72XG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMP/AM6I/FRMMFM1Y/FMPAM6IFRMMFM1Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8W/GFWX/FRMMFM7L/F8WGFWXFRMMFM7L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F41/PXZ1/FRML72W1/F41PXZ1FRML72W1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXW/16NL/FRML736M/FXW16NLFRML736M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBR/QWPX/FRML736Z/FBRQWPXFRML736Z.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Argus Slide Projector (Model III series)",
+            "Penn Peer 309 fishing reel",
+            "Metal glue",
+            "Glass/metal glue",
+            "Reading book light"
+        ],
+        "description": "The Opto-Scopic Rotator is a hybrid device combining a vintage slide projector and a fishing reel. It allows you to view an image in narrative form through rotation, while simultaneously magnifying and framing the subject.",
+        "steps": [
+            "Dismantle the Argus Slide Projector by lifting the release latch at the rear of the EXHAUST GRILLE and removing the grill.",
+            "Remove the rear condenser lens and mount by springing the mount slightly forward and pulling upward.",
+            "Spring back the top of the reflector plate slightly, pulling it up and off. Spread the sides of the frame until the filter and condenser mounts can be removed from the retaining slots.",
+            "Remove the lenses from the metal mounts. Leave the top metal mount, or use the best fitting metal mount and place it on top of the lens mount fixture.",
+            "Slip the lens mount fixture in and tighten it on each side by bending the metal, ensuring it is well attached. Use metal glue in addition, if necessary. Then, attach the grille to the bottom of the lens mount fixture using metal glue.",
+            "Saw off the middle part of the bottom reel fixture using a hand metal saw or band saw.",
+            "Drill holes into both sides of the reel wheels. Accordingly, drill holes into the lens mount. Then, tighten the lens mount to the reel (remove the lens beforehand).",
+            "Mount the lens using the little latches. Use glass/metal glue additionally, if necessary.",
+            "Attach a reading book light."
+        ]
+    }
+]

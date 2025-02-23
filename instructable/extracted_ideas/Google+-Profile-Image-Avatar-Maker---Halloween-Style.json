@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Google-Profile-Image-Avatar-Maker-Halloween-Sty/",
+        "creator": "ma7k",
+        "subcategory": "Art",
+        "title": "Google+ Profile Image Avatar Maker - Halloween Style",
+        "images": [
+            "https://content.instructables.com/F15/TTBG/GU63LVDN/F15TTBGGU63LVDN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBV/SSH9/GU63LVE8/FBVSSH9GU63LVE8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOV/DJHP/GU63LVGJ/FOVDJHPGU63LVGJ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSZ/TZ5F/GU63LVJD/FSZTZ5FGU63LVJD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEQ/NCNY/GU63A3ES/FEQNCNYGU63A3ES.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIK/4IW7/GU63Y0IO/FIK4IW7GU63Y0IO.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI7/7JC1/GU63TUD8/FI77JC1GU63TUD8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGB/92O9/GU63A3G5/FGB92O9GU63A3G5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project utilizes a free web tool to create a Halloween-themed Google+ profile avatar from any photo. Users can upload an image, zoom, reposition, add a Halloween border, modify colors, add text, and save the finished avatar.",
+        "steps": [
+            "Visit http://gplusavatormaker.hostei.com/ to access the Google+ Profile Image Avatar Maker - Halloween Style web tool.",
+            "Upload a photo from your computer to the avatar maker.",
+            "Use the zoom in and zoom out buttons to adjust the size of your image within the avatar frame. Reposition the image by dragging it with your mouse. Customize the color properties (brightness, contrast, hue, saturation) using the provided sliders.",
+            "Select a Halloween-themed border for your avatar.",
+            "If desired, add text to your avatar. Customize the text color and reposition it by dragging it with your mouse.",
+            "Save your finished Google+ Profile Image Avatar - Halloween Style to your computer."
+        ]
+    }
+]

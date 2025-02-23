@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Spinning-Battery/",
+        "creator": "tealelephant",
+        "subcategory": "Art",
+        "title": "Spinning Battery!!!!!",
+        "images": [
+            "https://content.instructables.com/FRP/TU8U/IEO2XK2X/FRPTU8UIEO2XK2X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDM/CW7T/IGV6NUYC/FDMCW7TIGV6NUYC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F6E/0C7J/IEKJ0EKL/F6E0C7JIEKJ0EKL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FBA/PRWD/IEO2XCUE/FBAPRWDIEO2XCUE.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Copper wire (12 inches)",
+            "Two circular magnets"
+        ],
+        "description": "This project demonstrates how to create a spinning battery using a battery, copper wire, and magnets.",
+        "steps": [
+            "Attach two strong magnets (without conductive paint) to the negative side of the battery.",
+            "Bend the copper wire to find the center of gravity and balance it on the positive side of the battery, ensuring only one end touches the negative side of the magnet for spinning action.",
+            "(Optional) Personalize the spinning battery by cutting out pictures and taping them to the wire."
+        ]
+    }
+]

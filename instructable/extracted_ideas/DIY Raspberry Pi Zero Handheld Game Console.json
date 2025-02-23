@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/DIY-Raspberry-Pi-Zero-Handheld-Game-Console/",
+        "creator": "GreatScottLab",
+        "subcategory": "Raspberry Pi",
+        "title": "DIY Raspberry Pi Zero Handheld Game Console",
+        "images": [
+            "https://content.instructables.com/FH2/UUAC/IUSM1EG8/FH2UUACIUSM1EG8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX6/NHV4/KWAOLOTQ/FX6NHV4KWAOLOTQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMM/BFST/L6W747B3/FMMBFSTL6W747B3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLX/UO12/KWT9BLE4/FLXUO12KWT9BLE4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL6/V9BZ/KU18GU5F/FL6V9BZKU18GU5F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYZ/1EOA/IUSM1CX5/FYZ1EOAIUSM1CX5.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNB/EM9W/IUSM1E8D/FNBEM9WIUSM1E8D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDV/TOXL/IUSM1CUB/FDVTOXLIUSM1CUB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9S/YXD7/IUSM1CEG/F9SYXD7IUSM1CEG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2M/D273/IUSM1PVK/F2MD273IUSM1PVK.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FN5/1TU1/IUSM1E5C/FN51TU1IUSM1E5C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5L/GXKW/IUSM1E63/F5LGXKWIUSM1E63.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFR/LGAT/IUSM1DSP/FFRLGATIUSM1DSP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHG/JQX2/J0IEEPWC/FHGJQX2J0IEEPWC.png?auto=webp&frame=1&width=320",
+            "https://content.instructables.com/FA8/TRSY/J0IEEPWF/FA8TRSYJ0IEEPWF.png?auto=webp&frame=1&width=320",
+            "https://content.instructables.com/F7Y/2IMR/IUSM1D9E/F7Y2IMRIUSM1D9E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRU/MTYB/IUSM1DM8/FRUMTYBIUSM1DM8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Raspberry Pi Zero",
+            "NiMH batteries",
+            "3.5 inch LCD",
+            "PAM8403 Audio Amp",
+            "Housing",
+            "3.5mm Jack",
+            "Potentiometer Wheel",
+            "Speaker",
+            "Tactile Push Buttons",
+            "MAX667",
+            "MCP602 OpAmp",
+            "BC547 NPN Transistor",
+            "IRLZ44N N-channel MOSFET",
+            "10k Trimmer",
+            "1N4148 Diode",
+            "Perfboard"
+        ],
+        "description": "This project details how to build a handheld retro game console using a Raspberry Pi Zero, NiMH batteries, a custom over-discharge protection circuit, an LCD screen, and an audio amplifier.",
+        "steps": [
+            "Watch the provided videos to understand the electronic connections and the component mounting process within the case.",
+            "Build the over-discharge protection circuit using the provided schematic and a perfboard, as well as the necessary electronic components (MAX667, 10k Trimmer, Slide Switch, Capacitors, MCP602 OpAmp, Diodes, Resistors, Transistor, MOSFET)",
+            "Gather the remaining necessary components including a Raspberry Pi Zero, NiMH batteries, a 3.5 inch LCD, a PAM8403 Audio Amp, a suitable housing, a 3.5mm audio jack, a potentiometer wheel, a speaker, and tactile push buttons.",
+            "Create a prototype by connecting all the components together to ensure everything functions correctly, referring to the provided wiring diagram. Explore using the Raspberry Pi's GPIOs for controller input, and set up the Recalbox OS. Build an RC filter circuit for the audio output.",
+            "Modify the case to house the components, referring to the video series for guidance. 3D print the plastic cartridge slot and button wells using the attached .stl files or obtain pre-made button wells.",
+            "You have now completed your own Raspberry Pi Zero Handheld Game Console!"
+        ]
+    }
+]

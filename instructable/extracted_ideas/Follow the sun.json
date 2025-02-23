@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Follow-the-sun/",
+        "creator": "marc.deloor.5",
+        "subcategory": "Arduino",
+        "title": "Follow the sun",
+        "images": [
+            "https://content.instructables.com/FX3/URMD/I9OST83H/FX3URMDI9OST83H.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP3/TQLS/K9005HXX/FP3TQLSK9005HXX.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHR/VKEQ/JXISWEIY/FHRVKEQJXISWEIY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FI1/DSRV/ITSX6J96/FI1DSRVITSX6J96.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FT0/CWA3/IRUT3P85/FT0CWA3IRUT3P85.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPD/8FVL/I9OST83J/FPD8FVLI9OST83J.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPD/8FVL/I9OST83J/FPD8FVLI9OST83J.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN2/0UG3/I9OSTAD2/FN20UG3I9OSTAD2.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM1/NBY6/I9OST82I/FM1NBY6I9OST82I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6K/CGUP/I9OSTWBX/F6KCGUPI9OSTWBX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Arduino",
+            "2 servos",
+            "4 LDR's",
+            "A little piece of pcb board",
+            "Angled connector",
+            "Soldering equipment"
+        ],
+        "description": "This is an experimental sun follower that uses an Arduino, servos, and LDRs to find the direction from where the brightest light comes, allowing PV-cells or other light-sensitive devices to maximize their output.",
+        "steps": [
+            "Wire the four Light Dependent Resistors (LDRs) with four resistors to create an analogue input for the Arduino. Connect the LDR to the positive power, and connect through the second resistor to mass. The output in the middle is connected to the analog input of the Arduino.",
+            "Program the Arduino to read the analog inputs from the LDRs. Map the values to a 0-90 degree range to correspond to the servo's movement. Use cardboard cells to shield the LDRs and allow them to read differences in light levels.",
+            "Glue the two servos together to create a two-axis movement system. Attach the LDR assembly to the servos.",
+            "Calibrate the LDR readings by using the Serial.print function in the Arduino program to output the analog input values. Adjust the program with +/- to compensate for slight differences and tolerance of the resistors until readings are equal in overcast conditions when the light is similar in all directions.",
+            "Add a delay to the end of the program loop to prevent the servos from constantly adjusting and shaking due to minor light fluctuations."
+        ]
+    }
+]

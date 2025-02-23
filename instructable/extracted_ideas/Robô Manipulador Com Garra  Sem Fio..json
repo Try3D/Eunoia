@@ -1,0 +1,24 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Rob%C3%B4-Manipulador-Com-Garra-Sem-Fio/",
+        "creator": "DouglasS3",
+        "subcategory": "Robots",
+        "title": "Rob\u00f4 Manipulador Com Garra  Sem Fio.",
+        "images": [
+            "https://content.instructables.com/FW1/9Q74/JUELYZ6G/FW19Q74JUELYZ6G.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3H/4ZRA/LYU52876/F3H4ZRALYU52876.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3K/4QE1/JL6UU4A3/F3K4QE1JL6UU4A3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "RF Modules (for wireless control)"
+        ],
+        "description": "This project outlines the construction and programming of a wireless robotic arm with a gripper. It includes code for both wireless RF control and wired control options. The robotic arm is controlled using code created by Douglas Santana da Silva.",
+        "steps": [
+            "Step 1: Implement Robot Control via RF Modules. Download and use the provided 'emissor.ino' (transmitter) and 'receptor.ino' (receiver) code for wireless control of the robotic arm.",
+            "Step 2: Implement Wired Robot Control. Download and use the 'controle rob\u00f4 com fio e manipulador com garra.ino' code for wired control of the robotic arm and gripper."
+        ]
+    }
+]

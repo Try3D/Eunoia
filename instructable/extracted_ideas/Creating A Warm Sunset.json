@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Creating-A-Warm-Sunset/",
+        "creator": "scottdavenport",
+        "subcategory": "Cameras",
+        "title": "Creating A Warm Sunset",
+        "images": [
+            "https://content.instructables.com/FJ2/DRX4/ICRXOHM7/FJ2DRX4ICRXOHM7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAM/PA0J/IC6INXM8/FAMPA0JIC6INXM8.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIU/006H/IDLI1ZOF/FIU006HIDLI1ZOF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAS/L7RE/ID02F6LA/FASL7REID02F6LA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUC/YSBG/ICPP5OHL/FUCYSBGICPP5OHL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN0/93X0/ICRXOHLU/FN093X0ICRXOHLU.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNS/9JEP/ICRXOHLV/FNS9JEPICRXOHLV.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1K/MKQ1/ICRXOHM1/F1KMKQ1ICRXOHM1.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9J/CSU4/ICRXOHM3/F9JCSU4ICRXOHM3.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPW/3DFT/ICRXOHM6/FPW3DFTICRXOHM6.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ2/DRX4/ICRXOHM7/FJ2DRX4ICRXOHM7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project outlines the steps to create a warm and inviting feel to a sunset image using post-processing techniques. It demonstrates how different stylizing can deliver a very different feel to the viewer.",
+        "steps": [
+            "Start with an original image straight from the camera, applying only a basic lens correction to eliminate bowing and warping of a wide-angle lens.",
+            "Set the white balance using a reference point in the image, such as the foam of the waves, aiming for pure white.",
+            "Adjust the exposure and tone of the photo to achieve a good range of blacks and whites while avoiding clipping in shadows and highlights.",
+            "Increase the contrast and/or clarity of the photo to visually sharpen the image, making details like fingers of water crisper.",
+            "Adjust color, saturation, and vibrance, adding a soft warming effect to amplify orange hints in the sky and rocks. Optionally, add a slight radial blur effect to the sky for a more dynamic look.",
+            "Apply localized sharpening to the subject in the foreground, keeping the sky soft. Finish with a vignette to draw the viewer's eye in."
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "url": "https://www.instructables.com/id/What-Is-PWM-1/",
+        "creator": "Sutty5",
+        "subcategory": "Electronics",
+        "title": "What Is PWM?",
+        "images": [
+            "https://content.instructables.com/FUK/WS41/IRXTBQZ2/FUKWS41IRXTBQZ2.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDF/UV6B/IV0BJ3DZ/FDFUV6BIV0BJ3DZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPB/8NE6/IUSM28NC/FPB8NE6IUSM28NC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/QIC5/IT8ZWWG3/FL0QIC5IT8ZWWG3.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [],
+        "description": "This project provides an introduction to Pulse Width Modulation (PWM) and its basic principles. It encourages users to explore and understand PWM through practical application.",
+        "steps": [
+            "The provided text is an introduction to PWM by Sutty5 from Simply Electronics.",
+            "The introduction encourages users to explore the world of electronics and learn about PWM.",
+            "The reader is directed to Simply Electronics' YouTube channel for more information and demonstrations.",
+            "Users are encouraged to try a circuit related to PWM to gain practical experience."
+        ]
+    }
+]

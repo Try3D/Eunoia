@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/OLED-Tutorial-Convert-SPI-to-I2C/",
+        "creator": "Nematic!",
+        "subcategory": "Arduino",
+        "title": "OLED Tutorial | Convert SPI to I2C",
+        "images": [
+            "https://content.instructables.com/FGI/2T46/JIOU9H3D/FGI2T46JIOU9H3D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6I/HIN8/IZT6PSYC/F6IHIN8IZT6PSYC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F19/IMZL/KH69Q3I8/F19IMZLKH69Q3I8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOC/OYPP/KH104WHK/FOCOYPPKH104WHK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUO/ZOPR/KH104WJ1/FUOZOPRKH104WJ1.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FXZ/BDAV/JIOU9HE5/FXZBDAVJIOU9HE5.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFN/749K/JIOU9HE1/FFN749KJIOU9HE1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUC/OZY4/JIOU9HE6/FUCOZY4JIOU9HE6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY9/JWAV/JIOU9HE7/FY9JWAVJIOU9HE7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGV/52BH/JIOU9HIW/FGV52BHJIOU9HIW.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEX/BT7B/JIOU9HM0/FEXBT7BJIOU9HM0.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEZ/RLG6/JIOU9HN9/FEZRLG6JIOU9HN9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO4/5CXF/JIOU9HPQ/FO45CXFJIOU9HPQ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVH/X31E/JIOU9HSN/FVHX31EJIOU9HSN.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5O/6ADK/JIOU9HIV/F5O6ADKJIOU9HIV.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F35/Z5WZ/JIOU9HUG/F35Z5WZJIOU9HUG.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCV/RAWD/JIOU9I2B/FCVRAWDJIOU9I2B.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9M/YL8P/JIOU9I2C/F9MYL8PJIOU9I2C.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFU/TSPH/JIOU9I1K/FFUTSPHJIOU9I1K.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F72/CSEI/JIOU9IT7/F72CSEIJIOU9IT7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVQ/D1YM/JIOU9JD4/FVQD1YMJIOU9JD4.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8G/ANAG/JIOU9JED/F8GANAGJIOU9JED.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPF/DD5B/JIOU9JD1/FPFDD5BJIOU9JD1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTU/M1QW/JIOU9JD2/FTUM1QWJIOU9JD2.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH2/9SRM/JIOU9JD3/FH29SRMJIOU9JD3.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO6/2RNI/JIOU9JRB/FO62RNIJIOU9JRB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4W/I1QM/JIOU9JS4/F4WI1QMJIOU9JS4.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMB/YEUP/JIOU9JS5/FMBYEUPJIOU9JS5.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "SPI OLED display",
+            "Resistors (including 10K pull-up resistors)",
+            "Arduino board"
+        ],
+        "description": "This tutorial explains how to interface OLED displays with Arduino and specifically how to convert SPI OLED screens to I2C for easier connection and use with Arduino boards.",
+        "steps": [
+            "Flip the SPI OLED display and identify the indications for converting SPI to I2C (ICC).",
+            "Switch the resistor from SPI to I2C and short the resistor path R8.",
+            "Connect Vcc and GND lines.",
+            "Connect CLK to SCL, MOSI to SDA.",
+            "Connect the reset pin to Vcc, and other pins to GND.",
+            "Connect the OLED display to the Arduino, connecting power, SCL to SCL, and SDA to SDA pins of the Arduino.",
+            "Add a 10K pull-up resistor to SDA & SCL to avoid random freezing.",
+            "Install the u8glib library in the Arduino IDE.",
+            "Modify the example code to match your display model (e.g., SD1306) by uncommenting the corresponding line in the program.",
+            "Upload the code to the Arduino to display information on the OLED."
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Easy-DIY-Animatronics/",
+        "creator": "zazenergy",
+        "subcategory": NaN,
+        "title": "Easy DIY Animatronics",
+        "images": [
+            "https://content.instructables.com/FZH/W1WX/J2UPGKWS/FZHW1WXJ2UPGKWS.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FU9/HWKC/F5Y3KZ09/FU9HWKCF5Y3KZ09.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FOS/ILPK/GJQEKVZQ/FOSILPKGJQEKVZQ.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/F76/GVX7/FH4JTDH2/F76GVX7FH4JTDH2.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/FPW/1HPD/GJQEGXRS/FPW1HPDGJQEGXRS.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FKW/DRWI/GJQEKU9H/FKWDRWIGJQEKU9H.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/F4D/325I/F8JUPTCY/F4D325IF8JUPTCY.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/FXR/AWI5/FMMCVAAE/FXRAWI5FMMCVAAE.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FMR/GMTO/GHZ6Y0GB/FMRGMTOGHZ6Y0GB.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FBT/Y8NJ/O90EP27R7HJ/FBTY8NJO90EP27R7HJ.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/FF0/LB6S/F8JUPU0W/FF0LB6SF8JUPU0W.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600"
+        ],
+        "materials_required": [
+            "Servos",
+            "Arduino"
+        ],
+        "description": "\"Easy DIY Animatronics\" provides step-by-step instructions for 11 different animatronic projects, including building a Wall-E robot and a talking robot head. The projects are sourced from Instructables.com and include pictures for each step.",
+        "steps": [
+            "Refer to Instructables.com for a collection of 11 different animatronic projects.",
+            "Browse the projects, which include a Wall-E robot and a talking robot head.",
+            "Follow the step-by-step instructions and pictures provided for each project."
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Magic-Keyboard-Light-Installation/",
+        "creator": "pdubost",
+        "subcategory": "Art",
+        "title": "Magic Keyboard - Light Installation",
+        "images": [
+            "https://content.instructables.com/FEB/EBC8/IIQA0DQQ/FEBEBC8IIQA0DQQ.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4I/Q1GT/IIOZ0GP3/F4IQ1GTIIOZ0GP3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZT/GKET/IIOZ085I/FZTGKETIIOZ085I.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEQ/BLEK/IIOZ02IC/FEQBLEKIIOZ02IC.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHT/423S/IIOZ09MX/FHT423SIIOZ09MX.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRZ/4TH6/IIOZ02K4/FRZ4TH6IIOZ02K4.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F16/DWRD/IIOZ02I7/F16DWRDIIOZ02I7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLR/RWGB/IIQA0E9Z/FLRRWGBIIQA0E9Z.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Projector",
+            "Tripod/Clamp (optional, for horizontal projection)",
+            "USB external keyboard",
+            "USB extension cord (optional)"
+        ],
+        "description": "The Magic Keyboard installation projects an image of a keyboard onto a surface, allowing users to interact with it. Keybright (www.keybright.net) makes it easy to create this installation, and is a DIY alternative to existing videogames with a physical/digital experience at home rather than just a 16/9 screen.",
+        "steps": [
+            "Setup your projector and laptop. Aim the projector towards the projection surface, ensuring the projected area is roughly rectangular. Connect the laptop to the projector via a video cable (VGA, HDMI, DVI).",
+            "Launch a web browser on the laptop and navigate to http://keybright.net. Drag the browser window to the projected screen.",
+            "Make the browser window fullscreen by pressing F11.",
+            "Plug in the external USB keyboard to the laptop and ensure it is recognized.",
+            "Position the physical keyboard within the projected area.",
+            "On the Keybright website, calibrate the projected keyboard image to match the physical keyboard's position and size.",
+            "Hit Play on the website and enjoy the Magic Keyboard installation."
+        ]
+    }
+]

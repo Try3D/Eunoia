@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/DIY-Motion-Sensor-ESP-8266/",
+        "creator": "drewb66",
+        "subcategory": "Arduino",
+        "title": "DIY Motion Sensor (ESP - 8266)",
+        "images": [
+            "https://content.instructables.com/F1X/0QC2/JLQUZJ1Y/F1X0QC2JLQUZJ1Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F78/M17Q/JLQUZJ22/F78M17QJLQUZJ22.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX6/Q9Y4/JLQUZJ2E/FX6Q9Y4JLQUZJ2E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F78/B8TZ/JLQUZJ26/F78B8TZJLQUZJ26.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIM/X42C/JLQUZJ25/FIMX42CJLQUZJ25.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM2/D3QO/JLQUZJZG/FM2D3QOJLQUZJZG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "ESP-8266",
+            "DIY PIR sensor",
+            "3D Printer (or access to a 3D printing service)",
+            "NODEMCU Firmware Programmer",
+            "ESPlorer",
+            "Konnected software and original guide",
+            "Konnected-firmware-X-X-X.bin file",
+            "3D printed case"
+        ],
+        "description": "This project allows you to create a DIY motion sensor using an ESP-8266 for home security, based on the Konnected project. It allows integration with platforms like Samsung Smartthings without monthly fees, utilizing a 3D-printed case for housing the sensor.",
+        "steps": [
+            "Flash the firmware onto the ESP8266: Plug in the ESP8266 to your computer, open the NodeMCU flasher, configure the COM port, select the konnected-firmware-X-X-X.bin file, and flash the device.",
+            "Install the Lua files using ESPlorer: Open ESPlorer, verify the baud rate is set to 115200, connect to the ESP8266, upload all files from the src folder within the Konnected security master folder.",
+            "Connect to Wifi and setup Smartthings: Follow the instructions on the konnected website to setup Wifi and Smartthings.",
+            "Wire the PIR sensor to the ESP8266: Connect the ground from the PIR sensor to any GND pin on the ESP8266, the output from the PIR to pin D1 on the ESP8266, and the 5V pin from the PIR to the 3.3V pin on the ESP8266.",
+            "Power the ESP8266: Plug the ESP8266 into a power source and wait a couple of minutes.",
+            "Test the sensor: Move in front of the sensor to test its functionality.",
+            "Assemble the device: Gently slide the electronics into the 3D printed case."
+        ]
+    }
+]

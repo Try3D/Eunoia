@@ -1,0 +1,92 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Geek-Baby/",
+        "creator": "mhd_medfa1",
+        "subcategory": "Art",
+        "title": "Geek Baby",
+        "images": [
+            "https://content.instructables.com/FE2/2NOS/IHDUIFB3/FE22NOSIHDUIFB3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO9/BIU4/IIJKYRR8/FO9BIU4IIJKYRR8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6S/G5IA/II4WKUPM/F6SG5IAII4WKUPM.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA8/KBZH/II4WKV5M/FA8KBZHII4WKV5M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSZ/FYVZ/IIYUUNL7/FSZFYVZIIYUUNL7.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/6CH6/IIJKYRT4/FG26CH6IIJKYRT4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/CH4P/IIJKYRSF/FVVCH4PIIJKYRSF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Four 6.8MOhm resistors",
+            "2 ICs LM358",
+            "Four 100nF capacitors",
+            "Tiva C TM4C1294 (or Arduino)",
+            "Cloth",
+            "Avometer",
+            "Medical adhesive tape",
+            "Makeup cotton"
+        ],
+        "description": "This project uses homemade resistive touch sensors to trigger actions on a connected computer device. Touching different areas of the sensor interface results in different actions, such as playing a laughing baby sound, playing a sleep tune and hibernating the computer, or opening Facebook.",
+        "steps": [
+            "Gather all the required materials, including wires, a breadboard, batteries (5V and 0.5-2V), 6.8MOhm resistors, LM358 ICs, 100nF capacitors, a Tiva C TM4C1294 (or Arduino), cloth, an avometer, cutter wires, medical adhesive tape, and makeup cotton.",
+            "Refer to the block diagram and project files available at the provided Google Drive link for detailed instructions.",
+            "Optionally, watch the video (in Arabic) for a demonstration of the project."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/Geek-Baby/",
+        "creator": "mhd_medfa1",
+        "subcategory": "Art",
+        "title": "Geek Baby",
+        "images": [
+            "https://content.instructables.com/FE2/2NOS/IHDUIFB3/FE22NOSIHDUIFB3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO9/BIU4/IIJKYRR8/FO9BIU4IIJKYRR8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6S/G5IA/II4WKUPM/F6SG5IAII4WKUPM.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA8/KBZH/II4WKV5M/FA8KBZHII4WKV5M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSZ/FYVZ/IIYUUNL7/FSZFYVZIIYUUNL7.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/6CH6/IIJKYRT4/FG26CH6IIJKYRT4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/CH4P/IIJKYRSF/FVVCH4PIIJKYRSF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Four 6.8MOhm resistors",
+            "Two LM358 ICs",
+            "Four 100nF capacitors",
+            "Tiva C TM4C1294 (or Arduino)",
+            "5V battery and a 0.5-2V battery (or 9V battery with 7805 voltage regulator)"
+        ],
+        "description": "This project uses homemade resistive touch sensors to trigger actions on a connected computer. Touching different sensor locations will play a laughing baby sound, activate sleep mode, or open Facebook.",
+        "steps": [
+            "Gather the required materials, including wires, breadboard, batteries, resistors, ICs, capacitors, Tiva C (or Arduino), cloth, avometer, cutter wires, medical adhesive tape, and makeup cotton.",
+            "Refer to the block diagram and project files available at the provided Google Drive link.",
+            "A video demonstration in Arabic is available (implied)."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/Geek-Baby/",
+        "creator": "mhd_medfa1",
+        "subcategory": "Art",
+        "title": "Geek Baby",
+        "images": [
+            "https://content.instructables.com/FE2/2NOS/IHDUIFB3/FE22NOSIHDUIFB3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO9/BIU4/IIJKYRR8/FO9BIU4IIJKYRR8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6S/G5IA/II4WKUPM/F6SG5IAII4WKUPM.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA8/KBZH/II4WKV5M/FA8KBZHII4WKV5M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSZ/FYVZ/IIYUUNL7/FSZFYVZIIYUUNL7.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/6CH6/IIJKYRT4/FG26CH6IIJKYRT4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/CH4P/IIJKYRSF/FVVCH4PIIJKYRSF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Four 6.8MOhm resistors",
+            "Two LM358 ICs",
+            "Four 100nF capacitors",
+            "Tiva C TM4C1294 (or Arduino)",
+            "5V battery and 0.5-2V battery (or 9V battery with 7805 voltage regulator)"
+        ],
+        "description": "This project utilizes homemade resistive touch sensors to trigger specific actions on a connected computer device. Touching different areas of the screen will result in various functions such as playing a laughing baby sound, playing a sleep tune and hibernating the computer, or opening Facebook.",
+        "steps": [
+            "Gather all the necessary materials, including wires, a breadboard, batteries, resistors, ICs, capacitors, a microcontroller (Tiva C or Arduino), cloth, an avometer, wire cutters, medical adhesive tape, and makeup cotton.",
+            "Build the circuit for the homemade resistive touch sensors using the LM358 ICs and resistors.",
+            "Connect the sensors to the microcontroller.",
+            "Program the microcontroller to detect touches on the sensors and trigger the corresponding actions (playing sounds, hibernating, opening Facebook).",
+            "Use a cloth to cover the wires and make the project visually appealing.",
+            "Refer to the block diagram and project files for detailed instructions: https://drive.google.com/file/d/0B4QHt7IBKP-9bTVwTVE5am9NaUk/view?usp=sharing"
+        ]
+    }
+]

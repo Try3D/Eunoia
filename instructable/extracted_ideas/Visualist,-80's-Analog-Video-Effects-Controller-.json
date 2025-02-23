@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Visualist-80s-Analog-Video-Effects-Controller/",
+        "creator": "IamWe",
+        "subcategory": "Art",
+        "title": "Visualist, 80's Analog Video Effects Controller ",
+        "images": [
+            "https://content.instructables.com/FLP/56HP/JH0TOUJB/FLP56HPJH0TOUJB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR6/G2VH/LFQUC12U/FR6G2VHLFQUC12U.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFC/WXG5/LBDZ6H49/FFCWXG5LBDZ6H49.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2J/9BQC/L1W5NXDP/F2J9BQCL1W5NXDP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIO/W9H2/KBRXYIS7/FIOW9H2KBRXYIS7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZQ/XWNF/JH0TO9IB/FZQXWNFJH0TO9IB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPM/FHSS/JH0TOA16/FPMFHSSJH0TOA16.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGC/C2L6/JH0TO5NB/FGCC2L6JH0TO5NB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHB/X3LI/JH0TOABT/FHBX3LIJH0TOABT.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN8/YPLT/JH0TOAHL/FN8YPLTJH0TOAHL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRO/SXRY/JH0TOAI5/FROSXRYJH0TOAI5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO6/NXY0/JH0TOAUR/FO6NXY0JH0TOAUR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMX/798H/JH0TOEDE/FMX798HJH0TOEDE.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR4/M8MK/JH0TOFDG/FR4M8MKJH0TOFDG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXR/F555/JH0TOB96/FXRF555JH0TOB96.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCQ/WI5B/JH0TO5KW/FCQWI5BJH0TO5KW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOW/XP6H/JH0TO5L9/FOWXP6HJH0TO5L9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FED/OADK/JH0TO5NN/FEDOADKJH0TO5NN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWI/KOH7/JH0TO5LK/FWIKOH7JH0TO5LK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/IP26/JH0TO5NM/FW9IP26JH0TO5NM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCY/FMDV/JH0TO5KB/FCYFMDVJH0TO5KB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMD/L3GM/JH0TOFNB/FMDL3GMJH0TOFNB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5I/E8L4/JH0TO5KM/F5IE8L4JH0TO5KM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI1/P1VE/JH0TOFCW/FI1P1VEJH0TOFCW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQQ/A3SP/JH0TOFCX/FQQA3SPJH0TOFCX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYM/WB6E/JH0TO5KC/FYMWB6EJH0TO5KC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIH/RUCD/JH0TO5M9/FIHRUCDJH0TO5M9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "MC1377P RGB to PAL/NTSC encoder",
+            "Comparator IC1a, IC1 and IC2",
+            "Oscillator IC4c/d (31250khz)",
+            "Priority encoder IC5",
+            "Analog switches IC6 and IC7",
+            "Logic ICs IC10 and IC4a/b",
+            "Light Dependent Resistors",
+            "Printed circuit board"
+        ],
+        "description": "The Visualist is a real-time analog video effects controller for VJs, DJs, and other artists. It generates false colors and sound-reactive psychedelic visuals by slicing the video signal into luminosity levels and using sound input to control RGB color saturation.",
+        "steps": [
+            "Build the video board, starting with wire bridges and then IC pins.",
+            "Calibrate the video circuit using an oscilloscope.",
+            "Build the sound board using an Elektor design for a LED color organ.",
+            "Connect the sound board to the video board using light-sensitive resistors, so the color of the Visualist reacts to the sound of a microphone or an audio line-input.",
+            "Build the Visualist in a microphone box (or similar), and consider building in a small monitor.",
+            "Connect a PAL or NTSC camera, videoplayer, or computer to the input and a videoscreen or beamer to the output."
+        ]
+    }
+]

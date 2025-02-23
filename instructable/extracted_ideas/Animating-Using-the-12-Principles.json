@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Animating-Using-the-12-Principles/",
+        "creator": "PrimaM",
+        "subcategory": "Art",
+        "title": "Animating Using the 12 Principles",
+        "images": [
+            "https://content.instructables.com/F1J/9AXY/II0MB59Z/F1J9AXYII0MB59Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTF/GUAY/II0MB5LS/FTFGUAYII0MB5LS.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8Z/KFH8/II0MB9QQ/F8ZKFH8II0MB9QQ.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDS/3M0E/II0MB5UC/FDS3M0EII0MB5UC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F17/CAKC/II0MB9VR/F17CAKCII0MB9VR.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXH/M2DB/II0MB5XW/FXHM2DBII0MB5XW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5L/IORZ/II0MBANY/F5LIORZII0MBANY.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Photoshop or Flash",
+            "Tablet/Mouse/Trackpad"
+        ],
+        "description": "This guide introduces the 12 principles of animation and teaches how to create a simple GIF animation using computer software, focusing on animating basic shapes like a square and a ball.",
+        "steps": [
+            "Start with a simple shape, such as a square, and open a new file in animation software like Photoshop, Gimp, or Flash.",
+            "Determine the start and end points of the square's movement. For example, moving it from the left to the right side of the screen.",
+            "Transition the square from the starting point to the ending point, considering principles like 'pose to pose'. If lacking ideas, use the alphabet for inspiration.",
+            "Apply the principles of 'slowing in and slowing out' when transitioning the animation from the starting point to end point. Add a new layer for each frame. Add more boxes (and fewer in the middle) to your drawing.",
+            "Review all frames to ensure no overlapping. Play the animation multiple times for smoothness, and save the animation.",
+            "Experiment with other shapes like circles. Animate a bouncing ball.",
+            "Start a new project with a circle and apply the principle of 'squash and stretch' to simulate bouncing. Animate by adding more frames at the beginning and end of the bounce, stretching the ball in the middle.",
+            "Consider timing and frames for a ball bouncing. If one frame seems off, check the frames before and after it. Delete that frame and see how the rest of the clip plays.",
+            "Continue practicing with different shapes, colors, and shading, adding audio, and exploring various animation techniques."
+        ]
+    }
+]

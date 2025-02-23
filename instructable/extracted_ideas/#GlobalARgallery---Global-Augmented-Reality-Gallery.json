@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/GlobalARgallery-the-Global-Augmented-Gallery-Proje/",
+        "creator": "ClintC28",
+        "subcategory": "Art",
+        "title": "#GlobalARgallery - Global Augmented Reality Gallery",
+        "images": [
+            "https://content.instructables.com/F59/B7DI/JPCY72CX/F59B7DIJPCY72CX.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGX/ZAG7/JPCY7867/FGXZAG7JPCY7867.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGU/QG8N/JPCY733S/FGUQG8NJPCY733S.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F95/GYGX/JPCY73CM/F95GYGXJPCY73CM.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI2/0107/JPCY74BU/FI20107JPCY74BU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F80/2GAG/JPCY74IC/F802GAGJPCY74IC.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMS/GAQ6/JPCY74NX/FMSGAQ6JPCY74NX.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLL/FLO3/JPCY74W2/FLLFLO3JPCY74W2.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ3/VRKY/JPCY75IH/FJ3VRKYJPCY75IH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUW/EKJ3/JPCY76BL/FUWEKJ3JPCY76BL.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC6/T9EH/JPCY75KH/FC6T9EHJPCY75KH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHF/RODD/JPCY778V/FHFRODDJPCY778V.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ6/8RZG/JPCY77A7/FJ68RZGJPCY77A7.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F84/XLZK/JPCY77E2/F84XLZKJPCY77E2.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "CoSpaces.io account",
+            "Image of the top of a 3D MergeCube",
+            "Images or 3D models for your gallery"
+        ],
+        "description": "#GlobalARgallery is an opportunity for schools (and others) to connect asynchronously all around the globe and share experiences, artwork, stories, timelines, exhibitions, presentations, and anything else you can imagine, appearing in Augmented Reality on any of our walls, anywhere in the world. It utilizes CoSpaces.io and Merge Cubes to create an interactive AR experience.",
+        "steps": [
+            "Download and print 7 copies of the Merge Cube tracker image.",
+            "Stick the printed Merge Cube trackers to a wall, leaving sufficient space between them.",
+            "Create a new project in CoSpaces.io and create an instance of a MergeCube stage.",
+            "Upload images or 3D models to the CoSpaces library and drag them onto the stage. Add text panels or voice-over descriptions for an audio tour effect (optional).",
+            "Rotate and position your object on the MergeCube stage, ensuring the top of the cube faces outward.",
+            "Create a foundation stage by bringing in two cubes from \u201cBuilding,\u201d enlarge them to the size of the MergeCube, and place one on the left and one on the right of the viewable object. Name your 2 planes:1-Previous1-NextCheck \u201cuse in Co-Blocks\u201d. Set the opacity of both planes to 0% to make them invisible.",
+            "Duplicate the scene.",
+            "Name the original scene '1' and the duplicated scene '2'.",
+            "Replace the content in Scene 2 with a different item from your gallery.",
+            "Rename the invisible hover blocks in scene 2 to 2-Previous and 2-Next.",
+            "Continue duplicating scenes, replacing the content and renaming the hover blocks in each scene.",
+            "In scene 1, open the Code panel and use Co-Blocks to make the hover blocks interact with the scenes. The code for 1-Next should read: 'When 1-Next is hovered on: Go to scene 2, Wait for 2 seconds'.",
+            "In scene 2, code the 'previous' block. The code for 2-Previous should read: 'When 2-Previous is hovered on: Go to scene 1, Wait for 2 seconds'. The code for 2-Next should read: 'When 2-Next is hovered on: Go to scene 2, Wait for 2 seconds'.",
+            "Repeat the coding process for all scenes, ensuring the 'previous' and 'next' hover blocks are correctly linked.",
+            "Share your project by publishing it to the CoSpaces gallery. Generate a QR code for easy access.",
+            "Share your gallery link and QR code with the hashtag #GlobalARgallery on social media to connect with other creators."
+        ]
+    }
+]

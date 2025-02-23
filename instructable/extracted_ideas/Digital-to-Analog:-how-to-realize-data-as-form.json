@@ -1,0 +1,51 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Digital-to-Analog-how-to-realize-data-as-form/",
+        "creator": "Scho1024",
+        "subcategory": "Art",
+        "title": "Digital to Analog: how to realize data as form",
+        "images": [
+            "https://content.instructables.com/FK7/2TO1/IDLNZ0CZ/FK72TO1IDLNZ0CZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFN/YG88/IDLNZ0CY/FFNYG88IDLNZ0CY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0C/W8LA/IOEXW9E9/F0CW8LAIOEXW9E9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIA/TVOS/IW5JC8LM/FIATVOSIW5JC8LM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0E/3H2H/IW5JC3RB/F0E3H2HIW5JC3RB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX9/0B21/IOEKA3KA/FX90B21IOEKA3KA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRH/FU4J/IDIN90GX/FRHFU4JIDIN90GX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWW/YGCM/IDLNYZ6J/FWWYGCMIDLNYZ6J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB7/ZD06/IDIN8NP3/FB7ZD06IDIN8NP3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW8/R7VZ/IDIN95VV/FW8R7VZIDIN95VV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWJ/8957/IDLNYZ2Q/FWJ8957IDLNYZ2Q.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3V/027X/IDLI74KG/F3V027XIDLI74KG.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FMG/X6FF/IDLNZ0TD/FMGX6FFIDLNZ0TD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/8W1A/IDLNZ0V3/FW98W1AIDLNZ0V3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9U/FBBX/IDLNZ0TC/F9UFBBXIDLNZ0TC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F34/KJ18/IDLNZ0V6/F34KJ18IDLNZ0V6.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJD/28GD/IDLNZ05O/FJD28GDIDLNZ05O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVH/3KMF/IDLNZ05R/FVH3KMFIDLNZ05R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRY/BU7Y/IDLNZ05J/FRYBU7YIDLNZ05J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F06/O4UT/IDLNZ05E/F06O4UTIDLNZ05E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Computer programs to model and visualize data (GIS, Grasshopper, Rhinoceros3D, Sketchup, AutoCad, etc.)",
+            "Building materials, depending on how you want to visualize your data.",
+            "Shapefiles (.shp)",
+            "Plywood",
+            "Steel metal sections (such as angles, channels, and bars)",
+            "Clear coat",
+            "White pickling"
+        ],
+        "description": "This project is about realizing data as form, transforming intangible data into a tangible object that can be visually and physically understood. It involves collecting data, mapping it, comparing it to other data sets (optional), modeling it using computer programs, choosing a presentation method, and finally fabricating it using digital tools or by hand.",
+        "steps": [
+            "Choose and find a set of data related to an interesting question or observation. Look for existing data sources online or collect your own.",
+            "Map the data, representing values with points, coordinates, or a matrix. Use programs like GIS to create maps or manipulate existing ones.",
+            "Optionally, compare the data to another set of data to find correlations or differences.",
+            "Model the data using 3D modeling software, giving it a tangible form based on its values. Connect points, create planes, or use scripts to generate forms.",
+            "If using two sets of data, decide how to incorporate each set, overlaying or merging them to create a new form.",
+            "Choose how to present the data's form, considering the message you want to convey.",
+            "Fabricate the form using various methods, such as laser cutting, 3D printing, CNC routing, or hand-crafting."
+        ]
+    }
+]

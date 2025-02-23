@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/UrbanPlay/",
+        "creator": "thegreeneyl",
+        "subcategory": "Art",
+        "title": "UrbanPlay",
+        "images": [
+            "https://content.instructables.com/FXS/3Q0I/IDON50KW/FXS3Q0IIDON50KW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F02/EYJN/IDON8CCG/F02EYJNIDON8CCG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6N/71YD/IDON8CBS/F6N71YDIDON8CBS.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1Q/S4MD/IDON8AQO/F1QS4MDIDON8AQO.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7G/R7OG/IDON8CXY/F7GR7OGIDON8CXY.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F44/LDM8/IDON8D1N/F44LDM8IDON8D1N.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBO/3YKJ/IDON8AY5/FBO3YKJIDON8AY5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJN/Z4RF/IDON8AER/FJNZ4RFIDON8AER.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ5/3OWT/IDON8ADS/FQ53OWTIDON8ADS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE4/FBYB/IDON8FFH/FE4FBYBIDON8FFH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB9/KZVE/IDON8FI5/FB9KZVEIDON8FI5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "200,000 euro cents",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Processing (software)",
+            "PDF export software"
+        ],
+        "description": "A participatory art installation in Amsterdam using 200,000 euro cents to create a mural on a 20x40m square. The mural spelled out the sentence \u201cObsessions make my life worse and my work better.\u201d",
+        "steps": [
+            "Concept and Planning: Develop the concept of using the project budget (2000 Euros, converted to 200,000 euro cents) as the installation material and measure the space.",
+            "Design: Create the image for the mural using Adobe Illustrator and Photoshop, working with limited copper shades to match the coins.",
+            "Programming: Scale the image so that one pixel equals one coin, save the image to a gif consisting of 4 colors. Run a custom Processing script to generate tiles (One tile fits 37x37 euro cents), export a pdf with one page per tile to be used as a template during the installation.",
+            "Installation: With the help of volunteers, sort the coins into 4 different shades and carefully place them over the 300 sqm area according to the template master plan.",
+            "Reality Check: Observe public interaction with the completed installation, noting the potential for theft and subsequent police intervention."
+        ]
+    }
+]

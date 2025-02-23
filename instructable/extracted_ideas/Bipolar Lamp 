@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Bipolar-Lamp/",
+        "creator": "Asapala89",
+        "subcategory": "Art",
+        "title": "Bipolar Lamp ",
+        "images": [
+            "https://content.instructables.com/FW5/UDZA/J8YR8KJF/FW5UDZAJ8YR8KJF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2B/O4HE/JBCJSOQ2/F2BO4HEJBCJSOQ2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQU/5BIJ/JA36O5DD/FQU5BIJJA36O5DD.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLF/1AGA/J8YR8KQC/FLF1AGAJ8YR8KQC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYM/749G/J8YR8KEN/FYM749GJ8YR8KEN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZE/QHJV/J8YR8KLL/FZEQHJVJ8YR8KLL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP3/5569/J8YR8KSJ/FP35569J8YR8KSJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2I/NXCD/J8YR8KQT/F2INXCDJ8YR8KQT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Arduino",
+            "Power cables (long ones are important)",
+            "Reflective Mylar",
+            "Red LED",
+            "Green LED",
+            "Breadboard",
+            "22 Resistors (2)",
+            "Three micro servos",
+            "Soldering iron + lead-free solder",
+            "Power source (computer or 4 AA battery pack)",
+            "White acrylic paint",
+            "Red acrylic paint"
+        ],
+        "description": "The bipolar lamp is a robotic sculpture installation that embodies the fluctuating emotions of bipolar disorder. It uses micro servos to create fluid motion, reflecting both positive ('You Are Beautiful') and negative ('You Are Shit') self-perceptions at differing intervals, indicated by corresponding LED lights.",
+        "steps": [
+            "Prototype with cardboard to test the lamp's movement and panel placement ('You Are Beautiful' and 'You Are Shit').  Code the Arduino to activate the Green LED when facing 'You Are Beautiful' and the Red LED when facing 'You Are Shit'.",
+            "Build a sturdier version with a cardboard neck, trunk, and base.  Ensure the structure is lightweight to avoid straining the micro servos. Use three servos: one for swinging the base (0-180 degrees), one for trunk movement (30-75 degrees), and one for neck movement (90-75 degrees).",
+            "Connect the servos to the breadboard and Arduino for power, ground, and coding. Extend power cords by daisy-chaining and soldering. Hot glue the micro servos in position and attach them to the cardboard sections.",
+            "Use resistors on the breadboard to regulate power to the LEDs. Connect a USB power cord to the computer for power and Arduino programming, or use a 4 AA battery pack. Reflect on building robotic sculptures and the emotional effect created by the lamp's motion and reflective panels."
+        ]
+    }
+]

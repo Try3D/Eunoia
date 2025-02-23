@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Automate-a-Fan-Using-the-MESH-Temperature-Sensor/",
+        "creator": "MESHprj",
+        "subcategory": "Gadgets",
+        "title": "Automate a Fan Using MESH Temperature Sensor",
+        "images": [
+            "https://content.instructables.com/F8L/4LCR/IC1RTITT/F8L4LCRIC1RTITT.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FI8/60L8/JB3ZRC50/FI860L8JB3ZRC50.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2V/4SB2/JAIJODPH/F2V4SB2JAIJODPH.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK1/9T8I/JAIJLD4Q/FK19T8IJAIJLD4Q.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDI/CPK0/J9EHN3A7/FDICPK0J9EHN3A7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGB/SBYQ/J9EH0XP4/FGBSBYQJ9EH0XP4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIA/XPAI/J9EH0Z3R/FIAXPAIJ9EH0Z3R.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN2/PUOT/J9EH0CFV/FN2PUOTJ9EH0CFV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGQ/0G6Y/J9EH0CFT/FGQ0G6YJ9EH0CFT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI4/92CP/J9EH0DV3/FI492CPJ9EH0DV3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR5/P8O7/J9EH0SKQ/FR5P8O7J9EH0SKQ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5X/N8NX/J9EH0SH5/F5XN8NXJ9EH0SH5.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH7/NXZO/J9EH0SH6/FH7NXZOJ9EH0SH6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTW/NA0Z/J9EH0528/FTWNA0ZJ9EH0528.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7F/1U5D/J9EH04HH/F7F1U5DJ9EH04HH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDT/II77/J9EHN2FP/FDTII77J9EHN2FP.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCF/H1SE/J9EHNR2O/FCFH1SEJ9EHNR2O.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "MESH Temperature & Humidity Sensor",
+            "Wemo Smart Plug",
+            "IFTTT Account"
+        ],
+        "description": "This project automates a fan based on temperature settings using a MESH Temperature & Humidity sensor, a Wemo Smart Plug, and IFTTT.",
+        "steps": [
+            "Launch the MESH application and pair the MESH Temperature & Humidity tag.",
+            "Sign up for IFTTT and activate the MESH channel, linking it using the IFTTT key from the MESH app.",
+            "Activate the Wemo applets on the IFTTT website for turning the Wemo smart plug on and off.",
+            "In the MESH app, drag two MESH Temperature & Humidity icons and two Wemo Smart Plug icons onto the canvas.",
+            "Connect each MESH Temperature & Humidity icon to a corresponding Wemo Smart Plug icon.",
+            "Configure the first Wemo Smart Plug icon to 'Turn On'.",
+            "Configure the second Wemo Smart Plug icon to 'Turn Off'.",
+            "Configure the first Temperature & Humidity icon to trigger when the temperature is between 20C and 50C, connecting it to the 'Turn On' Wemo Smart Plug icon.",
+            "Configure the second Temperature & Humidity icon to trigger when the temperature is between 0C and 19.9C, connecting it to the 'Turn Off' Wemo Smart Plug icon.",
+            "Test, run, and enjoy the automated fan."
+        ]
+    }
+]

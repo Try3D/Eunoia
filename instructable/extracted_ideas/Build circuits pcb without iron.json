@@ -1,0 +1,59 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Build-Circuits-Pcb-Without-Iron/",
+        "creator": "apachebcn",
+        "subcategory": "Electronics",
+        "title": "Build circuits pcb without iron",
+        "images": [
+            "https://content.instructables.com/FQJ/G4KS/IIOWS3KF/FQJG4KSIIOWS3KF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVL/WCBL/IIQC5T1T/FVLWCBLIIQC5T1T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F18/XVKC/HN82A5ZW/F18XVKCHN82A5ZW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN5/0VCJ/HD2RYH7I/FN50VCJHD2RYH7I.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOF/KLGT/IIOWS3L3/FOFKLGTIIOWS3L3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPC/388H/IIOWS3U6/FPC388HIIOWS3U6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI5/29F5/IIOWS3LR/FI529F5IIOWS3LR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDC/J8GH/IIOWS3MG/FDCJ8GHIIOWS3MG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6A/X8HZ/IIOWS3UY/F6AX8HZIIOWS3UY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM0/9DE7/IIOWS3N8/FM09DE7IIOWS3N8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F05/AL5Y/IIOWS3O0/F05AL5YIIOWS3O0.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F20/D5C3/IIOWS3PF/F20D5C3IIOWS3PF.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDJ/0P9T/IIOWS3Q6/FDJ0P9TIIOWS3Q6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFC/IZ01/IIOWS3S9/FFCIZ01IIOWS3S9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBE/472A/IIOWS3RK/FBE472AIIOWS3RK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBB/Y3SB/IIOWS3SC/FBBY3SBIIOWS3SC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2U/N0YK/IIOWS3YN/F2UN0YKIIOWS3YN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQJ/JSIZ/IIOWS3SK/FQJJSIZIIOWS3SK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOJ/6LJS/IIOWS3SN/FOJ6LJSIIOWS3SN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLA/H9WX/IIQC576C/FLAH9WXIIQC576C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8B/WTW8/IIQC576Y/F8BWTW8IIQC576Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F88/PLF2/IIQC577L/F88PLF2IIQC577L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL6/6MKF/IIQC5786/FL66MKFIIQC5786.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZM/HUVZ/IIQC5752/FZMHUVZIIQC5752.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOF/CHJV/IIQC575M/FOFCHJVIIQC575M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDJ/BTO0/IIQC576B/FDJBTO0IIQC576B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Steel scourer",
+            "Universal Solvent",
+            "Synthetic cloth (not release hairs, balls, or lint)",
+            "Paint nail remover (containing acetone)",
+            "Bleach",
+            "Salfuman",
+            "Hydrogen peroxide 110 volumes",
+            "Laser printer printed circuit design on paper",
+            "PCB board"
+        ],
+        "description": "This project outlines a method for building printed circuit boards (PCBs) without using an iron. It involves cleaning the board, transferring a toner image using acetone, hardening the toner with bleach, removing paper residue, etching the copper using a chemical solution, and testing the board.",
+        "steps": [
+            "Clean the PCB board thoroughly with a steel scourer to remove dirt and solid micro-materials.",
+            "Clean the board with a scarf to remove any grease or adhesive layers or particles.",
+            "Clean the board with a synthetic cloth to remove residues or lint.",
+            "Place the laser printer-made paper drawing flat over the circuit board and apply acetone with a finger brush, ensuring the paper sticks to the board. Rub gently to remove some paper layers while the acetone is still wet.",
+            "Place the board in a bowl with hot water and a squirt of bleach until cool. This helps break down the paper and hardens the toner.",
+            "Wash the plate with water to remove the remaining paper scraps.",
+            "In a well-ventilated area, mix cold water, hydrochloric acid, and 110 volumes of hydrogen peroxide in equal proportions. Immerse the board in this mixture to corrode the exposed copper. Avoid breathing the toxic gases. If corrosion is slow, remove the board to prevent over-etching.  Manually address any remaining copper areas with acid on a napkin or cotton.",
+            "Check the opacity of copper with candles to ensure quality work.  Lack of opacity can lead to electrical or welding problems."
+        ]
+    }
+]

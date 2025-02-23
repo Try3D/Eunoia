@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Wow-Run-Stepper-Motor-Without-a-Driver-New-Idea-20/",
+        "creator": "omars2",
+        "subcategory": "Electronics",
+        "title": "Wow !! Run Stepper Motor Without a Driver || New Idea 2018",
+        "images": [
+            "https://content.instructables.com/FKT/0RK8/IVHQTMVC/FKT0RK8IVHQTMVC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTL/I2QO/LV0YW7WL/FTLI2QOLV0YW7WL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4H/FOQ2/L16FTFG0/F4HFOQ2L16FTFG0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGR/F29O/K4Z98OCY/FGRF29OK4Z98OCY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOO/7D97/JKSKDZ9L/FOO7D97JKSKDZ9L.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE2/5USD/JKSKDZ94/FE25USDJKSKDZ94.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFJ/E5TE/JKSKDZ9Z/FFJE5TEJKSKDZ9Z.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV4/N280/JKSKDZAG/FV4N280JKSKDZAG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQS/WR81/JKSKDZAW/FQSWR81JKSKDZAW.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0H/40QB/JKSKDZBK/F0H40QBJKSKDZBK.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJZ/UCK6/JKSKDZBY/FJZUCK6JKSKDZBY.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIT/K6KE/JKSKDZCC/FITK6KEJKSKDZCC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIP/E431/JKSKDZD1/FIPE431JKSKDZD1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWF/RGHV/JKSKDZDI/FWFRGHVJKSKDZDI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEL/KHGW/JKSKDZDV/FELKHGWJKSKDZDV.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGU/0DLK/JKSKE884/FGU0DLKJKSKE884.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ0/MXGK/JKSKDZF5/FQ0MXGKJKSKDZF5.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "6 wire Stepper Motor",
+            "CTC 1351 Power Transistors",
+            "1 k-ohm resistors (half watt)",
+            "20 to 32V DC power source"
+        ],
+        "description": "This project teaches how to run a stepper motor continuously at high speed without a driver circuit, Arduino, or AC power supply. It is applicable for 6-wire stepper motors, and by interchanging the wirings, you can run it in both clockwise & counter-clockwise directions.",
+        "steps": [
+            "Connect the power transistors on a breadboard. Connect one terminal of each resistor to the base of one transistor and the other terminal to the collector of the other transistor. Connect all emitter terminals together with jumper cables. Connect wires to the collector terminals of each of the three power transistors, resulting in four open wires (3 for collectors and 1 for common emitter).",
+            "Use a multimeter to check the resistance of the wires coming out from the stepper motor. Find the pairs of wires with maximum similar resistances and separate them from the other wires using tape.",
+            "Connect the positive terminal of a 20-30V DC power supply to any of the 4 wires from the stepper motor. Connect the collector wires from the breadboard to the remaining 3 wires of the stepper motor.",
+            "Connect the negative terminal from the DC power supply to the common emitter terminal. If the motor doesn't start on its own, give it a push to overcome any magnetic locking."
+        ]
+    }
+]

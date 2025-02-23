@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-do-a-Forensic-Facial-Reconstruction/",
+        "creator": "Brianaala",
+        "subcategory": "Art",
+        "title": "How to do a Forensic Facial Reconstruction",
+        "images": [
+            "https://content.instructables.com/F9P/R517/HD7TZCNI/F9PR517HD7TZCNI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI6/PIDC/FA0CVFW7/FI6PIDCFA0CVFW7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUQ/BZ8B/HD4VLVMZ/FUQBZ8BHD4VLVMZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP4/5XU3/HD7TZCNY/FP45XU3HD7TZCNY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC2/3R0R/HD7TZCI1/FC23R0RHD7TZCI1.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI6/PIDC/FA0CVFW7/FI6PIDCFA0CVFW7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Y/86SC/HD7TZCM3/F3Y86SCHD7TZCM3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F96/I2KT/HD7TZCMC/F96I2KTHD7TZCMC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/EQZI/HD7TZCMI/FU3EQZIHD7TZCMI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVF/OWA2/HD7TZCMO/FVFOWA2HD7TZCMO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEZ/YO5X/HD7TZCMP/FEZYO5XHD7TZCMP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8P/PSZT/HD7TZCMQ/F8PPSZTHD7TZCMQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSM/8O9M/HD7TZCMX/FSM8O9MHD7TZCMX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNY/PSUM/HD7TZCN0/FNYPSUMHD7TZCN0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUZ/98U8/HD7TZCN3/FUZ98U8HD7TZCN3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Slow set alginate",
+            "Gypsum (plaster-like) material",
+            "Styrene",
+            "Clay or sculpting material for muscles, skin, and cartilage",
+            "Depth markers"
+        ],
+        "description": "This project outlines the steps involved in a manual 3-D forensic facial reconstruction. It begins with a forensic workup to determine characteristics of the deceased and then details the process of recreating the face on a skull cast using anatomical knowledge and sculpting techniques. The goal is to produce a likeness that can aid in identification.",
+        "steps": [
+            "Perform a forensic workup to determine age, sex, stature, ancestry, and any abnormalities from the skull.",
+            "Create a mold of the skull using slow set alginate and cast it in a gypsum material.",
+            "Create and position the eyeballs in their anatomically accurate location.",
+            "Estimate the shape and angles of the nose based on established guidelines.",
+            "Use styrene to form the 'backbone' of the nasal cartilage.",
+            "Sculpt the nasal cartilage and place depth markers at osteometric points on the skull, using tissue depth data based on the individual's characteristics.",
+            "Sculpt the individual facial muscles, guided by skull morphology and tissue depth markers.",
+            "Add glandular and fatty tissue.",
+            "Add the skin layer, including wrinkles and pores, based on anatomical studies and the individual's estimated age, health, and habits.",
+            "Add any hair, accessories, or clothing found with the body.",
+            "Take photos, often in black and white, to avoid conveying uncertain information like eye or skin color."
+        ]
+    }
+]

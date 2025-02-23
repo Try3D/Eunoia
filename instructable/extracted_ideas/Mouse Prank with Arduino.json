@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Mouse-Prank-with-Arduino/",
+        "creator": "KBill",
+        "subcategory": "Arduino",
+        "title": "Mouse Prank with Arduino",
+        "images": [
+            "https://content.instructables.com/FNS/S3FB/HEBNA4EG/FNSS3FBHEBNA4EG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGF/IB4I/HM8DGGK9/FGFIB4IHM8DGGK9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYV/R6CI/HEBN7YBD/FYVR6CIHEBN7YBD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKZ/I4FQ/HEBN0B3I/FKZI4FQHEBN0B3I.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/NHV2/HEBNC8I9/FG2NHV2HEBNC8I9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino Leonardo, Sparkfun Micro or other board with Atmega 32U4 chip",
+            "Piezo buzzer (optional)"
+        ],
+        "description": "This project uses an Arduino board with USB capabilities to emulate a mouse and keyboard, causing the cursor to move erratically and annoy the user. It includes options for jittering (shaking) and jumping the cursor, with adjustable delay times and an optional beep sound.",
+        "steps": [
+            "Set up your Arduino board with the Arduino IDE or Codebender, and install the necessary drivers.",
+            "Modify the provided code to select the desired mouse actions (Jitter or Jump) and adjust parameters such as delay time, jitter duration, and jump distance. Choose between fixed or variable delays for the actions.",
+            "Upload the modified sketch to the Arduino board.",
+            "Plug the board into a USB port on the target computer. The mouse HID driver should be automatically installed, and the prank will begin."
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "url": "https://www.instructables.com/id/LED-Backlight-TV-Trigger/",
+        "creator": "Engineer of None",
+        "subcategory": "Art",
+        "title": "LED Backlight TV Trigger",
+        "images": [
+            "https://content.instructables.com/F8G/TQOV/I6SNZSUI/F8GTQOVI6SNZSUI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC4/TLTM/I5A1UFAT/FC4TLTMI5A1UFAT.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6N/ERBH/K0ATX08W/F6NERBHK0ATX08W.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F00/1DXE/JDYUWHIS/F001DXEJDYUWHIS.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FE2/W70M/IUIZ3534/FE2W70MIUIZ3534.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPG/TV4G/I6SNZST6/FPGTV4GI6SNZST6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2U/V2H7/I6SNZSUD/F2UV2H7I6SNZSUD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC7/TZWN/I6SNZSIE/FC7TZWNI6SNZSIE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIB/BELV/I6SNZSTE/FIBBELVI6SNZSTE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F95/VN1T/I6SNZSTJ/F95VN1TI6SNZSTJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1K/W71C/I6SNZSRY/F1KW71CI6SNZSRY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZX/GJVF/I6SNZSL0/FZXGJVFI6SNZSL0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO5/ZA8B/I6SNZSLR/FO5ZA8BI6SNZSLR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAX/6SS5/I6SNZSIU/FAX6SS5I6SNZSIU.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP9/F0K3/I6SNZSIW/FP9F0K3I6SNZSIW.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8X/PAQ0/I6SNZSOV/F8XPAQ0I6SNZSOV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8G/FTM3/I6SNZSKQ/F8GFTM3I6SNZSKQ.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F55/F9VP/I6SNZSNJ/F55F9VPI6SNZSNJ.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSC/66I3/I6SNZSMV/FSC66I3I6SNZSMV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK3/CACG/I6SNZSR4/FK3CACGI6SNZSR4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "12V 800ma Power Brick",
+            "LED Strip",
+            "Enclosure Box For Electronics",
+            "Circuit Board Perforated",
+            "LM338",
+            "4N25",
+            "12V Relay",
+            "1N4148",
+            "BC548",
+            "120 Ohms Resistor",
+            "330 Ohms Resistor",
+            "1K Ohms Resistor",
+            "5K Ohms Potentiometer",
+            "0.1uf Capacitor",
+            "1uf Capacitor"
+        ],
+        "description": "This project aims to create an LED backlight for a TV that automatically turns on and off with the TV using its USB connection, reducing eye strain in dark environments. The brightness of the backlight can be adjusted.",
+        "steps": [
+            "Watch the provided video for a visual overview of the project.",
+            "Gather all the necessary materials including a 12V power brick, LED strip, enclosure box, USB cable, circuit board, and various electronic components (LM338, 4N25, 12V Relay, 1N4148, BC548, resistors, potentiometer, capacitors).",
+            "Follow the circuit diagram to solder all the components onto the perforated circuit board.",
+            "Mount the LED strips to the back of the TV using their adhesive brackets.",
+            "When the TV turns on, the 5V output from the USB port triggers the 4N25, which in turn activates the 12V relay, turning on the LED lights. The LM338 allows you to adjust the brightness of the LEDs using the potentiometer."
+        ]
+    }
+]

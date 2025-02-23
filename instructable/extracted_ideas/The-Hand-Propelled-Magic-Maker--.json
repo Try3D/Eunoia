@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Hand-Propelled-Magic-Maker/",
+        "creator": "ratnrahma",
+        "subcategory": "Art",
+        "title": "The Hand Propelled Magic Maker  ",
+        "images": [
+            "https://content.instructables.com/FUR/YLJA/IOT2WK1W/FURYLJAIOT2WK1W.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1R/I68A/IOT2WIXS/F1RI68AIOT2WIXS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAD/431D/IOT2WIYP/FAD431DIOT2WIYP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFT/B4HW/IOT2WJ0F/FFTB4HWIOT2WJ0F.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F38/HK5S/IOT2WJ3U/F38HK5SIOT2WJ3U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBK/MV9P/IOT2WJ59/FBKMV9PIOT2WJ59.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV2/S50F/IOT2WN55/FV2S50FIOT2WN55.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRC/G816/IOT2WN87/FRCG816IOT2WN87.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJE/K9DN/IOT2WNDI/FJEK9DNIOT2WNDI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOI/WVZD/IOT2WOIL/FOIWVZDIOT2WOIL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIX/FSHV/IOT2WOKA/FIXFSHVIOT2WOKA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBU/773L/IOT2WOPN/FBU773LIOT2WOPN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBS/SYB7/IOT2WPL8/FBSSYB7IOT2WPL8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Styrofoam poster paper",
+            "Plywood",
+            "PVC pipes",
+            "Spray paint",
+            "Extra large rubber bands",
+            "L shaped PVC"
+        ],
+        "description": "The Hand Propelled Magic Maker is a project that involves building a hand-cranked device with rotating blades and pulleys.",
+        "steps": [
+            "Cut out sixteen blades from styrofoam poster paper, using a printout or your own design as a template. Eight blades should be oriented in one direction, and eight in the opposite direction. Spray paint each group of eight a different color.",
+            "Cut a rectangular piece of plywood to use as a backboard. Construct a stand using PVC pipes that is stable enough to support the plywood. Screw the plywood to the PVC frame. Spray paint the entire structure.",
+            "Drill three holes in a triangular shape in the plywood, large enough to fit PVC pipes through. Insert PVC pipes into each hole, leaving excess on the back for adjustment. Attach the first eight blades to a wider piece of PVC, and the other eight blades to another. Place these PVC pieces on the top PVC pipe. Attach two more wider set PVC pieces to the other two PVC pipes below the top one. Create circular washers out of cardboard and glue them to either end of the wider PVC pieces to create a pathway for the pulley system. Attach one group of blades to one side of the bottom PVC pipes with an extra large rubber band and the other group of blades to the other side with a rubber band.",
+            "Place an L-shaped PVC pipe on the end of the bottom pipes to act as a handle. Find a divider to prevent the blades from colliding on the top stick. Ensure the rubber band can stretch and spin smoothly. Ensure the structure is stable to prevent movement during cranking. Readjust the rubber bands after a certain number of cranks to prevent tangling."
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "url": "https://www.instructables.com/id/RGB-LED-Picture-Frame-Music-Controlled/",
+        "creator": "ehigdon",
+        "subcategory": "Art",
+        "title": "RGB LED Picture Frame (Music Controlled)",
+        "images": [
+            "https://content.instructables.com/FF3/VEUP/HVTWCBGS/FF3VEUPHVTWCBGS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS7/K4IT/HVTWCG7P/FS7K4ITHVTWCG7P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHX/LY1W/IC0CIUT5/FHXLY1WIC0CIUT5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FB8/2DFG/HVR7UJOC/FB82DFGHVR7UJOC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FME/07S4/HVTWCGAD/FME07S4HVTWCGAD.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWY/107U/HVTWCG7W/FWY107UHVTWCG7W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS0/WSYD/HVTWCG7V/FS0WSYDHVTWCG7V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOI/2NXA/HVTWCCLF/FOI2NXAHVTWCCLF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSE/LD62/HVTWC9ZI/FSELD62HVTWC9ZI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1O/5R28/HVTWCBD7/F1O5R28HVTWCBD7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F93/QG5X/HVTWCD8T/F93QG5XHVTWCD8T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F26/IHTF/HVTWCBD9/F26IHTFHVTWCBD9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F16/41LX/HVTWCBDG/F1641LXHVTWCBDG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9W/IQLB/HVTWCBDM/F9WIQLBHVTWCBDM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F17/HP67/HVTWCBDQ/F17HP67HVTWCBDQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F32/VZOA/HVTWCBDU/F32VZOAHVTWCBDU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK7/SYLB/HVTWCBE1/FK7SYLBHVTWCBE1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/WBL7/HVTWCBE3/F5QWBL7HVTWCBE3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9R/LF1K/HVTWCBE7/F9RLF1KHVTWCBE7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0U/W48P/HVTWCBGR/F0UW48PHVTWCBGR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF3/VEUP/HVTWCBGS/FF3VEUPHVTWCBGS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Glass Etching Cream",
+            "Craft Vinyl",
+            "Vinyl Cutter (Cricut or Sillhouette)",
+            "RGB LED Tape/Controller",
+            "Mod Podge",
+            "Picture Hanger"
+        ],
+        "description": "This project describes how to create a music-controlled RGB LED picture frame. The process involves etching a design onto the glass of the frame, attaching a picture, and adding an LED strip for a customized lighting effect.",
+        "steps": [
+            "Measure the glass surface of the picture frame.",
+            "Create a design file that matches the size of the glass using design software.",
+            "Cut the design out of craft vinyl using a vinyl cutter.",
+            "Remove the interior pieces of the vinyl to create a stencil.",
+            "Cover the vinyl stencil with transfer tape.",
+            "Apply the stencil to the glass, ensuring it's smooth and bubble-free.",
+            "Carefully peel off the transfer tape, leaving the stencil on the glass.",
+            "Apply an even coat of glass etching cream to the exposed areas of the stencil, wearing gloves, and let it sit for 3-5 minutes.",
+            "Rinse off the etching cream in the sink, wearing gloves.",
+            "Peel the vinyl stencil off of the glass to reveal the etched design.",
+            "Attach a picture to the glass, centering it using tape as a guide, and securing it with Mod Podge.",
+            "Place the glass back in the frame and add the LED strip.",
+            "Use hot glue to secure the LED strip and the glass in place.",
+            "Attach the frame hanger to the frame, connect the LED strip controller, and plug in the power source."
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-GoPro-Wifi-Control/",
+        "creator": "randofo",
+        "subcategory": "Arduino",
+        "title": "Arduino GoPro Wifi Control",
+        "images": [
+            "https://content.instructables.com/FVB/YOEX/JIOU767R/FVBYOEXJIOU767R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUE/WTSY/LOEC9N7K/FUEWTSYLOEC9N7K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1T/N8XR/KUYDIKE4/F1TN8XRKUYDIKE4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDE/RGDP/KUYDIK5K/FDERGDPKUYDIK5K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4M/D8X9/KW995X7T/F4MD8X9KW995X7T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4T/ACFA/JIOU76VA/F4TACFAJIOU76VA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAW/X8LD/JIOU77R2/FAWX8LDJIOU77R2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRJ/IS1E/JIOU77RF/FRJIS1EJIOU77RF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ0/I7ZU/JIOU78KV/FZ0I7ZUJIOU78KV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD6/CSG8/JIOU7940/FD6CSG8JIOU7940.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYH/BC7Y/JIOU764S/FYHBC7YJIOU764S.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP8/ABPR/K9R2LUOD/FP8ABPRK9R2LUOD.jpg?auto=webp&crop=1:1&frame=1&width=320"
+        ],
+        "materials_required": [
+            "GoPro camera (Hero 4, Hero Session 5, or later models)",
+            "Arduino MKR1000 or Arduino MKR Zero (or compatible wifi-enabled microcontroller)",
+            "USB cable for the Arduino"
+        ],
+        "description": "This project outlines how to control a GoPro camera (Hero 4, Hero Session 5, or later models) using an Arduino wifi board. It allows for building custom controllers and receiving camera status updates, making it suitable for robotics and drone projects.",
+        "steps": [
+            "Configure the GoPro's wifi connection by connecting it to your phone via the GoPro app, and setting a wifi network name and password.",
+            "Find your GoPro's MAC address by connecting your computer to the GoPro's wifi network and visiting the URL http://10.5.5.9/gp/gpControl/info in a web browser. Extract the MAC address from the JSON output (ap_mac). For Hero Session cameras, this is a must-have.",
+            "For GoPro Hero series cameras, pair the Arduino with the GoPro using a PIN. Generate a 4-digit PIN through the phone app by navigating to pair the camera with the app. Insert the PIN into the provided Arduino code, along with the GoPro's wifi credentials. Upload the code to the Arduino.",
+            "For GoPro Hero Session cameras, wake the camera up using a WOL (Wake-on-Lan) packet or \"magic packet.\" This involves sending bytes using a UDP protocol from the Arduino to the GoPro. Use the provided code, entering the GoPro's wifi credentials and MAC address.",
+            "Send GoPro commands to start and stop video recording by connecting the Arduino to the GoPro's wifi and sending HTTP GET requests to the camera's IP address with specific commands (e.g., /gp/gpControl/command/shutter?p=1 to start recording).",
+            "Optionally, receive GoPro status updates by accessing the URL http://10.5.5.9/gp/gpControl/status. Parse the JSON object returned to extract camera status information."
+        ]
+    }
+]

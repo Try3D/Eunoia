@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Intro-to-the-Bluetooth-Transducer/",
+        "creator": "Wired_Mist",
+        "subcategory": "Audio",
+        "title": "Bluetooth Transducer",
+        "images": [
+            "https://content.instructables.com/FKV/4J0P/JM0UYWT0/FKV4J0PJM0UYWT0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZM/GBDQ/JM0UYX2M/FZMGBDQJM0UYX2M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD3/FMCW/IJ3528V2/FD3FMCWIJ3528V2.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFT/DSEN/KHCC31CY/FFTDSENKHCC31CY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F66/WZIM/KHAK6USI/F66WZIMKHAK6USI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX0/QGJR/KBZ363KP/FX0QGJRKBZ363KP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRZ/HA9Z/JM0UYWV5/FRZHA9ZJM0UYWV5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH0/SNTZ/JM0UYWVA/FH0SNTZJM0UYWVA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F93/5TGH/JM0UYWVB/F935TGHJM0UYWVB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXO/V3TU/JM0UYWVD/FXOV3TUJM0UYWVD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTQ/TU3L/JM0UYWVO/FTQTU3LJM0UYWVO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNB/J9NR/JM0UYWW0/FNBJ9NRJM0UYWW0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9S/DRKY/JM0UYX2N/F9SDRKYJM0UYX2N.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Bluetooth speaker",
+            "Transducer (4-Ohm 5 watt)"
+        ],
+        "description": "This project involves converting a cheap Bluetooth speaker into a transducer that can play music through solid surfaces by replacing the original speaker with a transducer.",
+        "steps": [
+            "Prepare your materials, ensuring that you have a Bluetooth speaker and a suitable transducer (4-Ohm 5 watt recommended).",
+            "Disassemble the Bluetooth speaker by locating and removing the retaining screws, typically found under labels or foam feet. Gently pry the case open, taking care not to damage any internal components. Locate the battery, speaker, and any fragile pieces, and secure loose parts with hot glue.",
+            "Unsolder the speaker connection, marking the positive and negative terminals. Remove the speaker from the device.",
+            "Modify the device enclosure to accommodate the transducer. This may involve building up the inside with scrap material or creating more space, depending on the device's design. Ensure proper wire routing and clearances before securing the transducer with glue.",
+            "Reassemble the device and test its functionality. Secure any loose wires with hot glue, insert and tighten the screws, and re-apply any foam pads."
+        ]
+    }
+]

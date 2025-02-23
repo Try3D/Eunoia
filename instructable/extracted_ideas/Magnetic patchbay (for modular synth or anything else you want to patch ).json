@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Magnetic-Patchbay-for-Modular-Synth-or-Anything-El/",
+        "creator": "Pokaloka",
+        "subcategory": "Electronics",
+        "title": "Magnetic patchbay (for modular synth or anything else you want to patch )",
+        "images": [
+            "https://content.instructables.com/F0T/RDG5/INUJNSKD/F0TRDG5INUJNSKD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKC/V73L/INUJNUYX/FKCV73LINUJNUYX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZH/XH0J/INUJNV1S/FZHXH0JINUJNV1S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC1/8SAR/INUJNV1V/FC18SARINUJNV1V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLC/U1QR/INUJNV1Y/FLCU1QRINUJNV1Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRN/SC4P/INUJNV5Y/FRNSC4PINUJNV5Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/29QP/INUJNV7Q/FP529QPINUJNV7Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIO/RFOI/INUJNVFO/FIORFOIINUJNVFO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTV/64DT/INUJO305/FTV64DTINUJO305.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGY/LD4I/INUJO9KX/FGYLD4IINUJO9KX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8A/6B4E/INUJO9MT/F8A6B4EINUJO9MT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7S/GA2F/INUJO9MU/F7SGA2FINUJO9MU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA0/26DS/INUJNSIJ/FA026DSINUJNSIJ.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQP/9HVY/INUJNSGS/FQP9HVYINUJNSGS.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN2/2CUF/INUJO9QH/FN22CUFINUJO9QH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCU/13HJ/INUJOAMR/FCU13HJINUJOAMR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7V/GCBV/INUJOAMV/F7VGCBVINUJOAMV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB0/G4Q4/INUJOAOQ/FB0G4Q4INUJOAOQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6C/YFRM/INUV3HYJ/F6CYFRMINUV3HYJ.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBY/EMUZ/INUV3CXD/FBYEMUZINUV3CXD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0G/FSX6/INUV3CXE/F0GFSX6INUV3CXE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6I/R6XW/INUV3CZY/F6IR6XWINUV3CZY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4T/WVAF/INUV3D2U/F4TWVAFINUV3D2U.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQN/4ZLH/INUV3D2I/FQN4ZLHINUV3D2I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUS/M75I/INUV3D2L/FUSM75IINUV3D2L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGS/AWJS/INUV3D2N/FGSAWJSINUV3D2N.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Y/U55X/INUV3D2R/F4YU55XINUV3D2R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ0/2VDA/INUV3D2T/FZ02VDAINUV3D2T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPE/260C/INUJNSGM/FPE260CINUJNSGM.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEY/ZP35/INUV3D2V/FEYZP35INUV3D2V.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEV/VLSW/INUV3I57/FEVVLSWINUV3I57.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Copper clad (for PCB)",
+            "Magnets (from speakers, earphones, or purchased)",
+            "Hydrogen peroxide 20% (if etching)",
+            "Vinegar 8% (if etching)",
+            "Nail varnish/deco-marker/permanent marker (if etching)",
+            "Wall pins (2 kinds: with big plastic and plane ones)"
+        ],
+        "description": "This project describes how to create a magnetic patchbay for modular synthesizers or other electronic projects. It allows for easy connection and disconnection of circuits by hand using magnetic patch cables.",
+        "steps": [
+            "Create the copper board by cutting or etching the copper clad to define isolated patch areas. If etching, use a solution of hydrogen peroxide and vinegar, then remove the varnish or marker.",
+            "Drill small holes in each patch area for cable insertion, offset from the center. Glue a magnet under each patch area, ensuring they don't touch and leaving space for the holes.",
+            "Construct patch cables by removing the metal pin from a large plastic wall pin. Roll one end of a cable around a plane wall pin and solder it. Plug the cabled pin into the plastic pin and fuse it with heat from a soldering iron.",
+            "Connect your modules or circuits to the created patchbay using the patchcables"
+        ]
+    }
+]

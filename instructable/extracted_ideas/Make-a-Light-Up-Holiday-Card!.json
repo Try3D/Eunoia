@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Make-a-Light-Up-Holiday-Card/",
+        "creator": "jenfoxbot",
+        "subcategory": "Art",
+        "title": "Make a Light-Up Holiday Card!",
+        "images": [
+            "https://content.instructables.com/F59/GWH0/IW6PSXKQ/F59GWH0IW6PSXKQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9F/FQD4/JGZMF5QV/F9FFQD4JGZMF5QV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL9/J3VZ/K87PKWJ3/FL9J3VZK87PKWJ3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLM/61S2/K7C9DTS5/FLM61S2K7C9DTS5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3F/93F6/K55W6LBW/F3F93F6K55W6LBW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOM/TXWX/IVO3VMUH/FOMTXWXIVO3VMUH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA1/XP4O/IW6PSOTT/FA1XP4OIW6PSOTT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1L/H6JF/IW6PSOSM/F1LH6JFIW6PSOSM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZR/2HEK/IW6PSOT1/FZR2HEKIW6PSOT1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6F/WTHN/IW6PSOTC/F6FWTHNIW6PSOTC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F90/SOMZ/IW6PSOT5/F90SOMZIW6PSOT5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ6/UF2B/IW6PSUPO/FQ6UF2BIW6PSUPO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD6/5MCW/IVO5A5I8/FD65MCWIVO5A5I8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCT/GMPW/IW6PSW2B/FCTGMPWIW6PSW2B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN9/SQ1P/IW6PSW29/FN9SQ1PIW6PSW29.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDW/WNUR/IW6PSOT4/FDWWNURIW6PSOT4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LEDs",
+            "Copper tape",
+            "Coin cell",
+            "Pushpin"
+        ],
+        "description": "Create a light-up holiday card by incorporating electronics and crafts. The card uses a simple circuit to light up an LED, adding a unique and personal touch to holiday greetings.",
+        "steps": [
+            "Cut out a pocket for the coin cell on the card.",
+            "Apply copper tape to the cardstock to create the positive and negative sides of the circuit, ensuring the battery connects properly.",
+            "Create a switch by cutting a slit in the copper tape and using a paper fastener and paperclip to create an on/off mechanism.",
+            "Connect the LED, ensuring the longer leg connects to the positive side and the shorter leg connects to the negative side, without the sides crossing.",
+            "Plan the placement of the light on the card and draw a simple layout.",
+            "Craft the card using desired materials, incorporating reused items or pop-up elements.",
+            "Integrate the LED into the card design, either hiding the circuit or allowing the LED to protrude for lighting effects.",
+            "Close the switch to test the circuit and the LED. Write a heartfelt message inside the card."
+        ]
+    }
+]

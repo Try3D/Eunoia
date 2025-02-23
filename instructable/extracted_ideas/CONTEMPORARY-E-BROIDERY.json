@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/CONTEMPORARY-EMBROIDERY/",
+        "creator": "Paola Guimerans",
+        "subcategory": "Art",
+        "title": "CONTEMPORARY E-BROIDERY",
+        "images": [
+            "https://content.instructables.com/FYM/TYK9/IXAQ1LO0/FYMTYK9IXAQ1LO0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVJ/25YD/I6QD50VB/FVJ25YDI6QD50VB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLA/3SDG/L6Z2072B/FLA3SDGL6Z2072B.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNK/AV4A/JJEK47XC/FNKAV4AJJEK47XC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAP/MFC0/JJEK49N5/FAPMFC0JJEK49N5.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFM/QTLL/IXAQ1LPN/FFMQTLLIXAQ1LPN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQZ/6HP0/IXAQ1LPI/FQZ6HP0IXAQ1LPI.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIT/G9G6/IXAQ1LOW/FITG9G6IXAQ1LOW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3N/JU9F/IXAQ1M0A/F3NJU9FIXAQ1M0A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1J/MPZC/IXAQ1LOR/F1JMPZCIXAQ1LOR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVT/G851/IXAQ1LON/FVTG851IXAQ1LON.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWS/HILQ/IXAQ1LOF/FWSHILQIXAQ1LOF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT7/2R6P/IXAQ1LOB/FT72R6PIXAQ1LOB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH4/DJZ3/IXAQ1LO5/FH4DJZ3IXAQ1LO5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC0/XVGJ/IXAQ1LO3/FC0XVGJIXAQ1LO3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Aniomagic sparkle sound kit",
+            "Sewable battery holder",
+            "Sewable switch",
+            "Conductive thread",
+            "Lithium 3V Batteries"
+        ],
+        "description": "This project combines traditional embroidery techniques with electronics to create e-textiles that produce simple sound effects coordinated with LEDs, building up your skill-set for working with e-textiles.",
+        "steps": [
+            "Draw a cross-stitch pattern and sketch the circuit on graph paper to plan the embroidery and electronic component placement.",
+            "Familiarize yourself with the aniomagic sparkle sound kit and choose the color scheme for your embroidery thread, considering that conductive thread will be used to create the circuitry.",
+            "Secure the fabric in an embroidery hoop and begin cross-stitching, creating 'x' shapes. Secure thread ends with knots at the back.",
+            "Once finished, knot off the stitches. Position the aniomagic Sparkle Sound Kit on the embroidery. Connect the circuit, and display.",
+            "Explore hand embroidery stitches tutorials to enhance and complete your e-textile project."
+        ]
+    }
+]

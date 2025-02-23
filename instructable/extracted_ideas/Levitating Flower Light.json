@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Levitating-Flower-Light/",
+        "creator": "James_rhodes",
+        "subcategory": "Arduino",
+        "title": "Levitating Flower Light",
+        "images": [
+            "https://content.instructables.com/FGJ/TI2V/K14V8KJH/FGJTI2VK14V8KJH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6H/8AKW/K14V8KJG/F6H8AKWK14V8KJG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8I/RQ8U/K14V8KJO/F8IRQ8UK14V8KJO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXA/WV1F/K14V8KJP/FXAWV1FK14V8KJP.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7V/Q6S7/K14V8KJR/F7VQ6S7K14V8KJR.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF9/4C32/K14V8OD2/FF94C32K14V8OD2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBJ/M26V/K14V8KJQ/FBJM26VK14V8KJQ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FBJ/CVZ5/K14V8KJF/FBJCVZ5K14V8KJF.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJX/0EBH/K14V8KJK/FJX0EBHK14V8KJK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Analog magnetic levitation kit",
+            "Wood (particle board)",
+            "Arduino nano",
+            "3x MOSFETs (IRLB8721)",
+            "1 metre of RGB LED strip",
+            "Momentary push button",
+            "Switch",
+            "Potentiometer (10k ohm)",
+            "White acrylic",
+            "Perfboard",
+            "12 volt supply and DC power jack",
+            "1k ohm resistor"
+        ],
+        "description": "This project is a levitating flower light with 4 modes: cycling through colors, choosing a color with a knob, plain white light, and lights off with levitation on. The modes are controlled by a push button, and a switch turns the power on or off.",
+        "steps": [
+            "Build the magnetic levitation kit, adjusting the X-Y trimmers for stability.",
+            "Build a box (approximately 15cm x 15cm) to house the components, ensuring enough space for the Arduino and LEDs. Use cardboard to lift the levitation kit coils close to where the acrylic top will sit.",
+            "Wire the LEDs, potentiometer, button, and switch to the Arduino and the 12V power supply.",
+            "Upload the provided code to the Arduino.",
+            "Assemble the project by placing the components in the box, attaching flower heads to the levitating magnet, and securing a white acrylic sheet on top of the box."
+        ]
+    }
+]

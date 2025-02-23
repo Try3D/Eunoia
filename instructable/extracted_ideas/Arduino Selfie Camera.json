@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-Selfie-Camera/",
+        "creator": "\u9673\u4eae",
+        "subcategory": "Arduino",
+        "title": "Arduino Selfie Camera",
+        "images": [
+            "https://content.instructables.com/FHZ/Z6Q2/JVKSU5DO/FHZZ6Q2JVKSU5DO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRH/MPOF/JVFUSL2Z/FRHMPOFJVFUSL2Z.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQY/U0QR/JVFUSL1A/FQYU0QRJVFUSL1A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHD/C67K/ILMLBLBP/FHDC67KILMLBLBP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM1/06N3/M5S75T0Y/FM106N3M5S75T0Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDW/CKOO/M3OGTQYJ/FDWCKOOM3OGTQYJ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTB/HYDO/M2UGKLD3/FTBHYDOM2UGKLD3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4Q/X2BC/JVFUSKSA/F4QX2BCJVFUSKSA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJE/HRVN/JVFUSKU0/FJEHRVNJVFUSKU0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYT/L26F/JVFUSKVP/FYTL26FJVFUSKVP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F73/RCKM/JVFUSKZ1/F73RCKMJVFUSKZ1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6C/N4S5/JVFUSKZ8/F6CN4S5JVFUSKZ8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSJ/NSKR/JVFUSLYZ/FSJNSKRJVFUSLYZ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX6/29SD/JVFV299D/FX629SDJVFV299D.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF4/2U00/JVFUSKQM/FF42U00JVFUSKQM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWH/X9OB/JVH3GMX7/FWHX9OBJVH3GMX7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMM/2BXQ/JVH3GMZP/FMM2BXQJVH3GMZP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCL/U0ZO/JVFUSKNB/FCLU0ZOJVFUSKNB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTE/5TX3/JVMNQJ5L/FTE5TX3JVMNQJ5L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "TTGO T-Camera Plus (ESP32 board with built-in OV2640 camera and 240 x 240 IPS LCD)",
+            "Micro SD Card (below 64 GB)",
+            "Lipo Battery (small size with 1.27 mm plug)",
+            "Strap (wrist or neck strap)"
+        ],
+        "description": "This project details how to build a simple Arduino Selfie Camera using a TTGO T-Camera Plus, which is an ESP32 board with a built-in camera and LCD. The camera takes low-resolution, LOMO-style photos.",
+        "steps": [
+            "Prepare the hardware: TTGO T-Camera Plus, Micro SD Card, Lipo Battery and Strap.",
+            "Prepare the software: Download and install Arduino IDE and ESP32 support following the provided links.",
+            "Upload the program: Download the source code from GitHub, plug the TTGO T-Camera to the computer, open the code in Arduino IDE, select 'ESP32 Dev Board', enable PSRAM support, and press upload button.",
+            "Assemble the camera: Plug the Lipo battery to the main board and attach the wrist strap. Optionally, download and 3D print a case.",
+            "Take a selfie: Press the reset button to turn on the camera.  It will count down from 3, take 3 photos in a row, auto playback the last taken photo, and enter sleep mode after 5 seconds. Press the reset button again to take another snap."
+        ]
+    }
+]

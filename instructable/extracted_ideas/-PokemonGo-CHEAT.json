@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Gps-Simulation-PokymonGo-I-phone/",
+        "creator": "mike_b",
+        "subcategory": "Art",
+        "title": " PokemonGo CHEAT",
+        "images": [
+            "https://content.instructables.com/F81/JP67/IQV7MTRP/F81JP67IQV7MTRP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSC/M6H3/FQ6E5C92/FSCM6H3FQ6E5C92.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6P/NC8U/FQ6EF864/F6PNC8UFQ6EF864.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F99/M15T/IQV7LU1U/F99M15TIQV7LU1U.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F24/V8NV/IQV7KC5H/F24V8NVIQV7KC5H.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXM/8U3N/IQV7KL48/FXM8U3NIQV7KL48.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQF/RCEU/IQV7LTAS/FQFRCEUIQV7LTAS.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/CF4R/IQV7LR0A/FU3CF4RIQV7LR0A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F10/MG0K/IQV7LS0F/F10MG0KIQV7LS0F.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "KML 2 route sim: https://github.com/MikeBeradino/KML2routesim_OSXstandlone",
+            "Java (8): http://java.com/en/download/"
+        ],
+        "description": "This project aims to simulate GPS routes in Xcode for PokemonGo, allowing users to explore the game in different locations and investigate the potential correlation between real-world socioeconomic factors and in-game success.",
+        "steps": [
+            "Create a route in My Maps by selecting a starting and ending point, choosing the walking symbol, modifying the path, and exporting it as a KML file.",
+            "Convert the KML file to a format Xcode can use with KML 2 route sim. Make sure you have Java (8) installed, then open the file.",
+            "Open Xcode, create a new project, select 'Single View Application', fill in the required fields, add your Apple ID, select your iPhone, set the Deployment Target to match your iPhone's iOS version, and trust the Developer App Certificate.",
+            "Add the GPX file you created earlier to the project, and ensure it is added to the target. Select the GPX file, and then open your Map app on your phone, you should see the route change to the new file.",
+            "You can also pause or stop the route simulation in Xcode"
+        ]
+    }
+]

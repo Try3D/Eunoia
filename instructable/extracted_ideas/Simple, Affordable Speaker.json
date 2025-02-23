@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Simple-Affordable-Speaker/",
+        "creator": "katchi",
+        "subcategory": "Speakers",
+        "title": "Simple, Affordable Speaker",
+        "images": [
+            "https://content.instructables.com/FHS/CH5D/I4SCPJ27/FHSCH5DI4SCPJ27.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0K/XVWC/I4SCO3JU/F0KXVWCI4SCO3JU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW1/8GBA/I4SCO2U7/FW18GBAI4SCO2U7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0W/9ZIS/I4SCO30D/F0W9ZISI4SCO30D.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM0/K0T2/I4SCO30I/FM0K0T2I4SCO30I.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNF/QCGJ/I4SCOFNA/FNFQCGJI4SCOFNA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNP/WHKT/I4SCOK38/FNPWHKTI4SCOK38.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYZ/AY8H/I4SCOVK8/FYZAY8HI4SCOVK8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI0/87EY/I4SCOVJQ/FI087EYI4SCOVJQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYN/47W2/I4SCP0MT/FYN47W2I4SCP0MT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLM/ORAJ/I4SCPBNU/FLMORAJI4SCPBNU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0M/MVET/I4SCPBR1/F0MMVETI4SCPBR1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPF/OFKG/I4SCPBQH/FPFOFKGI4SCPBQH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPD/MJ7Z/I4SCPCIL/FPDMJ7ZI4SCPCIL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Neodymium magnets",
+            "Alligator clips",
+            "Enameled coil wire",
+            "An old pair of headphones (for the plug)"
+        ],
+        "description": "This project details how to make a simple, affordable, and portable speaker using household objects. It can be connected to any MP3 player or amplifier to produce sound.",
+        "steps": [
+            "Wrap paper around the magnet(s), leaving room for them to slide in and out. Tape the paper to form a cylinder.",
+            "Tightly wrap the enameled coil wire around the paper cylinder, leaving the ends unwrapped. Secure the coil to the paper with tape or glue.",
+            "Attach the paper cylinder to the middle of one paper plate using glue or tape. Attach the magnet(s) to the middle of another paper plate, ensuring alignment with the paper cylinder.",
+            "Cut the remaining paper plate into two strips, fold them accordion style, and glue/tape them to both plates as supports, equidistant from the magnet(s) and paper cylinder.",
+            "Strip the ends of the coil wires and connect them to the alligator clips.",
+            "Cut off the headphone plug, strip the wires, and connect the alligator clips to these wires.",
+            "Plug the headphone plug into a jack to use the speaker. Place your ear near the top plate to hear the sound, and consider using an amplifier for louder output."
+        ]
+    }
+]

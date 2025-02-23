@@ -1,0 +1,74 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Kindle-Art/",
+        "creator": "alinke",
+        "subcategory": "Art",
+        "title": "Kindle Art",
+        "images": [
+            "https://content.instructables.com/FTK/HCF7/I5A8XUAL/FTKHCF7I5A8XUAL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0F/JZ4J/I5A8XUUH/F0FJZ4JI5A8XUUH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/0E4D/I5A8XUCQ/FP50E4DI5A8XUCQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCW/GHY4/I5A8XUWM/FCWGHY4I5A8XUWM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F64/OYSA/I5A8XUJU/F64OYSAI5A8XUJU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9W/ZMA1/I5A8XUMN/F9WZMA1I5A8XUMN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI7/N6FN/I5A8XUE2/FI7N6FNI5A8XUE2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGT/RL4W/HRWN7IR6/FGTRL4WHRWN7IR6.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF4/HKA1/KGZ4OWY4/FF4HKA1KGZ4OWY4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/AXBS/K5H5FGR8/FZVAXBSK5H5FGR8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQI/F9LL/K437FKR0/FQIF9LLK437FKR0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3M/HQAS/I5A8XU19/F3MHQASI5A8XU19.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5I/SQ3J/I5A8XU3W/F5ISQ3JI5A8XU3W.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1W/8VVV/I5A8Y0GP/F1W8VVVI5A8Y0GP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ8/X9SV/I5A8XU4Z/FJ8X9SVI5A8XU4Z.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Picture Frame",
+            "Velcro"
+        ],
+        "description": "This project turns an old Kindle (e-ink model) into a digital art display by jailbreaking it, installing a screensaver hack, and displaying custom images.",
+        "steps": [
+            "Jailbreak your Kindle and install the Kindle screen saver hack, following instructions found online.",
+            "Identify your Kindle model and download the corresponding jailbreak files.",
+            "Connect your Kindle to your PC via USB and copy custom images to the Kindle. These images should be cropped to 600x800 pixels and set to grayscale.",
+            "Prepare a frame, which already has string and a smaller set of paperclips. Replace with normal sized paperclips.",
+            "Attach velcro to the paperclips and Kindle so it will hold in place.",
+            "To change the image, simply toggle your Kindle on and off."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/Kindle-Art/",
+        "creator": "alinke",
+        "subcategory": "Art",
+        "title": "Kindle Art",
+        "images": [
+            "https://content.instructables.com/FTK/HCF7/I5A8XUAL/FTKHCF7I5A8XUAL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0F/JZ4J/I5A8XUUH/F0FJZ4JI5A8XUUH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/0E4D/I5A8XUCQ/FP50E4DI5A8XUCQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCW/GHY4/I5A8XUWM/FCWGHY4I5A8XUWM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F64/OYSA/I5A8XUJU/F64OYSAI5A8XUJU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9W/ZMA1/I5A8XUMN/F9WZMA1I5A8XUMN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI7/N6FN/I5A8XUE2/FI7N6FNI5A8XUE2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGT/RL4W/HRWN7IR6/FGTRL4WHRWN7IR6.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF4/HKA1/KGZ4OWY4/FF4HKA1KGZ4OWY4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/AXBS/K5H5FGR8/FZVAXBSK5H5FGR8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQI/F9LL/K437FKR0/FQIF9LLK437FKR0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3M/HQAS/I5A8XU19/F3MHQASI5A8XU19.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5I/SQ3J/I5A8XU3W/F5ISQ3JI5A8XU3W.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1W/8VVV/I5A8Y0GP/F1W8VVVI5A8Y0GP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ8/X9SV/I5A8XU4Z/FJ8X9SVI5A8XU4Z.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Kindle (e-ink model)",
+            "Picture Frame",
+            "Velcro"
+        ],
+        "description": "This project turns an old Kindle into a piece of art by jailbreaking it, installing a screensaver hack, and displaying custom images on the e-ink screen when the Kindle is off or in low power mode. The Kindle is then framed for display.",
+        "steps": [
+            "Jailbreak your Kindle and install the Kindle screensaver hack. Identify your Kindle model first, as different models require different jailbreak files.",
+            "Connect your Kindle to your PC via USB and copy custom images to the Kindle. Images should be cropped to 600x800 pixels and set to grayscale, adjusting for the specific resolution of your Kindle model.",
+            "Toggle your Kindle on and off to change the displayed image. The image will be visible when the Kindle is off or in low/zero power mode.",
+            "Prepare the frame by replacing smaller paperclips with normal-sized ones and attaching velcro to the paperclips and Kindle for secure holding.",
+            "Hang and enjoy your Kindle art."
+        ]
+    }
+]

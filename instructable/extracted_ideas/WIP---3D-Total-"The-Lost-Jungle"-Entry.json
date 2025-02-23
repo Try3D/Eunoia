@@ -1,0 +1,25 @@
+[
+    {
+        "url": "https://www.instructables.com/id/WIP-3D-Total-The-Lost-Jungle-Entry/",
+        "creator": "DoSho",
+        "subcategory": "Art",
+        "title": "WIP - 3D Total \"The Lost Jungle\" Entry",
+        "images": [
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2M/W213/G7DY7V3F/F2MW213G7DY7V3F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2M/W213/G7DY7V3F/F2MW213G7DY7V3F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBV/AF5O/G7DYYT25/FBVAF5OG7DYYT25.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "ZBrush 3.5",
+            "DIY Cintiq",
+            "Intuos4 Express Keys"
+        ],
+        "description": "This project is a work-in-progress entry for the 3D Total \"The Lost Jungle\" competition. It involves creating a base mesh using ZSpheres in ZBrush 3.5 on a DIY Cintiq, with Undo and Adaptive Skin Preview mapped to the Intuos4 Express Keys.",
+        "steps": [
+            "Create a base mesh from ZSpheres in ZBrush 3.5.",
+            "Use a DIY Cintiq for sculpting and modeling.",
+            "Map Undo and Adaptive Skin Preview functions to the Intuos4 Express Keys for efficient workflow."
+        ]
+    }
+]

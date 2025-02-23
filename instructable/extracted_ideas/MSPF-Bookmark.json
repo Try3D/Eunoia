@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/MSPF-Bookmark/",
+        "creator": "MSPF Bookmark",
+        "subcategory": "Art",
+        "title": "MSPF Bookmark",
+        "images": [
+            "https://content.instructables.com/FU8/XVQ4/IBQCI62Y/FU8XVQ4IBQCI62Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1B/960Q/IBQCHM06/F1B960QIBQCHM06.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNF/H0X0/IBQCHNHG/FNFH0X0IBQCHNHG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR9/T99K/IBQCHNKY/FR9T99KIBQCHNKY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7P/D1K0/IBQCHNKZ/F7PD1K0IBQCHNKZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F36/O2ZZ/IBQCHNL1/F36O2ZZIBQCHNL1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTX/TDKP/IBQCI5IU/FTXTDKPIBQCI5IU.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSH/7BGA/IBQCI5IW/FSH7BGAIBQCI5IW.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG4/RKAM/IBQCI6GE/FG4RKAMIBQCI6GE.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2C/9HNU/IBQCI6BB/F2C9HNUIBQCI6BB.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG4/RKAM/IBQCI6GE/FG4RKAMIBQCI6GE.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU8/XVQ4/IBQCI62Y/FU8XVQ4IBQCI62Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Reclaimed wood (cladding)",
+            "2x4s (framing)",
+            "Plywood (shelving)",
+            "Plexiglass (facade)",
+            "Speakers",
+            "MP3 player"
+        ],
+        "description": "The Bookmark project is designed to make people more aware of library resources. It's a portal built from books that plays audiobooks and provides information about the library.",
+        "steps": [
+            "Source the materials, focusing on reclaimed wood. This may take 1-2 weeks.",
+            "Construct the frame in three sections: two columns and a lintel. Each section is a 2'x2'x8' rectangular frame made of 2x4s. Notch grooves for shelves in the columns.",
+            "Cut reclaimed wood strips into 2' lengths and nail them horizontally to the outside of the columns and the front of the lintel.",
+            "Place the speakers and MP3 player on a shelf at ear height. Drill holes in the cladding for sound to escape. Connect the electronics to an extension cord and run the plug through a hole at the base of the column.",
+            "Pre-drill holes around the edges of the plexiglass for attachment.",
+            "Transport the pre-constructed columns and lintel. Screw the columns in place and attach the lintel on top. Set up the electronics and fill the shelves with books.",
+            "Attach the plexiglass to the front and back of the columns and lintel using washers and screws.",
+            "Allow people to interact with the Bookmark to learn about the library."
+        ]
+    }
+]

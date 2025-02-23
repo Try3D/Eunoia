@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Design-Custom-3D-Printable-Braces-for-Arm-I/",
+        "creator": "sjpiper145",
+        "subcategory": "Wearables",
+        "title": "How to Design Custom, 3D Printable Braces for Arm Injury",
+        "images": [
+            "https://content.instructables.com/FC5/MA1S/JKN8QVE4/FC5MA1SJKN8QVE4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRI/T6HW/JKN8QVE1/FRIT6HWJKN8QVE1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK7/GW44/JKN8QVUV/FK7GW44JKN8QVUV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2V/0WRV/K5H5C14I/F2V0WRVK5H5C14I.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1U/UUJX/K26ERIPP/F1UUUJXK26ERIPP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FV8/LRTK/JY2TDU3M/FV8LRTKJY2TDU3M.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FC4/G4TI/JKN8QVFP/FC4G4TIJKN8QVFP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNN/INOL/JKN8QVEZ/FNNINOLJKN8QVEZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDM/V174/JKN8QVF0/FDMV174JKN8QVF0.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJO/W2UK/JKN8QVEY/FJOW2UKJKN8QVEY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPZ/FH5G/JKN8QVEX/FPZFH5GJKN8QVEX.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJA/LC0M/JKN8QVEW/FJALC0MJKN8QVEW.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ2/0NYK/JKN8QVEU/FJ20NYKJKN8QVEU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGQ/0X76/JKN8QVEV/FGQ0X76JKN8QVEV.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN4/6DKJ/JKN8QVES/FN46DKJJKN8QVES.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8L/FCJJ/JKN8QVS3/F8LFCJJJKN8QVS3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "3D scanner",
+            "Meshmixer",
+            "Rhino 3D software",
+            "Grasshopper plugin for Rhino 3D",
+            "Voronoi algorithm for Grasshopper",
+            "Weaverbird plugin"
+        ],
+        "description": "This project outlines the steps to design and 3D print custom braces for arm injuries using 3D scanning, Meshmixer, Rhino 3D with Grasshopper, and a Voronoi algorithm. It is presented as a DIY solution for experimentation and should not replace professional medical advice.",
+        "steps": [
+            "3D Scan the arm area, ensuring the arm is stable during the scan. Import the scan into Meshmixer and remove unwanted areas like fingers and thumb using the Plane Cut function. Clean up the scan if needed.",
+            "Import the trimmed arm model into Rhino 3D. Convert the .stl file to a polysurface using the MeshtoNURBS function. Create an array of roughly spaced surface planes to fit the length of the scanned model.",
+            "Use the IntersectTwoSets function, highlighting the surface planes and then the arm model to create a series of plane cut style curves.",
+            "If the curves are irregular, use the _Rebuild function to fix them. Use the Loft function to create a new surface using the arm curves.",
+            "Use the OffsetSurf function to create a surface 2mm above the existing surface. Cut the brace in half using the Boolean split tool. Launch Grasshopper.",
+            "Download and open the Voronoi algorithm in Grasshopper. Ensure the Weaverbird plugin is installed. Right-click the first Brep input component and select Set one Brep, then click on the first half of the brace.",
+            "Tweak different aspects of the Voronoi pattern, including the hole size, until satisfied.",
+            "Highlight the last section of the algorithm, right-click, and choose Bake.",
+            "Repeat the process on the other half of the brace. Print the voronoi brace standing upright without supports. Add a hinge using ribbon and beads or a custom 3D-modeled hinge."
+        ]
+    }
+]

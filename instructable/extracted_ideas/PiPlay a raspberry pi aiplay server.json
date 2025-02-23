@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/PiPlay-a-raspberry-pi-aiplay-server/",
+        "creator": "JeremyG1",
+        "subcategory": "Raspberry Pi",
+        "title": "PiPlay a raspberry pi aiplay server",
+        "images": [
+            "https://content.instructables.com/FCM/77JV/I6QD0USK/FCM77JVI6QD0USK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS1/8Y1N/I6QD0UOA/FS18Y1NI6QD0UOA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F67/2DDU/I6QD0UOO/F672DDUI6QD0UOO.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUN/CF4O/I6QD0UQL/FUNCF4OI6QD0UQL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTF/FA5R/I6RSHS2M/FTFFA5RI6RSHS2M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ7/L4PX/I6RSHS5X/FQ7L4PXI6RSHS5X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI4/TTGO/I6RSHSBR/FI4TTGOI6RSHSBR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-video.png",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F5K/U494/I6QD0UYQ/F5KU494I6QD0UYQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNX/KWMU/I6QD0UXD/FNXKWMUI6QD0UXD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZM/KO0Y/I6QD0UVK/FZMKO0YI6QD0UVK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMR/0WWF/I6QD0UU3/FMR0WWFI6QD0UU3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRP/8G4K/I6QD0UZW/FRP8G4KI6QD0UZW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F07/3PS3/I6QD0V4O/F073PS3I6QD0V4O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Raspberry Pi (Model A, B, or B+)",
+            "SD card",
+            "Ethernet cable",
+            "HDMI (or composite) cable",
+            "Black ABS enclosure",
+            "Openelec image"
+        ],
+        "description": "This project guides you through creating a Raspberry Pi Airplay server, enabling you to stream content from Apple devices.",
+        "steps": [
+            "Format an SD card and install the 'Openelec' image using software like 'Apple Pi Baker' for Mac. Ensure you back up any data on the SD card before formatting.",
+            "Plug the SD card into the Raspberry Pi, connect an Ethernet cable, HDMI (or composite) cable, and power it on. Proceed through the setup guide.",
+            "In the Kodi settings, navigate to System > Settings > Services > Airplay and enable 'Allow Kodi to receive airplay content'.",
+            "Prepare the enclosure by drilling holes for the audio jack, Ethernet, power, and HDMI connectors, using progressively larger drill bits.",
+            "Test the Airplay server by connecting an Apple device and streaming content to the Raspberry Pi."
+        ]
+    }
+]

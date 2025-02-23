@@ -1,0 +1,58 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Flying-Z-An-internet-radio-player-with-custom-/",
+        "creator": "codesign-zumix",
+        "subcategory": "Art",
+        "title": "The Flying Z Streaming Radio Player",
+        "images": [
+            "https://content.instructables.com/FIM/QKN2/HOVU9XBQ/FIMQKN2HOVU9XBQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5A/UXZX/HOUG89J6/F5AUXZXHOUG89J6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7K/EOCW/HOUG1X6L/F7KEOCWHOUG1X6L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8H/HAMR/HOVUAK1Q/F8HHAMRHOVUAK1Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSO/JGO7/HOVUAE9S/FSOJGO7HOVUAE9S.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEH/CV1H/HOVU9X3M/FEHCV1HHOVU9X3M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FKW/00PM/HOVU9X6H/FKW00PMHOVU9X6H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7V/Q3KO/HOVU9X6Q/F7VQ3KOHOVU9X6Q.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F75/KSZB/HOVU9X6E/F75KSZBHOVU9X6E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWQ/O0DR/HOVU9X6R/FWQO0DRHOVU9X6R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB3/JMAC/HOVU9X6S/FB3JMACHOVU9X6S.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMK/UTHO/HOVU9Y04/FMKUTHOHOVU9Y04.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQE/JAF0/HOVU9Y03/FQEJAF0HOVU9Y03.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC1/7BS6/HOVU9Y05/FC17BS6HOVU9Y05.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQG/3KED/HOVU9Y1W/FQG3KEDHOVU9Y1W.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIM/QKN2/HOVU9XBQ/FIMQKN2HOVU9XBQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "8 Acrylic Sheets (7/32\" Thick, 24\" x 36\")",
+            "internet radio player"
+        ],
+        "description": "This project guides you through building an internet radio player with a custom acrylic casing. It involves laser cutting the casing parts from provided DXF files, assembling them, sanding for safety and paint adhesion, and finally decorating with paint.",
+        "steps": [
+            "Laser cut the acrylic sheets into separate pieces according to the provided CAD model and DXF files.",
+            "Assemble the laser-cut pieces according to the design, ensuring a proper fit for all parts.",
+            "Use a hot glue gun to glue all the joints together.",
+            "Use a chisel and sandpaper for smoothing the corners and edges, ensuring they are not sharp.",
+            "Sand the entire casing, rounding out sharp corners, especially on the Z structure, and sanding flat surfaces where paint will be applied.",
+            "Decorate the assembled and sanded structure with paint.",
+            "The project is now complete."
+        ]
+    }
+]

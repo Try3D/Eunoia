@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/convert-your-smartphone-to-big-3d-display/",
+        "creator": "Rajcg",
+        "subcategory": "Art",
+        "title": "convert your smartphone to big 3d display ",
+        "images": [
+            "https://content.instructables.com/FUN/BPHR/I6WDNR7T/FUNBPHRI6WDNR7T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Q/5N8T/I6WDNR8J/F3Q5N8TI6WDNR8J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQV/XQFQ/I6WOTC7F/FQVXQFQI6WOTC7F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBT/OFUD/I6WDNR99/FBTOFUDI6WDNR99.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1F/PO6Q/I6WDNR9E/F1FPO6QI6WDNR9E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLQ/LFU4/I6WDNR9L/FLQLFU4I6WDNR9L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZK/WDXQ/I6WDNR9Y/FZKWDXQI6WDNR9Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDW/VZ0K/I6WDNRA5/FDWVZ0KI6WDNRA5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNX/TAVF/I6WDNRBB/FNXTAVFI6WDNRBB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW6/YRB9/I6WDNRC5/FW6YRB9I6WDNRC5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2O/5GVZ/I6WDNRD8/F2O5GVZI6WDNRD8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/NA4A/I6WDNRDE/FJRNA4AI6WDNRDE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FED/XMSU/I6WDNRHY/FEDXMSUI6WDNRHY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOB/0PTI/I6WDNRIP/FOB0PTII6WDNRIP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F12/YCDM/I6WDNRKZ/F12YCDMI6WDNRKZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXH/26PD/I6WDNRLT/FXH26PDI6WDNRLT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA0/I9V0/I6WDNRLX/FA0I9V0I6WDNRLX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "+5 to +8 power plano convex lenses",
+            "4-6 mm thick plywood or cardboard",
+            "Adhesive or foam tape",
+            "Rubber caps (optional, from toy binoculars)"
+        ],
+        "description": "This project allows you to convert your smartphone into a big 3D display using lenses and a custom-made box. By using 3D side-by-side videos and images, and adjusting the focus, you can create a stunning 3D viewing experience.",
+        "steps": [
+            "Make a box to house the smartphone and lenses using cardboard or plywood.",
+            "Determine the exact focal length of the lenses you are using by trial and error, finding the distance at which the image on the smartphone display is clear through the lens.",
+            "Create the front part of the box with two holes for the lenses, positioned at an average pupillary distance of 60mm. Secure the lenses in place using adhesive or foam tape, avoiding synoacrelite-based adhesives.",
+            "Download or take a 3D side-by-side video/image to your smartphone and place the phone at the back of the box.",
+            "Adjust the smartphone's position until you see a single, clear 3D image. Fine-tune the focus by adding pads or thick paper at the back of the box to adjust the distance if necessary."
+        ]
+    }
+]

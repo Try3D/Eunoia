@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Dragon-Curve-Using-Python/",
+        "creator": "vikramkashyap",
+        "subcategory": "Art",
+        "title": "Dragon Curve Using Python",
+        "images": [
+            "https://content.instructables.com/FVL/UC3C/I8VGQRBF/FVLUC3CI8VGQRBF.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTP/SB06/IACFOWMB/FTPSB06IACFOWMB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH7/N505/K9GAI7E0/FH7N505K9GAI7E0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN5/JI1N/K900BVZ5/FN5JI1NK900BVZ5.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUL/TDNL/K8OPAF9R/FULTDNLK8OPAF9R.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAH/7HUJ/I8VGPOTP/FAH7HUJI8VGPOTP.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRN/5GOG/I8UUUSZM/FRN5GOGI8UUUSZM.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHX/KKSU/I8UUUSZN/FHXKKSUI8UUUSZN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJE/Q33C/I8UUUSZO/FJEQ33CI8UUUSZO.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FC2/IN8L/I8VGPO8E/FC2IN8LI8VGPO8E.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1X/B1H1/I8VGPO8D/F1XB1H1I8VGPO8D.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEW/0GWN/I8VGPO7Z/FEW0GWNI8VGPO7Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Python 3",
+            "turtle module"
+        ],
+        "description": "This project provides instructions on how to write a Python 3 program using the turtle graphics module to generate the Dragon Curve, a self-similar fractal. The program takes user inputs for iteration, segment length, and colors to customize the dragon curve drawing.",
+        "steps": [
+            "Import the turtle module.",
+            "Define variables 'r' and 'l' to represent right and left turns.",
+            "Initialize 'old' and 'new' variables to 'r', representing the first iteration.",
+            "Get user input for the desired iteration, segment length, pen color, and background color.",
+            "Initialize a cycle variable to 1.",
+            "Start a 'while' loop that continues as long as the cycle is less than the desired iteration.",
+            "Inside the loop: Add 'r' to the end of the 'old' string and save it to 'new'.",
+            "Reverse the 'old' string using string slicing.",
+            "Iterate through each character in the reversed 'old' string, replacing 'r' with 'l' and 'l' with 'r'.",
+            "Append the reversed and switched 'old' string to the 'new' string.",
+            "Update 'old' with the value of 'new'.",
+            "Increment the cycle variable.",
+            "After the loop, ask the user if they want to display the r/l form of the dragon curve.",
+            "Set up the turtle graphics window by hiding the turtle, setting the speed, and applying the user-requested colors.",
+            "Move the turtle forward by the segment length to draw the first line.",
+            "Iterate through the 'new' string (the final iteration).",
+            "For each character in the string, turn the turtle right 90 degrees if it's 'r', or left 90 degrees if it's 'l'.",
+            "After each turn, move the turtle forward by the segment length."
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "url": "https://www.instructables.com/id/8x8x8-RGB-LED-Cube-1/",
+        "creator": "Michalsky",
+        "subcategory": "LEDs",
+        "title": "8x8x8 RGB LED-Cube",
+        "images": [
+            "https://content.instructables.com/FU7/TMID/KDU8UQ9P/FU7TMIDKDU8UQ9P.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F94/YUIR/KDRDZJVW/F94YUIRKDRDZJVW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDQ/BOD0/KO01GYCY/FDQBOD0KO01GYCY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM2/RXU6/IJ8Z4KXR/FM2RXU6IJ8Z4KXR.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTD/8YLJ/I6UNCJR2/FTD8YLJI6UNCJR2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FU2/DTTI/IGPEK5BH/FU2DTTIIGPEK5BH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "512 RGB LEDs common anode",
+            "80m of 0.8mm silver wire",
+            "3m of 1,2 or 1,5mm silver wire",
+            "Arduino Microcontroller",
+            "DC-DC Step down Voltage Regulator I-Out at least 5A",
+            "Double sided positive Pre-Sensitized boards 300x210mm and 200x150mm",
+            "192x cooper tubes 2x15mm with 1mm hole",
+            "8x cooper tubes 10x3 with 2mm hole",
+            "192x 2N3904 NPN Transistors or similar",
+            "8 IRF9Z34N International Rectifier MOSFET or similar",
+            "Developer for positive presensitized boards free from NaOH",
+            "Etchand iron (III) chloride",
+            "24x 74HC595 shift registers",
+            "24x IC 16pol-socket",
+            "Wood glue and varnish",
+            "Plexiglas/Acrylic glass satin finished"
+        ],
+        "description": "This project describes how to build an 8x8x8 RGB LED cube controlled by an Arduino microcontroller. The cube uses etched circuit boards to minimize wiring. The project covers material selection, PCB etching, cube construction, final assembly, and Arduino code examples.",
+        "steps": [
+            "Gather all necessary materials including LEDs, wires, Arduino, voltage regulator, PCB boards, copper tubes, transistors, shift registers, resistors, capacitors, and case materials.",
+            "Download the provided files and data sheets for the PCBs, transistors, and shift registers.",
+            "Study the schematics to understand the circuit design and connections.",
+            "Etch the multilayer circuit boards according to the provided instructions.",
+            "Build the PCBs by assembling and soldering the electronic components.",
+            "Construct the case using wooden boards, glue, and varnish.",
+            "Build the LED cube by arranging and wiring the RGB LEDs.",
+            "Perform final assembly by connecting the cube to the PCBs and Arduino.",
+            "Test the cube and demonstrate its functionality.",
+            "Upload the Arduino code samples to the microcontroller and customize animations."
+        ]
+    }
+]

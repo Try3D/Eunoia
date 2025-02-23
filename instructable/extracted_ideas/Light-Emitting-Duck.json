@@ -1,0 +1,79 @@
+[
+    {
+        "url": "https://www.instructables.com/id/LED-Duck/",
+        "creator": "CarStalkerZ",
+        "subcategory": "Art",
+        "title": "Light Emitting Duck",
+        "images": [
+            "https://content.instructables.com/F1S/86B7/FNZA8VYQ/F1S86B7FNZA8VYQ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F65/9LXC/GJHV99NB/F659LXCGJHV99NB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNM/O1MN/FMMD5J4L/FNMO1MNFMMD5J4L.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFA/FVPV/FMEGHGGG/FFAFVPVFMEGHGGG.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/T5BB/FNZAHPGK/FZVT5BBFNZAHPGK.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/06SD/FNZAHPGV/FNR06SDFNZAHPGV.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3W/XP41/FNZAHPGU/F3WXP41FNZAHPGU.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEZ/UC8J/FNZAHPH2/FEZUC8JFNZAHPH2.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFF/WO01/FNZAHPH8/FFFWO01FNZAHPH8.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZZ/PKLU/FNZAHPHD/FZZPKLUFNZAHPHD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3S/LDI0/FNZAHPHO/F3SLDI0FNZAHPHO.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXL/V34Y/FNZAHPHT/FXLV34YFNZAHPHT.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "220-ohm resistors 1/2 watt 5% tolerance",
+            "Bicolor L.E.D 2.8v",
+            "22 gauge wire",
+            "Floral Wire",
+            "9v Battery Clip",
+            "2 AA battery pack",
+            "Solder"
+        ],
+        "description": "This project is about creating a light-up duck (or turkey) ornament, suitable for holiday decorations. It involves basic electronics and crafting skills to illuminate the duck using an LED.",
+        "steps": [
+            "Connect the resistor to the positive lead (longer end) of the LED.",
+            "Connect two 5-inch pieces of 22 gauge wire to the LED and the resistor.",
+            "Connect the positive end of the 9V clip to the positive wire and the negative end to the negative wire.",
+            "Solder or glue the wire connections together.",
+            "Wrap floral wires around a bic pen and then position the LED within the floral wire structure to keep it standing upright.",
+            "Attach an ornament (like a rubber duck) to the structure.",
+            "Plug in the AA battery pack to power the LED and make it glow."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/LED-Duck/",
+        "creator": "CarStalkerZ",
+        "subcategory": "Art",
+        "title": "Light Emitting Duck",
+        "images": [
+            "https://content.instructables.com/F1S/86B7/FNZA8VYQ/F1S86B7FNZA8VYQ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F65/9LXC/GJHV99NB/F659LXCGJHV99NB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNM/O1MN/FMMD5J4L/FNMO1MNFMMD5J4L.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFA/FVPV/FMEGHGGG/FFAFVPVFMEGHGGG.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/T5BB/FNZAHPGK/FZVT5BBFNZAHPGK.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/06SD/FNZAHPGV/FNR06SDFNZAHPGV.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3W/XP41/FNZAHPGU/F3WXP41FNZAHPGU.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEZ/UC8J/FNZAHPH2/FEZUC8JFNZAHPH2.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFF/WO01/FNZAHPH8/FFFWO01FNZAHPH8.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZZ/PKLU/FNZAHPHD/FZZPKLUFNZAHPHD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3S/LDI0/FNZAHPHO/F3SLDI0FNZAHPHO.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXL/V34Y/FNZAHPHT/FXLV34YFNZAHPHT.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "220-ohm resistors 1/2 watt 5% tolerance",
+            "bicolor L.E.D 2.8v",
+            "22 gauge wire",
+            "Floral Wire",
+            "9v Battery Clip",
+            "2 AA battery pack"
+        ],
+        "description": "This project is a light-up ornament, in this case, a light emitting turkey/duck, suitable for holidays.",
+        "steps": [
+            "Connect the resistor to the positive lead (longer end) of the LED.",
+            "Connect two 5-inch pieces of 22-gauge wire to the LED and resistor.",
+            "Connect the positive end of the 9V battery clip to the wire connected to the resistor and the negative end of the clip to the other wire connected to the LED, ensuring correct polarity (red positive, black negative).",
+            "Solder the wires or glue them if you don't have a soldering iron/gun.",
+            "Wrap floral wires around a Bic pen, then use the floral wires to hold the LED upright.",
+            "Add an ornament, such as a rubber duck.",
+            "Plug in the AA Battery Pack to power the LED and make it glow."
+        ]
+    }
+]

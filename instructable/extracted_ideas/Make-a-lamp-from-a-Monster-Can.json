@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Make-a-lamp-from-a-Monster-Can/",
+        "creator": "insignia96",
+        "subcategory": "Art",
+        "title": "Make a lamp from a Monster Can",
+        "images": [
+            "https://content.instructables.com/FN7/TE1W/GR39324V/FN7TE1WGR39324V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4F/Y9DG/G5FQZWBS/F4FY9DGG5FQZWBS.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1V/6A90/GQYG6KQ8/F1V6A90GQYG6KQ8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQG/BA2Y/GQZJO4AC/FQGBA2YGQZJO4AC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVB/XANR/GR39325O/FVBXANRGR39325O.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9P/JRG9/GQYGLT7K/F9PJRG9GQYGLT7K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F22/RLMY/GQZJO4AH/F22RLMYGQZJO4AH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWK/TGSA/GQYGLTAB/FWKTGSAGQYGLTAB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPL/CKUS/GQZJO4NM/FPLCKUSGQZJO4NM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWK/TGSA/GQYGLTAB/FWKTGSAGQYGLTAB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Large Aluminum can (Preferable Monster BFC)",
+            "Make-A-Lamp kit",
+            "package of 6\" steel lamp nipples",
+            "3-level touch lamp controller",
+            "5/16\" short (1 inch or less) bolt washer and nut",
+            "3 lb package of flat glass beads",
+            "Lampshade"
+        ],
+        "description": "The project aims to create a cool looking and functional lamp using a large aluminum can, preferably a Monster BFC. It incorporates a touch lamp controller for added functionality.",
+        "steps": [
+            "Drill a 3\" hole in scrap wood and save the plug. Drill a 17/32\" hole in the plug.",
+            "Thread the nipple through the hole in the plug and attach the small piece between the bottom of the socket and the nipple.",
+            "Thread the little threaded tube into the bottom of the socket and assemble the parts, excluding the bulb socket and cover.",
+            "Wire the lamp. If using a touch controller, follow the instructions to connect the hot wire to the lamp and controller, one wire from the controller to the lamp, and the neutral wire to the controller. A fourth wire serves as the touch sensor.",
+            "If using a touch controller: Drill a 5/16 inch hole in the bottom center of the can. Tape together the bolt, loop from the touch controller, and the washer. Use a socket wrench with extenders to push the bolt through the hole, thread the nut, and tighten it.",
+            "Pour as many glass beads as possible into the can to weigh it down.",
+            "Push the long part of the nipple down into the beads, shaking the can carefully until the plug is flush with the surface."
+        ]
+    }
+]

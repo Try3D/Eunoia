@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Printing-Magnets-with-the-Roland-SP-540V/",
+        "creator": "randofo",
+        "subcategory": "Art",
+        "title": "Printing Magnets with the Roland SP-540V",
+        "images": [
+            "https://content.instructables.com/FOE/Q6MW/F0E57E8Q/FOEQ6MWF0E57E8Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUE/WTSY/LOEC9N7K/FUEWTSYLOEC9N7K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1T/N8XR/KUYDIKE4/F1TN8XRKUYDIKE4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDE/RGDP/KUYDIK5K/FDERGDPKUYDIK5K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4M/D8X9/KW995X7T/F4MD8X9KW995X7T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH4/0XAQ/F0E57E5J/FH40XAQF0E57E5J.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE7/35ED/F0E57E63/FE735EDF0E57E63.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN7/KV3Y/F0E57E5Y/FN7KV3YF0E57E5Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6Q/J6OK/F0E57E64/F6QJ6OKF0E57E64.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC4/Q06H/F0E57E1L/FC4Q06HF0E57E1L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F10/800L/F0E57E1J/F10800LF0E57E1J.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMH/GI7R/F0E57E6T/FMHGI7RF0E57E6T.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW0/WO3A/F0E57E1S/FW0WO3AF0E57E1S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFF/ASSG/F0E57E6M/FFFASSGF0E57E6M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2T/D5YE/F0E57E7A/F2TD5YEF0E57E7A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRG/8WQZ/F0E57E8T/FRG8WQZF0E57E8T.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Thin magnet sheeting (at least 1' wide by 2' long)",
+            "Roland SP-540V large format printer",
+            "Roland VersaWorks software",
+            "Straight edge",
+            "Razor blade"
+        ],
+        "description": "This project demonstrates how to print magnets using the Roland SP-540V large format printer. It involves preparing an image, loading the magnet sheet into the printer, configuring the software, printing, and then cutting the magnets.",
+        "steps": [
+            "Prepare your images using Photoshop, Illustrator or Gimp with a resolution of at least 300 dpi, spacing out the magnets as closely as possible.",
+            "Save your final print file as a TIFF (or EPS if using Illustrator).",
+            "Load the magnet sheeting into the back of the printer, ensuring the rollers are positioned correctly under the silver markings and aligned with the scoring troughs.",
+            "Lower the rollers onto the print media using the handle on the front left-hand side of the printer.",
+            "Turn on the printer and allow it to position the print media, then use the back arrow to move the sheeting close to the rollers.",
+            "Open Roland VersaWorks and add your prepared TIFF (or EPS) file to Queue A.",
+            "Double click the file in the queue and configure the settings: Under \"Layout,\" ensure the image fits within the usable print space. Under \"Quality,\" select \"Matte Calendared Vinyl (MCVP)\" and \"Standard.\" Under \"Printer Controls,\" deselect \"Cut Sheet after Output.\"",
+            "Rip the image by selecting the gear icon, then print it by selecting the icon that looks like an upside down 'A' in a microwave.",
+            "Once the magnets are printed, use a straight edge and razor blade to score and slice them into individual magnets.",
+            "Stick the magnets to any magnetic surface."
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/CNC-5/",
+        "creator": "ZhongG",
+        "subcategory": "Art",
+        "title": "CNC",
+        "images": [
+            "https://content.instructables.com/FR1/VZYR/I05F2YDM/FR1VZYRI05F2YDM.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FR1/VZYR/I05F2YDM/FR1VZYRI05F2YDM.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FY0/82D2/I81GK0D4/FY082D2I81GK0D4.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FLJ/B1HO/IEIDEHNO/FLJB1HOIEIDEHNO.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/F3U/CIBP/HGG4HOP0/F3UCIBPHGG4HOP0.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FIP/2FO9/I0NOHYCN/FIP2FO9I0NOHYCN.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FLZ/G7P6/HPBS1OOF/FLZG7P6HPBS1OOF.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FWN/7OFS/HV9HRJRR/FWN7OFSHV9HRJRR.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/FM6/WHGM/GUZZWC92/FM6WHGMGUZZWC92.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FZ7/HM4P/HZ13K1PX/FZ7HM4PHZ13K1PX.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/F6J/MYPK/IC8X6PLK/F6JMYPKIC8X6PLK.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FO8/NBZ2/I78VKFQV/FO8NBZ2I78VKFQV.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600"
+        ],
+        "materials_required": [],
+        "description": "A collection of various CNC, 3D printing, and electronics projects, including CNC art, dot matrix printer from a CD/DVD reader with Arduino, robot foam cutter, zen garden kit, Frankenstein laser engraver, generative 3D printing with Processing, Paperduino 2.0 with Circuit Scribe, Raspberry Pi Alamode CNC Controller, Polargraph drawing machine, CNC laser for printing images and engraving (Shapeoko 2 based), XY Gantry Module for Lum Printer, and X-Y Plotter.",
+        "steps": [
+            "CNC art collecition",
+            "Dot Matrix Printer From a CD/DVD Reader With Arduino",
+            "Robot Foam Cutter",
+            "XYZen Garden Kit",
+            "Frankenstein Laser Engraver",
+            "Generative 3d Printing With Processing",
+            "Paperduino 2.0 With Circuit Scribe - Paper Arduino",
+            "Raspberry Pi Alamode CNC Controller",
+            "Polargraph Drawing Machine",
+            "CNC Laser for Printing Images and Engraving - Shapeoko 2 Based",
+            "XY Gantry Module for Lum Printer",
+            "X-Y Plotter"
+        ]
+    }
+]

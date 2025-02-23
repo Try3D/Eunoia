@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Chug-O-Meter/",
+        "creator": "Solarbotics",
+        "subcategory": "Arduino",
+        "title": "The Chug-O-Meter",
+        "images": [
+            "https://content.instructables.com/FSL/RFJ9/JT4TQUVB/FSLRFJ9JT4TQUVB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW8/O77P/JS4YV2MT/FW8O77PJS4YV2MT.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZA/9DA5/JT4TPZYP/FZA9DA5JT4TPZYP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDA/VDIV/JS0OUZPN/FDAVDIVJS0OUZPN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRX/PMNE/JRYTV4W3/FRXPMNEJRYTV4W3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5T/5ND4/JT4TPZWP/F5T5ND4JT4TPZWP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0G/R0ER/JT4TPZXE/F0GR0ERJT4TPZXE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/MAIY/JT4TPZWO/FNRMAIYJT4TPZWO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOL/91N0/JT4TPZWQ/FOL91N0JT4TPZWQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW4/AJR2/JT4TPZZY/FW4AJR2JT4TPZZY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLP/FTZN/JT4TQ01S/FLPFTZNJT4TQ01S.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNJ/4QHC/JT4TQ787/FNJ4QHCJT4TQ787.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNO/LRTF/JT4TQPMX/FNOLRTFJT4TQPMX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAX/HO7X/JT4TQSEV/FAXHO7XJT4TQSEV.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F60/YDVP/JT4TPZWR/F60YDVPJT4TPZWR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOP/FFI1/JT4TQ71P/FOPFFI1JT4TQ71P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/58VS/JT4TQ734/FU358VSJT4TQ734.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLK/ZFRE/JT4TQ77D/FLKZFREJT4TQ77D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "DC-DC Boost Converter Power Supply Module (40408)",
+            "CR2032 Coil Cell Holder (50484)",
+            "CR2032 Lithium Battery (BattC2032)",
+            "Power Switch (SWT1A)",
+            "Snap Lever Switch (SWT9)",
+            "7-Segment Serial Display (50424)",
+            "#2-56 1/2\u201d Thread Forming Screw",
+            "M3 x 10mm Machine Screw (M3x10-PPH)",
+            "3D Printer Filament",
+            "10k Resistor (R10k)",
+            "0.1uF Capacitor (CP0.1uF)",
+            "Groovy Noodle Wire (15060)",
+            "TTLyFTDI USB-to-TTL Adapter (39240)",
+            "Male Strip pins 6 pos (MPin6RA)"
+        ],
+        "description": "The Chug-O-Meter is a device designed to time how fast someone can finish a drink. It uses switches to detect when a glass is placed or removed and a 7-segment display to show the time. The device is housed in a 3D-printed enclosure to protect it from spills.",
+        "steps": [
+            "Solder together the circuit to power it, turn it off and on, sense when a drink is placed or removed, and display the time on the 7-segment display.",
+            "Download and install the Arduino IDE.",
+            "Add the Sparkfun AVR Boards URL to the Arduino IDE's Board Manager URLs.",
+            "Install the Sparkfun AVR Boards in the Board Manager.",
+            "Copy the Chug-O-Meter code into a new Arduino project or download the project zip file.",
+            "Select the Sparkfun Serial 7-Segment Display board.",
+            "Select the port the FTDI programmer is connected to.",
+            "Hold the FTDI programmer to the pins on the 7-segment display and upload the Chug-O-Meter code to program the display.",
+            "Add a pull-up resistor and debouncing capacitor to the analog pin used by the sensing buttons.",
+            "Use double-sided tape or hot glue to secure the electronics inside the 3D printed enclosure.",
+            "Screw in the switches using #2-56 screws or hot glue.",
+            "Insert the display into the display holder cavity and secure it with foam or other non-metallic material.",
+            "Mount the display holder onto the enclosure using #4-40 screws.",
+            "Turn on the circuit, place a full glass of liquid on the sensing plate, remove the glass to start the timer, and place the empty glass back to stop the timer. Remove the empty cup and replace with a full one to reset."
+        ]
+    }
+]

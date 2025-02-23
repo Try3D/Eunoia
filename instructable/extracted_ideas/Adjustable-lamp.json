@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Adjustable-Lamp-2/",
+        "creator": "markieis2",
+        "subcategory": "Art",
+        "title": "Adjustable lamp",
+        "images": [
+            "https://content.instructables.com/FOR/LJO4/IJYV2Z1A/FORLJO4IJYV2Z1A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLT/HTKX/IJYV2ZNU/FLTHTKXIJYV2ZNU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOR/LJO4/IJYV2Z1A/FORLJO4IJYV2Z1A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLT/HTKX/IJYV2ZNU/FLTHTKXIJYV2ZNU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "PLA/ABS for the 3D printer",
+            "Acryl for colorful plates",
+            "Plywood plates",
+            "Light socket and adapter"
+        ],
+        "description": "The project is to create an adjustable lamp using 3D printing and laser cutting techniques. The lamp is designed to be customizable with different plates and easily reproducible.",
+        "steps": [
+            "Print the cube for the lamp on a 3D printer, scaling the Thingiverse design by 18.5 to achieve a 12x12x11.5cm cube. Be careful to use a preheated underground if you use ABS or else you should use PLA otherwise it will bend.",
+            "Create a bottom box for the cable using Makercase, with dimensions of 12x12x5cm.",
+            "Create plates using vector graphics editor like Adobe Illustrator.",
+            "Glue the 3D printed cube onto the top of the cable box, merging them into a single object.",
+            "Drill holes to allow the cable to pass through the merged object.",
+            "Glue the lamp socket into the 3D printed object to finish the lamp."
+        ]
+    }
+]

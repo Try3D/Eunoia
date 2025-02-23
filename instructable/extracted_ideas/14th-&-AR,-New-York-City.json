@@ -1,0 +1,97 @@
+[
+    {
+        "url": "https://www.instructables.com/id/14th-AR-New-York-City/",
+        "creator": "John Craig Freeman",
+        "subcategory": "Art",
+        "title": "14th & AR, New York City",
+        "images": [
+            "https://content.instructables.com/FN4/GGFB/I3H7DHX9/FN4GGFBI3H7DHX9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Z/LMIB/I3H7DFCX/F3ZLMIBI3H7DFCX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYK/0A0J/I3H7DGX8/FYK0A0JI3H7DGX8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOB/ZR11/IJUAH0ND/FOBZR11IJUAH0ND.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7G/EY1Z/IJUAH211/F7GEY1ZIJUAH211.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEX/W9H0/IJUAH1RN/FEXW9H0IJUAH1RN.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEF/DGXP/IJUAH2AF/FEFDGXPIJUAH2AF.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNE/AEL4/IJVPUIZY/FNEAEL4IJVPUIZY.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Late model mobile device (iPhone, Android smartphone or iPad) equipped with a camera, GPS, compass, accelerometer, and mobile Internet or Wi\u2013Fi connection",
+            "Late model computer with an Internet connection",
+            "Web server space",
+            "MySQL database (client version: 5.1.49 or later) running phpMyAdmin (version: 3.3.10.4 or later)",
+            "Adobe Photoshop (or equivalent image processing application)",
+            "Autodesk Maya",
+            "Autodesk 123D Catch",
+            "Autodesk Memento",
+            "VisualSfM",
+            "MeshLab",
+            "Layar3D Model Converter"
+        ],
+        "description": "This Instructable provides a hands-on introduction to creating geo-located augmented reality experiences using the Layar platform, allowing users to superimpose virtual objects onto the real world at specific GPS coordinates.",
+        "steps": [
+            "Download and install the free Layar Augmented Reality Browser on your mobile device.",
+            "Download the Workshop Assets to a folder on your computer and open the AR_Admin.rtf file.",
+            "Photograph objects that represent lost things, isolate them in an image processing application with a transparent background, scale to 1024x1024 pixels, and save as .PNG files.",
+            "Write short stories for each lost object, relating them to the objects you have chosen.",
+            "Install the Layar app and create a Layar account (advanced participants).",
+            "Prepare PNG files with transparency at 1024x1024 and 128x128 pixels.",
+            "Convert .obj files to Layar's .l3d format using the Layar3D Model Converter, ensuring file sizes remain within specified limits.",
+            "Modify .obj files using the Layar3D Model Converter including importing Wavefront files, inspecting stats and replacing images.",
+            "Create animated assets using the Layar3D Model Converter including opening Workshop Assets, and enabling animation.",
+            "Use photogrammetry techniques to create 3D models from a series of photographs taken at various angles using Autodesk 123D Catch, Autodesk Memento or VisualSfM.",
+            "Convert point cloud to poly mesh using MeshLab including removing points, simplification and reconstruction.",
+            "Build a database using GoDaddy web hosting and set up a cPanel, MySQL database, and phpMyAdmin.",
+            "Configure the web service by compressing the project directory and uploading it to the public_html directory.",
+            "Add tables to the database using phpMyAdmin and the provided SQL query.",
+            "Modify table fields, including icons, layer settings, object URLs, and POI (Point of Interest) details.",
+            "Create and configure a GeoLayar by setting up a Layar Developer account and creating a new layer with appropriate metadata and graphics.",
+            "Test the Layar application on your mobile device, using geolocation and loading POIs."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/14th-AR-New-York-City/",
+        "creator": "John Craig Freeman",
+        "subcategory": "Art",
+        "title": "14th & AR, New York City",
+        "images": [
+            "https://content.instructables.com/FN4/GGFB/I3H7DHX9/FN4GGFBI3H7DHX9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Z/LMIB/I3H7DFCX/F3ZLMIBI3H7DFCX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYK/0A0J/I3H7DGX8/FYK0A0JI3H7DGX8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOB/ZR11/IJUAH0ND/FOBZR11IJUAH0ND.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7G/EY1Z/IJUAH211/F7GEY1ZIJUAH211.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEX/W9H0/IJUAH1RN/FEXW9H0IJUAH1RN.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEF/DGXP/IJUAH2AF/FEFDGXPIJUAH2AF.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNE/AEL4/IJVPUIZY/FNEAEL4IJVPUIZY.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Late model mobile device (iPhone, Android smartphone or iPad) equipped with a camera, GPS, compass, accelerometer, and mobile Internet or Wi\u2013Fi connection",
+            "Late model computer with an Internet connection",
+            "Web server space and a database (for advanced participants)",
+            "Adobe Photoshop (or similar image processing application)",
+            "Autodesk 123D Catch (optional)",
+            "Autodesk Memento (optional)",
+            "VisualSfM (optional)",
+            "MeshLab (optional)",
+            "Autodesk Maya (optional)",
+            "GoDaddy Web Hosting (recommended)"
+        ],
+        "description": "This project provides a hands-on introduction to creating geo-located augmented reality experiences using the Layar platform. Participants will learn to create and manage AR assets, place virtual objects at specific locations, and build a database to support their AR applications.",
+        "steps": [
+            "Download and install the free Layar Augmented Reality Browser on your mobile device.",
+            "Download the Workshop Assets to a folder on your hard drive and open the AR_Admin.rtf file to document your work.",
+            "Photograph objects that represent lost things, isolate them on transparent backgrounds using image editing software, and write short stories about them.",
+            "Prepare PNG files with transparency at 1024x1024 and 128x128 pixels.",
+            "Convert .obj files to the Layar proprietary .l3d file format using the Layar3D Model Converter.",
+            "Modify .obj files using Layar3D Model Converter.",
+            "Create animated assets using Layar3D Model Converter.",
+            "Create 3D assets using Photogrammetry.",
+            "Build a database with GoDaddy or a similar service.",
+            "Create a domain name.",
+            "Configure the web service.",
+            "Add tables to the database using phpMyAdmin.",
+            "Modify table fields.",
+            "Upload your simple facing plane to cPannel file manager.",
+            "Create and Configure a GeoLayar with a Layar Developer Account"
+        ]
+    }
+]

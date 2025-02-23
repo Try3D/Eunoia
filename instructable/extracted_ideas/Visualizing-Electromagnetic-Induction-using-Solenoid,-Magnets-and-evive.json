@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Understanding-the-Concept-of-Electromagnetic-Induc/",
+        "creator": "theSTEMpedia",
+        "subcategory": "Electronics",
+        "title": "Visualizing Electromagnetic Induction using Solenoid, Magnets and evive",
+        "images": [
+            "https://content.instructables.com/F46/90A5/JTT5MW60/F4690A5JTT5MW60.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSF/CQVD/JTONB4FW/FSFCQVDJTONB4FW.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5U/K5XU/JKVCSDY2/F5UK5XUJKVCSDY2.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWD/GYCP/KBUSST8O/FWDGYCPKBUSST8O.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY8/R5MQ/KBUSSSS1/FY8R5MQKBUSSSS1.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2H/EC6J/K30YGH8F/F2HEC6JK30YGH8F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7M/I4XB/JTT5JW6Q/F7MI4XBJTT5JW6Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEH/IB48/JTT5JVZ4/FEHIB48JTT5JVZ4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUM/M4J7/JTONB4MA/FUMM4J7JTONB4MA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1Y/7XDT/JTONB4N1/F1Y7XDTJTONB4N1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSS/FHT6/JTT5JVZ5/FSSFHT6JTT5JVZ5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5B/MIXS/JTONB4S7/F5BMIXSJTONB4S7.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUI/RK0Z/JTONB4S9/FUIRK0ZJTONB4S9.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3F/G0EY/JTONB563/F3FG0EYJTONB563.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHE/WRQG/JTONB564/FHEWRQGJTONB564.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG4/08I4/JTONB56I/FG408I4JTONB56I.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNO/D07K/JTONB56J/FNOD07KJTONB56J.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "evive",
+            "Copper Coil",
+            "PVC Pipe",
+            "Crocodile Pin",
+            "evive Firmware"
+        ],
+        "description": "This project demonstrates electromagnetic induction by using a solenoid, magnets, and an evive to visualize the induced current. The project aims to explain the principle behind electricity and related concepts and laws through a series of experiments.",
+        "steps": [
+            "Wrap the PVC pipe with paper and glue it to create the core of the solenoid.",
+            "Wrap the copper wire around the PVC pipe to create a solenoid. Use different numbers of turns (e.g., 100, 400, 800) for comparison.",
+            "Connect one end of the coil to evive\u2019s graph (prob V) pin and the other to the graph (ground) pin.",
+            "Configure the oscilloscope settings on the evive: Volt/Division: 0.1/s and Time/Division: 20mv/s.",
+            "Drop a bar magnet into the solenoid with the North Pole entering first and observe the peak generated in a positive direction on the oscilloscope.",
+            "Repeat the experiment with the magnet's direction reversed and observe the change in the graph on the oscilloscope.",
+            "Keep the magnet stationary inside the coil and observe the flat graph.",
+            "Experiment with different magnet speeds by dropping the magnet from varying heights above the coil and observe the changes in the induced EMF on the graph.",
+            "Compare the graphs obtained using different solenoids with varying numbers of turns (e.g., 100, 400, 800) and note the changes in the magnitude of the peak voltage."
+        ]
+    }
+]

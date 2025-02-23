@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Paper-Tyhpoon/",
+        "creator": "mkoehle",
+        "subcategory": "Art",
+        "title": "Paper Tyhpoon",
+        "images": [
+            "https://content.instructables.com/FND/OCWA/IW5JBU3H/FNDOCWAIW5JBU3H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW4/OFMI/IW5JBU3T/FW4OFMIIW5JBU3T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/8MH1/IDBHXK7C/FF78MH1IDBHXK7C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/MYZJ/JE4KKXXW/FL0MYZJJE4KKXXW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/5SBG/JE4KKXS5/FFF5SBGJE4KKXS5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPV/OENC/JE4KKXNU/FPVOENCJE4KKXNU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQR/0FYX/IW5JBU4F/FQR0FYXIW5JBU4F.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3R/HFNA/IW5JBU3J/F3RHFNAIW5JBU3J.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYJ/RNA5/IW5JBULM/FYJRNA5IW5JBULM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKY/ENRX/IW5JBULS/FKYENRXIW5JBULS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFL/3QYH/IW5JBUNW/FFL3QYHIW5JBUNW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6O/1R3E/IW5JBULE/F6O1R3EIW5JBULE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "1/4\" thick wood panels",
+            "pH neutral glue"
+        ],
+        "description": "This Instructable documents reproducing a black and white image using laser cut strips of paper. Each paper strip is printed with a gradient, then laser cut to a depth matching a specific column of pixels from the source image. The strips can be thought of as a cross section of the height map of the image.",
+        "steps": [
+            "Write Octave code to sample columns of pixels at a fixed interval and convert the intensities into a vector drawing, saving it as an SVG. Also, create a gradient spanning the strip's width and save it as a JPG.",
+            "Laser cut a pattern into 1/4\" thick wood panels to guide the gluing of the strips.  Ensure the guide lines are 1/16\" apart and vary their appearance to avoid confusion. Back the panels with a frame for support.",
+            "Print several gradients on each piece of paper, then laser cut them into strips. Fold each strip at its base at about a 30-degree angle to give it volume. Glue each strip in place following the guide lines."
+        ]
+    }
+]

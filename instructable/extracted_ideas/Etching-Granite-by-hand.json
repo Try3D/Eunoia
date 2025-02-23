@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Etching-Granite-by-hand/",
+        "creator": "emilyflowers",
+        "subcategory": "Art",
+        "title": "Etching Granite by hand",
+        "images": [
+            "https://content.instructables.com/F0Q/DYDD/HXHR6RIU/F0QDYDDHXHR6RIU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDM/AWWP/HXHR6RDR/FDMAWWPHXHR6RDR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1L/0ODJ/HXHR6QD1/F1L0ODJHXHR6QD1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIN/YD6O/HXIHZHYB/FINYD6OHXIHZHYB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUB/23IX/HXIHZHZF/FUB23IXHXIHZHZF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD4/G0HY/HXIHZI3B/FD4G0HYHXIHZI3B.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Black Granite tile (polished on one side)",
+            "Electro Stylus etching tool with a diamond chip bit",
+            "Extra diamond chip bit"
+        ],
+        "description": "This project demonstrates how to etch photos or designs onto a black granite tile using an electro stylus tool. The process involves scratching the polished surface of the granite to create a contrasting image.",
+        "steps": [
+            "Print out the desired image or design to the size of the granite tile.",
+            "Attach the printed image to the tile using tape.",
+            "Using the electro stylus tool, trace the lines of the image, scratching the polish off the granite in specific areas to create the desired effect.",
+            "Fill in the spaces within the traced lines to create a solid image or desired shading."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/Etching-Granite-by-hand/",
+        "creator": "emilyflowers",
+        "subcategory": "Art",
+        "title": "Etching Granite by hand",
+        "images": [
+            "https://content.instructables.com/F0Q/DYDD/HXHR6RIU/F0QDYDDHXHR6RIU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDM/AWWP/HXHR6RDR/FDMAWWPHXHR6RDR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1L/0ODJ/HXHR6QD1/F1L0ODJHXHR6QD1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIN/YD6O/HXIHZHYB/FINYD6OHXIHZHYB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUB/23IX/HXIHZHZF/FUB23IXHXIHZHZF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD4/G0HY/HXIHZI3B/FD4G0HYHXIHZI3B.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Black Granite tile (polished on one side)",
+            "Electro Stylus etching tool with a diamond chip bit",
+            "Extra diamond chip bit",
+            "Drawing printed to the size of the granite tile"
+        ],
+        "description": "This project demonstrates how to etch photos or designs into polished black granite tiles using an electro stylus tool. The process involves scratching the polish off the stone in specific areas to create an image, similar to coloring in a coloring book.",
+        "steps": [
+            "Print the desired image/design to match the size of your granite tile.",
+            "Attach the printed image to the granite tile using tape.",
+            "Use the electro stylus tool to trace the lines of the image, scratching away the polish.",
+            "Fill in the traced areas to complete the etching process.",
+            "Optionally, use the etched tile for various applications such as table tops, backsplashes, garden stones, or coasters."
+        ]
+    }
+]

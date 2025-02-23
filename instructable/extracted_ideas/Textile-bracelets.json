@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Textile-Bracelets/",
+        "creator": "chandnimaurya2999",
+        "subcategory": "Art",
+        "title": "Textile bracelets",
+        "images": [
+            "https://content.instructables.com/FNO/FPCK/IQJ05T3O/FNOFPCKIQJ05T3O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDF/VSW3/IQJ05TJT/FDFVSW3IQJ05TJT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPM/WBW1/JACTXN4G/FPMWBW1JACTXN4G.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F77/J49A/J9YJHC60/F77J49AJ9YJHC60.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5N/IJJH/ITKJF6GC/F5NIJJHITKJF6GC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW3/MEWF/IQJ05TLB/FW3MEWFIQJ05TLB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F45/TN5P/IQJ05U26/F45TN5PIQJ05U26.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC6/FCS7/IQJ05U7I/FC6FCS7IQJ05U7I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA5/8XTA/IQJ05UBR/FA58XTAIQJ05UBR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOW/MS7D/IQJ05UD6/FOWMS7DIQJ05UD6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Button cell",
+            "Cell holder",
+            "LED light"
+        ],
+        "description": "This project guides you through creating a textile bracelet with an embedded LED light that automatically turns on when worn.",
+        "steps": [
+            "Cut a piece of A4 paper into a round shape.",
+            "Attach a wire to the cell holder.",
+            "Connect one end of the LED light to the wire from the cell holder and fix the holder to the round A4 sheet using adhesive.",
+            "Take pieces of cloth and attach them to the cell holder which is fixed to the A4 sheet.",
+            "Secure the cloth around the holder using thread.",
+            "Wear the bracelet on your wrist to activate the LED light."
+        ]
+    }
+]

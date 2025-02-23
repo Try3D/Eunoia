@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/High-Voltage-Die/",
+        "creator": "GEORGE CHANIOTAKIS",
+        "subcategory": "Art",
+        "title": "High Voltage Die!",
+        "images": [
+            "https://content.instructables.com/F8D/SIPZ/IO0GH7RB/F8DSIPZIO0GH7RB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRB/ZK0Q/IO0GH9GN/FRBZK0QIO0GH9GN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVC/4UIL/J2GF7MNG/FVC4UILJ2GF7MNG.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F30/H233/J08E903J/F30H233J08E903J.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZX/AF6E/IPCUCX44/FZXAF6EIPCUCX44.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP5/ZH1F/INUV69P7/FP5ZH1FINUV69P7.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Die Tool (likely a high voltage power supply or transformer)",
+            "Thin glass frame",
+            "Water"
+        ],
+        "description": "This project demonstrates a homemade Kirlian photography device used to capture electrical discharges using a \"Glass box with water\". The method involves registering electrical discharges to create high voltage photos and videos.",
+        "steps": [
+            "The process involves using a Die Tool and a glass box filled with water.",
+            "Electrical discharges are registered using this setup.",
+            "The electrical discharges are then used to take high voltage photos and videos."
+        ]
+    }
+]

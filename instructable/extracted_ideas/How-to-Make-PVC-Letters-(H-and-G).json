@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Make-PVC-Letters-H-and-G/",
+        "creator": "cbader2014",
+        "subcategory": "Art",
+        "title": "How to Make PVC Letters (H and G)",
+        "images": [
+            "https://content.instructables.com/F5M/AVPQ/HQSV2N47/F5MAVPQHQSV2N47.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6F/PNHD/HVJ3A9AE/F6FPNHDHVJ3A9AE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6O/V648/HQIDDC32/F6OV648HQIDDC32.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFL/FTS2/HQSV2N3X/FFLFTS2HQSV2N3X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLP/Z5LX/HQQLN7BY/FLPZ5LXHQQLN7BY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8J/Z7XQ/HQQLN7BZ/F8JZ7XQHQQLN7BZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZR/9QLT/HQQLN7O8/FZR9QLTHQQLN7O8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAO/UO2E/HQS4YVRT/FAOUO2EHQS4YVRT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTV/Q7YA/HQS4YVRS/FTVQ7YAHQS4YVRS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9U/8JC4/HQSV2NAC/F9U8JC4HQSV2NAC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F69/3CO4/HQSV2NAB/F693CO4HQSV2NAB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FME/P9NI/HQS4YVRQ/FMEP9NIHQS4YVRQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "90 degree outlets (2)",
+            "T-side outlets (2)",
+            "45 degree outlets (5)",
+            "5 3/4\" pvc pipe (4)",
+            "2\" pvc pipe (7)",
+            "6\" pvc pipe (1)"
+        ],
+        "description": "This project describes how to create the letters H and G using PVC pipes and various PVC outlets.",
+        "steps": [
+            "Creating the H: Insert two 5 3/4\" pvc pipes into the t-side outlets, ensuring the opening for the cross of the H is not used.",
+            "Repeat the previous step so that both t-side outlets have two pvc pipes inserted into the sides.",
+            "Connect both sides by inserting the 6\" pvc pipe into the two t-side openings facing inwards.",
+            "Creating the G: Insert the 2\" pvc pipes into the 45 degree outlets to form the basic curve shape of the G.",
+            "After connecting the curve, insert the pvc pipe sticking out of the t-side outlet into one of the 90 degree outlets.",
+            "Insert another 2\" pvc pipe into the 90 degree outlet, then insert the last 90 degree outlet onto the end, facing towards the middle of the letter.",
+            "Insert the final 2\" pvc pipe to create the final part of the G."
+        ]
+    }
+]

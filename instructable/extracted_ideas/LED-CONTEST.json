@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/LED-CONTEST/",
+        "creator": "PewterBerry",
+        "subcategory": "Art",
+        "title": "LED CONTEST",
+        "images": [
+            "https://content.instructables.com/F0L/WJ1W/H67NS1IV/F0LWJ1WH67NS1IV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAJ/ZTPG/H67NS1J7/FAJZTPGH67NS1J7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQH/I0IA/H67NS1JB/FQHI0IAH67NS1JB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHB/98K9/H67NS1JC/FHB98K9H67NS1JC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZA/AH1K/H67NS1JE/FZAAH1KH67NS1JE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKF/MLGD/H67NS1JF/FKFMLGDH67NS1JF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2O/OQNE/H67NS1JH/F2OOQNEH67NS1JH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXG/L6H8/H67NS1GG/FXGL6H8H67NS1GG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F37/UB5U/H67NS1LP/F37UB5UH67NS1LP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDP/TCJ2/H67NS1M1/FDPTCJ2H67NS1M1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH0/3MIT/H67NS1MD/FH03MITH67NS1MD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LED Torch"
+        ],
+        "description": "This project explains how to create LED light art using a camera with shutter speed priority, an LED torch, and imagination. The goal is to create interesting light trails and patterns by moving the LED torch while taking a long-exposure photograph.",
+        "steps": [
+            "Obtain a camera with slow shutter speed settings. Set the shutter speed to approximately 3 seconds and the timer to 10 seconds.",
+            "Acquire an LED torch.",
+            "Use your imagination to plan your light art design.",
+            "Create light art by moving the LED torch in front of the camera while the shutter is open. After creation, share your creation."
+        ]
+    }
+]

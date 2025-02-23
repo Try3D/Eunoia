@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Headphone-and-MP3-Player-Holder-for-Exhibiting-Sou/",
+        "creator": "qdot",
+        "subcategory": "Art",
+        "title": "Headphone and MP3 Player Holder for Exhibiting Sound Art",
+        "images": [
+            "https://content.instructables.com/FN9/EFOW/I50CTWAD/FN9EFOWI50CTWAD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F72/ODBH/HTX6NT7B/F72ODBHHTX6NT7B.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNW/GA6H/I5F7QW29/FNWGA6HI5F7QW29.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2T/OIDT/I53I19DH/F2TOIDTI53I19DH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVP/HZWG/I50X103E/FVPHZWGI50X103E.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPD/U2F9/I4YTND34/FPDU2F9I4YTND34.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTZ/WFEG/I4YTND4G/FTZWFEGI4YTND4G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRZ/W7WP/I4YTND2O/FRZW7WPI4YTND2O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG6/1CAV/I4YTND28/FG61CAVI4YTND28.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCV/PXYT/I4YTND0C/FCVPXYTI4YTND0C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4F/DOFT/I4YTNCZ9/F4FDOFTI4YTNCZ9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F39/BW1L/I50CTP7E/F39BW1LI50CTP7E.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/75F6/I50CTP78/FNR75F6I50CTP78.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FM2/C92G/I4YTNCYS/FM2C92GI4YTNCYS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUI/3T4C/I4YTNCYA/FUI3T4CI4YTNCYA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/J90T/I4YTNCXT/FW9J90TI4YTNCXT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F07/AAVJ/I4YTNCXD/F07AAVJI4YTNCXD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMM/V4KU/I4YTNCZT/FMMV4KUI4YTNCZT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK6/OEF0/I50CTW87/FK6OEF0I50CTW87.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW8/DK9L/I4YTNCYC/FW8DK9LI4YTNCYC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPB/QQ4X/I50CTWAF/FPBQQ4XI50CTWAF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F92/JDJE/I50CTW88/F92JDJEI50CTW88.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN9/EFOW/I50CTWAD/FN9EFOWI50CTWAD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Clip MP3 players",
+            "Micro SD Cards",
+            "Headphones",
+            "SPST Buttons",
+            "6061 Aluminum (for metal holders)",
+            "Balsa ply (for laser cut holders)",
+            "Paper (for Mcor 3D printed holders)"
+        ],
+        "description": "This project documents the construction of a headphone and MP3 player holder for exhibiting sound art. The holder is designed to display recordings taken on different machines at Pier 9, with each unit ideally made on the machine it would be displayed on.",
+        "steps": [
+            "Build the electronics by removing the circuit board from the MP3 player, soldering wires to the button pads, and connecting those wires to external SPST buttons for user control.",
+            "Design a 3D model of the headphone and MP3 player holder, ensuring it can comfortably hold the headphones and electronics. Consider the material of the holder to reflect the recording source.",
+            "Fabricate the holder using various methods such as laser cutting (balsa ply), 3D printing (paper), or waterjet cutting (aluminum), depending on the desired material and available machinery.",
+            "Laser cut the pieces on a laser cutter, align wood on bolt holes and glue up then sand outside, and finish with polyurethane.",
+            "3D print the 3 pieces of the holder and optionally apply a few coats of polyurethane to reenforce the structure.",
+            "Waterjet the middle piece of the holder out of aluminum stock, then tap the holes in the back plate."
+        ]
+    }
+]

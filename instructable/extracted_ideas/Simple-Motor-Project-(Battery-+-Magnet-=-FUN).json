@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Simple-Motor-Project-for-Kids-and-old-guys/",
+        "creator": "KiteArmy",
+        "subcategory": "Art",
+        "title": "Simple Motor Project (Battery + Magnet = FUN)",
+        "images": [
+            "https://content.instructables.com/F2D/9QUE/I6002OVZ/F2D9QUEI6002OVZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F48/D48G/I5XS68P1/F48D48GI5XS68P1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7I/SHY5/JA8JF0W7/F7ISHY5JA8JF0W7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH5/Y8YW/J6QQO7S4/FH5Y8YWJ6QQO7S4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6X/S22O/J62G2WPJ/F6XS22OJ62G2WPJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPL/JXXM/I6002OQO/FPLJXXMI6002OQO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2D/9QUE/I6002OVZ/F2D9QUEI6002OVZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F05/HICA/I6002OSQ/F05HICAI6002OSQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX7/3PND/I6002OSO/FX73PNDI6002OSO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Household wire",
+            "Magnet"
+        ],
+        "description": "A simple motor project demonstrating basic electromagnetism using a battery, magnet, and wire.",
+        "steps": [
+            "Cut a length of household wire to make your motor.",
+            "Shape the wire around a soda bottle to create an approximate size.",
+            "See video for further instructions."
+        ]
+    }
+]

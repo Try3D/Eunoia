@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Rube-Goldburg-2/",
+        "creator": "duncank03",
+        "subcategory": "Art",
+        "title": "Rube Goldburg",
+        "images": [
+            "https://content.instructables.com/F2N/E9H7/IUSLQ5Z1/F2NE9H7IUSLQ5Z1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK9/F1KJ/IUSLQ604/FK9F1KJIUSLQ604.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGT/7A0J/IUOI8Z0C/FGT7A0JIUOI8Z0C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F80/9WBO/IUOHY6LO/F809WBOIUOHY6LO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNA/HZHR/IUSLQ35A/FNAHZHRIUSLQ35A.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRO/XCZW/IUSLQ4KO/FROXCZWIUSLQ4KO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F02/MAZA/IUOHYFEQ/F02MAZAIUOHYFEQ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1J/GUSD/IUSLQ36G/F1JGUSDIUSLQ36G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAK/8FOD/IUSLQ4I3/FAK8FODIUSLQ4I3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1L/PAN5/IUSLQ4JZ/F1LPAN5IUSLQ4JZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWJ/D946/IUSLQ4WT/FWJD946IUSLQ4WT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Softwood (depending on the size of your structure)",
+            "Lights, fans, buzzers (mechanical engineering)",
+            "Pipes (in variety of sizes)",
+            "Heavy marbles and normal marbles",
+            "Small tin (light)",
+            "Fishing line",
+            "Bicarb Soda (Baking Soda) and vinegar",
+            "Nails and hot gluegun",
+            "9v battery",
+            "Packet of Split Pins (2 required for every switch)",
+            "Paperclips (THEY HAVE TO BE METAL AND NOT COVERED IN ANY PLASTIC OR PAINT (1 each switch))"
+        ],
+        "description": "The Rube Goldberg challenge involves creating a complex machine to perform a simple task (getting Smarties from a container) using various simple machines and readily available materials. The goal is to make the process as intricate and colorful as possible.",
+        "steps": [
+            "Gather the required materials including craft supplies, softwood, electrical components (lights, fans, buzzers), pipes, marbles, a small tin, fishing line, baking soda, vinegar, and fasteners.",
+            "Design your structure, considering its stability, portability, and the integration of simple machines.  Create a secure base and sloping platforms, borders for marble tracks, and drill holes for pipes and marble pathways.",
+            "Build a stable and colorful structure, ensuring that the marble will roll through correctly and can be easily transported. Address any faults in the design, consider different types of crafts that can be strong and act as borders",
+            "Incorporate simple machines like wedges, levers, pulley systems, water pressure systems, trapdoors, and rolling marbles/toy cars into the design.",
+            "Test and refine the structure through trial and error, adjusting the placement of components to eliminate flaws and improve the machine's functionality. Adjust for places where the marble will get stuck.",
+            "Create a switch by twisting a bulb in a holder and connecting the wires to a 9v battery, split pins, and a paperclip. When you move the paperclip to the other split pin the bulb should light up.",
+            "Attach borders, switches, and decorations to the structure. Make adjustments to improve the flow and functionality of the machine. Experiment to create a new type of switches and simple machines."
+        ]
+    }
+]

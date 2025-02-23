@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-make-a-Logo/",
+        "creator": "RamiB",
+        "subcategory": "Art",
+        "title": "How to make a Logo",
+        "images": [
+            "https://content.instructables.com/F2J/C5II/IA81LBUA/F2JC5IIIA81LBUA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP9/MALH/IA81LFNB/FP9MALHIA81LFNB.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/JUUT/IA81LFNI/F5QJUUTIA81LFNI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIJ/8D0M/IA81LFNS/FIJ8D0MIA81LFNS.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIA/0WRO/IA81LFNT/FIA0WROIA81LFNT.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY6/IKAD/IA81LFYM/FY6IKADIA81LFYM.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0L/R7L4/IA81LFZ0/F0LR7L4IA81LFZ0.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKR/WHNU/IA81LGG6/FKRWHNUIA81LGG6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Adobe Photoshop CC"
+        ],
+        "description": "This project guides you on how to create a logo using Adobe Photoshop. The tutorial focuses on creating a wolf-inspired logo, covering shape creation, layering, coloring, and saving the final product.",
+        "steps": [
+            "Open Photoshop and create a new project, selecting the desired size (e.g., 30cm height, 20cm length).",
+            "Create a new layer for the main part of the logo. Use the pen tool to draw the shape by creating and connecting lines (paths). Curve the lines by clicking and stretching as needed.",
+            "Copy the created shape (command c), create another layer, and paste the shape (command v) into the new layer.",
+            "Repeat the layer creation process for any additional shapes needed for the logo.",
+            "Use the Move Tool (holding command) to position and combine the shapes.",
+            "Use the Free Transform Tool to change the size or rotate the selected shape.",
+            "Use the Quick Selection Tool to select the shapes.",
+            "To color a shape, select its corresponding layer, choose a color using the paint bucket tool, and click on the shape.",
+            "Repeat the coloring process for all shapes. To change the background color, select the background layer and use the paint bucket tool.",
+            "Save the project as a Photoshop file for future editing or as a JPEG image for final use."
+        ]
+    }
+]

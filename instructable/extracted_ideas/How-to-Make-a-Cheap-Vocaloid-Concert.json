@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Make-a-Cheap-Vocaloid-Concert/",
+        "creator": "MemeXDreams",
+        "subcategory": "Art",
+        "title": "How to Make a Cheap Vocaloid Concert",
+        "images": [
+            "https://content.instructables.com/FX3/ILO6/JQAT53UK/FX3ILO6JQAT53UK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP1/BD98/JR6OMRFP/FP1BD98JR6OMRFP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FB1/RR04/JQAT51BT/FB1RR04JQAT51BT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ2/4D66/JQ2O1SFK/FQ24D66JQ2O1SFK.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQA/Z6F4/JQAT519D/FQAZ6F4JQAT519D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRQ/1FRN/JQAT51E9/FRQ1FRNJQAT51E9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Sheet of single tempered glass bigger than the screen"
+        ],
+        "description": "This project demonstrates how to create a low-budget Vocaloid concert experience at home using a device, YouTube, and a sheet of glass. It involves reflecting a 'hologram ready' Vocaloid video from YouTube onto the glass to create a holographic effect.",
+        "steps": [
+            "Access YouTube on a device and search for 'Vocaloid hologram ready' videos.",
+            "Select a video, fullscreen it, and turn off subtitles. Wait for the Vocaloid to appear then pause the video.",
+            "Position the sheet of glass to reflect the screen, ensuring it reflects the entire Vocaloid.",
+            "Play the video and observe the reflection on the glass. Adjust screen brightness or ambient lighting if the hologram is too faint."
+        ]
+    }
+]

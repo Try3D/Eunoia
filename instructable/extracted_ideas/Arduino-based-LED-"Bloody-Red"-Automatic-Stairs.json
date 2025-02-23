@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Bloody-Red-Stairs/",
+        "creator": "berlingozzo",
+        "subcategory": "Arduino",
+        "title": "Arduino-based LED \"Bloody Red\" Automatic Stairs",
+        "images": [
+            "https://content.instructables.com/FUL/NT7F/JIOU8NXJ/FULNT7FJIOU8NXJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP9/VM08/IJ1RRCN2/FP9VM08IJ1RRCN2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2Q/HOQA/LJA0JYHV/F2QHOQALJA0JYHV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZO/YJ4C/LIOL30MQ/FZOYJ4CLIOL30MQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSR/71P2/LBASZO5K/FSR71P2LBASZO5K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUT/LS5U/JIOU8HT5/FUTLS5UJIOU8HT5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH8/MOI1/JIOU8HZ7/FH8MOI1JIOU8HZ7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F26/99K1/JIOU8I0P/F2699K1JIOU8I0P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKW/39HI/JIOU8I0Q/FKW39HIJIOU8I0Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYT/PN2P/JIOU8I0S/FYTPN2PJIOU8I0S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA3/TDKD/JIOU8IKB/FA3TDKDJIOU8IKB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCE/DY4J/JIOU8MAE/FCEDY4JJIOU8MAE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "2 x 4m ws2813 rgb LED strips",
+            "4 x 2m U-line aluminum profiles, 14mm x 13mm",
+            "2 x cat-5 Ethernet cables",
+            "spare assorted dupont cables",
+            "Wemos D1 (or R2) wifi-enabled micro-controller",
+            "2 x PIR motion sensors for Arduino",
+            "one 5v, 40a, 200w power supply",
+            "two pine stripwood, 36mm",
+            "silicone sealant, paintable",
+            "two 3d-printed cases for the PIR sensors"
+        ],
+        "description": "This project creates LED stairs that simulate blood drops running down them when motion is detected, perfect for Halloween.",
+        "steps": [
+            "Wire the LED strips, PIR sensors, Wemos D1, and power supply together, utilizing cat-5 Ethernet cables for connections under the floor.  Connections include: LED strips to Wemos D1, LED strips to power supply, PIR sensors to Wemos D1, PIR sensors to power supply, Wemos D1 to power supply, and power supply to the house power network.",
+            "Fit the LED strips into the U-line aluminum profiles and attach them to the skirting board using bi-adhesive tape, ensuring the diffuser points towards the other side of the stairs.",
+            "Cover the aluminum profiles with stripwood to embed them into the stairs. Use silicone to fill any gaps and paint the stripwood to match the skirting boards.",
+            "Program the Wemos D1 microcontroller with the provided Arduino code to control the LED animation based on motion detection. Configure WiFi settings for OTA updates.",
+            "Enjoy your \"Bloody Red\" automatic stairs!"
+        ]
+    }
+]

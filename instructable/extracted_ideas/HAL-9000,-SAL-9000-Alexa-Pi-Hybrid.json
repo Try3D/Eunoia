@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/HAL-9000-SAL-9000-Alexa-Pi-Hybrid/",
+        "creator": "crucialfixer",
+        "subcategory": "Raspberry Pi",
+        "title": "HAL 9000, SAL 9000 Alexa Pi Hybrid",
+        "images": [
+            "https://content.instructables.com/FVF/RPBN/JH6JAQRY/FVFRPBNJH6JAQRY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1A/THLV/JF349WKU/F1ATHLVJF349WKU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGJ/8ESV/JF349YT4/FGJ8ESVJF349YT4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEF/6QMC/JH6JARNM/FEF6QMCJH6JARNM.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F18/EHW9/JH6JAQR7/F18EHW9JH6JAQR7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPN/9KXL/JH6JARND/FPN9KXLJH6JARND.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/QU5X/JH6JAQRJ/F5QQU5XJH6JAQRJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F50/53UE/JH6JAQRH/F5053UEJH6JAQRH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWU/LM2H/JH6JAQRG/FWULM2HJH6JAQRG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7I/WSCV/JH6JAQNT/F7IWSCVJH6JAQNT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF5/CT49/JH6JARN5/FF5CT49JH6JARN5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4J/QEPH/JH6JARN8/F4JQEPHJH6JARN8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU8/BG19/JH6JARN9/FU8BG19JH6JARN9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPY/QGOT/JH6JARNA/FPYQGOTJH6JARNA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVF/RPBN/JH6JAQRY/FVFRPBNJH6JAQRY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD3/G3JU/JH6JAQRU/FD3G3JUJH6JAQRU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWU/LM2H/JH6JAQRG/FWULM2HJH6JAQRG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "HAL/SAL 9000 model kit",
+            "USB Microphone",
+            "\u215b\u201d plywood sheets",
+            "1/2\u201d square pine rods",
+            "Wood screws of varying lengths"
+        ],
+        "description": "This project combines the Alexa voice service running on a Raspberry Pi 3, a model of the SAL 9000 faceplate and a simple enclosure for the whole thing to create a HAL-like digital assistant.",
+        "steps": [
+            "Assemble the Alexa Pi using instructions from Amazon developers. This involves setting up the Raspberry Pi and configuring Alexa. You may also need to adjust the audio output settings via the command line.",
+            "Build the case to house the components. Consider airflow and serviceability when designing the case. Paint the case with several coats of flat black and a final clear coat.",
+            "Assemble and paint the SAL 9000 faceplate according to the model kit instructions. Use flat black and silver spray paint, and add a clear coat for durability.",
+            "During assembly, place the speakers, button, USB port and faceplate loosely in the case. Turn it on and test all features. Once satisfied, glue the button and USB port in place, tighten down the faceplate, and secure the LED. Note that the speakers should sit fairly loosely in the back to avoid audio distortion."
+        ]
+    }
+]

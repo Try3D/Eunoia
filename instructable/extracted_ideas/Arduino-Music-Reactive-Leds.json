@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-Music-Reactive-Leds/",
+        "creator": "Hamza Rehman Abc",
+        "subcategory": "Art",
+        "title": "Arduino Music Reactive Leds",
+        "images": [
+            "https://content.instructables.com/FIV/JZ1E/JMAVB00A/FIVJZ1EJMAVB00A.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSO/RPJO/LKGVR03G/FSORPJOLKGVR03G.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWU/GZZM/M5TMKKYW/FWUGZZMM5TMKKYW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZ3/D9O1/M09KYCOA/FZ3D9O1M09KYCOA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/E9ZK/LQWD0GEJ/FL0E9ZKLQWD0GEJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4T/02MD/JMAVBCRK/F4T02MDJMAVBCRK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6D/KXV4/JMAVBF2C/F6DKXV4JMAVBF2C.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHP/ZTA9/JMAVBF71/FHPZTA9JMAVBF71.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FML/P513/JMAVBFKK/FMLP513JMAVBFKK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino Uno R3 (or any compatible)",
+            "LEDs",
+            "10k, 4.7k resistors",
+            "Microphone"
+        ],
+        "description": "This project demonstrates how to create music reactive LEDs using an Arduino. The LEDs will light up in response to the audio input received by the microphone.",
+        "steps": [
+            "Gather the required materials: Arduino Uno R3, LEDs, resistors (10k and 4.7k), a microphone, breadboard, and connecting cables.",
+            "Wire the circuit according to the provided diagram, connecting the microphone to analog pin A0.",
+            "Upload the provided code to the Arduino.",
+            "Connect the audio output from a PC or laptop to the microphone.",
+            "Play music and observe the LEDs reacting to the sound."
+        ]
+    }
+]

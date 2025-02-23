@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/CATIA-Minion-in-CATIA/",
+        "creator": "yazdanian1",
+        "subcategory": "Art",
+        "title": "CATIA-Minion in CATIA",
+        "images": [
+            "https://content.instructables.com/FV8/Y90S/I6007HDQ/FV8Y90SI6007HDQ.bmp?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5B/5B0M/I6007H9U/F5B5B0MI6007H9U.bmp?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA5/CU9A/I6007H4E/FA5CU9AI6007H4E.bmp?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBP/RH0Z/IV0A5DNH/FBPRH0ZIV0A5DNH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9M/72LW/JFX0DFPL/F9M72LWJFX0DFPL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3L/IFXS/IUYD66T0/F3LIFXSIUYD66T0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F47/ZNKD/I5QMZ8T4/F47ZNKDI5QMZ8T4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FZ9/8S8C/I5S2DKSJ/FZ98S8CI5S2DKSJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDD/94DA/I6007HBX/FDD94DAI6007HBX.bmp?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWP/NLU9/I6007HDR/FWPNLU9I6007HDR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "CATIA Software",
+            "Cinema 4D (optional for animation)"
+        ],
+        "description": "This project guides you through modeling a Minion using CATIA software. It also mentions the possibility of further animation using software like Cinema 4D.",
+        "steps": [
+            "The project involves modeling a Minion in CATIA software.",
+            "Optionally, the model can be used for animation in software like Cinema 4D."
+        ]
+    }
+]

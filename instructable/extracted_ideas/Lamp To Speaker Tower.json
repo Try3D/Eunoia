@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Lamp-To-Speaker-Tower/",
+        "creator": "S0ccer72",
+        "subcategory": "Speakers",
+        "title": "Lamp To Speaker Tower",
+        "images": [
+            "https://content.instructables.com/FQY/VNN3/HJKBJW7B/FQYVNN3HJKBJW7B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFA/BDYS/HJKBXBEY/FFABDYSHJKBXBEY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX5/8WDK/HJKC2A3W/FX58WDKHJKC2A3W.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F09/G0OH/HJKBJW3S/F09G0OHHJKBJW3S.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAU/X0MB/HJKBJW4J/FAUX0MBHJKBJW4J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9I/1IEX/HJKBJW7A/F9I1IEXHJKBJW7A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7L/DG6B/HJKBJW7D/F7LDG6BHJKBJW7D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYG/2A4S/HJKBJW79/FYG2A4SHJKBJW79.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA0/HAOJ/HJKBJW7C/FA0HAOJHJKBJW7C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPI/OX2C/HJKBJW7F/FPIOX2CHJKBJW7F.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F38/686X/HJKBJW7E/F38686XHJKBJW7E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Speakers",
+            "Copper wire",
+            "Soldering Kit",
+            "Stereo Phone Plug",
+            "Female Crimp-on things",
+            "Lamp"
+        ],
+        "description": "This project repurposes an old lamp into a functional speaker tower, providing a unique way to enjoy music.",
+        "steps": [
+            "Gut the lamp by removing the light bulbs, sockets, wall plug, and any existing wires.",
+            "Cut the copper wire to the necessary length and connect it to the stereo phone plug using solder for a reliable connection.",
+            "String the wire through the lamp's interior and pull it out through the existing wire holes.",
+            "Connect the wire to the speakers. Initially, crimp-on things were used, but soldering directly to the speaker terminals proved more reliable.",
+            "Test the speaker setup. If it works, place the speaker inside the lamp and secure it with screws.",
+            "Optionally, create a stand for an iPod or other device using styrofoam and a razor knife, then hot glue it to the lamp.",
+            "Reassemble the lamp, plug in your audio source, and enjoy your new speaker tower."
+        ]
+    }
+]

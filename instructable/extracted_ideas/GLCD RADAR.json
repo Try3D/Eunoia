@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/GLCD-RADAR/",
+        "creator": "oldmaninSC",
+        "subcategory": "Arduino",
+        "title": "GLCD RADAR",
+        "images": [
+            "https://content.instructables.com/FPE/SYH9/JBWJXS15/FPESYH9JBWJXS15.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNL/7WXS/JBWJXS1U/FNL7WXSJBWJXS1U.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUJ/51CN/JS8TH9UF/FUJ51CNJS8TH9UF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKQ/CB6Q/L45LQQOV/FKQCB6QL45LQQOV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F51/26QM/L0B00YGU/F5126QML0B00YGU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FC5/6PBD/KTBII0P5/FC56PBDKTBII0P5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FKV/EFX3/JBWJXS0H/FKVEFX3JBWJXS0H.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCJ/9TYK/JBWJXS2F/FCJ9TYKJBWJXS2F.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFY/CVA0/JBWJXS32/FFYCVA0JBWJXS32.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQD/UW8E/JBWJXS0I/FQDUW8EJBWJXS0I.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6V/ZV28/JBWJXS4B/F6VZV28JBWJXS4B.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "GLCD 5110 84x48",
+            "3-pin servo",
+            "Sonic sensor HC-SR04",
+            "Two separate 5V power supplies"
+        ],
+        "description": "This project creates a simple sonar-based radar display on a GLCD screen using an Arduino, servo, and ultrasonic sensor. It's designed to be an easy project for beginners, displaying object distances within a 200-300cm range.",
+        "steps": [
+            "Connect the Arduino, GLCD, servo, and ultrasonic sensor according to the provided wiring layout (see photos in original article).",
+            "Download and install the PCD8544 library for the GLCD.",
+            "Upload the provided Arduino sketch (MY_5110_radar.ino) to the Arduino.",
+            "Adjust the LCD contrast using the 'lcd.Setcontrast()' function in the sketch, experimenting with values between 1 and 127 (typically around 55-60) for optimal viewing.",
+            "Power the servo with a separate 5V power supply to avoid interference with the GLCD.",
+            "Observe the GLCD display as the servo rotates the ultrasonic sensor, showing distance graduations for objects detected."
+        ]
+    }
+]

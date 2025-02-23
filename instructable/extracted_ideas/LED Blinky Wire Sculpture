@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/LED-Blinky-Wire-Sculpture/",
+        "creator": "grayconstruct",
+        "subcategory": "Art",
+        "title": "LED Blinky Wire Sculpture",
+        "images": [
+            "https://content.instructables.com/FU6/XZVR/HK6XBJA9/FU6XZVRHK6XBJA9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW3/S195/FJ26S3FQ/FW3S195FJ26S3FQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMO/2KF9/HK6XBJAN/FMO2KF9HK6XBJAN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FET/07EJ/HK6XBJAS/FET07EJHK6XBJAS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX1/XVAF/HK6XBJB1/FX1XVAFHK6XBJB1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7F/FSLM/HK6XBJAZ/F7FFSLMHK6XBJAZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQG/0MT2/HK6XBJB0/FQG0MT2HK6XBJB0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHV/DHKB/HK6XBJCI/FHVDHKBHK6XBJCI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7X/UED4/HK6XBJD2/F7XUED4HK6XBJD2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Stiff 18 gauge and 20 gauge wire (Floral Stem Wire)",
+            "NE555 Integrated Circuit chip",
+            "SN74LS163 binary counter IC",
+            "5V regulator (e.g. LM7805) OR a 5V power supply (e.g. USB phone charger)",
+            "Heat shrink tubing",
+            "Solder"
+        ],
+        "description": "This project is about creating an LED blinky wire sculpture. It involves building a wireframe sculpture and integrating a blinking LED circuit to create a visually appealing and interactive art piece.",
+        "steps": [
+            "Pick a design and create a wire mesh using stiff wire. Bend the wire into the desired shape, such as an animal or an abstract form, and secure the connections.",
+            "Finish the wire mesh by removing any sharp or protruding wire ends, wrapping them around other wires, and bending the frame into a final pose.",
+            "Build a blinky circuit using the NE555 timer IC and a binary counter IC (SN74LS163) to control the blinking rate of the LEDs. You may need a 5V regulator (e.g. LM7805) or a 5V power supply (e.g. USB phone charger) to power the 5V binary counter since 9V is too high.  Adjust the blinking rate by changing capacitor values. Solder the circuit or build it with a solderless breadboard.",
+            "Attach the LEDs to the sculpture by soldering the anode (+) wire of each LED to a separate resistor. Insulate the connection with heat shrink tubing. Wrap the cathode (-) wire around the conductive sculpture wire or solder to it. Test each LED as it is attached.",
+            "Plug the LED wires and ground wire into the solderless breadboard. Attach the battery to power the circuit."
+        ]
+    }
+]

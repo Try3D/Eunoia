@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Add-Flames-to-Anything-in-GIMP/",
+        "creator": "LBLuckz",
+        "subcategory": "Art",
+        "title": "How to Add Flames to Anything in GIMP",
+        "images": [
+            "https://content.instructables.com/FQW/ZNN1/JBQUQFJL/FQWZNN1JBQUQFJL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCE/5UCF/JBQU5325/FCE5UCFJBQU5325.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Y/F8T3/JBQU5326/F3YF8T3JBQU5326.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6X/8EUF/JBQU57UN/F6X8EUFJBQU57UN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPK/59BN/JBQU59NQ/FPK59BNJBQU59NQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUR/3IEA/JBQUN372/FUR3IEAJBQUN372.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRS/CJ94/JBQUNFXY/FRSCJ94JBQUNFXY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXN/V11V/JBQUOKR6/FXNV11VJBQUOKR6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7U/9YS3/JBQUOKTU/F7U9YS3JBQUOKTU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEB/MK6C/JBQUON3K/FEBMK6CJBQUON3K.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6K/GZIA/JBQUQCIU/F6KGZIAJBQUQCIU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKQ/X57D/JBQUQCQT/FKQX57DJBQUQCQT.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKR/H97X/JBQUQCQY/FKRH97XJBQUQCQY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9B/EV6O/JBQUQF1T/F9BEV6OJBQUQF1T.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAS/AQL2/JBQUQF9W/FASAQL2JBQUQF9W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQI/M4CS/JBQUQF9Z/FQIM4CSJBQUQF9Z.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project describes how to create realistic fire effects in GIMP and apply them to an image.",
+        "steps": [
+            "Create a new image with a width of 2000 and a height of 1800.",
+            "Apply the Difference Clouds filter (Filters > Render > Clouds > Difference Clouds) with the 'Turbulent' option checked.",
+            "Adjust the image's curves (Colors > Curves) to a desired shape.",
+            "Adjust the color balance (Colors > Color Balance) for Shadows, Midtones and Highlights, setting Cyan>Red to 100 and Yellow>Blue to -100 for each.",
+            "Select a section of the fire image using any selection tool and copy it (Ctrl+C).",
+            "Open the image you want to add the fire to, create a new layer, and paste the fire selection (Ctrl+V).",
+            "Use the Move, Rotate, and Scale tools to position and size the fire layer as desired. Deselect when finished.",
+            "Select the Smudge tool with a recommended size of 160.",
+            "Apply small strokes to the fire pattern, moving from bottom to top.",
+            "Continue smudging until the fire effect looks realistic."
+        ]
+    }
+]

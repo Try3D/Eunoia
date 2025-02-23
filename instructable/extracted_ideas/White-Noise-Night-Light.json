@@ -1,0 +1,57 @@
+[
+    {
+        "url": "https://www.instructables.com/id/White-Noise-Night-Light/",
+        "creator": "WhiskeyDrinker",
+        "subcategory": "Raspberry Pi",
+        "title": "White Noise Night Light",
+        "images": [
+            "https://content.instructables.com/FDP/9YYI/JOYNUUXG/FDP9YYIJOYNUUXG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMW/FL6X/JOYNUVVN/FMWFL6XJOYNUVVN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVU/3M3H/JGSGGU54/FVU3M3HJGSGGU54.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F8P/C0HW/JGSGGBGV/F8PC0HWJGSGGBGV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWE/CV1D/JOMTHVW9/FWECV1DJOMTHVW9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRP/JKY0/JNULFPOL/FRPJKY0JNULFPOL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2E/ZGB8/JNULFPOK/F2EZGB8JNULFPOK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRO/IA9U/JNULFPN0/FROIA9UJNULFPN0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F69/T6O2/JOONPE12/F69T6O2JOONPE12.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMU/JT3D/JOMTI2BX/FMUJT3DJOMTI2BX.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWA/POFN/JOMTJKDJ/FWAPOFNJOMTJKDJ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1U/T49T/JOMTJKDM/F1UT49TJOMTJKDM.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLU/QEDJ/JOMTJKDS/FLUQEDJJOMTJKDS.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUN/J6BM/JOMTJKDK/FUNJ6BMJOMTJKDK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Y/WUYD/JOONPDWS/F3YWUYDJOONPDWS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJO/36V7/JOONPDWZ/FJO36V7JOONPDWZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9E/BXOA/JOONPOM4/F9EBXOAJOONPOM4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD0/TUBX/JOONPOV9/FD0TUBXJOONPOV9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDP/9YYI/JOYNUUXG/FDP9YYIJOYNUUXG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMW/FL6X/JOYNUVVN/FMWFL6XJOYNUVVN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Raspberry Pi Zero W",
+            "Case for Raspberry Pi Zero W",
+            "Blinkt from Pimoroni",
+            "Speaker Phat from Pimoroni",
+            "Panel mount micro USB cable",
+            "Connecting wires or jumpers",
+            "Loopable MP3s"
+        ],
+        "description": "This project creates a white noise machine with a web interface and a color-changing night light. The night light's colors indicate the time, helping young children understand when it's time to be in bed, play quietly, or get up. The white noise machine plays different sounds selected through a web interface.",
+        "steps": [
+            "Burn Raspian Stretch lite to a microSD card and configure the Raspberry Pi Zero W for headless operation with WiFi and SSH.",
+            "Connect the Blinkt and Speaker Phat to the Raspberry Pi Zero W using the pinouts from http://pinout.xyz.",
+            "Install the necessary software for the Blinkt and Speaker Phat by running the following commands in the SSH terminal:\n`curl https://get.pimoroni.com/blinkt | bash`\n`curl -sS https://get.pimoroni.com/speakerphat | bash`",
+            "Create a 'scripts' directory and write Python scripts (red.py, yellow.py, green.py, lightsout.py) to control the Blinkt's color and brightness based on the time of day.",
+            "Schedule the Python scripts to run at specific times using cron jobs. Edit the crontab file (`crontab -e`) and add lines to execute the scripts at the desired times.",
+            "Test the Speaker Phat by installing sox (`sudo apt-get install sox`) and playing a sample sound (`play -n synth brownnoise synth pinknoise mix synth 0 0 0 10 10 40 trapezium amod 0.1 30`).",
+            "Disable the Speaker Phat's LEDs by renaming the /etc/asound.conf file (`mv /etc/asound.conf /etc/asound.conf.bak`).",
+            "Install mpg123 (`sudo apt-get install mpg123`) to play loopable MP3 files for white noise.",
+            "Set up a small web server and webapp using Flask (`pip3 install flask`).",
+            "Create directories 'www' (with subdirectories 'static' and 'templates') to host the website, and 'sounds' in the home directory to store the loopable MP3s.",
+            "Write the `webapp.py` script to handle web requests and control the white noise playback and add it to the crontab file to run on reboot (`@reboot python3 /home/pi/www/webapp.py`).",
+            "Create an `index.html` file with buttons for selecting different white noise sounds (rain, waves, white noise) and a stop button. Place the HTML file in the 'templates' directory.",
+            "Reboot the Raspberry Pi and test the web interface by accessing its IP address in a web browser.",
+            "Enclose all of the components into the case, and drill holes for speaker output, USB connections, and any other necessary openings.",
+            "(Optional) Add a momentary push button connected to physical pin 36 to toggle the white noise and red light using the 'button.py' script running at startup."
+        ]
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-RADbot/",
+        "creator": "JakeThal",
+        "subcategory": "Robots",
+        "title": "The RADbot",
+        "images": [
+            "https://content.instructables.com/FK5/01G1/J8OQZST8/FK501G1J8OQZST8.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVZ/2V2R/J9YJG1WZ/FVZ2V2RJ9YJG1WZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FD8/6TZG/J8OQZNJU/FD86TZGJ8OQZNJU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGF/ULCC/J8OQZNO7/FGFULCCJ8OQZNO7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0E/VQ81/J8OQZNQC/F0EVQ81J8OQZNQC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTU/T5R5/J8OQZO0Z/FTUT5R5J8OQZO0Z.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU8/GM1A/J8OQZO58/FU8GM1AJ8OQZO58.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM2/JM6U/J8OQZO59/FM2JM6UJ8OQZO59.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUJ/W8TE/J8OQZOBR/FUJW8TEJ8OQZOBR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSG/BWAF/J8OQZOJI/FSGBWAFJ8OQZOJI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYV/SCVG/J8OQZOR0/FYVSCVGJ8OQZOR0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDA/1OX1/J8OQZOSR/FDA1OX1J8OQZOSR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOT/5EO7/J8OQZT67/FOT5EO7J8OQZT67.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUK/ZJ7D/J8OQZUQB/FUKZJ7DJ8OQZUQB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPN/FOS7/J8OQZVQI/FPNFOS7J8OQZVQI.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVX/ZZ57/J8OQZVUX/FVXZZ57J8OQZVUX.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2B/R0TS/J8OQZW87/F2BR0TSJ8OQZW87.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Geiger-Mueller Counter",
+            "Raspberry Pi",
+            "Board camera with a USB outlet",
+            "Micro USB to USB cable",
+            "USB to USB cable",
+            "Radioactive sample of sufficient activity (~5\u03bcSv or higher)",
+            "Computer with Matlab installed"
+        ],
+        "description": "The RADbot is designed to assist astronauts on Mars by identifying radioactive rock samples and avoiding damage on the Martian terrain using cliff sensors, light sensors, bumper sensors, and a camera. It can also be used to locate uranium deposits for potential mining and power generation for a self-sustaining colony.",
+        "steps": [
+            "Secure the Geiger-Muller counter to the Roomba, ensuring the sensor is not blocked.",
+            "Mount the camera to face the Geiger-Muller counter's display, positioning it close to minimize external interference and connecting it to the Raspberry Pi.",
+            "Connect the Raspberry Pi to the Roomba.",
+            "Download the Roomba toolbox and place it into the specified folders.",
+            "Connect to the Roomba using the command 'r=roomba(x)' in Matlab.",
+            "Create code to control the Roomba's speed based on light sensor readings to approach objects slowly.",
+            "Create bumper code to stop or reverse the Roomba upon physical impact.",
+            "Develop code to capture images of the Geiger-Muller counter screen, interpret the color data to determine radioactivity levels, and trigger an alert and evasive maneuvers if high activity is detected.",
+            "Create cliff sensor code to detect edges and trigger a backward movement and spinning action to alert astronauts."
+        ]
+    }
+]

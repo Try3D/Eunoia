@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Locate-your-bf-and-Anti-locate-for-freedom/",
+        "creator": "cth_st",
+        "subcategory": "Apple",
+        "title": "How to Locate your boyfriend and How to Anti-locate for freedom",
+        "images": [
+            "https://content.instructables.com/FBK/04VQ/HWIMTWVT/FBK04VQHWIMTWVT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F18/EBV0/HWIMTLVY/F18EBV0HWIMTLVY.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPK/1S0K/HWIMTLW2/FPK1S0KHWIMTLW2.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA9/3578/HWIMTLW3/FA93578HWIMTLW3.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2Z/3UY6/HWIMTO55/F2Z3UY6HWIMTO55.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F58/ECGI/HWIMTLW5/F58ECGIHWIMTLW5.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFO/DN53/HWIMTLYX/FFODN53HWIMTLYX.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFO/DN53/HWIMTLYX/FFODN53HWIMTLYX.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCY/549I/HWIMTW27/FCY549IHWIMTW27.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFO/DN53/HWIMTLYX/FFODN53HWIMTLYX.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Proxy Server Address and Port Number"
+        ],
+        "description": "This project aims to provide individuals with the knowledge and steps to prevent their iPhone from tracking and storing their location history, thus ensuring greater privacy and freedom from unwanted monitoring.",
+        "steps": [
+            "Navigate to Settings on your iPhone.",
+            "Go to Privacy settings.",
+            "Access Location Services.",
+            "Enter System Services.",
+            "Go to Frequent Locations to view your location history.",
+            "Observe the recorded position history, which includes locations visited, duration of stay, and frequency within the last 3 days.",
+            "Clear your location history by clicking 'Clear History'.",
+            "Change your IP Address: Open your network settings, turn HTTP PROXY to Manual, paste the server address and port number you find on Google to deactivate IP check.",
+            "After deactivating IP checking, control your position history by turning on and off your Frequent Position function, which will now depend only on instant GPS function."
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Urban-Maps/",
+        "creator": "DesignNight",
+        "subcategory": "Art",
+        "title": "Urban Maps",
+        "images": [
+            "https://content.instructables.com/F76/D3XY/HI3TK19L/F76D3XYHI3TK19L.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYU/R265/I916F7KV/FYUR265I916F7KV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGC/4MOX/IBL0TLLE/FGC4MOXIBL0TLLE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAE/LPIX/I916FBPJ/FAELPIXI916FBPJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FA6/LYT6/HI3TK1AP/FA6LYT6HI3TK1AP.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYQ/KRXG/HI3TK19K/FYQKRXGHI3TK19K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUC/MRHJ/HI3TK19M/FUCMRHJHI3TK19M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Stenciled map of the city",
+            "Spray paint (at least 4 different colors)",
+            "Whiteboard or wall"
+        ],
+        "description": "This project involves creating a stenciled map illustrating the different modes of transportation people use to arrive at a specific location. Participants mark on the map where they came from using different colored keys to represent various transportation methods.",
+        "steps": [
+            "Obtain a stenciled map of the city. This can be purchased online or 3D/2D printed.",
+            "Spray paint the map onto a whiteboard or wall.",
+            "Create a key using at least 4 different colors to represent different modes of transportation.",
+            "Allow people to mark on the map the places they came from, using the appropriate color from the key to indicate their mode of transportation.",
+            "Observe the completed map showing the origins and transportation methods of the participants."
+        ]
+    }
+]

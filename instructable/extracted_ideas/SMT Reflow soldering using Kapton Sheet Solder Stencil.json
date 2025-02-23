@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.instructables.com/id/SMT-Reflow-Soldering-Using-Kapton-Sheet-Solder-Ste/",
+        "creator": "daverowntree",
+        "subcategory": "Soldering",
+        "title": "SMT Reflow soldering using Kapton Sheet Solder Stencil",
+        "images": [
+            "https://content.instructables.com/FYQ/5OTI/IOABQSM9/FYQ5OTIIOABQSM9.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKJ/8MRT/IO7END5X/FKJ8MRTIO7END5X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1A/XJ45/I7GS4JEA/F1AXJ45I7GS4JEA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FME/MBSN/I81GC3C9/FMEMBSNI81GC3C9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FU1/KGQW/I7SVUIOY/FU1KGQWI7SVUIOY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F24/8D6N/IO8U2X7F/F248D6NIO8U2X7F.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZX/GY15/IO8U2X7J/FZXGY15IO8U2X7J.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRR/4MN1/IO8U2X7L/FRR4MN1IO8U2X7L.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCP/JO5N/IO7ENDAK/FCPJO5NIO7ENDAK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F27/OHFA/IO7ENCA7/F27OHFAIO7ENCA7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWO/IUF6/IO7ENCAV/FWOIUF6IO7ENCAV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYT/6HIF/IO7ENCCA/FYT6HIFIO7ENCCA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB4/JDAG/IO7ENCLY/FB4JDAGIO7ENCLY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMX/MMES/IO7ENC8R/FMXMMESIO7ENC8R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH8/FE5K/IO7ENCDZ/FH8FE5KIO7ENCDZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPN/3XT9/IO7ENCF4/FPN3XT9IO7ENCF4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGI/0YLI/IO7ENCGC/FGI0YLIIO7ENCGC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYG/GROJ/IO7ENCJD/FYGGROJIO7ENCJD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNJ/K74U/IO7ENCOX/FNJK74UIO7ENCOX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Y/4BXS/IO7ENCW1/F3Y4BXSIO7ENCW1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBN/JED3/IO7END05/FBNJED3IO7END05.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHJ/D7YW/IO7END10/FHJD7YWIO7END10.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0V/ZGAN/IO7ENCT4/F0VZGANIO7ENCT4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F88/VW65/IO7END4I/F88VW65IO7END4I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKJ/8MRT/IO7END5X/FKJ8MRTIO7END5X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH3/LONZ/IO7END6T/FH3LONZIO7END6T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS3/HU7X/IO7END8N/FS3HU7XIO7END8N.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKM/L5CL/IO7END8P/FKML5CLIO7END8P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM3/8MQE/IOABPJFG/FM38MQEIOABPJFG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F34/09HL/IOABPJK5/F3409HLIOABPJK5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT1/RH5F/IOABPJK8/FT1RH5FIOABPJK8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXD/BB71/IOABPKKR/FXDBB71IOABPKKR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Kapton sheet solder stencil",
+            "Leaded solder paste",
+            "Solder paste squeegee",
+            "Kapton tape",
+            "Hot air station or re-flow oven",
+            "PCB pre-heater (optional)"
+        ],
+        "description": "This project outlines the process of SMT reflow soldering using a Kapton sheet solder stencil for PCB prototyping. It details how to prepare the data, apply solder paste, place components, and reflow solder using a hot air station or oven.",
+        "steps": [
+            "Prepare the solder paste stencil data from your PCB design gerber files, ensuring the board edge cut is excluded.",
+            "Gather all necessary materials, including solder paste, spreader, isopropyl alcohol, lint-free cloths, and Kapton tape.",
+            "Clean the PCB and the paste mask thoroughly using isopropyl alcohol to remove any contaminants.",
+            "Attach the PCB to a stable surface and align and attach the stencil to the PCB using Kapton tape.",
+            "Apply solder paste to the stencil and spread it evenly over the openings using a squeegee, ensuring all pads are covered.",
+            "Let the solder paste rest, clean the masks, and prepare the SMT components for placement.",
+            "Carefully place the SMT components onto the solder paste pads, using tweezers for precision.",
+            "Reflow the solder using a hot air station or reflow oven, heating the board evenly until the solder melts and components align.",
+            "Clean the board again using IPA to remove flux residue and inspect for bad solder joints."
+        ]
+    }
+]

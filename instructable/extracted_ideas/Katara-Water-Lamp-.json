@@ -1,0 +1,54 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Katara-Water-Lamp/",
+        "creator": "Fablab_Irbid",
+        "subcategory": "Art",
+        "title": "Katara Water Lamp ",
+        "images": [
+            "https://content.instructables.com/FHL/N9LB/JMKVLOMJ/FHLN9LBJMKVLOMJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSK/NO3V/JHQJQWMC/FSKNO3VJHQJQWMC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHA/XJ12/K87PGEF8/FHAXJ12K87PGEF8.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2W/EW0T/JWOSW8EW/F2WEW0TJWOSW8EW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6E/GZC1/JVCNGZLP/F6EGZC1JVCNGZLP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNN/VPR5/JMQKXLFE/FNNVPR5JMQKXLFE.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6Y/6YCM/JMQKXLFF/F6Y6YCMJMQKXLFF.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB5/E3T4/JMQKXLFI/FB5E3T4JMQKXLFI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F13/Z7VB/JMQKXLFJ/F13Z7VBJMQKXLFJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F08/CZAP/JMQKXM0O/F08CZAPJMQKXM0O.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJC/JI61/JMQKXM0T/FJCJI61JMQKXM0T.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/7QAA/JMQKXMEZ/F5Q7QAAJMQKXMEZ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUV/OOHI/JMQKXMF7/FUVOOHIJMQKXMF7.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUQ/X3UC/JMQKXNE1/FUQX3UCJMQKXNE1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Bluetooth Module",
+            "LED Strip",
+            "12V Car Universal Windshield Windscreen Washer Pump",
+            "Acrylic (black 6mm, Clear 3mm)",
+            "Wood 18mm (1x1 m)",
+            "3D Printing Filament (PLA) - 970 grams",
+            "Clear Resin - 215ml",
+            "Atmega328P",
+            "Crystal 16MHz",
+            "Pin headers",
+            "Voltage regulators",
+            "MOSFET",
+            "Potentiometer 10 K",
+            "Micro Servo motor"
+        ],
+        "description": "The Katara Water Lamp is a water fountain equipped with LED lighting controlled by Bluetooth. It integrates light, water, and frequency to create beautiful visual effects.",
+        "steps": [
+            "Gather the required materials and tools including a Bluetooth module, LED strip, washer pump, acrylic sheets, wood, 3D printing filament, clear resin, and electronic components like Atmega328P, crystal, pin headers, voltage regulators, MOSFET, potentiometer, and micro servo motor.",
+            "Design the parts using Fusion 360, considering a water drop shape. Plan for parts to be CNC'd, 3D printed (using both FDM and SLA), and laser cut.",
+            "3D print the back part of the box (FDM), left and right joints (FDM) and a funnel (FDM) using Cura with specific settings (Layer Height: 0.1mm, Wall Thickness: 0.8mm, Top/Bottom Thickness: 0.8mm, Infill: 50%, Print Speed: 60mm/s, Material: PLA, Printing Temperature: 215, Nozzle: 0.4mm, Print Bed Temperature: 60).",
+            "3D print the water tank using SLA printing with clear resin to ensure it is waterproof.",
+            "Convert 3D parts into 2D and CNC cut them using a Shopbot CNC machine with a 1/4\" endmill (Spindle speed: 1400 r.p.m, Feed rate: 3.00 inch/sec, Plung rate: 0.5 inch/sec).",
+            "Sand and paint the CNC'd and 3D printed parts in black, leaving the funnel white.",
+            "Laser cut acrylic pieces for separation and the outer frame with specific settings (Power, Speed, Frequency vary depending on the thickness of the acrylic).",
+            "Assemble the Katra board by soldering components like Atmega328P, crystal, pin headers, voltage regulators, MOSFET and potentiometer.",
+            "Connect the micro servo motor, LED strip (using FASTLED Library), and washer pump to the Katra board. Code the board to control the pump with pulses, and control the LED Strip and the Servo Motor using timer library.",
+            "Integrate the HC-05 Bluetooth module for networking and communications. Write the code for the Bluetooth module to receive data and control the light/water feature of the project using a switch case code.",
+            "Connect and test the project through an Android application like Bluetooth Terminal HC-05."
+        ]
+    }
+]

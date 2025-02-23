@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.instructables.com/id/High-Tech-Skateboards/",
+        "creator": "randofo",
+        "subcategory": "Electronics",
+        "title": "High Tech Skateboards",
+        "images": [
+            "https://content.instructables.com/F6A/SMKI/FAKWPI2C/F6ASMKIFAKWPI2C.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/F98/C8J5/I0A55LG7/F98C8J5I0A55LG7.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FJN/QZ77/JIKJLN3T/FJNQZ77JIKJLN3T.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FWL/L225/JPSNXLYY/FWLL225JPSNXLYY.png?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FWJ/1AD0/HRTWJLBJ/FWJ1AD0HRTWJLBJ.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FFB/ZRI6/HJAI6JHH/FFBZRI6HJAI6JHH.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FN4/JKVR/HHJOCIQQ/FN4JKVRHHJOCIQQ.jpg?auto=webp&crop=1.2%3A1&frame=1",
+            "https://content.instructables.com/F3M/TD3I/IRXTI1DY/F3MTD3IIRXTI1DY.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/F75/K8YV/J3YQCERA/F75K8YVJ3YQCERA.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FG0/RVZM/GKS0RZ9Z/FG0RVZMGKS0RZ9Z.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FTE/RS5N/IQLI6R2A/FTERS5NIQLI6R2A.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600",
+            "https://content.instructables.com/FT7/0AO0/JE94DPL1/FT70AO0JE94DPL1.jpg?auto=webp&crop=1.2%3A1&frame=1&width=600"
+        ],
+        "materials_required": [
+            "PIC Microcontroller",
+            "Raspberry Pi",
+            "Arduino Shield",
+            "Evive",
+            "NeoPixels",
+            "Nunchuck Controller"
+        ],
+        "description": "A collection of high-tech skateboard projects involving electronics, microcontrollers, LEDs, and other technologies to enhance the functionality and experience of skateboarding.",
+        "steps": [
+            "Build a skateboard with a PIC microcontroller and LEDs.",
+            "Create a Beamboarder to skate at night using LEDs.",
+            "Design a Skate-o-Meter using Raspberry Pi.",
+            "Construct a NeoPixel skateboard using Arduino.",
+            "Develop an LED longboard or skateboard.",
+            "Build a self-balancing skateboard/segway project using an Arduino shield.",
+            "Construct an easy-build self-balancing electric skateboard.",
+            "Create a smartphone-controlled electric skateboard with Evive.",
+            "Design a GPS-based skateboard analyzer using Raspberry Pi.",
+            "Build a keyboard skateboard.",
+            "Create a DIY Nunchuck controller for electric skateboards.",
+            "Construct a DIY electric skateboard."
+        ]
+    }
+]

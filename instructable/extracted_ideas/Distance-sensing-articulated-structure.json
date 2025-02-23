@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Distance-sensing-articulated-structure/",
+        "creator": "GreenAndBlackSparkleCat",
+        "subcategory": "Art",
+        "title": "Distance sensing articulated structure",
+        "images": [
+            "https://content.instructables.com/F5A/7EKI/I916ERJ3/F5A7EKII916ERJ3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8F/L002/I916E56N/F8FL002I916E56N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6C/3YHW/I916E84V/F6C3YHWI916E84V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F22/T09Y/I916EW7J/F22T09YI916EW7J.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPA/OYWK/I916EW7I/FPAOYWKI916EW7I.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "arduino uno",
+            "ultrasonic ping sensor",
+            "wood(or other material for the main structure)",
+            "chicago screws",
+            "protoboard(s)",
+            "single strand solid wire",
+            "soldering iron and wire",
+            "RGB led strip(for this I used SUPERNIGHT)",
+            "3 MOSFETs",
+            "9-12V power supply (I used a 9V battery)"
+        ],
+        "description": "This project combines nature and technology to create a distance-sensing articulated structure. As the structure is extended, the distance point changes, activating a ping and lights. The color of the lights changes from green to red as the structure gets closer to an object. It uses an arduino and a ping sensor",
+        "steps": [
+            "Test all the electronic components using a breadboard to ensure they function correctly before soldering.",
+            "Write the code for the Arduino, starting with sample code for individual parts.  Customize the code to control the RGB LED strip based on distance readings from the ping sensor. The code will read distance and map that to the colors red and green. If the ping does not return a distance it will turn blue.",
+            "Construct an articulated structure, using wood and chicago screws for joints, allowing the structure to fold out. Mount the distance sensor at the end of the structure.",
+            "Transfer the circuit from the breadboard to a protoboard. Ensure all connections are correctly soldered and bridge connections to positive, ground, and the MOSFETs. Use a multimeter to check for errors.",
+            "Assemble the complete project by attaching the protoboard to the articulated structure. The distance sensor will be at the end of the structure, changing the color of the LED based on the proximity of an object. The structure folds out and the color will change from green to red as the structure gets closer to an object."
+        ]
+    }
+]

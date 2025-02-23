@@ -1,0 +1,28 @@
+[
+    {
+        "url": "https://www.instructables.com/id/USB-Led-Light-Diy/",
+        "creator": "ROBO HUB",
+        "subcategory": "Art",
+        "title": "USB Led Light Diy",
+        "images": [
+            "https://content.instructables.com/F5K/AML5/JA7HSU0X/F5KAML5JA7HSU0X.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLD/XTA4/M6TCMHDP/FLDXTA4M6TCMHDP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFQ/7WRX/M6P2A7G6/FFQ7WRXM6P2A7G6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F55/I1CP/M5PPXPF0/F55I1CPM5PPXPF0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSV/F8Y4/IQU0VJ5D/FSVF8Y4IQU0VJ5D.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUC/NMR8/IQU0VJ69/FUCNMR8IQU0VJ69.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFH/SQDT/IQU0VJ6M/FFHSQDTIQU0VJ6M.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC5/27A2/IQU0VL2K/FC527A2IQU0VL2K.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "USB cable",
+            "4 LEDs"
+        ],
+        "description": "This project guides you through creating a USB-powered LED light using readily available materials.",
+        "steps": [
+            "Fix the straw to the LED wire.",
+            "Solder the LED panel to the USB wire.",
+            "The USB LED light is now ready to use."
+        ]
+    }
+]

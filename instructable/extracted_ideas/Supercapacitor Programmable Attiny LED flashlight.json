@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Supercapacitor-Programmable-Attiny-LED-Flashlight/",
+        "creator": "kondzio29",
+        "subcategory": "Arduino",
+        "title": "Supercapacitor Programmable Attiny LED flashlight",
+        "images": [
+            "https://content.instructables.com/FZN/T774/IJ3GMN9A/FZNT774IJ3GMN9A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/A6CJ/IIYWWF4U/FU3A6CJIIYWWF4U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSK/2UOU/HOUG7GE1/FSK2UOUHOUG7GE1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLW/W5LF/IA0WU3T8/FLWW5LFIA0WU3T8.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9Y/TWKC/I92LUUXI/F9YTWKCI92LUUXI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9K/HUN9/I8R69XO5/F9KHUN9I8R69XO5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FG6/VT1O/IIYWWF20/FG6VT1OIIYWWF20.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHB/WTSA/IIYWWF39/FHBWTSAIIYWWF39.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH8/P2IQ/IIYWWF0U/FH8P2IQIIYWWF0U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F4N/8WM6/IJ61ZK5U/F4N8WM6IJ61ZK5U.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8J/QS7V/IJ61ZK22/F8JQS7VIJ61ZK22.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWK/GPSU/IIYWWF3C/FWKGPSUIIYWWF3C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F82/A07M/IIYWWF3H/F82A07MIIYWWF3H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8A/FRP2/IIYWWF3M/F8AFRP2IIYWWF3M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSU/GJYK/IIYWWF3Q/FSUGJYKIIYWWF3Q.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU3/A6CJ/IIYWWF4U/FU3A6CJIIYWWF4U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSU/GJYK/IIYWWF3Q/FSUGJYKIIYWWF3Q.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Attiny85",
+            "LEDs",
+            "5.5V/1F supercapacitor",
+            "USB plug",
+            "Two 220 ohm resistors",
+            "Button"
+        ],
+        "description": "This project is a supercapacitor powered LED flashlight controlled by an Attiny85 microcontroller. It features multiple modes (100%, 30%, strobe) and a sleep mode for low power consumption. The Attiny85 is programmed using Arduino as ISP.",
+        "steps": [
+            "Program the Attiny85 with Arduino as ISP. This involves uploading the Arduino ISP sketch, connecting the Attiny85 to the Arduino, and selecting the correct board and programmer in the Arduino IDE. Upload the provided code, modifying brightness levels as desired.",
+            "Prepare the LEDs by filing one side flat and gluing them together in parallel.",
+            "Solder the LEDs in parallel.",
+            "Connect the LED output to pin 5 of the Attiny85 and the button input to pin 6.",
+            "Add a pull-down resistor between pin 6 and pin 4 (GND).",
+            "Connect a 220 ohm resistor in series with the LEDs, connecting the positive side to pin 5 and the negative side to pin 4 (GND).",
+            "Solder the supercapacitor to pin 8 (positive) and pin 4 (GND/negative).",
+            "Solder the USB plug for charging to the supercapacitor.",
+            "Use hot glue to secure all the components and prevent shorts."
+        ]
+    }
+]

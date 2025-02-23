@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Water-Proof-Switch/",
+        "creator": "palombo5050",
+        "subcategory": "Electronics",
+        "title": "Water Proof Switch",
+        "images": [
+            "https://content.instructables.com/FT1/U3MZ/GS8OT3MY/FT1U3MZGS8OT3MY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT2/1CA4/GTMPB0MY/FT21CA4GTMPB0MY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7S/CD6P/JV2R73DK/F7SCD6PJV2R73DK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBQ/RFF1/JV2R8FRN/FBQRFF1JV2R8FRN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLU/EIV3/IJG252B7/FLUEIV3IJG252B7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F74/SCAO/GS8OT3NC/F74SCAOGS8OT3NC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9M/VQIM/GS8OT3O2/F9MVQIMGS8OT3O2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU8/EYRY/GS8OT3O9/FU8EYRYGS8OT3O9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTC/V86H/GS8OT3OY/FTCV86HGS8OT3OY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNZ/TQ5T/GS8OT3P2/FNZTQ5TGS8OT3P2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBU/GBW7/GS8OT3PH/FBUGBW7GS8OT3PH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT1/U3MZ/GS8OT3MY/FT1U3MZGS8OT3MY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "High temp hot glue",
+            "3/4 inch Heat Shrink (about 3 inches long)"
+        ],
+        "description": "This project provides instructions for making an electrical switch waterproof and submersible using hot glue and heat shrink. It was created for a battery-operated watercraft that required a submersible switch.",
+        "steps": [
+            "Shrink about 1/2 - 3/4 inch of one end of the heat shrink and press flat until cool to create the first seal. Apply hot glue on the edge to help seal it.",
+            "Make the necessary electrical connections to the switch and insert it into the heat shrink tubing.",
+            "Inject high-temperature hot glue into the heat shrink. The heat from the glue will further shrink the tubing, sealing the switch and wires. Be cautious as the glue will be hot and may ooze out."
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-connect-your-Intel-Edison-board-to-WiFi/",
+        "creator": "SlkStephane",
+        "subcategory": "Arduino",
+        "title": "How to connect your Intel Edison board to WiFi",
+        "images": [
+            "https://content.instructables.com/FSA/26ET/IE2NCYL6/FSA26ETIE2NCYL6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNA/JRIL/IBW24QPE/FNAJRILIBW24QPE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDB/GLBI/JWYSXFO8/FDBGLBIJWYSXFO8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDC/R4I2/JWOTLXK9/FDCR4I2JWOTLXK9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUY/8185/JWOSUQTN/FUY8185JWOSUQTN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F95/4HK7/IE2NCYJZ/F954HK7IE2NCYJZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV4/JDZW/IE2NCYJ9/FV4JDZWIE2NCYJ9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSR/ADCF/IE2NCYJA/FSRADCFIE2NCYJA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTX/GBJW/IE2NCYOI/FTXGBJWIE2NCYOI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTG/Y563/IE2NCYL7/FTGY563IE2NCYL7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCN/EVFO/IE2NCZ2V/FCNEVFOIE2NCZ2V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLQ/46BP/IE2NCZ1F/FLQ46BPIE2NCZ1F.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCF/FANX/IE2NCZ1H/FCFFANXIE2NCZ1H.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHZ/7VCZ/IE2ND0DH/FHZ7VCZIE2ND0DH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTP/OMMV/IE2ND0DF/FTPOMMVIE2ND0DF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAC/14DK/IE2ND0CQ/FAC14DKIE2ND0CQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ2/EWQA/IE2ND0CP/FJ2EWQAIE2ND0CP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Intel Edison Board",
+            "Mini Breakout Board",
+            "Expansion Board",
+            "Cables",
+            "Windows 64-bit Installer (or appropriate installer for your OS)",
+            "PuTTY terminal emulator"
+        ],
+        "description": "This project outlines the steps to connect an Intel Edison board to a WiFi network and obtain an IP address.",
+        "steps": [
+            "Assemble the Intel Edison board by installing the Mini Breakout Board onto the Expansion Board, attaching the leg, and plugging in the necessary cables.",
+            "Choose the appropriate operating system installer for your computer (Windows 64-bit or 32-bit) to install drivers and update the firmware.",
+            "Set up a serial terminal connection to the board using PuTTY. Configure the connection type to Serial, enter the COM port number for your board, set the speed to 115200, and open the connection. Log in with username 'root' and press Enter for the password (no password by default).",
+            "Connect the board to the internet by establishing a serial communication session. Use the command 'configure_edison --wifi' to configure Wi-Fi. Select your desired Wi-Fi network from the list, enter the password if required, and wait for the connection to be established. Note the IP address displayed. You can also use 'ifconfig' command to view the wlan0 IP address.",
+            "Verify the connectivity by pinging the board from another computer on the same network using the obtained IP address or by accessing the IP address in a browser. If experiencing issues, try running the 'ifconfig usb0 down', 'ifconfig wlan0 down', 'ifconfig usb0 up', and 'ifconfig wlan0 up' commands in the serial terminal."
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-add-detail-to-a-picture/",
+        "creator": "Leopardjoy16",
+        "subcategory": "Art",
+        "title": "How to add detail to a picture",
+        "images": [
+            "https://content.instructables.com/FQ3/U3MV/HXD60ESV/FQ3U3MVHXD60ESV.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNA/XDTV/I3H5IC2W/FNAXDTVI3H5IC2W.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCL/ECE5/IBDTTBF2/FCLECE5IBDTTBF2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F74/U618/IBDTTASI/F74U618IBDTTASI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJW/AFFJ/HSXOBEND/FJWAFFJHSXOBEND.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIJ/E4SE/HXD60H3F/FIJE4SEHXD60H3F.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGC/L40C/HXD60I4Q/FGCL40CHXD60I4Q.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/R4TM/HXD60I7X/FNRR4TMHXD60I7X.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUU/5RJU/HXD60ID7/FUU5RJUHXD60ID7.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN9/OT9X/HXD60IQP/FN9OT9XHXD60IQP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0K/3V4Y/HXD60ISJ/F0K3V4YHXD60ISJ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSB/FJ3Z/HXD60IXE/FSBFJ3ZHXD60IXE.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5S/H2GS/HXD60JO6/F5SH2GSHXD60JO6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9R/AA03/HXD60JSI/F9RAA03HXD60JSI.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "GIMP (or any art program with airbrush and color selection tools)"
+        ],
+        "description": "This project demonstrates how to add detail to a picture using a free art program called GIMP. The tutorial focuses on using shading techniques to enhance the appearance of the picture.",
+        "steps": [
+            "Open the picture you want to edit in your preferred art program.",
+            "In GIMP, select the airbrush tool.",
+            "Use the dropper tool to select the color of the area you want to shade.",
+            "Darken the selected color slightly by adjusting the 'V' or 'Value' bar in the color select tool.",
+            "Apply the darker shade to the outlines of the object you're detailing.",
+            "Add lighter shading to the inside of the object to further enhance the detail.",
+            "Experiment with different colors for shading to create different effects.",
+            "Add small details like scribbles in unexpected places to add visual interest."
+        ]
+    }
+]

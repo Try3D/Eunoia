@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Electrical-Component-Bugs/",
+        "creator": "ehunck",
+        "subcategory": "Art",
+        "title": "Electrical Component Bugs",
+        "images": [
+            "https://content.instructables.com/F68/GEHL/I1IQ7IK6/F68GEHLI1IQ7IK6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTK/AH8O/I1IQ7HTE/FTKAH8OI1IQ7HTE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBX/IPNF/I1IQ7HXL/FBXIPNFI1IQ7HXL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZR/R1U4/I1IQ7HX0/FZRR1U4I1IQ7HX0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSO/7V5L/I1IQ7HY5/FSO7V5LI1IQ7HY5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8M/OE0C/I1OTWKQB/F8MOE0CI1OTWKQB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F78/VMI1/I1OTWKX1/F78VMI1I1OTWKX1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "3 lead component like a transistor or IR detector x2",
+            "2 lead component like a capacitor x2",
+            "Adhesive (e.g., Household Goop)",
+            "Solder"
+        ],
+        "description": "This project uses discarded or faulty electrical components to create insect-like sculptures. It's a fun way to repurpose electronic waste and create unique decorative items.",
+        "steps": [
+            "Gather your parts: Collect two 3-lead components (transistors or IR detectors) and two 2-lead components (capacitors) of various sizes.",
+            "Solder the components: Bend the leads of the transistor to the desired position. Then, solder the larger capacitor to these leads to form the body of the insect.",
+            "Glue on the head: Use adhesive to glue the remaining capacitor to the front of the body, with the leads hanging down to resemble pincers.",
+            "Create more: Make multiple insects to create a collection."
+        ]
+    }
+]

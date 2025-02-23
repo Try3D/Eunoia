@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Glowing-tiki-mask-using-EL-Wire/",
+        "creator": "Lofton1",
+        "subcategory": "Art",
+        "title": "Glowing tiki mask using EL Wire",
+        "images": [
+            "https://content.instructables.com/FQ9/R3NJ/GC1KVBEG/FQ9R3NJGC1KVBEG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWO/V3GV/GBZYURAQ/FWOV3GVGBZYURAQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDK/SU5O/GBZYUREB/FDKSU5OGBZYUREB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA0/HAKT/GBZYURE6/FA0HAKTGBZYURE6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPN/QE4F/GBZYURHG/FPNQE4FGBZYURHG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWM/SW3N/GBZYURJE/FWMSW3NGBZYURJE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F89/F23U/GBZYUSWC/F89F23UGBZYUSWC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3H/O8O1/GBZYUSWJ/F3HO8O1GBZYUSWJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6F/BLF4/GBZYUSWO/F6FBLF4GBZYUSWO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKS/SW1G/GBZYURIX/FKSSW1GGBZYURIX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMQ/BZE1/GBZYURJ3/FMQBZE1GBZYURJ3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ9/R3NJ/GC1KVBEG/FQ9R3NJGC1KVBEG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "EL Wire with controller",
+            "Tiki mask (or other wall art)"
+        ],
+        "description": "This project outlines how to add EL wire to a tiki mask or other wall art to create a glowing effect. It's a simple and non-damaging way to enhance existing art pieces.",
+        "steps": [
+            "Organize the EL wires to minimize tangling and make attachment easier.",
+            "Tape the EL wire to the mask, using small pieces of tape to maximize the visible glowing area. Pay special attention to securing the power source.",
+            "Consider the placement of the switch and battery for easy access when applying the wire.",
+            "Hang the finished mask, ensuring it's out of reach of children and easily accessible for turning on and off. If the wire isn't bright enough, consider adding more or using a larger diameter wire."
+        ]
+    }
+]

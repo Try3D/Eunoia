@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Mystical-Geometric-Slab/",
+        "creator": "MichaelG183",
+        "subcategory": "Art",
+        "title": "Mystical Geometric Slab",
+        "images": [
+            "https://content.instructables.com/F73/66Z1/IIM3ZKXD/F7366Z1IIM3ZKXD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO5/O4JQ/IIM3ZKRQ/FO5O4JQIIM3ZKRQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS3/9QQK/IIM3ZQVG/FS39QQKIIM3ZQVG.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9V/JQJV/IIM3ZKT7/F9VJQJVIIM3ZKT7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI2/LYAA/IIM3ZKT6/FI2LYAAIIM3ZKT6.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKO/T8NU/IIM3ZKUJ/FKOT8NUIIM3ZKUJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2X/6SLI/IIM3ZKUK/F2X6SLIIIM3ZKUK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FED/DS92/IIM3ZKXE/FEDDS92IIM3ZKXE.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFX/5KN8/IIM3ZKXG/FFX5KN8IIM3ZKXG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Conductive paint",
+            "Conductive thread",
+            "Makey Makey",
+            "Access to a laser engraver",
+            "Wood putty",
+            "Conductive tape"
+        ],
+        "description": "This project creates a wooden slab with a laser-etched geometric pattern overlaid with copper, functioning as a touch circuit for controlling a sensory environment. When touched, the circuit interacts with a connected system to generate visual outputs.",
+        "steps": [
+            "Laser engrave a circuit design onto a wooden slab.",
+            "Cover the engraved surface with an even coat of conductive paint, ensuring it fills the engraving completely.",
+            "Sand off the top layer of the wood to remove the conductive paint from the surface, leaving it only in the engraved indentations. Ensure the top layer is fully removed to prevent short circuits.",
+            "Drill small holes in the circuit to create seamless connections for conductive thread to run signals underneath the board.",
+            "Use a needle to pull the conductive thread through the holes to the back of the board. Cut the thread on the top side, fill the hole with wood putty, and touch up with conductive tape, coating the end of the thread. The top side may be lightly sanded and varnished.",
+            "Connect the threads on the back of the board to a Makey Makey, connecting the grounds together and running each signal line to a keyboard instance.",
+            "Connect the Makey Makey to a visual output, such as a custom application to generate mandala-like geometric patterns based on touch inputs. The source code can be found at https://github.com/mjglen/CreativeCoding_oF_F15_Michae_Glen/tree/master/3dparticlemesh_project3"
+        ]
+    }
+]

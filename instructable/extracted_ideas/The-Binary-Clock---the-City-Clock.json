@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.instructables.com/id/The-Binary-Clock-the-City-Clock/",
+        "creator": "La Fabrique DIY",
+        "subcategory": "Art",
+        "title": "The Binary Clock - the City Clock",
+        "images": [
+            "https://content.instructables.com/FSC/PSYP/J3NR15R5/FSCPSYPJ3NR15R5.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3J/X9O0/IJVWGRES/F3JX9O0IJVWGRES.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPR/D50X/IJQOMUZM/FPRD50XIJQOMUZM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FR6/2P9M/J3NR1DJB/FR62P9MJ3NR1DJB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHJ/Y13G/J3NR1DK1/FHJY13GJ3NR1DK1.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXT/ZJDR/J3NR15PS/FXTZJDRJ3NR15PS.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0R/I5CV/J3NR15OX/F0RI5CVJ3NR15OX.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F40/CJMS/J3NR15NZ/F40CJMSJ3NR15NZ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDZ/IDFR/J3NR15NS/FDZIDFRJ3NR15NS.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLK/2I5T/J3NR15N1/FLK2I5TJ3NR15N1.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK1/SCAH/J3NR15MB/FK1SCAHJ3NR15MB.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGM/MZQO/J3NR15M9/FGMMZQOJ3NR15M9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXN/LYYE/J3NR15LK/FXNLYYEJ3NR15LK.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Y/76DX/J3NR15KW/F3Y76DXJ3NR15KW.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJF/GWEX/J3NR15KN/FJFGWEXJ3NR15KN.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAN/RO26/J3NR15KL/FANRO26J3NR15KL.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUK/K9DV/J3NR15JX/FUKK9DVJ3NR15JX.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXM/8SNM/J3NR15JV/FXM8SNMJ3NR15JV.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA6/166B/J3NR15J6/FA6166BJ3NR15J6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8Z/A9AF/J3NR15H9/F8ZA9AFJ3NR15H9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXC/3PD3/J3NR15E9/FXC3PD3J3NR15E9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTR/OOKU/J3NR15CC/FTROOKUJ3NR15CC.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2W/KKZT/J3NR15BM/F2WKKZTJ3NR15BM.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9Y/5QE7/J3NR15BI/F9Y5QE7J3NR15BI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA5/8C1N/J3NR15QU/FA58C1NJ3NR15QU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino Nano",
+            "13 LEDs (5mm)",
+            "220 Ohm resistors (13)",
+            "DS3231 Real Time Clock (RTC) module (optional)",
+            "Coin cell battery (for RTC module)",
+            "Thin wood (2mm)",
+            "Plywood sheet"
+        ],
+        "description": "This project describes how to build a binary clock that is disguised as a typical Parisian building. The clock uses LEDs to display the time in binary format, making it a unique and intriguing timepiece.",
+        "steps": [
+            "Drill 5mm holes in a thin sheet of plywood matching the pattern of the 13 windows for the LEDs.",
+            "Insert the LEDs into the holes to hold them in place during soldering.",
+            "Bend all the cathodes of the LEDs and solder them together to create a GND grid.",
+            "Solder a 220 Ohm resistor to each anode of the LEDs.",
+            "Connect a random point of the GND grid to the Arduino GND.",
+            "Link each anode of the LEDs to the corresponding I/O port of the Arduino, following the provided circuit diagram.",
+            "Upload the provided Arduino code to the Arduino Nano, ensuring the LED matrix matches your layout. This code does not use the RTC module.",
+            "Optionally, add a DS3231 RTC module for more accurate timekeeping. Connect SCL to A4 and SDA to A5 of the Arduino Nano.",
+            "If using the RTC module, upload the alternative Arduino code provided for the RTC module.",
+            "Cut the building structure out of thin wood (2mm) using a scroll saw and band saw, including windows and other details.",
+            "Design the building to resemble Parisian architecture or adapt it to match your city's design.",
+            "Create the \"mansardes\" (French-style windows) for the building.",
+            "Assemble the wooden structure of the building with approximate dimensions of 15x15x25 cm.",
+            "Create a stand for the clock with notches to fit the facades and a hole for the USB cable.",
+            "Connect the clock to a 5V power supply (USB) to run it."
+        ]
+    }
+]

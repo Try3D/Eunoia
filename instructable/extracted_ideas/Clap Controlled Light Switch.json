@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Clap-Controlled-Light-Switch/",
+        "creator": "MSU-Factory",
+        "subcategory": "Microcontrollers",
+        "title": "Clap Controlled Light Switch",
+        "images": [
+            "https://content.instructables.com/FOA/X7XO/IKSN1IEH/FOAX7XOIKSN1IEH.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNP/O10D/IKSN5VMN/FNPO10DIKSN5VMN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDR/82LD/IKSN1IEZ/FDR82LDIKSN1IEZ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK0/5GJH/IKSN1IO6/FK05GJHIKSN1IO6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRV/KNC1/IKSN5LJQ/FRVKNC1IKSN5LJQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F91/0TES/IKRNIHU1/F910TESIKRNIHU1.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8C/V87B/IKRNIHU0/F8CV87BIKRNIHU0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU9/9MBZ/IKRNIHV1/FU99MBZIKRNIHV1.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHN/LWA6/IKSN5TNH/FHNLWA6IKSN5TNH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Servo Motor",
+            "Electret Mic Amp MAX4466 w/ Adjustable Gain",
+            "9V Battery Snap Connector to DC Male Power Adapter Cables for Arduino",
+            "300-600 Ohm Resistor"
+        ],
+        "description": "This project creates a clap-controlled light switch using an Arduino, a microphone, and a servo motor. The system detects claps and uses the servo to toggle the light switch.",
+        "steps": [
+            "Connect the Arduino to the breadboard and supply power.",
+            "Connect the Servo motor to the breadboard for power and connect the signal pin to pin 9 on the Arduino.",
+            "Connect the Mic output pin to pin A0 on the Arduino, VCE to positive power, and GND to ground.",
+            "Connect a 300-600 Ohm resistor between pin 2 on the Arduino and the positive side of the LED, then connect the other end of the LED to ground.",
+            "Download and open the Arduino software and connect the Arduino Uno to the computer using a USB cable.",
+            "Select the correct board and USB port in the Arduino software.",
+            "Upload the provided code to the Arduino board.",
+            "Adjust the 'trigger' value in the code to change the microphone sensitivity.",
+            "Adjust the 'timeout' value to change the time between claps that are detected.",
+            "Create a mount to hold all the components, including the Arduino, breadboard, and battery.",
+            "Attach the servo to the mount so it can turn the light switch using an arm.",
+            "Attach the servo arm to the servo spoke and the light switch, potentially using zip ties.",
+            "Mount the system above the light switch using Velcro or a similar method.",
+            "Adjust the system to ensure it properly toggles the light switch with claps."
+        ]
+    }
+]

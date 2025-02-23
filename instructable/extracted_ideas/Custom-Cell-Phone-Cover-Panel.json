@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Nokia-5800-XpressMusic-and-for-other-phones-also/",
+        "creator": "SrvKS",
+        "subcategory": "Art",
+        "title": "Custom Cell Phone Cover Panel",
+        "images": [
+            "https://content.instructables.com/FDN/SC4O/GKS0S6P7/FDNSC4OGKS0S6P7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQQ/4NE8/GKS0TD98/FQQ4NE8GKS0TD98.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO1/MG65/GKXTX1TX/FO1MG65GKXTX1TX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJY/8T87/GKXTX1TY/FJY8T87GKXTX1TY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9X/DAWP/HPMVGZ1Q/F9XDAWPHPMVGZ1Q.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGI/T9V8/GOOP5AYV/FGIT9V8GOOP5AYV.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZT/18WW/GNVIDLLH/FZT18WWGNVIDLLH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FX2/QITO/GNVIDLKX/FX2QITOGNVIDLKX.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Wembley's QuickFix glue (transparent, or shouldn't give much yellowing or whitening when dried)",
+            "Glitters (with glue ones would work better)",
+            "Coloured Marker set (or Glass Painting Kit)",
+            "OHP sheet (transparent sheet) - Particularly for 5800 Users with broken lens"
+        ],
+        "description": "This project is about customizing a cell phone cover panel using glue, glitters, and colored markers or glass paint. The procedure differs slightly based on whether the phone panel has a coating or is plain.",
+        "steps": [
+            "For phones with coated panels: Spread QuickFix glue all over the back panel, excluding the lens rim, and wait for cracks to develop in the coating.",
+            "Once the glue dries and a textured surface with ridges forms, burst any bubbles before they solidify and smoothen the surface.",
+            "If not using glitters, color the pieces randomly, avoiding similar colors side by side. Note that colors might not be vibrant.",
+            "Alternatively, apply glitters of different colors in a desired pattern, avoiding a thick layer, and let it dry.",
+            "After the glitters have dried, apply another layer of QuickFix on top to prevent glitters from falling off. This will reduce the shine but increase gloss.",
+            "Optional: Overcoat the silver rim around the camera lens with a thick layer of glitter and QuickFix, then let it dry (only if using glitters).",
+            "For phones with plain panels: Follow a similar procedure as with coated panels, but no texture will be obtained. Opt for creating borders manually using glass painting kits.",
+            "For Nokia 5800 users with a broken lens cover: Remove all fiber glass except the flash glass. Cut an OHP sheet to the appropriate size, place it, and apply glue to the edges to secure it. Avoid smearing glue in the middle to maintain image quality. Reapply glue to thicken the edges, creating an inset OHP sheet."
+        ]
+    }
+]

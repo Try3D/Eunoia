@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Fitting-the-MaxAmps-2600mAh-extended-battery-to-th/",
+        "creator": "gtoal",
+        "subcategory": "Remote Control",
+        "title": "Fitting the MaxAmps 2600mAh extended battery to the A R Drone",
+        "images": [
+            "https://content.instructables.com/FRH/GN31/GJQEIKZQ/FRHGN31GJQEIKZQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUK/WTNS/GI0TMQUH/FUKWTNSGI0TMQUH.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSD/G3Z3/KFV485UA/FSDG3Z3KFV485UA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZW/3PVF/KE73U9JO/FZW3PVFKE73U9JO.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1J/M37N/KDYJLROQ/F1JM37NKDYJLROQ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY1/F8MI/GJQEIKUA/FY1F8MIGJQEIKUA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/F267/GJQEIKTW/FJRF267GJQEIKTW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZH/7K5R/GJQEIKVP/FZH7K5RGJQEIKVP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFT/ZLUP/GJQEIKW0/FFTZLUPGJQEIKW0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI5/IQEP/GJQEIKWE/FI5IQEPGJQEIKWE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZR/D218/GJQEIKWQ/FZRD218GJQEIKWQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F61/OU4F/GJQEIKVF/F61OU4FGJQEIKVF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3E/FYDL/GJQEIKXM/F3EFYDLGJQEIKXM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "MaxAmps 2600mAh Extended Battery",
+            "Foam",
+            "Replacement velcro strap (comes with the battery)",
+            "JB Weld (for optional cross piece repair)",
+            "Plastic epoxy (for optional cross piece repair)"
+        ],
+        "description": "This project details how to properly install a MaxAmps 2600mAh extended battery in an A R Drone to prevent it from slipping during flight. The battery is not a direct fit, requiring additional steps to secure it. It also describes how to fix a broken central cross piece using JB Weld as a stop-gap measure.",
+        "steps": [
+            "Compare the MaxAmps 2600mAh battery with the stock battery to observe the size and shape differences.",
+            "Identify the gaps between the new battery and the drone's battery compartment.",
+            "Cut foam to fill the gaps on the sides and end of the new battery within the battery compartment.",
+            "Strip down the drone to remove the existing velcro strap and fit the replacement strap that came with the battery.",
+            "Optionally, if the central cross piece is broken, repair it using plastic epoxy to hold the pieces in place and then cover the central area with JB Weld for structural support."
+        ]
+    }
+]

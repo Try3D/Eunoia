@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Limit-Your-Paint-Palette-with-Digital-Gamut-Mappin/",
+        "creator": "Kim Neely",
+        "subcategory": "Art",
+        "title": "Limit Your Paint Palette with Digital Gamut Mapping",
+        "images": [
+            "https://content.instructables.com/F90/3QGZ/HHS9M30G/F903QGZHHS9M30G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9F/NTFB/HI3TRCQ2/F9FNTFBHI3TRCQ2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F90/TBQZ/HI3TRVZ3/F90TBQZHI3TRVZ3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF0/I0C9/HI3Q449K/FF0I0C9HI3Q449K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2F/UKYJ/HHS9M34M/F2FUKYJHHS9M34M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHV/E6DV/HHS9M34R/FHVE6DVHHS9M34R.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG9/FT2J/HHS9M31T/FG9FT2JHHS9M31T.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFM/264M/HHS9M36W/FFM264MHHS9M36W.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ8/R5Z3/HHS9TA0O/FQ8R5Z3HHS9TA0O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMB/HEIR/HI3U0J4A/FMBHEIRHI3U0J4A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F87/XQFF/HI3U0J7C/F87XQFFHI3U0J7C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYX/MMZE/HI3TRFU4/FYXMMZEHI3TRFU4.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLV/NGBA/HI3TRFU5/FLVNGBAHI3TRFU5.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJT/ZODS/HI3TRFV6/FJTZODSHI3TRFV6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWC/AMLO/HI3TRG1N/FWCAMLOHI3TRG1N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJC/E1UX/HI3TRG1O/FJCE1UXHI3TRG1O.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Digital Yurmby color wheel",
+            "Photoshop (or similar photo manipulation software)",
+            "Gamut-detecting program (KGamut - http://kauel.com/kgamut/kgamut.zip)"
+        ],
+        "description": "This project demonstrates how to use gamut mapping to limit your color palette for painting, both digitally and traditionally. Limiting the palette can create unity, character, and convenience in your artwork.",
+        "steps": [
+            "Download and install the KGamut gamut-detecting program from http://kauel.com/kgamut/kgamut.zip.",
+            "Obtain a digital Yurmby color wheel.",
+            "Open the color wheel in Photoshop (or similar software).",
+            "Use the polygonal Lasso tool to mark off a triangle (or other shape) on the color wheel, defining the gamut.",
+            "Cut the selected gamut area into a separate layer.",
+            "Copy the gamut layer into your digital painting program.",
+            "Use the eyedropper tool to pick colors from the corners and distinct areas of the gamut to create your limited color palette.",
+            "When creating lighter/darker versions of the colors, be careful to maintain the same saturation levels to stay within the gamut."
+        ]
+    }
+]

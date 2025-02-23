@@ -1,0 +1,47 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Led-Disco-Box/",
+        "creator": "NerdyTechGirl",
+        "subcategory": "LEDs",
+        "title": "Led Disco Box",
+        "images": [
+            "https://content.instructables.com/FKX/6M4O/JGMJ4UUB/FKX6M4OJGMJ4UUB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM4/NB8O/JGMJ4VRU/FM4NB8OJGMJ4VRU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FER/UXT0/JGMJ4VZ0/FERUXT0JGMJ4VZ0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL4/PL3F/K0H01YFN/FL4PL3FK0H01YFN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVV/P3ZC/KOEBV3DS/FVVP3ZCKOEBV3DS.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKN/FMRS/KOEBV2DB/FKNFMRSKOEBV2DB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1W/D45B/KL6L75C0/F1WD45BKL6L75C0.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMP/NT6L/JGGTWRS2/FMPNT6LJGGTWRS2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD0/JCV9/JGMJ3LTD/FD0JCV9JGMJ3LTD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F18/PAVY/JGMJ3IHG/F18PAVYJGMJ3IHG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE7/JJV9/JGMJ3IE0/FE7JJV9JGMJ3IE0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLR/ZR92/JGMJ3I4M/FLRZR92JGMJ3I4M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPA/PGI9/JGMJ3HS8/FPAPGI9JGMJ3HS8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1W/375L/JGMJ3N9D/F1W375LJGMJ3N9D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHY/1JCN/JGMJ3PU5/FHY1JCNJGMJ3PU5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWJ/KBHL/JGMJ3VEQ/FWJKBHLJGMJ3VEQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYA/53KX/JGMJ3IKX/FYA53KXJGMJ3IKX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Ws2811 LED string",
+            "Frosted matt acrylic glass (6x6 inch)",
+            "Arduino Uno",
+            "Slider switch",
+            "Super glue",
+            "Foam sheets",
+            "4xAA battery holder with dc jack",
+            "FastLed library"
+        ],
+        "description": "This project guides you through the process of building an LED disco box. The box uses WS2811 LEDs controlled by an Arduino to create a dynamic lighting display, covered by a frosted acrylic glass.",
+        "steps": [
+            "Measure the cardboard box and cut out a square on the top for the acrylic sheet.",
+            "Print a 6x6 grid, paste it to a cardboard, mark the depth for the grid inside the box, and secure it with double-sided tape.",
+            "Cut a foam frame and stick it to the cardboard form leaving one side open to slide in the acrylic sheet, and then spray paint it white.",
+            "Make a hole at the centre of each square on the pasted grid and insert the LEDs. Cut 8 strips of cardboard and make slits to differentiate the LEDs from each other and then attach it according to the picture.",
+            "Solder the red wire to the switch and then a jumper wire that will connect to the Arduino. Connect the red wire to Arduino's 5V pin, the green wire to pin 5, and the white wire to Gnd.",
+            "Install the FastLed library to the Arduino IDE.",
+            "Slide the acrylic glass into the frame and secure it with super glue around the edges."
+        ]
+    }
+]

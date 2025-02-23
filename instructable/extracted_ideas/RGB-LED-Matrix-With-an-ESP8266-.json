@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.instructables.com/id/RGB-LED-Matrix-With-an-ESP8266/",
+        "creator": "witnessmenow",
+        "subcategory": "Arduino",
+        "title": "RGB LED Matrix With an ESP8266 ",
+        "images": [
+            "https://content.instructables.com/FR7/TBLH/JH0TSL1S/FR7TBLHJH0TSL1S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/2BM5/JH0TS7ZM/FJR2BM5JH0TS7ZM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9Y/AMN3/IZT6KNZR/F9YAMN3IZT6KNZR.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF2/RIX1/LIOLPTCQ/FF2RIX1LIOLPTCQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZM/FY9R/KP2MDTZS/FZMFY9RKP2MDTZS.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FG2/WMFM/KG6JTLBW/FG2WMFMKG6JTLBW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUB/HVWT/JH0TS7PU/FUBHVWTJH0TS7PU.jpg?auto=webp&fit=bounds&frame=1&height=620&width=620",
+            "https://content.instructables.com/FM8/QABH/JH0TS7PV/FM8QABHJH0TS7PV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FV6/47A2/JH0TS7Q2/FV647A2JH0TS7Q2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/F3P/P48T/JH0TS7UD/F3PP48TJH0TS7UD.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOA/8ASS/JH0TS7UC/FOA8ASSJH0TS7UC.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRT/4LP8/JH0TS7UB/FRT4LP8JH0TS7UB.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTU/IZMG/JWESUEU4/FTUIZMGJWESUEU4.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4O/VFK2/JH0TS7U9/F4OVFK2JH0TS7U9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/F3N/WWG7/JH0TS7TZ/F3NWWG7JH0TS7TZ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F13/DT7V/JH0TS7PZ/F13DT7VJH0TS7PZ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGE/MKPW/JH0TSJDD/FGEMKPWJH0TSJDD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FGM/8NKM/JH0TS7U3/FGM8NKMJH0TS7U3.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/F13/DT7V/JH0TS7PZ/F13DT7VJH0TS7PZ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FEU/N9KI/JH0TS7XD/FEUN9KIJH0TS7XD.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/F2A/DLA4/JH0TS7UH/F2ADLA4JH0TS7UH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FC4/9P3I/JH0TS7XH/FC49P3IJH0TS7XH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FGT/WTCL/JH0TS7XE/FGTWTCLJH0TS7XE.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FRI/BY6A/JH0TS7Q1/FRIBY6AJH0TS7Q1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FJM/IKT9/JH0TS7UG/FJMIKT9JH0TS7UG.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG0/5AKV/JH0TS7UF/FG05AKVJH0TS7UF.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FSV/KKMA/JH0TS7PW/FSVKKMAJH0TS7PW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM8/QABH/JH0TS7PV/FM8QABHJH0TS7PV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV6/47A2/JH0TS7Q2/FV647A2JH0TS7Q2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "RGB LED Matrix display (e.g., P3 64x32 LED Matrix)",
+            "5V Power Supply (8 Amps recommended for a 64x32 matrix)",
+            "Wemos D1 Mini Clone (ESP8266 development board)",
+            "Female to Female 20CM Dupont cables",
+            "10pcs 2.1mm Adapters"
+        ],
+        "description": "This project demonstrates how to set up and use an RGB LED Matrix display with an ESP8266 to display text, images, and dynamic data like a YouTube subscriber count.",
+        "steps": [
+            "Check out the video for an overview of the project.",
+            "Identify the type of RGB LED Matrix display you have (e.g., P3 64x32). Note the pitch (distance between LEDs) and the number of LEDs.",
+            "Gather the required materials: RGB LED Matrix, 5V power supply, ESP8266 development board (Wemos D1 Mini recommended), Dupont cables, and 2.1mm adapters.",
+            "Set up the Arduino IDE and install the ESP8266 board support. Ensure you can upload a simple sketch (e.g., blink) to your ESP8266.",
+            "Install the necessary libraries: PXMatrix Library (download from Github if not available in the library manager) and Adafruit GFX library.",
+            "Connect the power supply to the wires that came with the display. Use screw terminals or a perfboard for a solid connection. Ensure proper insulation.",
+            "Connect the data wires from the display to the ESP8266 according to the provided wiring diagram. Note which pins (C, D, E) are required based on the scan rate of your display. Use a multimeter to check if the pins are connected to the ground to make sure which of them are needed",
+            "Open the pixeltime example from the PxMatrix library in the Arduino IDE.",
+            "Configure the example code by enabling the display configuration that matches your display type (e.g., 64x32 with C, D, and E pins) and setting the display resolution.",
+            "Set the scan rate in the code (e.g., display.begin(16) for a 1/16 scan display).",
+            "Set the CPU frequency of your ESP8266 to 160MHz in the Arduino IDE (Tools -> CPU Frequency).",
+            "Upload the example sketch to the ESP8266.",
+            "Optionally, experiment with displaying images by converting them to the appropriate format and using the provided example code, or display YouTube subscriber count using the provided example and API library."
+        ]
+    }
+]

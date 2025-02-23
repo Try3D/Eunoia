@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-Can-You-Do-to-Fix-ALLSTEPS-Problem/",
+        "creator": "jerrymonkey123",
+        "subcategory": "Computers",
+        "title": "How Can You Do to Fix ALLSTEPS Problem?",
+        "images": [
+            "https://content.instructables.com/FHX/JD3T/IPWX51R9/FHXJD3TIPWX51R9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FND/JVFC/IPWX518F/FNDJVFCIPWX518F.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN5/P1YE/IPWX51XI/FN5P1YEIPWX51XI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKB/32I5/IPWX5201/FKB32I5IPWX5201.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project provides a solution for when the 'View All Steps' button on Instructables doesn't work, preventing users from seeing all steps of a project on a single page.",
+        "steps": [
+            "Make sure to look at the URL after clicking the 'View All Steps' button. For example, if the original URL is 'www.instrucables.com/id/An-instrucable's-name/', after clicking the button, it should change to 'www.instrucables.com/id/An-instrucable's-name/?ALLSTEPS'.",
+            "If the URL does not change to include '?ALLSTEPS', manually add '?ALLSTEPS' to the end of the URL's last forward slash. For example, change 'https://www.instructables.com/id/Make-cookies/' to 'https://www.instructables.com/id/Make-cookies/?ALLSTEPS'."
+        ]
+    }
+]

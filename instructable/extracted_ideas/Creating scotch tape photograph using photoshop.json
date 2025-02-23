@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Creating-scotch-tape-photograph-using-photoshop/",
+        "creator": "kishank2",
+        "subcategory": "Cameras",
+        "title": "Creating scotch tape photograph using photoshop",
+        "images": [
+            "https://content.instructables.com/FY1/N3KI/HVGXMGXX/FY1N3KIHVGXMGXX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGA/973P/HF23XLG1/FGA973PHF23XLG1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAN/V0VJ/I7MXXZFJ/FANV0VJI7MXXZFJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5P/G8OR/I3TH6LEI/F5PG8ORI3TH6LEI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSL/U6BF/HWFLMV83/FSLU6BFHWFLMV83.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F41/2UT4/HVGXMGXJ/F412UT4HVGXMGXJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOE/1TN4/HVGXMGZD/FOE1TN4HVGXMGZD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI5/HKS0/HVGXMGXK/FI5HKS0HVGXMGXK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4I/1P0C/HVGXMGXL/F4I1P0CHVGXMGXL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY1/JBQ1/HVGXMGXM/FY1JBQ1HVGXMGXM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEQ/65UB/HVGXMGXN/FEQ65UBHVGXMGXN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXE/19PJ/HVGXMGXO/FXE19PJHVGXMGXO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLW/RUK2/HVGXMGXP/FLWRUK2HVGXMGXP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUL/86F6/HVGXMGXQ/FUL86F6HVGXMGXQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F33/TVVE/HVGXMGXR/F33TVVEHVGXMGXR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOI/FHP5/HVGXMGXS/FOIFHP5HVGXMGXS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI6/CMU3/HVGXMGXT/FI6CMU3HVGXMGXT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE3/A4BH/HVGXMGXU/FE3A4BHHVGXMGXU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPB/7YES/HVGXMGXV/FPB7YESHVGXMGXV.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUJ/O1TF/HVGXXDHY/FUJO1TFHVGXXDHY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Photo",
+            "Photoshop"
+        ],
+        "description": "This project demonstrates how to create a Scotch tape photograph effect using Photoshop. It involves creating a new document, importing a photo, and creating a Scotch tape effect using various Photoshop tools.",
+        "steps": [
+            "Create a new document sized 600 x 400 pixels and fill the canvas with an appropriate color (e.g., #7ca213).",
+            "Open a photo and copy it to the canvas. Reduce its size and rotate it slightly using Ctrl+T. Apply Layer > Layer Style > Blending Options to this layer.",
+            "Create the Scotch tape by using the Polygonal Lasso Tool to make a selection. Create a new layer and fill the selected area with #c1cccd. Remove the selection with Ctrl+D.",
+            "Process the Scotch tape borders by selecting the Eraser Tool and using a standard Photoshop brush. Gently erase the edges and set the layer opacity to 22%.",
+            "Add defects to the Scotch tape to make it look realistic using the Dodge Tool (Brush: 7px, Range: Highlights, Exposure: 50%) to add light lines and the Burn Tool (Brush: 30px, Range: Shadows, Exposure: 100%) to darken some areas.",
+            "Duplicate the Scotch tape layer using Ctrl+J and change the layer mode to Overlay. Apply Filter > Stylize > Emboss with desired settings.",
+            "Add more tape if you want and experiment to get the best results."
+        ]
+    }
+]

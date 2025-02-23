@@ -1,0 +1,49 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Ultimate-TS-100-Travel-Case/",
+        "creator": "Chris Ray",
+        "subcategory": "Soldering",
+        "title": "Ultimate TS-100 Travel Case",
+        "images": [
+            "https://content.instructables.com/FZY/W205/JFIIURNY/FZYW205JFIIURNY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVJ/NJRX/IWCFB6N1/FVJNJRXIWCFB6N1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTJ/421Y/JGWJ9NNO/FTJ421YJGWJ9NNO.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIF/VEU7/JEOIQLCO/FIFVEU7JEOIQLCO.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSK/HXZP/IWI0X7EX/FSKHXZPIWI0X7EX.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFT/Q6C2/JFIIUEAB/FFTQ6C2JFIIUEAB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT7/VU7Y/JFIIUMZ0/FT7VU7YJFIIUMZ0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFT/Q6C2/JFIIUEAB/FFTQ6C2JFIIUEAB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7N/GRNJ/JFIIUHHJ/F7NGRNJJFIIUHHJ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5U/XUH5/JFIIUHRT/F5UXUH5JFIIUHRT.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSN/JVD6/JFIIUHSU/FSNJVD6JFIIUHSU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3E/TUJI/JFIIUJN1/F3ETUJIJFIIUJN1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Q/PB5X/JFIIUEAA/F3QPB5XJFIIUEAA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F33/T16J/JFIIUEA9/F33T16JJFIIUEA9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRG/ORLR/JFIIUK0K/FRGORLRJFIIUK0K.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEY/O5KS/JFIIUK36/FEYO5KSJFIIUK36.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOT/3MP7/JFIIUECL/FOT3MP7JFIIUECL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUP/ADHL/JFIIULKW/FUPADHLJFIIULKW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDH/Q93D/JFIIULGN/FDHQ93DJFIIULGN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPA/WZ2T/JFIIULLK/FPAWZ2TJFIIULLK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT7/VU7Y/JFIIUMZ0/FT7VU7YJFIIUMZ0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "20mm ext, 18mm int carbon fiber tube",
+            "Hatchbox wood filament",
+            "SainSmart TPU filament",
+            "JB Weld clear epoxy",
+            "Crafting felt",
+            "MinWax Red Mahogany wood stain",
+            "Rust-oleum Ultimate Polyurethane Spray (Gloss)"
+        ],
+        "description": "This project creates a protective and aesthetically pleasing travel case for a TS-100 soldering iron. It uses a carbon fiber tube as a protective shell, 3D-printed wood caps for the ends, and a TPU sleeve to prevent rattling.",
+        "steps": [
+            "Cut the carbon fiber tube to exactly 170mm, wrapping it in painter's tape first to prevent splitting. Use a Dremel with a cutoff wheel, wearing appropriate PPE.",
+            "Apply clear JB Weld to the ends of the cut carbon fiber tube to prevent fraying. Sand smooth after curing.",
+            "Design and 3D-print two wooden caps for the tube. Ensure the cap's inside diameter is 20mm. Sand the caps starting with 120-200 grit sandpaper, then moving to 400 grit.",
+            "Apply wood stain to the 3D-printed caps. Apply thick and allow to dry for a day or two without wiping to allow the wood filament to absorb color.",
+            "Apply two generous layers of polyurethane spray to the stained caps, sanding with 600g sandpaper between coats. Finish with one more light layer.",
+            "Cut a 20mm diameter felt circle and glue it into the top cap. Print a TPU tube with a printed external diameter of 18mm and an internal of 10mm that is 50mm long, and slide it chamfer side first into the bottom of the carbon tube. Apply JB Weld around the inside of the bottom plug to secure the TPU and carbon tube to the wooden plug."
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Keyboard-PenPot/",
+        "creator": "_GamingTurtle_",
+        "subcategory": "Art",
+        "title": "Keyboard PenPot",
+        "images": [
+            "https://content.instructables.com/FP0/0N2C/I760NJD2/FP00N2CI760NJD2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSU/14QX/I760NJE6/FSU14QXI760NJE6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEK/0PEA/I9JRBY8O/FEK0PEAI9JRBY8O.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY2/1WIS/I9L6IAUA/FY21WISI9L6IAUA.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FS4/PNPQ/I760NJHO/FS4PNPQI760NJHO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK8/GXGH/I760NJIT/FK8GXGHI760NJIT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJC/F2LY/I760NJLP/FJCF2LYI760NJLP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDQ/8QFC/I760NJES/FDQ8QFCI760NJES.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Old Keyboard",
+            "Hot Glue Gun"
+        ],
+        "description": "This project involves repurposing an old keyboard to create a pen pot.",
+        "steps": [
+            "Open the keyboard by unscrewing all the screws inside.",
+            "Remove the keys from the keyboard and set them aside.",
+            "Glue the keys around the pot.",
+            "If you run out of keys, cut the ends off the keyboard's USB cable, hot glue one end down, wrap it around the missing area, and secure it with more hot glue."
+        ]
+    }
+]

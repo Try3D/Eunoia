@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Cheap-And-Easy-12V-Clip-Lights-For-Your-Micro-Sola/",
+        "creator": "luxstar",
+        "subcategory": "Electronics",
+        "title": "Cheap and Easy 12V Clip Lights for the Off Grid World",
+        "images": [
+            "https://content.instructables.com/FE3/URRW/IDUQLL00/FE3URRWIDUQLL00.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/55U1/LSKDI21S/FP555U1LSKDI21S.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWF/G551/LTSO6K63/FWFG551LTSO6K63.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFS/EI2W/IYB2A7I3/FFSEI2WIYB2A7I3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM8/GZXU/IXGFRIEH/FM8GZXUIXGFRIEH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF8/X0XR/IDUQSVKY/FF8X0XRIDUQSVKY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCK/FKJC/IDUQSVKD/FCKFKJCIDUQSVKD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4T/ZKF6/IDUR1PBX/F4TZKF6IDUR1PBX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F17/HPIL/IDUR1PDA/F17HPILIDUR1PDA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7I/DE7U/IDUQT27C/F7IDE7UIDUQT27C.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCU/CEW1/IDUQT27B/FCUCEW1IDUQT27B.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Piranha LEDs",
+            "Straw Hat 8mm LEDs",
+            "One watt LEDs",
+            "50 ohm resistors (for piranha and straw hat LEDs)",
+            "2 ohm resistors (for one watt LEDs)",
+            "3 wire connectors (optional)",
+            "Header pin strips (optional)",
+            "Clothes pins"
+        ],
+        "description": "This project provides instructions on how to build cheap and easy 12V clip lights for off-grid use, particularly for areas where access to reliable lighting is limited. The lights are designed to be efficient, modular, and easily moved from place to place, making them suitable for reading or area lighting. The author suggests a micro-solar solution to power the lights.",
+        "steps": [
+            "Design and build LED circuits using Piranha, Straw Hat, or one-watt LEDs.",
+            "Use appropriate resistor values (50 ohms for piranha and straw hat LEDs, 2 ohms for one watt LEDs) to limit current and prevent battery drainage.",
+            "Solder or connect the LEDs and resistors.",
+            "Optionally use 3 wire connectors and header pin strips to make the lights modular",
+            "Attach clothes pins to the lights for versatile placement."
+        ]
+    }
+]

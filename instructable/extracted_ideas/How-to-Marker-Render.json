@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Marker-Render/",
+        "creator": "RyanLench99",
+        "subcategory": "Art",
+        "title": "How to Marker Render",
+        "images": [
+            "https://content.instructables.com/FNK/9CSZ/IPJZOA1V/FNK9CSZIPJZOA1V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5T/HIJW/IPH4U4VL/F5THIJWIPH4U4VL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FS5/EPJW/IPH4TUY2/FS5EPJWIPH4TUY2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJE/5HO7/IPH4TK31/FJE5HO7IPH4TK31.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKU/4VXH/IPH6WRV0/FKU4VXHIPH6WRV0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2S/YO9O/IPJZOA1B/F2SYO9OIPJZOA1B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5V/RSRY/IPJZOA1C/F5VRSRYIPJZOA1C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT8/R6LI/IPJZOA1H/FT8R6LIIPJZOA1H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKM/D2O2/IPJZOA1M/FKMD2O2IPJZOA1M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUE/73O6/IPJZOA1O/FUE73O6IPJZOA1O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXQ/MC82/IPJZOA1P/FXQMC82IPJZOA1P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F36/8B0G/IPJZOA1U/F368B0GIPJZOA1U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTJ/BGU5/IPJZOA9U/FTJBGU5IPJZOA9U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Fine liner pens (various thicknesses)",
+            "Markers (various colors, including orange, red, grey, and light grey)",
+            "Glue"
+        ],
+        "description": "This tutorial explains how to create a simple marker rendering for design presentation boards. The techniques can be applied to various objects and shapes.",
+        "steps": [
+            "Draw the object you want to render (e.g., a bicycle bottle cage).",
+            "Use a fine liner to outline the object. Add depth by using a thicker fine liner to go over certain lines, particularly where a spider could crawl behind the object and not be seen.",
+            "Add block colors, starting with lighter layers. For gradients, use a broken spotty pattern of the dominant color to diffuse the color. Use darker colors for recessed or shadowed areas.",
+            "For objects without bright colors, use a light or washed-out grey to make the brighter colors in the foreground appear closer.",
+            "Cut out the rendering and glue it onto a new sheet of paper to remove any bleed and create a crisp background."
+        ]
+    }
+]

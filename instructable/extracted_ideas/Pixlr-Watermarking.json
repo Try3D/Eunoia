@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Pixlr-Watermarking/",
+        "creator": "Inteligasmic",
+        "subcategory": "Art",
+        "title": "Pixlr Watermarking",
+        "images": [
+            "https://content.instructables.com/FD3/ELO5/JDAKBBYQ/FD3ELO5JDAKBBYQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ5/GA4F/JDAKB9B6/FQ5GA4FJDAKB9B6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZS/02H6/JDAKB9B7/FZS02H6JDAKB9B7.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2M/DN5H/JDAKB9B8/F2MDN5HJDAKB9B8.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/QZCX/JDAKB9B9/FNRQZCXJDAKB9B9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1Y/AIUC/JDAKB9BD/F1YAIUCJDAKB9BD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFR/T6Y7/JDAKB9BE/FFRT6Y7JDAKB9BE.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1S/04X2/JDAKB9BI/F1S04X2JDAKB9BI.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTI/75VC/JDAKB9BJ/FTI75VCJDAKB9BJ.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYC/MFFI/JDAKB9BK/FYCMFFIJDAKB9BK.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0C/HZ9H/JDAKB9BO/F0CHZ9HJDAKB9BO.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGG/Y3LV/JDAKB9BP/FGGY3LVJDAKB9BP.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9V/LZ4V/JDAKB9EE/F9VLZ4VJDAKB9EE.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/GVOW/JDAKB9EF/FLFGVOWJDAKB9EF.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project guides you through the process of creating a single-color watermark using Pixlr, a free online image editor.",
+        "steps": [
+            "Go to https://pixlr.com/editor/ and open an image (preferably a .psd with a transparent background).",
+            "Use the Marquee Tool to select the part of the image you want to use for the watermark.",
+            "Under the Edit section, choose 'Define Brush' to create a custom brush from the selection.",
+            "Open a new image in Pixlr where you want to apply the watermark.",
+            "Select the Brush tool from the toolbar.",
+            "Adjust the brush size using the 'Diameter' setting in the brush selection window. The newly defined brush will be last on the list.",
+            "Choose the desired color for the watermark by clicking the color selection icon in the left panel.",
+            "Adjust the opacity of the brush in the top bar to control the watermark's transparency.",
+            "Apply the brush to the image where you want the watermark to appear."
+        ]
+    }
+]

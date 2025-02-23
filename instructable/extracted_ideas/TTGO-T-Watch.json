@@ -1,0 +1,49 @@
+[
+    {
+        "url": "https://www.instructables.com/id/TTGO-T-Watch/",
+        "creator": "\u9673\u4eae",
+        "subcategory": "Arduino",
+        "title": "TTGO T-Watch",
+        "images": [
+            "https://content.instructables.com/FRV/45NY/JXEYCR5E/FRV45NYJXEYCR5E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBA/HAG8/JXCD546U/FBAHAG8JXCD546U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHD/C67K/ILMLBLBP/FHDC67KILMLBLBP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FM1/06N3/M5S75T0Y/FM106N3M5S75T0Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDW/CKOO/M3OGTQYJ/FDWCKOOM3OGTQYJ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTB/HYDO/M2UGKLD3/FTBHYDOM2UGKLD3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGA/RHVU/JXCD4X9P/FGARHVUJXCD4X9P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTI/GL8P/JXCD4Y0V/FTIGL8PJXCD4Y0V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMQ/KEOP/JXCD4YHU/FMQKEOPJXCD4YHU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH6/C5I5/JXCD4YW8/FH6C5I5JXCD4YW8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7N/AVZM/JXCD50HR/F7NAVZMJXCD50HR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBO/PARU/JXCD4ZAO/FBOPARUJXCD4ZAO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUK/4UOD/JXCD503B/FUK4UODJXCD503B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDA/NR6B/JXEYCZ15/FDANR6BJXEYCZ15.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK4/1OJB/JXCD547K/FK41OJBJXCD547K.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKQ/WSZD/JXCD5474/FKQWSZDJXCD5474.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3Z/SEQZ/JXCD546Z/F3ZSEQZJXCD546Z.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F06/CS0B/JXCD547B/F06CS0BJXCD547B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNQ/O4V7/JXCD4XK1/FNQO4V7JXCD4XK1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCL/VYZL/JXEYCRBC/FCLVYZLJXEYCRBC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRM/I17B/JYCUHEOV/FRMI17BJYCUHEOV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "TTGO T-Watch development kit",
+            "LORA module (optional)",
+            "GPS module (optional)",
+            "SIM module (optional)"
+        ],
+        "description": "This project demonstrates how to use the TTGO T-Watch, an ESP32-based development kit in the shape of a watch. It covers setting up a simple watch face, setting the time using compile time, and implementing power saving techniques to extend battery life.  The project explores the use of the AXP202 power management chip to control power consumption and implement sleep modes.",
+        "steps": [
+            "Install the required software and libraries following the instructions on the TTGO-T-Watch GitHub page.",
+            "Download the source code from the provided GitHub repository.",
+            "Open, compile, and upload the Set_RTC.ino sketch to update the RTC date and time using the compile time.",
+            "Open, compile, and upload the Arduino-T-Watch-simple.ino sketch.",
+            "The program reads the RTC date and time, draws clock marks, shows a continuous sweep second hand, and shuts down power after 60 seconds (or via the power button).",
+            "Press the power button to turn the watch on again.",
+            "To improve user experience and power consumption use Arduino-T-Watch-GFX",
+            "Use of Arduino_GFX allows display to enter sleep mode saving power",
+            "Wake the device by touching the screen."
+        ]
+    }
+]

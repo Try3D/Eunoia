@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Toolbox-PC/",
+        "creator": "cejones8",
+        "subcategory": "Computers",
+        "title": "Toolbox PC ",
+        "images": [
+            "https://content.instructables.com/FYZ/TOGD/K5R372QE/FYZTOGDK5R372QE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXQ/1NYN/JS0OT45T/FXQ1NYNJS0OT45T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FV6/Z8TT/KLTG95FW/FV6Z8TTKLTG95FW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN1/H22U/K9N929B8/FN1H22UK9N929B8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0M/78IJ/K8J0LDD8/F0M78IJK8J0LDD8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH6/KLFS/K5R372N9/FH6KLFSK5R372N9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNZ/638J/K5R372NE/FNZ638JK5R372NE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI5/S8SG/K5R372NB/FI5S8SGK5R372NB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F05/B3YX/K5R372PA/F05B3YXK5R372PA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSV/VDTY/K5R372Q5/FSVVDTYK5R372Q5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW5/21W0/K5R372NM/FW521W0K5R372NM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F02/IQNH/K5R372NW/F02IQNHK5R372NW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F41/VM1D/K5R372OD/F41VM1DK5R372OD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEA/CWI5/K5R372O4/FEACWI5K5R372O4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKY/5ZWB/K5R372PW/FKY5ZWBK5R372PW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Cheap plastic toolbox",
+            "Motherboard with IO shield",
+            "Processor",
+            "Hard drive",
+            "140mm fan",
+            "Power supply",
+            "Power button",
+            "Motherboard standoffs",
+            "Zip ties"
+        ],
+        "description": "This project is about creating a portable, low-end gaming desktop inside a toolbox, using second-hand parts to achieve a cost-effective solution for LAN parties.",
+        "steps": [
+            "Measure the motherboard IO and cut a corresponding hole in the toolbox. Mount the motherboard standoffs and secure the motherboard inside. Cut a hole for an intake fan above the motherboard, ensuring space for the graphics card.",
+            "Mount the power supply opposite the intake fan, using the power supply's fan as an exhaust. Cut a hole for the power supply and ensure space for the switch and cables. Secure the power supply, and manage cables with zip ties.",
+            "Mount the SSD (or HDD) inside the toolbox lid using double-sided tape. Run SATA and power cables to it. Wire up a power button, drill a hole in the front of the case, and secure the button with hot glue."
+        ]
+    }
+]

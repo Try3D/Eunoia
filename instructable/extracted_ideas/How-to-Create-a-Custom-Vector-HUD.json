@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Create-a-Custom-Vector-HUD/",
+        "creator": "gokuss3",
+        "subcategory": "Art",
+        "title": "How to Create a Custom Vector HUD",
+        "images": [
+            "https://content.instructables.com/FA8/A1NA/HI3TWPEI/FA8A1NAHI3TWPEI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHY/6OCM/HI3TWPEG/FHY6OCMHI3TWPEG.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFN/KS3M/HI3TYDWC/FFNKS3MHI3TYDWC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGX/3I4S/HFONL8WS/FGX3I4SHFONL8WS.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FT8/2OP4/HI3TWPTD/FT82OP4HI3TWPTD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYY/XSGO/HI3TWPUC/FYYXSGOHI3TWPUC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEJ/L2XL/HI3TWPWH/FEJL2XLHI3TWPWH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOH/EIB0/HI3TWPWI/FOHEIB0HI3TWPWI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRV/V1YI/HI3TWPWT/FRVV1YIHI3TWPWT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2L/191Z/HI3TWPXB/F2L191ZHI3TWPXB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVG/50G2/HI3TWPXC/FVG50G2HI3TWPXC.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI9/BLV1/HI3TWPXE/FI9BLV1HI3TWPXE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU7/H76D/HI3TWPYF/FU7H76DHI3TWPYF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2Y/8R6V/HI3TWQ1M/F2Y8R6VHI3TWQ1M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN9/V4Z6/HI3TWQ1N/FN9V4Z6HI3TWQ1N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8V/PT40/HI3TWQ2I/F8VPT40HI3TWQ2I.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Illustrator or Photoshop"
+        ],
+        "description": "This project guides you through creating a custom Heads-Up Display (HUD) ring using Adobe Illustrator (though it can be achieved in Photoshop). It involves creating shapes, using the pathfinder tool to combine them, creating an Art Brush from the pattern, and applying that brush to a circle to form the HUD.",
+        "steps": [
+            "Open a new 500px by 500px document in Illustrator, turn on the grid (View > Show Grid), and enable snap to grid.",
+            "Use the rectangle tool (M) to draw your desired pattern, filling the entire canvas. Set the fill to any color.",
+            "Select the drawn pattern and use the Pathfinder tool (Effect > Pathfinder). Click 'Unite' and then 'Expand'.",
+            "Repeat the pathfinder process until you achieve the desired pattern.",
+            "Select the entire pattern (Ctrl+A), and in the Brush palette, select 'New Brush'. Choose 'Art Brush' and click 'OK'. Name the brush and ensure similar settings as in the example picture.",
+            "Repeat step 4 to create different brushes or HUDs, then save the brushes in the Brush palette.",
+            "Use the Ellipse tool (L) to create a perfect circle (hold Shift). Set the fill to 'None' and the stroke to any color.",
+            "With the circle selected, click on the brush pattern you designed in the Brush palette to apply it to the circle, creating the HUD."
+        ]
+    }
+]

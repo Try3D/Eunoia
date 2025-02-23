@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Solar-powered-LED-light/",
+        "creator": "patchi",
+        "subcategory": "Electronics",
+        "title": "Solar-powered LED light",
+        "images": [
+            "https://content.instructables.com/FQU/NDGM/I8YBJP7X/FQUNDGMI8YBJP7X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSV/N9CK/I8YBJP5Y/FSVN9CKI8YBJP5Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ1/V94J/I7VQO3BU/FJ1V94JI7VQO3BU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSC/ZKON/I85QOMI7/FSCZKONI85QOMI7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0S/5VZH/I85QNY0V/F0S5VZHI85QNY0V.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9G/ZDS3/I84BD33M/F9GZDS3I84BD33M.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYN/U1RJ/I8YBJP6K/FYNU1RJI8YBJP6K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/1Z1W/I8YBJP6M/FVV1Z1WI8YBJP6M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIY/OZJF/I8YBJP6N/FIYOZJFI8YBJP6N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGC/L16E/I8YBJP6O/FGCL16EI8YBJP6O.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F35/TLIK/I8YBJP6G/F35TLIKI8YBJP6G.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJG/8YWD/I8YBJP6Q/FJG8YWDI8YBJP6Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRI/3CK6/I8YBJP6R/FRI3CK6I8YBJP6R.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Solar Panel"
+        ],
+        "description": "This project demonstrates how to create a solar-powered LED light using a solar panel and an LED bulb. It involves connecting the solar panel to the LED bulb to power it using solar energy.",
+        "steps": [
+            "Place the solar panel facing down to expose the circuit board and identify the positive (+) and negative (-) outputs.",
+            "Connect wires to the positive and negative outputs of the solar panel, using different colors for easy identification.",
+            "Identify the positive (longer leg) and negative (shorter leg) outputs on the LED bulb.",
+            "Connect the wire from the positive output of the solar panel to the longer leg of the LED bulb, and the wire from the negative output of the solar panel to the shorter leg of the LED bulb.",
+            "Expose the solar panel to light. The LED bulb should light up. Adjust the light source to observe changes in brightness."
+        ]
+    }
+]

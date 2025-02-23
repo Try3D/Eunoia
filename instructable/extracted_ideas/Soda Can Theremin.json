@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Theremin-Using-a-Soda-Can-and-the-Digilent-Analog-/",
+        "creator": "Will_W_76",
+        "subcategory": "Electronics",
+        "title": "Soda Can Theremin",
+        "images": [
+            "https://content.instructables.com/F5J/TWWL/ILTQDTCV/F5JTWWLILTQDTCV.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPD/8ARC/HVS16Q70/FPD8ARCHVS16Q70.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG9/21YJ/HVQQVILM/FG921YJHVQQVILM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVT/PSCT/I1TPTU3L/FVTPSCTI1TPTU3L.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F41/48U4/I11YUGH5/F4148U4I11YUGH5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTB/DF45/I0HYQ4F9/FTBDF45I0HYQ4F9.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW8/Z492/HVS16WA8/FW8Z492HVS16WA8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5X/0JUI/HVS16Q8M/F5X0JUIHVS16Q8M.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZS/2RXC/HVS16Q8P/FZS2RXCHVS16Q8P.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5R/N0ZW/HVTLVCFA/F5RN0ZWHVTLVCFA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRS/0MR2/HVS16Q6X/FRS0MR2HVS16Q6X.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYX/A53M/HVS17SJQ/FYXA53MHVS17SJQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "OP27 Operational Amplifier (x2)",
+            "OP37 Operational Amplifier",
+            "Small speaker",
+            "100pF Ceramic Capacitor",
+            "0.047uF Ceramic Capacitor",
+            "Small-signal Diode (1N3064)",
+            "10k\u03a9 resistor (x2)",
+            "20k\u03a9 resistor (x2)",
+            "47k\u03a9 resistor (x2)",
+            "100k\u03a9 resistor (x3)",
+            "Soda can",
+            "Digilent Analog Discovery",
+            "Analog Parts Kit",
+            "Digilent WaveForms Software"
+        ],
+        "description": "This project demonstrates how to build a simple theremin on a breadboard using a soda can as the antenna. The theremin modulates pitch based on hand position relative to the can.",
+        "steps": [
+            "Gather all the necessary materials, including the Analog Discovery kit, op-amps, resistors, capacitors, diode, speaker, soda can, and breadboard.",
+            "Build the variable-frequency oscillator using an OP27 op-amp, resistors, and a capacitor. Connect the soda can and a green jumper wire to the circuit to act as the antenna and input.",
+            "Construct the weighted summer using another OP27 op-amp, resistors, and a breadboard pin. Connect the output of the oscillator to the weighted summer, and the Analog Discovery's Arbitrary Waveform Generator as the fixed oscillator input.",
+            "Create the envelope detector with a small-signal diode, resistor, and capacitor. Connect the output of the weighted summer to the input of the envelope detector.",
+            "Set up the inverting amplifier using an OP37 op-amp and resistors. Connect the output of the envelope detector to the input of the amplifier.",
+            "Review the entire circuit, connect the power supplies and the speaker. Attach the Analog Discovery to the circuit as instructed.",
+            "Open the Digilent WaveForms software, turn on the Voltage Instrument, and measure the output frequency of the variable-frequency oscillator. Set the WaveForm Generator frequency to this measured value. Run the waveform generator and play the theremin by moving your hand near the soda can."
+        ]
+    }
+]

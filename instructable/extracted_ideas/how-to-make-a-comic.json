@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/how-to-make-a-comic/",
+        "creator": "the ultimate smaug",
+        "subcategory": "Art",
+        "title": "how to make a comic",
+        "images": [
+            "https://content.instructables.com/FAQ/HIUH/HUCTRQO3/FAQHIUHHUCTRQO3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F30/KRZ6/HUCTRQQR/F30KRZ6HUCTRQQR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7M/GASS/HUCTRQVR/F7MGASSHUCTRQVR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWX/YPWJ/HW0FUUBL/FWXYPWJHW0FUUBL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTM/X2TU/HXEZ7XQQ/FTMX2TUHXEZ7XQQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKX/FJJ5/HWUJUAOV/FKXFJJ5HWUJUAOV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWT/46JW/HWTBIMFE/FWT46JWHWTBIMFE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWD/E6NI/HUCTRQYA/FWDE6NIHUCTRQYA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUL/44P6/HUCTRQYC/FUL44P6HUCTRQYC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F22/90Y6/HUCTRQYJ/F2290Y6HUCTRQYJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "A guide on how to create a comic, focusing on outlines, details, and coloring. The example comic is about a boy genius named Scott Ram who has to override an EMP caused by a cult.",
+        "steps": [
+            "Make the outlines for your comic panels and characters.",
+            "Add details to your comic, personalizing it with unique elements.",
+            "Add color to make the comic more vibrant, or keep it black and white."
+        ]
+    }
+]

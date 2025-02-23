@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Etching-drawings-into-anodized-aluminum/",
+        "creator": "irisgottlieb",
+        "subcategory": "Art",
+        "title": "Etching Anodized Aluminum",
+        "images": [
+            "https://content.instructables.com/F9T/QSKI/HW7Q9FJ9/F9TQSKIHW7Q9FJ9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBP/9RQ7/HP5F5F2E/FBP9RQ7HP5F5F2E.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJ7/9ORD/HY4KUVFC/FJ79ORDHY4KUVFC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRY/RJSL/HUFW61D3/FRYRJSLHUFW61D3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FT3/QGT0/HUBJBJDI/FT3QGT0HUBJBJDI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FC3/T7OG/HW7Q9FL2/FC3T7OGHW7Q9FL2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEB/I96Y/HW7Q9FLA/FEBI96YHW7Q9FLA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/JFPZ/HW382OHR/FLFJFPZHW382OHR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F96/UO5F/HW7Q9IJW/F96UO5FHW7Q9IJW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDL/V985/HW7Q9ILE/FDLV985HW7Q9ILE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3V/JYDS/HW7Q9JQM/F3VJYDSHW7Q9JQM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F10/0M3C/HW7Q9HWZ/F100M3CHW7Q9HWZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7D/CGKR/HW7Q9GBZ/F7DCGKRHW7Q9GBZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM7/V82T/HW7Q9GD2/FM7V82THW7Q9GD2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Anodized aluminum",
+            "Laser cutter (Epilogue recommended)"
+        ],
+        "description": "This project outlines the process of creating delicate drawings on anodized aluminum by etching away the colored surface to reveal the bright aluminum underneath, using a laser cutter.",
+        "steps": [
+            "Prepare your drawings either by hand and scanning them, or digitally using programs like CorelDraw, Illustrator, or Photoshop. Consider the effect of line thickness and shading when creating your design.",
+            "For delicate thin lines, use vector line work. In CorelDraw, import your drawing and do a centerline trace, avoiding outline traces. In Photoshop or Illustrator, use the trace function and adjust the line thickness.",
+            "For shading, use a raster image with varying shades of gray, understanding that darker grays will result in lighter etched areas.",
+            "Experiment with different laser cutter settings. For shading on an Epilogue laser cutter, use raster settings with Power 100%, Speed 25%, 400 dpi, and standard or Floyd Steinberg dithering. Adjust gas assist as needed. The total etching time is about 5 minutes per etching."
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Make-an-Interactive-Sound-Wave-Print/",
+        "creator": "Bare Conductive",
+        "subcategory": "Microcontrollers",
+        "title": "How to Make an Interactive Sound Wave Print",
+        "images": [
+            "https://content.instructables.com/FRA/LDUI/JGGTID28/FRALDUIJGGTID28.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FST/4KMV/HJZ84P85/FST4KMVHJZ84P85.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/QHIZ/JS0OX4E9/FZVQHIZJS0OX4E9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPC/CDY1/JHQJR0VJ/FPCCDY1JHQJR0VJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZ6/433N/JHQJR11V/FZ6433NJHQJR11V.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUV/P755/JGGTID29/FUVP755JGGTID29.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUM/U7N2/JGGTID0B/FUMU7N2JGGTID0B.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6Z/58XO/JGGTID0K/F6Z58XOJGGTID0K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUX/3EZ3/JGGTID0L/FUX3EZ3JGGTID0L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5H/SS62/JGGTID0M/F5HSS62JGGTID0M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7L/P2S7/JGGTID0N/F7LP2S7JGGTID0N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAL/3DV8/JGGTID0P/FAL3DV8JGGTID0P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKK/7KSM/JGGTID0Q/FKK7KSMJGGTID0Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSD/JWZZ/JGGTID0S/FSDJWZZJGGTID0S.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI7/HKJ0/JGGTID27/FI7HKJ0JGGTID27.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIO/5XF9/JGGTIE73/FIO5XF9JGGTIE73.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Touch Board",
+            "Electric Paint",
+            "Printed Sensor-Paper",
+            "Speaker"
+        ],
+        "description": "This project creates an interactive sound wave print within a picture frame. Touching the print through the glass will play the song represented by the sound wave image. Printed sensors behind the print act as a proximity sensor, connected to a Touch Board and speaker.",
+        "steps": [
+            "Create a sound wave print of your chosen song using an online tool and print it on card stock.",
+            "Upload the Proximity_MP3 code to the Touch Board using the Arduino IDE. Also, upload your song named TRACK000.mp3 to the SD card.",
+            "Prepare the Printed Sensors by cutting away part of the sensor to create a reversed L-shape, ensuring an access node is available for connection.",
+            "Assemble the frame by placing the sound wave print inside, followed by the Printed Sensor behind it. Secure the frame backing and bend the sensor down, adhering it with tape.",
+            "Attach the Touch Board to the back of the frame, ensuring electrode E0 lies over the access node of the Printed Sensor. Mask unused electrodes to avoid interference.",
+            "Cold solder electrode E0 to the Printed Sensor using Electric Paint.",
+            "Securely attach the speaker and connect the Touch Board to a power source.",
+            "Touch the sound wave print to play the song. Adjust sensor thresholds if needed."
+        ]
+    }
+]

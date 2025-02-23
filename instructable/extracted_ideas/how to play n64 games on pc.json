@@ -1,0 +1,23 @@
+[
+    {
+        "url": "https://www.instructables.com/id/how-to-play-n64-games-on-pc/",
+        "creator": "scupolies11",
+        "subcategory": "Tools",
+        "title": "how to play n64 games on pc",
+        "images": [
+            "https://content.instructables.com/FYD/ZCOP/GN1I6J5O/FYDZCOPGN1I6J5O.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F26/XB29/GN1I6J5R/F26XB29GN1I6J5R.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMH/BLH3/GO14CQ2U/FMHBLH3GO14CQ2U.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F72/PQMN/GO14CQ2Z/F72PQMNGO14CQ2Z.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "N64 ROMs (e.g., SM64 or others)"
+        ],
+        "description": "This project describes how to play Nintendo 64 (N64) games on a PC using an emulator.",
+        "steps": [
+            "Download and install the Project 64 emulator (or a similar N64 emulator for PC).",
+            "Download the desired N64 game ROM (e.g., SM64 or another N64 game).",
+            "Open the downloaded ROM in the Project 64 emulator to play the game."
+        ]
+    }
+]

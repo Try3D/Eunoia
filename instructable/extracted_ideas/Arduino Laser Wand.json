@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-Laser-Wand/",
+        "creator": "mary.bednar7g",
+        "subcategory": "Arduino",
+        "title": "Arduino Laser Wand",
+        "images": [
+            "https://content.instructables.com/FGJ/1WSQ/J1MESVHO/FGJ1WSQJ1MESVHO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSV/9FGZ/J26F388T/FSV9FGZJ26F388T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK0/XWV2/J2GF33KZ/FK0XWV2J2GF33KZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUR/8UUA/J2KP98SP/FUR8UUAJ2KP98SP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1A/Q8I1/J2KP981H/F1AQ8I1J2KP981H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0V/LI37/J2KP981G/F0VLI37J2KP981G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1A/Q8I1/J2KP981H/F1AQ8I1J2KP981H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Laser (6 wires) or laser pointer (4 wires)",
+            "10K resistor",
+            "Photo resistor",
+            "1 jumbo straw",
+            "Glitter / Glitter glue / Pipe cleaner"
+        ],
+        "description": "This project involves creating a laser wand using an Arduino, a laser, and some basic electronic components. The wand's behavior is controlled by a photoresistor, which triggers an LED or buzzer when exposed to light.",
+        "steps": [
+            "Strip the USB cable: Cut off the non-USB end of the cable and carefully strip the black wire to expose four smaller wires inside. Strip the ends of the red and black wires.",
+            "Solder the laser to some male to male wires and then solder that to the USB cable that you stripped the wire off of",
+            "Cut the straw in half lengthwise to create a rectangle.",
+            "Cut the straw width-wise into a two-thirds piece and a one-third piece.",
+            "Fold the smaller piece in half to create a triangle to hold the wires.",
+            "Put the laser in the longer straw piece and tape it.",
+            "Tape the straw pieces together.",
+            "Add glitter, glitter glue, or a pipe cleaner for decoration.",
+            "Set up the breadboard: Plug one leg of the photoresistor to analog input 0 and the other to 5 volts. Plug one leg of the resistor to analog input 0 and the other to ground. Attach an LED or buzzer to digital pin 13.",
+            "Upload the provided code to the Arduino, adjusting the value 750 if necessary, for your particular laser."
+        ]
+    }
+]

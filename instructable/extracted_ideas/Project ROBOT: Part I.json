@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Project-ROBOT-Part-I/",
+        "creator": "AndreyOoops",
+        "subcategory": "Arduino",
+        "title": "Project ROBOT: Part I",
+        "images": [
+            "https://content.instructables.com/F8Q/HKVX/K55W3Y26/F8QHKVXK55W3Y26.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD1/H7DX/K55W3WIC/FD1H7DXK55W3WIC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMR/40CH/JYWTZBGM/FMR40CHJYWTZBGM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FC8/47S5/K5H5BQPY/FC847S5K5H5BQPY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJA/Z4ZZ/K5H5BQCO/FJAZ4ZZK5H5BQCO.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL4/9SHV/JYWTZH66/FL49SHVJYWTZH66.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FB9/OKKI/K55W3WHU/FB9OKKIK55W3WHU.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6N/32QL/K55W3WIA/F6N32QLK55W3WIA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC8/KOQ1/K55W3WHR/FC8KOQ1K55W3WHR.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FME/ZPL2/K55W3WIB/FMEZPL2K55W3WIB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEE/ZJDS/K55W3XFG/FEEZJDSK55W3XFG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Sheet of plastic",
+            "Plastic buckles"
+        ],
+        "description": "This instructable details the creation of the platform for an Arduino 4wd robot.",
+        "steps": [
+            "Create a draft of the platform design.",
+            "Glue the draft to a sheet of plastic.",
+            "Cut out the platform shape and drill necessary holes.",
+            "Connect all components to the platform using plastic buckles."
+        ]
+    }
+]

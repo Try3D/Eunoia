@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Mesmerizing-Video-Feedback-Mandala/",
+        "creator": "mmists",
+        "subcategory": "Art",
+        "title": "Mesmerizing Video Feedback Mandala",
+        "images": [
+            "https://content.instructables.com/FLN/ZMKD/JDAKAFI3/FLNZMKDJDAKAFI3.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6Z/7UGU/JDYUUNAF/F6Z7UGUJDYUUNAF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLD/CSDD/JDYUUN3P/FLDCSDDJDYUUN3P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTY/I5ES/JDYUUNA4/FTYI5ESJDYUUNA4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3A/8GDO/JDYUUN8M/F3A8GDOJDYUUN8M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8P/XKUY/JDYUUN1I/F8PXKUYJDYUUN1I.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDL/19TD/JDYUUN0S/FDL19TDJDYUUN0S.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFG/EKE6/JDYUUMWT/FFGEKE6JDYUUMWT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX2/9T5Q/JDYUUMZ8/FX29T5QJDYUUMZ8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ8/SRPU/JDYUUMTC/FQ8SRPUJDYUUMTC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSG/9MV5/JDYUUN5Y/FSG9MV5JDYUUN5Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUD/HXED/JDYUUMUF/FUDHXEDJDYUUMUF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQG/V9GK/JDYUUMVI/FQGV9GKJDYUUMVI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F14/0R5M/JDYUUMP9/F140R5MJDYUUMP9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRX/CNS9/JDYUUMRG/FRXCNS9JDYUUMRG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNG/XBT5/JDYUUMQ4/FNGXBT5JDYUUMQ4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRD/KYEU/JDYUUMMB/FRDKYEUJDYUUMMB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIP/7YMK/JDYUUMO0/FIP7YMKJDYUUMO0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Video Monitor with Brightness and Contrast controls",
+            "Video Camera",
+            "Tripod",
+            "Video Cable (1/8\" to RCA cable)"
+        ],
+        "description": "This project shows how to create a generative video mandala using a camera and a monitor. The image is created by the feedback loop between the camera and the monitor. Modifiers like lenses, masks, or video effects can be introduced to create more interesting mandalas.",
+        "steps": [
+            "Gather the required equipment: a video monitor, video camera, tripod, and video cable.",
+            "Set up the monitor on a table and plug it in. Mount the camera to the tripod and position it about three feet away from the monitor, ensuring the camera lens is at the level of the center of the screen. Connect the video cable from the camera's output to the monitor's input.",
+            "Turn on the camera and monitor to establish a feedback loop. Experiment with the zoom controls on the camera and adjust the brightness or contrast to get a clear image.",
+            "Tilt the camera about 20 degrees to the left. Adjust the zoom/distance and the angle of the camera to manipulate the image. Center the image on the screen by adjusting the tripod's height and left/right position.",
+            "Fine-tune the image by experimenting with the brightness and contrast controls on the monitor. Introduce a light source in the background if the image disappears. Experiment with Tint and Color knobs, if available.",
+            "Introduce additional elements such as lenses, prisms, cardboard masks, or video effects to influence the image. Add a recording device into the signal path (e.g., VCR) to record the results."
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Trichromatic-Spectra/",
+        "creator": "tlinder",
+        "subcategory": "Art",
+        "title": "Trichromatic Spectra",
+        "images": [
+            "https://content.instructables.com/FWE/LS3A/HQ54NP1X/FWELS3AHQ54NP1X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJN/HN6W/HQ54NP2M/FJNHN6WHQ54NP2M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0X/HWLW/HQ1E04CN/F0XHWLWHQ1E04CN.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEF/H4QD/HRBNC91Y/FEFH4QDHRBNC91Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Inflatables",
+            "LED lights",
+            "Arduino"
+        ],
+        "description": "This project is a modular art installation that combines inflatables, LED lights, and computer animation via Arduino to create a kinetic, experiential light installation. The intention is to produce an engaging and meditative art piece.",
+        "steps": [
+            "Handmake inflatables.",
+            "Create light fixtures.",
+            "Assemble electronics for light control and animation.",
+            "Integrate Arduino for computer animation.",
+            "Combine the above elements into a modular art installation."
+        ]
+    }
+]

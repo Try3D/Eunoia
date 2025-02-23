@@ -1,0 +1,44 @@
+[
+    {
+        "url": "https://www.instructables.com/id/My-400-Ikea-Ramvik-Arcade-Table/",
+        "creator": "hoogen",
+        "subcategory": "Electronics",
+        "title": "My $400 Ikea Ramvik Arcade Table",
+        "images": [
+            "https://content.instructables.com/F26/6RL3/H9T4QM6A/F266RL3H9T4QM6A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK0/9NW8/H9T4QM66/FK09NW8H9T4QM66.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKD/5D4U/H9T4QM67/FKD5D4UH9T4QM67.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLA/6R82/H9T4QM69/FLA6R82H9T4QM69.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIO/NK1T/H9T4QM6C/FIONK1TH9T4QM6C.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "60-in-1 iCade Classic Multigame JAMMA PCB - Ver.QB",
+            "15A Arcade Switching Power Supply with Digital Display - 110W",
+            "JAMMA Full Cabinet Wiring Harness Loom",
+            "2 Green Pushbuttons",
+            "2 White Pushbuttons",
+            "Player 1 Start Button",
+            "Zippy Ball Handle Joystick - Short Shaft",
+            "23\" IPS LED HP monitor",
+            "Speaker",
+            "Logarithmic potentiometer",
+            "Full system power switch",
+            "1\" oak wood"
+        ],
+        "description": "This project details the creation of an arcade coffee table using an Ikea Ramvik coffee table as a base. The table incorporates arcade controls and a screen for playing classic arcade games.",
+        "steps": [
+            "Cut the monitor opening in the table top using a plunge router, creating a smaller aperture to cover the bezel and a larger one to house the monitor.",
+            "Test fit the monitor and connect it to a computer to check the display.",
+            "Connect and test all arcade parts to ensure they are working correctly.",
+            "Build a drawer with a control shelf that automatically lifts when the drawer is opened, using a chain and hinged leg mechanism.",
+            "Mount the control shelf in the drawer using hinges.",
+            "Cut holes in the control shelf for the joystick and buttons using a router.",
+            "Mount the speaker in the back of the drawer.",
+            "Install a logarithmic potentiometer for volume control on the control shelf.",
+            "Mount a full system power switch on the side of the drawer.",
+            "Mount the PCB inside the table and the power supply underneath for ventilation.",
+            "Reassemble the coffee table and test the system, making any necessary adjustments.",
+            "Sand and stain the control shelf and sand and paint the edges of the screen opening."
+        ]
+    }
+]

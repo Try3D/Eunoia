@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Raspberry-Pi-Door-Notifier/",
+        "creator": "bobbylcraig",
+        "subcategory": "Raspberry Pi",
+        "title": "Raspberry Pi Door Notifier",
+        "images": [
+            "https://content.instructables.com/FD4/46RY/JGGTVW97/FD446RYJGGTVW97.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F48/KGGE/KUYDH6OK/F48KGGEKUYDH6OK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVL/TITI/JGGTVW9B/FVLTITIJGGTVW9B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/96LU/JGGTWVZZ/FLF96LUJGGTWVZZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/0ZIJ/JGGTWW01/FG20ZIJJGGTWW01.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FKA/JFJT/JGGTVW9C/FKAJFJTJGGTVW9C.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL4/QL3N/JGGTX0D3/FL4QL3NJGGTX0D3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Raspberry Pi 3",
+            "Micro SD card",
+            "Female-to-female wires",
+            "Vibration sensor",
+            "Power bank",
+            "Command strips",
+            "Mandrill Account and API Key"
+        ],
+        "description": "This project creates a Raspberry Pi-based door notifier that detects vibrations from a moving door and sends an email notification. It utilizes a vibration sensor, Flask, and the Mandrill API.",
+        "steps": [
+            "Wire the vibration sensor to the Raspberry Pi using female-to-female wires according to the provided schematic.",
+            "Install the necessary Python libraries using Pip: requests, RPi.GPIO, flask, flask_restful, flask_wtf, wtforms, email, and mandrill.",
+            "Set up a basic Flask application on the Raspberry Pi to create a web server.",
+            "Create the project files (index.html, __init__.py, forms.py, mcemail.py, routes.py, iotapp.py, vibes.py) and organize them into the specified directory structure.",
+            "Obtain a Mandrill API key and place it in the mcemail.py file, adjusting the sending information as needed.",
+            "Run the vibes.py script in the background and then start the Flask server using the command `$ python -m flask run --host 0.0.0.0`.",
+            "Navigate to the device's URI/IP address and set the email address to receive notifications.",
+            "Test the device by tapping the vibration sensor and verifying that a test email is sent.",
+            "Mount the device on the door using command strips, ensuring the vibration sensor is perpendicular to the door's motion.",
+            "Run the vibes.py script and the Flask server to start the notification system."
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Material-Systems/",
+        "creator": "Yagmur Uyanik",
+        "subcategory": "Art",
+        "title": "Parametric Metal Sculpture \u2022 System: Material & Performance \u2022",
+        "images": [
+            "https://content.instructables.com/FW3/TD83/IKBFNZLB/FW3TD83IKBFNZLB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTO/3Z7D/JD2FC2KP/FTO3Z7DJD2FC2KP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPL/955K/JDYUUZVZ/FPL955KJDYUUZVZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOE/88QS/IKBFN9ST/FOE88QSIKBFN9ST.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQJ/HLC2/IKBFN9WE/FQJHLC2IKBFN9WE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHP/PIO2/IKBFNA0P/FHPPIO2IKBFNA0P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDF/6RG4/IKBFNA0R/FDF6RG4IKBFNA0R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGS/FF37/IKBFNA27/FGSFF37IKBFNA27.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMD/1QKP/IKBFNC48/FMD1QKPIKBFNC48.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9A/046M/IKBFNCOW/F9A046MIKBFNCOW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTR/AC3W/IKBFNCSG/FTRAC3WIKBFNCSG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUH/XX4J/IKBFNFFE/FUHXX4JIKBFNFFE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0Z/6TWB/IKBFNQFO/F0Z6TWBIKBFNQFO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIE/74AQ/IKBFNH7X/FIE74AQIKBFNH7X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWJ/VR4Q/IKBFNKUQ/FWJVR4QIKBFNKUQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJI/D2EZ/IKBFNODJ/FJID2EZIKBFNODJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSZ/0KFK/IKBFNVTY/FSZ0KFKIKBFNVTY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F83/2TGT/IKBFNZ6R/F832TGTIKBFNZ6R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO9/LOYS/IKBFNV8S/FO9LOYSIKBFNV8S.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/5098/IKLFQTHJ/FJR5098IKLFQTHJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "2 mm metal sheet (galvanized metal preferred)",
+            "Metal bending machine",
+            "Spot welding machine",
+            "Drilling machine",
+            "Screws"
+        ],
+        "description": "This project, named 'System: Material & Performance', explores the structural potentials of metal through 1:1 scale design and construction using computational design and manufacturing technologies. The project emphasizes the relationship between design, material experimentation, and the contribution of contemporary technologies to the design process, resulting in a parametric metal sculpture.",
+        "steps": [
+            "Create a digital model of the sculpture using Rhinoceros, starting with a 2D triangle and developing it into a 3D unit.",
+            "Make a physical maquette (scaled 1:5) from color-coded paperboard, matching the digital model's colors and dimensions.",
+            "Cut 2D pentagons from the metal sheet with 35 cm edges, bend them from the center to each corner, make one cut from the center to any corner, and spot weld the two edges to form 3D pentagon units.",
+            "Join the metal pentagon units, referencing the paper model, starting from the bottom and using color-coding for organization; this step requires assistance due to the weight of the components.",
+            "Join the larger parts formed by the pentagon units, continuously referencing the paper model; this step requires significant physical effort and a team to carry and position the structure, along with a guide for direction and location; wear safety helmets and shoes."
+        ]
+    }
+]

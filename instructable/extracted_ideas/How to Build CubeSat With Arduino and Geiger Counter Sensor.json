@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Build-CubeSat-With-Arduino-and-Geiger-Count/",
+        "creator": "JValadezzz",
+        "subcategory": "Arduino",
+        "title": "How to Build CubeSat With Arduino and Geiger Counter Sensor",
+        "images": [
+            "https://content.instructables.com/FBG/WNWM/JV2RJ3OU/FBGWNWMJV2RJ3OU.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMF/U6VE/JV2RJ43R/FMFU6VEJV2RJ43R.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTI/6I76/JV2RJ4VI/FTI6I76JV2RJ4VI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUT/Z5PY/JV2RJ3KY/FUTZ5PYJV2RJ3KY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXB/5TOE/JV2RJ4XS/FXB5TOEJV2RJ4XS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMI/YM71/JV2RJ4XL/FMIYM71JV2RJ4XL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBW/MIRP/JV2RJ4X0/FBWMIRPJV2RJ4X0.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7Z/8RVE/JV2RJ4W8/F7Z8RVEJV2RJ4W8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRG/YQIZ/JVR5ZAV3/FRGYQIZJVR5ZAV3.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8A/UKQG/JVR5ZAV8/F8AUKQGJVR5ZAV8.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F95/SGFR/JVR5ZAW4/F95SGFRJVR5ZAW4.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK3/TQCN/JVR629TP/FK3TQCNJVR629TP.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8H/5H1A/JVR629TQ/F8H5H1AJVR629TQ.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBY/P8KK/JVR629TR/FBYP8KKJVR629TR.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIR/6M2V/JVUS7N76/FIR6M2VJVUS7N76.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE2/CDX1/JVUS7N8J/FE2CDX1JVUS7N8J.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFU/5NVT/JV2RJ65D/FFU5NVTJV2RJ65D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT9/QXAF/JVFUTUCY/FT9QXAFJVFUTUCY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRX/TD9Y/JVFUTUBX/FRXTD9YJVFUTUBX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOO/FTPC/JVFUTUDP/FOOFTPCJVFUTUDP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKQ/L2GN/JVMNLFJV/FKQL2GNJVMNLFJV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2T/HL4S/JVWNOUCW/F2THL4SJVWNOUCW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9U/F32G/JVUS7P7C/F9UF32GJVUS7P7C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0G/PNQN/JV2RJ3KU/F0GPNQNJV2RJ3KU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9O/DGII/JV2RJ3KO/F9ODGIIJV2RJ3KO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0X/D6SH/JVR62ABO/F0XD6SHJVR62ABO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLB/PMJN/JVR62ABR/FLBPMJNJVR62ABR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPZ/CBYF/JVR62ABV/FPZCBYFJVR62ABV.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD4/EI16/JVUS7QTB/FD4EI16JVUS7QTB.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUQ/MHAS/JVWNP3CZ/FUQMHASJVWNP3CZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7P/PK4B/JVWNP3V6/F7PPK4BJVWNP3V6.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "3D printed CubeSat",
+            "Geiger Counter",
+            "Micro SD Reader",
+            "Uranium ore"
+        ],
+        "description": "This project aims to build a CubeSat with an Arduino and Geiger Counter sensor to determine the amount of radioactivity on Mars and whether it's harmful to humans. The CubeSat must withstand a shake test and fit all necessary materials within its dimensions and weight constraints.",
+        "steps": [
+            "3D print or build a CubeSat with dimensions of 10cm x 10cm x 10cm and a weight limit of 1.3kg.",
+            "Sketch a design of how you're going to put everything inside the CubeSat.",
+            "Learn how the Geiger Counter works by testing it with radioactive materials and noting its sensitivity.",
+            "Drill holes into the CubeSat for screws to secure the top and bottom shells.",
+            "Wire batteries to the Geiger Counter, then wire the Geiger Counter to the Arduino. Also, wire in the Micro SD reader.",
+            "Wire the batteries straight to the Geiger Counter, then wire the VVC pin to the positive column of the breadboard.Run another wire on the same column in the breadboard to the 5V slot on the Arduino. This will power the Arduino.Then, run a wire from the 5V pin on the arduino to the SD Card adapter.Next, wire the VIN on the geiger counter to an analog pin on the Arduino.After that, wire the GND to the negative column on the breadboard.Wire the negative column to the GND on Arduino.SD card to Arduino:Miso goes to 11Miso goes to 12SCK goes to 13CS goes to 4",
+            "Download the ArduinoCC app and use the given code to record CPM and data on the SD card.",
+            "Test the code to ensure data collection is accurate and noting the units for radiation being collected.",
+            "Fit all components inside the CubeSat and test it to ensure nothing will fall apart during testing.",
+            "Perform a flight test by hanging and spinning the CubeSat to test stability.",
+            "Complete two shake tests: one simulating atmospheric turbulence and another simulating space turbulence.",
+            "Collect data at different distances from a radioactive material, and turn Click Per Minute into mSV to measure actual radiation."
+        ]
+    }
+]

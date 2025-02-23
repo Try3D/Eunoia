@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Voice-Responsive-Origami-Puppet/",
+        "creator": "reachandteach",
+        "subcategory": "Art",
+        "title": "A Voice Animated Origami Puppet",
+        "images": [
+            "https://content.instructables.com/F1J/UWMO/JSUOWMKK/F1JUWMOJSUOWMKK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZT/0F5W/JQQYJUQP/FZT0F5WJQQYJUQP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYB/URNC/M3PW9UZ9/FYBURNCM3PW9UZ9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5C/GL90/LMS0FLC1/F5CGL90LMS0FLC1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIN/TKP5/LJIL5N79/FINTKP5LJIL5N79.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMJ/4ARZ/JSUOWMKF/FMJ4ARZJSUOWMKF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8E/ZJT4/JSUOWMKM/F8EZJT4JSUOWMKM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU4/ETJV/JSUOWMKP/FU4ETJVJSUOWMKP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGM/BNX4/JSUOWMKR/FGMBNX4JSUOWMKR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2J/9KAB/JSUOWMKD/F2J9KABJSUOWMKD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Q/YUYD/JSUOWMKI/F4QYUYDJSUOWMKI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPQ/6ELJ/JSUOWMKE/FPQ6ELJJSUOWMKE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKE/IQFO/JSUOWMFQ/FKEIQFOJSUOWMFQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Origami Fox puppet folded from a 5-7/8\" square paper sheet",
+            "9g microservo",
+            "Adafruit Circuit Playground Classic loaded with Reach and Teach's RTPLAYGROUND software",
+            "6\" craft stick",
+            "Small cardboard box",
+            "Plastic straw",
+            "Card stock",
+            "Thread or fishing line"
+        ],
+        "description": "This project uses the built-in microphone on an Adafruit Circuit Playground Arduino which operates as a color organ and drives an attached microservo to create the animated motion of an attached origami fox puppet. The Circuit Playground responds to the sound, which in turn drives the servo to move the puppet's mouth.",
+        "steps": [
+            "Fold an origami fox puppet from a 5-7/8\" square paper sheet.",
+            "Reinforce the mouth of the origami fox puppet with card stock and tape to make it semi-rigid and allow it to return to a closed position. Attach a small strip of card stock to the top of the puppet to form an extended mounting tab.",
+            "Cut a 2\" section of a straw and tape it to a small box along with a craft stick, extending the stick 2-1/2\" to 3\" over the top of the box. Cut a 1\" wide and 1/2\" high rectangle to accommodate the microservo. Mount the microservo and feed the cable out the bottom of the box.",
+            "Attach the Red/Orange servo cable to the 3.3V pad on the Circuit Playground, the Black/Brown cable to any GND pad, and the Yellow cable to the #12 pad. Power on the Circuit Playground and select program function 9 (Color Organ). Remount the servo horn so that it moves between the 11:00 and 7:00 position in response to the audio input, then power off the Circuit Playground.",
+            "Affix the puppet's mounting tab to the craft stick using tape. Bore a hole through the lower lip of the puppet and tie one end of a thread or fishing line to it. Feed the line through the straw and tie the other end to the servo horn.",
+            "Turn on the power to the Circuit Playground. The LEDs will light up and the origami puppet will move in response to sound input."
+        ]
+    }
+]

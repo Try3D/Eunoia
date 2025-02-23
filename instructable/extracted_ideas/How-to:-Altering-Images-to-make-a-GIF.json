@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Altering-Images-to-make-a-GIF/",
+        "creator": "shinabobina",
+        "subcategory": "Art",
+        "title": "How to: Altering Images to make a GIF",
+        "images": [
+            "https://content.instructables.com/FSL/OTK5/I2N6UASH/FSLOTK5I2N6UASH.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F51/2Y0B/I2N6V0IB/F512Y0BI2N6V0IB.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDP/Y75X/I2N6U76M/FDPY75XI2N6U76M.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVT/4SOK/I2N6U77O/FVT4SOKI2N6U77O.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHW/CMZT/I2N6U7B6/FHWCMZTI2N6U7B6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0Y/FL4N/I2N6U7AP/F0YFL4NI2N6U7AP.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIH/M8NC/I2N6U7DF/FIHM8NCI2N6U7DF.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG2/GB4H/I2N6U7E3/FG2GB4HI2N6U7E3.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT0/KCJE/I2N6U7FM/FT0KCJEI2N6U7FM.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F89/6GM7/I2N6U7FX/F896GM7I2N6U7FX.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL3/6E43/I2N6U7HK/FL36E43I2N6U7HK.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4L/82BK/I2N6U7IG/F4L82BKI2N6U7IG.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Photoshop",
+            "https://imgflip.com/gifgenerator"
+        ],
+        "description": "This project guides you through altering JPEG images using Photoshop and then creating a GIF from those altered images using an online GIF generator.",
+        "steps": [
+            "Open a JPEG file in Photoshop.",
+            "Add textures to the image by going to Filters - Texture - Texturizer. Experiment with the options and click OK when satisfied.",
+            "Save the altered image as a JPEG file.",
+            "Adjust the image colors by going to Image - Adjustments - Channel Mixer and moving the Red, Green, and Blue bars to achieve the desired color changes.",
+            "Repeat steps 1-4 to create multiple altered images for the GIF.",
+            "Go to https://imgflip.com/gifgenerator.",
+            "Upload the altered images by clicking on the \"Images\" tab and then \"upload images\".",
+            "Adjust the GIF's delay, width, height, and quality using the provided bars.",
+            "Re-order the images by clicking and dragging them.",
+            "Click \"Generate GIF\" to create the GIF and then download or share it."
+        ]
+    }
+]

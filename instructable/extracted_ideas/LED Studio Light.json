@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.instructables.com/id/LED-Studio-Light/",
+        "creator": "Nerd Builds",
+        "subcategory": "Cameras",
+        "title": "LED Studio Light",
+        "images": [
+            "https://content.instructables.com/F75/K4FR/I8UUXVUN/F75K4FRI8UUXVUN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJD/SLPW/I8UUY0ET/FJDSLPWI8UUY0ET.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCJ/QDB3/I8UUY0EU/FCJQDB3I8UUY0EU.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8M/WVTY/HZIH9H9Y/F8MWVTYHZIH9H9Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIX/VLRC/JBWJYBF3/FIXVLRCJBWJYBF3.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYV/2ZCP/I7MX4UXZ/FYV2ZCPI7MX4UXZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRA/P0BC/I7AB1A29/FRAP0BCI7AB1A29.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGB/FTPW/I8UUXVUP/FGBFTPWI8UUXVUP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMV/PFNJ/I8UUXVUR/FMVPFNJI8UUXVUR.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEZ/K8KF/I8UUXVUS/FEZK8KFI8UUXVUS.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQV/NKJK/I8UUXVUT/FQVNKJKI8UUXVUT.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZE/503Q/I8UUXVUU/FZE503QI8UUXVUU.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLH/01OG/I8UUXVUV/FLH01OGI8UUXVUV.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZP/79RN/I8UUXVUX/FZP79RNI8UUXVUX.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU4/ADVE/I8UUXVUY/FU4ADVEI8UUXVUY.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCH/L0M6/I8UUXVVK/FCHL0M6I8UUXVVK.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDR/9UMU/I8UUXVVL/FDR9UMUI8UUXVVL.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3V/0BX8/I8UUXVVN/F3V0BX8I8UUXVVN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCJ/QDB3/I8UUY0EU/FCJQDB3I8UUY0EU.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJD/SLPW/I8UUY0ET/FJDSLPWI8UUY0ET.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDE/GKCY/I8UUXVVO/FDEGKCYI8UUXVVO.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Harbor Freight Led Work Light",
+            "Used Tripod",
+            "Scrap steel",
+            "Truck Bed Coating",
+            "Jb weld"
+        ],
+        "description": "This project outlines how to create simple LED studio lights for less than $30 using a Harbor Freight LED work light, a used tripod, scrap steel, truck bed coating, and JB weld.",
+        "steps": [
+            "Remove the bracket from the light's stock floor stand and trace its shape onto the scrap steel, marking the hole locations.",
+            "Cut out the traced shape from the scrap steel using a jigsaw with a metal-cutting blade, being careful of sharp edges. Then, smooth the edges with sandpaper and drill holes for the stock hardware and a 1/4 inch hole for the tripod bolt.",
+            "Mix JB weld or epoxy and apply it to the bracket around the nut, avoiding the threads. Let it set and then apply truck bed coating or paint.",
+            "Attach the custom bracket to the stock bracket using the original hardware, then attach the assembly to the light, and finally, attach the entire setup to the tripod."
+        ]
+    }
+]

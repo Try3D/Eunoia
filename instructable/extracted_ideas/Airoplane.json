@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Airoplane/",
+        "creator": "AdolfoD8",
+        "subcategory": "Art",
+        "title": "Airoplane",
+        "images": [
+            "https://content.instructables.com/F2M/MZRH/J0SEOELD/F2MMZRHJ0SEOELD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7E/PII5/J0SEOE40/F7EPII5J0SEOE40.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLZ/NKO6/J0SEOE5Z/FLZNKO6J0SEOE5Z.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXS/0PK0/J0SEOE9H/FXS0PK0J0SEOE9H.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV3/TA7I/J0SEOECQ/FV3TA7IJ0SEOECQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYI/SPWO/J0SEOEFE/FYISPWOJ0SEOEFE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Cardboard",
+            "X-acto knife",
+            "Glue gun"
+        ],
+        "description": "This project guides you through building a simple cardboard airplane to compete with others.",
+        "steps": [
+            "Draw your preferred airplane design on paper.",
+            "Cut cardboard according to your design.",
+            "Use an X-acto knife to carefully cut the cardboard to the correct size.",
+            "Use a glue gun to assemble the cardboard pieces together.",
+            "Enjoy your finished airplane."
+        ]
+    }
+]

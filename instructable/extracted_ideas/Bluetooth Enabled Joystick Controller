@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Bluetooth-Enabled-Joystick-Controller/",
+        "creator": "d777k",
+        "subcategory": "Art",
+        "title": "Bluetooth Enabled Joystick Controller",
+        "images": [
+            "https://content.instructables.com/FKG/5IPH/J6GQJWPB/FKG5IPHJ6GQJWPB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/49RT/J7JKLN7S/F3I49RTJ7JKLN7S.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK5/SGFN/J7AQWGWP/FK5SGFNJ7AQWGWP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQW/EEU9/J6GQJWQ6/FQWEEU9J6GQJWQ6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEU/55UJ/J7GGGHRS/FEU55UJJ7GGGHRS.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOD/MKQ9/J7GGGHSH/FODMKQ9J7GGGHSH.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F76/C4IY/J7GATFEE/F76C4IYJ7GATFEE.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSQ/UI0L/J7GGGHQL/FSQUI0LJ7GGGHQL.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F82/BUUX/J6GQJWOE/F82BUUXJ6GQJWOE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F77/3KH4/J7GATI1N/F773KH4J7GATI1N.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGF/3UYZ/J7GATFEF/FGF3UYZJ7GATFEF.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZH/06B2/J6GQKLYI/FZH06B2J6GQKLYI.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK4/9SK7/J70QU6O4/FK49SK7J70QU6O4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWM/EK86/J70QU6O9/FWMEK86J70QU6O9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV8/Q0DT/J70QU6OA/FV8Q0DTJ70QU6OA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F31/D1DX/J70QU6OL/F31D1DXJ70QU6OL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5I/N47C/J70QU6OI/F5IN47CJ70QU6OI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7M/3V7W/J79HGCF8/F7M3V7WJ79HGCF8.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0J/8KCM/J7AQT8T4/F0J8KCMJ7AQT8T4.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ3/QJ9Y/J7AQLYQ3/FQ3QJ9YJ7AQLYQ3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Enclosure",
+            "Bluefruit EZ-Key",
+            "Mini modular breadboard",
+            "Jumper wires",
+            "Joystick",
+            "USB micro-B breakout board",
+            "5vdc rechargeable microUSB battery"
+        ],
+        "description": "Build a Bluetooth enabled joystick enclosure, connect it to a web browser, and use it to control an interactive A/V web app called 'HypnoEllipse'. The joystick sends HID (keyboard/mouse) messages to a p5.js sketch, which presents a spinning optical illusion and swirling sound sample.",
+        "steps": [
+            "Solder jumper wires to the joystick, using four pairs of differently colored wires. Each pair corresponds to a joystick direction (Left, Right, Up, Down). One wire from each pair goes to an EZ Key input, and the other to GND.",
+            "Prepare the enclosure by drilling a 1/2\" hole for the microUSB cable and four 1/4\" holes for mounting the joystick on the top cover. Also, cut a 3/4\" hole for the joystick itself.",
+            "Install the joystick, Bluefruit EZ Key, and USB breakout board inside the enclosure. Connect the joystick's wire jumpers to pins #0 - #4 on the EZ Key. Determine the orientation of your enclosure and attach the jumpers to the inputs of the EZ Key. Connect the ground pins from the joystick, Bluefruit EZ Key, and microUSB connector to form a ground bus.",
+            "Use an older version of Processing (2.2.1) to run the EZ Key GUI tool. The joystick up/down/left/right contacts will emulate mouseX and mouseY movements in order to control the p5.js sketch (HypnoEllipse).",
+            "Power up the Bluefruit EZ-Key, press the pair button, and re-pair it to your computer by holding the mini button for 5 seconds. Turn Bluetooth on in System Preferences and click 'Set Up New Device'.",
+            "Remap the buttons on the Bluefruit EZ-Key using the GUI_EZKey_remapper in Processing. Assign mouseX and mouseY values to the key pins (pin 0: x5, pin 1: x-5, pin2: y5, pin3: y-5) and send the mapping to the Bluefruit EZ-Key.",
+            "Control the existing p5.js sketch (Hypnoellipse) with Firefox in full-screen mode. Experiment with the mouse before connecting the joystick.",
+            "Optionally, edit, revise, or create your own web app by modifying the code. Change the values in lines 44, 51, and 66 of the sketch.js file."
+        ]
+    }
+]

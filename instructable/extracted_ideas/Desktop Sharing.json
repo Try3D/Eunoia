@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Desktop-Sharing/",
+        "creator": "gamerguy13",
+        "subcategory": "Software",
+        "title": "Desktop Sharing",
+        "images": [
+            "https://content.instructables.com/FMO/OKXB/FXK69Y1C/FMOOKXBFXK69Y1C.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNL/KUYF/IA57HEL9/FNLKUYFIA57HEL9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMZ/BUWO/I48CP169/FMZBUWOI48CP169.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCD/GG6R/I1B64SRA/FCDGG6RI1B64SRA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1Z/TZT4/FXK69Y50/F1ZTZT4FXK69Y50.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE5/80U5/FXK69YRH/FE580U5FXK69YRH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUL/CFCD/FXK69YTX/FULCFCDFXK69YTX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOQ/EVXZ/FXK69YTW/FOQEVXZFXK69YTW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4N/COCE/FXK69YTT/F4NCOCEFXK69YTT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCU/5QRI/FXK69YTS/FCU5QRIFXK69YTS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMO/OKXB/FXK69Y1C/FMOOKXBFXK69Y1C.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPD/VI7N/FXK6A4K3/FPDVI7NFXK6A4K3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTK/WK4W/FXK6A4KO/FTKWK4WFXK6A4KO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4U/39VJ/FXK6A4KN/F4U39VJFXK6A4KN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8V/CDFO/FXK6A4MI/F8VCDFOFXK6A4MI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOV/74V1/FXK6A50O/FOV74V1FXK6A50O.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Computer with internet access",
+            "Teamviewer software (full or QuickSupport version)",
+            "Android, iPod, or iPhone"
+        ],
+        "description": "This project describes how to use Teamviewer to remotely view and control another computer's desktop over the internet. This can be useful for providing technical assistance to others.",
+        "steps": [
+            "Download Teamviewer from http://www.teamviewer.com/download/index.aspx. The person providing assistance needs the full version. The person needing help can use either the full or QuickSupport version.",
+            "Install Teamviewer (full version). Choose personal, commercial, or both for usage. Consider whether to start Teamviewer with Windows, and set a permanent access password if needed. QuickSupport users do not need to install; just save the downloaded file.",
+            "To use Teamviewer, have the person needing help open their Teamviewer and tell you their ID and password. In your Teamviewer, enter their ID in the ID box on the right, ensure \"Remote support\" is selected, and click \"Connect to partner\". Enter the password when prompted. You should then be able to see and control their computer.",
+            "Consider using Teamviewer Host for unattended computers or servers. Adjust performance and quality in the options menu (Extras -> Options -> Remote control). Explore other options like file transfer, VPN, and presentations. Note that the person whose computer is being controlled can still move the mouse and type."
+        ]
+    }
+]

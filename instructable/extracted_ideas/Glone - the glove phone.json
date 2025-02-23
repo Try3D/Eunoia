@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Glone-the-glove-phone/",
+        "creator": "trotmaster",
+        "subcategory": "Mobile",
+        "title": "Glone - the glove phone",
+        "images": [
+            "https://content.instructables.com/FVF/FUVO/FU6LT6B9/FVFFUVOFU6LT6B9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5U/T524/FU6LT6BA/F5UT524FU6LT6BA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FID/L2UH/FU6LT6CU/FIDL2UHFU6LT6CU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHC/4CVI/FU6LT6BC/FHC4CVIFU6LT6BC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI9/8W9C/FU6LT6BB/FI98W9CFU6LT6BB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVF/FUVO/FU6LT6B9/FVFFUVOFU6LT6B9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5U/T524/FU6LT6BA/F5UT524FU6LT6BA.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Samsung x640 (or similar old clamshell phone)",
+            "Army surplus leather glove",
+            "Small push-to-make buttons (3 per finger)",
+            "Copper wire",
+            "Leather cord",
+            "Small bolts"
+        ],
+        "description": "The Glone, or Glove Phone, is a project to create a functional mobile phone integrated into a glove. It allows for making calls using the thumb and pinkie and texting with one hand by routing phone controls to the fingers. The phone's keypad is mapped to buttons on the fingers, with the speaker and mic placed at the thumb and pinkie, respectively. The phone's board and battery are mounted on the glove's back, and the screen is positioned for easy viewing.",
+        "steps": [
+            "Disassemble the Samsung x640 (or similar) phone, separating the screen from the rest of the phone and cutting up the keypad, leaving the D-pad, #, and * keys on the phone board.",
+            "Solder wires to the contacts of the keypad buttons (0-9, call, and end call) and test each connection before soldering to a small push-to-make button.",
+            "Solder the phone's battery in place, taking caution to avoid short circuits during the soldering process.",
+            "Modify the glove by cutting off the thumb and fingers. Reattach a portion of each finger between the first and second knuckle using leather cord, reinforcing with copper wire.",
+            "Attach the phone's circuit board to the glove using small bolts, matching them to the screw holes on the board.",
+            "Secure the battery to the glove by wrapping it in copper wire and threading the wire through the glove leather.",
+            "Wrap the screen in copper wire, forming a tripod base, and thread it into the top of the battery for support.",
+            "Attach the push buttons to the top of the finger sections.",
+            "Re-solder the microphone and speaker to long wires and attach them to the base of the thumb and the end of the pinkie."
+        ]
+    }
+]

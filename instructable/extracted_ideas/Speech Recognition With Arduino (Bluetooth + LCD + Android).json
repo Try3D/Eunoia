@@ -1,0 +1,43 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Speech-Recognition-With-Arduino-Bluetooth-LCD-Andr/",
+        "creator": "EslamG11",
+        "subcategory": "Arduino",
+        "title": "Speech Recognition With Arduino (Bluetooth + LCD + Android)",
+        "images": [
+            "https://content.instructables.com/FUT/HKZ4/JUGT67A8/FUTHKZ4JUGT67A8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE6/YHT5/LNKC1IPE/FE6YHT5LNKC1IPE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNM/OJGH/KYPUI7M9/FNMOJGHKYPUI7M9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FJW/1328/KY4EUAP8/FJW1328KY4EUAP8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FF0/BPM6/KXKEP2P8/FF0BPM6KXKEP2P8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTG/E1F5/JUGT67S3/FTGE1F5JUGT67S3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW9/A55V/JUGT67SE/FW9A55VJUGT67SE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F11/4AQ7/JUGT67SF/F114AQ7JUGT67SF.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHG/GF4I/JUGT67SG/FHGGF4IJUGT67SG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1R/82L2/JUGT67SI/F1R82L2JUGT67SI.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCL/GTL2/JUGT67SK/FCLGTL2JUGT67SK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F56/F6G5/JUGT6C04/F56F6G5JUGT6C04.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3N/55UP/JUGT6GKC/F3N55UPJUGT6GKC.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FRJ/XWEJ/JUGT6FNY/FRJXWEJJUGT6FNY.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "HC-05 Serial Bluetooth Module",
+            "LCD 16*2",
+            "1K POT",
+            "1K ohm resistor",
+            "2.2K ohm resistor"
+        ],
+        "description": "This project demonstrates speech recognition with Arduino using a Bluetooth module (HC-05) and an LCD. The goal is to build a speech recognition device controlled via an Android application.",
+        "steps": [
+            "Connect the LCD to the Arduino: VSS to ground, VCC to +5V, VEE to potentiometer, RS to pin 2, RW to ground, E to pin 3, D4 to pin 4, D5 to pin 5, D6 to pin 6, D7 to pin 7, A to +5V, K to ground.",
+            "Connect the HC-05 to the Arduino: TX to RX (Note: disconnect during code upload), RX (through resistors) to TX (Note: disconnect during code upload), +5V to +5V, GND to ground.",
+            "Download the LCD library.",
+            "Program the Arduino with the provided code (SpeechRecognition.ino). Remember to disconnect TX and RX when uploading the code.",
+            "Download the 'Arduino Voice Control' application from the Google Play Store.",
+            "Open the app, tap the 'Connect' button, and select your Bluetooth module (HC-05).",
+            "Wait for the app to indicate that it's connected to the Bluetooth module (HC-05).",
+            "Tap the mic icon and state your command."
+        ]
+    }
+]

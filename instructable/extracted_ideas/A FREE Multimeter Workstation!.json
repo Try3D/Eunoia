@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/A-FREE-Multimeter-Workstation/",
+        "creator": "PS118",
+        "subcategory": "Electronics",
+        "title": "A FREE Multimeter Workstation!",
+        "images": [
+            "https://content.instructables.com/FW6/XL5T/HUDMSZ2H/FW6XL5THUDMSZ2H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZN/JVC3/HUDMSZ2G/FZNJVC3HUDMSZ2G.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMK/A8X4/F9T3NG6I/FMKA8X4F9T3NG6I.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCF/R2YZ/HQMKWMTH/FCFR2YZHQMKWMTH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3Z/5HTN/HPEFXRML/F3Z5HTNHPEFXRML.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIE/HXEK/HO7XKMWB/FIEHXEKHO7XKMWB.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "CenTech (Harbor Freight) 7-function multimeters",
+            "Chipboard furniture",
+            "Grabber screws",
+            "Scrap cat-5 wire",
+            "Self-adhesive velcro dots"
+        ],
+        "description": "This project is a multimeter workstation built from upcycled materials to hold and organize multimeters, making them easily accessible for electronics projects. It includes features like probe storage, a carrying handle, and the ability to be wall-mounted at an angle for better LCD readability.",
+        "steps": [
+            "Cut a piece of chipboard to 7 inches wide and to a height that accommodates the multimeters plus a lip.",
+            "Cut two legs, each 3/4 inch wide and the same height as the board.",
+            "Attach the legs to the board using grabber screws at the pivot point.",
+            "Drill a hole near the top of the legs and attach a length of scrap cat-5 wire between them to create a carrying handle and wall hanger.",
+            "Drill holes for the probes on the top and front of the board, positioned 1/4 and 3/4 inch in from both sides.",
+            "Attach the multimeters to the board using self-adhesive velcro dots.",
+            "Label one meter 'V' (volts) and the other 'A' (amps)."
+        ]
+    }
+]

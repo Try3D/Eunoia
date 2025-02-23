@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-Delete-any-File-windows/",
+        "creator": "karcinagin",
+        "subcategory": "Microsoft",
+        "title": "How to Delete any File (windows)",
+        "images": [
+            "https://content.instructables.com/F3I/E1T0/FIZVX2SN/F3IE1T0FIZVX2SN.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXV/0178/FIY4K3E2/FXV0178FIY4K3E2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9V/667U/FSPRNF9O/F9V667UFSPRNF9O.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCD/F8NK/FIZVWXYC/FCDF8NKFIZVWXYC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FXK/JEMK/FIY4K3E6/FXKJEMKFIY4K3E6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYQ/BZ3J/FIZVX2U6/FYQBZ3JFIZVX2U6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ2/SG9N/FIZVX2UC/FJ2SG9NFIZVX2UC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA2/O5OT/FIZVX2UJ/FA2O5OTFIZVX2UJ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE8/VH82/FIZVX2VG/FE8VH82FIZVX2VG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM7/697H/FIZVX2VK/FM7697HFIZVX2VK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRU/4P34/FIZVX2VW/FRU4P34FIZVX2VW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXM/YSFJ/FIZVX2W1/FXMYSFJFIZVX2W1.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLV/4VQS/FIZVX2W4/FLV4VQSFIZVX2W4.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQI/UYR7/FIZVX2WH/FQIUYR7FIZVX2WH.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPS/1MN8/FIZVX2WV/FPS1MN8FIZVX2WV.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Unlocker program (from the provided link)"
+        ],
+        "description": "This project describes how to delete any file on a Windows system using a small, free program called Unlocker. This is particularly useful for deleting files that are locked or in use by other programs.",
+        "steps": [
+            "Download the Unlocker program from the provided link.",
+            "Install the Unlocker program by double-clicking the 'unlocker.exe' icon and following the installation instructions.",
+            "Optional: Prevent Unlocker from starting with Windows. Go to Start, Run, and type 'msconfig'. In the System Configuration Utility, go to the Startup tab and uncheck 'UnlockerAssistant'. Apply the changes and click OK.",
+            "To delete a file that is normally undeletable, right-click the file and select 'Unlocker'.",
+            "The Unlocker program will appear, providing options for what type of action you want to take on the file. Select 'Delete' or another desired action. Unlocker may want to delete the file at startup if it is in use.",
+            "The file should now be deleted."
+        ]
+    }
+]

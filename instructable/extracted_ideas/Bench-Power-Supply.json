@@ -1,0 +1,61 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Bench-Power-Supply-1/",
+        "creator": "badarsworkshop",
+        "subcategory": "Tools",
+        "title": "Bench Power Supply",
+        "images": [
+            "https://content.instructables.com/FML/YPYY/JH0TNRX2/FMLYPYYJH0TNRX2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO8/BYH8/JHKTVUFA/FO8BYH8JHKTVUFA.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVB/FSDL/JH0TOBAF/FVBFSDLJH0TOBAF.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBA/Q6CF/JW0Y865K/FBAQ6CFJW0Y865K.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQL/KVDF/JT91REML/FQLKVDFJT91REML.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW5/23M0/JHKTVNNY/FW523M0JHKTVNNY.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKR/OAZ1/JH0TNRW2/FKROAZ1JH0TNRW2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQN/TYKY/JH0TOCD8/FQNTYKYJH0TOCD8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD5/2HTF/JH0TOCEI/FD52HTFJH0TOCEI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAV/GJ10/JH0TOE7M/FAVGJ10JH0TOE7M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXH/WBPD/JH0TOEYF/FXHWBPDJH0TOEYF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEO/HX3A/JH0TOEYG/FEOHX3AJH0TOEYG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOG/2BWN/JH0TOEYH/FOG2BWNJH0TOEYH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCV/1YHT/KCG8EDQL/FCV1YHTKCG8EDQL.png?auto=webp&frame=1",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FAO/ATVJ/JH0TPXRK/FAOATVJJH0TPXRK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR7/RQXQ/JH0TPXS0/FR7RQXQJH0TPXS0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE1/S5Z9/JH0TPXSJ/FE1S5Z9JH0TPXSJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYK/7O4K/JH0TPXRJ/FYK7O4KJH0TPXRJ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGF/HOV9/JH0TPY5E/FGFHOV9JH0TPY5E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXQ/MBNH/JH0TPZ15/FXQMBNHJH0TPZ15.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGK/KWL9/JHATRS76/FGKKWL9JHATRS76.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Power Supply Module 30V 5A",
+            "Power Supply 36V 1.4A 50W",
+            "IEC Panel Jack",
+            "Banana Jack Posts",
+            "Power Switch",
+            "Voltage Regulator",
+            "12V 40mm Fan",
+            "Connector Kit",
+            "3D Printed Case",
+            "M4 Screws",
+            "M3 Screws",
+            "Spade Connectors"
+        ],
+        "description": "This project describes how to build a compact and sleek bench power supply using off-the-shelf components and a custom 3D printed case. The goal is to create a power supply powerful enough for most applications.",
+        "steps": [
+            "Design the case in SolidWorks, considering airflow and component sizes. Glue some nuts in the power supply housing for securing it.",
+            "3D print the case, ensuring proper bed adhesion and orientation for the best surface finish. Reprint if necessary to correct hole placement or size issues.",
+            "Secure the banana posts on the front panel using the nuts and washers.",
+            "Screw in the IEC Jack on the back using M4 screws.",
+            "Pop in the power switch.",
+            "Start the wiring by crimping spade connectors to the appropriate length wires.",
+            "Solder the fan regulator to the output line of the power supply.",
+            "Set the output to 12 V and then solder the fan to the output.",
+            "Screw in the fan using M4 screws and glue in the regulator.",
+            "Finish up the wiring and connect the power supply and power regulator.",
+            "Screw in the power supply using M3 screws and finish up by sticking some rubber feet.",
+            "Test the power supply under max load to check for thermal effects."
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/555-LED-Flasher/",
+        "creator": "BillyDang",
+        "subcategory": "LEDs",
+        "title": "555 LED Flasher - START",
+        "images": [
+            "https://content.instructables.com/FDE/T52B/I6H7EV6A/FDET52BI6H7EV6A.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYJ/50S1/I6H7EW36/FYJ50S1I6H7EW36.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F90/BUG0/I6H7EV7T/F90BUG0I6H7EV7T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9O/X88Q/I6H7EV7R/F9OX88QI6H7EV7R.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKD/K9IH/I6H7F2ZP/FKDK9IHI6H7F2ZP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMO/KGQS/I6H7F6F2/FMOKGQSI6H7F6F2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCG/RBM9/I6H7F2V2/FCGRBM9I6H7F2V2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR0/LUKX/I6H7F7QE/FR0LUKXI6H7F7QE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLP/K8AP/I6H7F2V1/FLPK8API6H7F2V1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDC/9IXV/I6H7F2UU/FDC9IXVI6H7F2UU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ9/LNPR/I6H7F2UT/FJ9LNPRI6H7F2UT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJV/DA0K/I6H7F2UR/FJVDA0KI6H7F2UR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXW/6Z1C/I6H7F2UQ/FXW6Z1CI6H7F2UQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXE/11NP/I6H7FB4A/FXE11NPI6H7FB4A.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQO/HFPO/I6H7F2UP/FQOHFPOI6H7F2UP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJL/EKRJ/I6H7F2UG/FJLEKRJI6H7F2UG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ0/7O25/I6H7EV7V/FJ07O25I6H7EV7V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "LM555 chip",
+            "100 resistors",
+            "2.2k resistor",
+            "4.7k resistor",
+            "20K potentiometer",
+            "47uf capacitor",
+            "LEDs",
+            "9v battery & connector"
+        ],
+        "description": "This tutorial will show you how to breadboard a basic analog circuit that will allow you to adjust the flashing speed of two LEDs.",
+        "steps": [
+            "Orient the LM555 chip on the breadboard with pin #1 (indicated by a small circular indentation) on the top left corner.",
+            "Ground pin #1 of the LM555 chip.",
+            "Connect pin #2 to pin #6 of the LM555 chip.",
+            "Connect a 100 resistor to pin #3. Connect the LED's negative pin to the resistor and the positive pin to power. Repeat for the other LED.",
+            "Place the 20K potentiometer on the breadboard. Connect the potentiometer's ground pin to pin #6 of the LM555, and the potentiometer's ADC pin to ground. Connect the 47uf capacitor's positive pin to pin #6 of the LM555 and ground the negative pin.",
+            "Connect the 2.2k resistor to pin #7 of the LM555 and to the potentiometer's power pin. Connect the 4.7k resistor to power.",
+            "Connect pin #4 to pin #8 of the LM555. Connect pin #8 to power.",
+            "Connect power to the circuit and adjust the flashing speed of the LEDs using the potentiometer."
+        ]
+    }
+]

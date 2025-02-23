@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Neo-Pixel-Fastest-Thumb-Game/",
+        "creator": "wellsey1972",
+        "subcategory": "Arduino",
+        "title": "Neo Pixel, Fastest Thumb Game.",
+        "images": [
+            "https://content.instructables.com/FLA/BSN0/IY4Q7D10/FLABSN0IY4Q7D10.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIH/47XC/K8WILVC9/FIH47XCK8WILVC9.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP6/6H2J/J6GQGHXK/FP66H2JJ6GQGHXK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWQ/PFWM/IZT6LXFK/FWQPFWMIZT6LXFK.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FUR/54ZQ/JGMJGTH8/FUR54ZQJGMJGTH8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM5/BK5M/JGMJGTJ0/FM5BK5MJGMJGTJ0.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F0S/2Z7V/KCG8ERHB/F0S2Z7VKCG8ERHB.png?auto=webp&frame=1",
+            "https://content.instructables.com/FLZ/4WOE/JGMJGTM5/FLZ4WOEJGMJGTM5.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9S/O2NG/JGMJGTNG/F9SO2NGJGMJGTNG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTE/FL6P/JGMJGTKP/FTEFL6PJGMJGTKP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTW/D0GA/JGMJGTQ3/FTWD0GAJGMJGTQ3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F32/A9YD/JGMJGTRG/F32A9YDJGMJGTRG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZU/D8EQ/JGMJGTRK/FZUD8EQJGMJGTRK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FV6/TFCR/JGMJGTRO/FV6TFCRJGMJGTRO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAE/JF91/JGMJGTRR/FAEJF91JGMJGTRR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU4/R4TR/JGMJGTRT/FU4R4TRJGMJGTRT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3T/YU97/JGMJGTRV/F3TYU97JGMJGTRV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRP/95J7/JGNWUEPF/FRP95J7JGNWUEPF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Adafruit Trinket - Mini Microcontroller - 5V Logic",
+            "NeoPixel ring",
+            "3 x AAA Battery Holder with On/Off Switch and 2-Pin JST",
+            "JST-PH 2-Pin SMT Right Angle Connector",
+            "Screw Terminals 2.54mm Pitch (3-Pin) and (5-pin)",
+            "3D printed handsets"
+        ],
+        "description": "This project is a two-player game where opponents repeatedly press a button to fill a NeoPixel ring with light. The winner gets a green flashing ring, and the loser gets a red one. The project involves 3D printing the handsets, milling a circuit board, and programming an Adafruit Trinket to control the game logic and NeoPixels.",
+        "steps": [
+            "Design the circuit board using Fritzing and mill or etch it. The board is single-sided with screw terminals for the handsets.",
+            "Print the handsets using a 3D printer. Drill holes for the NeoPixel ring wires.",
+            "Wire the handsets, connecting the NeoPixel ring and button to the ethernet cable using a specific color scheme for each function.",
+            "Solder the battery connector, jumpers, resistors, and screw terminals to the Trinket.",
+            "Screw the wires from the handsets into the screw terminals on the circuit board.",
+            "Upload the provided code to the Trinket using the Arduino IDE and making sure to select the correct board and settings."
+        ]
+    }
+]

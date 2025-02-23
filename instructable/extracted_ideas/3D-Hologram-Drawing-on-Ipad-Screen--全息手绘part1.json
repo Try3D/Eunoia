@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/3D-Hologram-Drawing-on-Ipad-Screen-%E5%85%A8%E6%81%AF%E6%89%8B%E7%BB%98part1/",
+        "creator": "arcsin80k",
+        "subcategory": "Art",
+        "title": "3D Hologram Drawing on Ipad Screen  \u5168\u606f\u624b\u7ed8part1",
+        "images": [
+            "https://content.instructables.com/FEM/YUSH/JKSZRWR6/FEMYUSHJKSZRWR6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSJ/IY6G/JKSKEA3V/FSJIY6GJKSKEA3V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3R/2NEF/JIYU4L1Y/F3R2NEFJIYU4L1Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/76NJ/JJEJYTLJ/FFF76NJJJEJYTLJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN1/PHLM/JIYU982F/FN1PHLMJIYU982F.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3B/QWNR/JKSZRWUV/F3BQWNRJKSZRWUV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSW/LSBY/JKSZRVP8/FSWLSBYJKSZRVP8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW2/0XL0/JKSZRW4V/FW20XL0JKSZRW4V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKH/Y5SC/JKSZRWIB/FKHY5SCJKSZRWIB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDQ/JNMT/JKSZRWD2/FDQJNMTJKSZRWD2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTN/4YZ4/JKSKEBCS/FTN4YZ4JKSKEBCS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEM/YUSH/JKSZRWR6/FEMYUSHJKSZRWR6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F58/1MS9/JKSKED4E/F581MS9JKSKED4E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5L/H8D7/JKSKED4H/F5LH8D7JKSKED4H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "lipsalve (lipstick)",
+            "conductive pen"
+        ],
+        "description": "This project demonstrates a method of creating 3D hologram-like drawings on reflective or transparent surfaces such as iPad screens or glass using a conductive pen and manipulating light. By changing the viewing position or light source, the reflected or transmitted light image changes, creating a 3D effect.",
+        "steps": [
+            "Clean the iPad or cellphone screen by spreading lipsalve (lipstick) and wiping it off with a paper towel to make the screen more reflective.",
+            "Draw any desired pattern on the screen using a conductive pen. Radial lines are suggested as an example.",
+            "Observe the light reflection by locking the screen and moving the iPad under a light source. The reflection image will change as the iPad is moved.",
+            "Experiment with different light sources like a cellphone flashlight, lighter, or candle to observe varying light effects. Colored tape can be used to alter the flashlight color.",
+            "The same process can be applied to transparent glass to achieve a similar hologram drawing effect."
+        ]
+    }
+]

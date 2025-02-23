@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/DRAWING-WITH-CONDUCTIVE-INK/",
+        "creator": "Paola Guimerans",
+        "subcategory": "Art",
+        "title": "DRAWING WITH CONDUCTIVE INK",
+        "images": [
+            "https://content.instructables.com/FZP/K1KY/IXAQ5782/FZPK1KYIXAQ5782.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVJ/25YD/I6QD50VB/FVJ25YDI6QD50VB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLA/3SDG/L6Z2072B/FLA3SDGL6Z2072B.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNK/AV4A/JJEK47XC/FNKAV4AJJEK47XC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAP/MFC0/JJEK49N5/FAPMFC0JJEK49N5.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQ1/XBID/IXAQ576U/FQ1XBIDIXAQ576U.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY5/PGUD/IXAQ5747/FY5PGUDIXAQ5747.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Y/2SBQ/IXAQ1JJ7/F4Y2SBQIXAQ1JJ7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX6/FFOU/IXAQ1JIW/FX6FFOUIXAQ1JIW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7U/B0IN/IXAQ575I/F7UB0INIXAQ575I.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO6/R0RX/IXAQ574T/FO6R0RXIXAQ574T.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7L/TR9X/IXAQ5746/F7LTR9XIXAQ5746.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUG/53QW/IXAQ573K/FUG53QWIXAQ573K.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "AgIC Kit",
+            "Magnets",
+            "Small piece of wood",
+            "Cube beads",
+            "Copper tape",
+            "Hot Glue Gun",
+            "Craft Knife",
+            "Color LED"
+        ],
+        "description": "This tutorial demonstrates how to create a simple character design with markers and conductive materials and electronics, using copper tape and AgIC's circuit marker with silver ink to turn paper into an electric circuit. The goal is to introduce novel materials and electronics for creative expression through soft circuits, enhancing character design with electrical functionality.",
+        "steps": [
+            "Create a simple character design and decide if the circuit will be connected in series or parallel. A circuit exercise with a battery and LED is recommended to understand soft circuits.",
+            "Connect the components together: Attach the positive side of the color LED to the positive side of the battery and the negative side to the negative side for a parallel circuit. Use AgIC silver ink to draw electrical connections between LEDs.",
+            "Use copper or aluminum tape to secure the battery and create electrical connections. Remember that when using conductive ink, electricity becomes the medium of the visual arts.",
+            "Create a switch by erasing a path in the conductive circuit using the AgIC Circuit Eraser. Magnets can be used as an alternative to traditional electronic switches.",
+            "Complete the drawing using various materials such as gomets, glitter, and color pencils. Cover the back of the drawing to hide the battery and magnet, and consider making a cardboard stand for presentation."
+        ]
+    }
+]

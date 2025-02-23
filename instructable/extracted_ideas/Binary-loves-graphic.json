@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Binary-loves-graphic/",
+        "creator": "world of woodcraft",
+        "subcategory": "Art",
+        "title": "Binary loves graphic",
+        "images": [
+            "https://content.instructables.com/FCU/UVF2/I7MXSUPL/FCUUVF2I7MXSUPL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2L/E57C/I7N64PDS/F2LE57CI7N64PDS.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJC/UTMX/IA9HFVUO/FJCUTMXIA9HFVUO.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGI/EW45/KO1GWOYI/FGIEW45KO1GWOYI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNP/IA38/KDX3QDLY/FNPIA38KDX3QDLY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F33/82NB/JRKZ4N7D/F3382NBJRKZ4N7D.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUD/UFG2/I7N64PE1/FUDUFG2I7N64PE1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGE/0QUY/I7N64PDU/FGE0QUYI7N64PDU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBG/79HQ/I7N64PDW/FBG79HQI7N64PDW.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ0/VQ9K/I7N64PDZ/FZ0VQ9KI7N64PDZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSN/U7T5/I7N64PDT/FSNU7T5I7N64PDT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F57/O7J1/I7N64PE2/F57O7J1I7N64PE2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Graphics Package",
+            "Online binary code generator",
+            "Online pixel art maker"
+        ],
+        "description": "This project involves creating a graphic that embeds a hidden message within binary code. The message is revealed by subtly changing the colors of specific binary characters to form a pixel art image.",
+        "steps": [
+            "Generate a binary sequence of the desired message using an online binary code generator.",
+            "Copy the binary code into a graphics package and format it aesthetically, such as arranging the binary characters in lines with standardized spacing.",
+            "Use an online pixel art maker to design the image you want to hide within the binary code. Note the dimensions of the graphic you are creating in pixels. Subtract 2 from the height to determine how much space you have for an internal boarder.",
+            "Paste the pixel art onto the binary image in the graphics package, and reduce the opacity of the pixel art layer so that both the binary and pixel art are visible.",
+            "Align the pixel art with the binary code, ensuring each pixel aligns with a binary character. Use the semi-transparent pixel art as a guide to change the color of specific binary characters to match the pixel art design.",
+            "Hide the pixel art layer and add a background color that enhances the visibility of the colored characters and the overall image. A gray background can make the colored text more visible.",
+            "Place the finished graphic where the intended recipient will find it. Alternatively, print it onto a mug or t-shirt."
+        ]
+    }
+]

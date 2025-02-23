@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Simple-Pc-Case-Mod/",
+        "creator": "koliman",
+        "subcategory": "Art",
+        "title": "Simple Pc Case Mod",
+        "images": [
+            "https://content.instructables.com/FZ6/ZUIL/IASCNSIL/FZ6ZUILIASCNSIL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4V/RHF4/IASCO1JS/F4VRHF4IASCO1JS.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT9/32HM/IJX7F4ZJ/FT932HMIJX7F4ZJ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW4/XA9U/IA57Y0OQ/FW4XA9UIA57Y0OQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6A/Q2RB/IASCNTRR/F6AQ2RBIASCNTRR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8N/E9DN/IASCNSHY/F8NE9DNIASCNSHY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4A/R3YJ/IASCO2VO/F4AR3YJIASCO2VO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEL/3G8Q/IASCOAUN/FEL3G8QIASCOAUN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB1/CJO9/IASCO9M2/FB1CJO9IASCO9M2.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7D/PCCH/IASCOC0X/F7DPCCHIASCOC0X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCY/6R2Z/IASCO2W6/FCY6R2ZIASCO2W6.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUI/VPGK/IASCO2SR/FUIVPGKIASCO2SR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Old PC case",
+            "Metal thing (used for fireplaces)",
+            "Spray cans (black and blue)",
+            "Black plastics",
+            "Black LG driver"
+        ],
+        "description": "This project details how to modify an old PC case to make it look new and fancy by cleaning, painting, and reassembling it.",
+        "steps": [
+            "Clean the PC case and remove all parts that you can, like the plastics in the front.",
+            "Cut off the rear part of the case and adjust a metal piece (from a fireplace) to take some air using a drill.",
+            "Cover the parts you don't want to paint, like the inside of the case, using paper and duct tape.",
+            "Sandpaper the metal parts you want to paint to remove dirt, avoiding the plastic parts.",
+            "Paint the metal parts with blue spray paint and some parts of the plastic front part with blue as well. Use black spray paint on other parts.",
+            "Put all the parts back together, using black plastics for the front part and a black LG driver."
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Decoration-for-your-room-LED-chimes-/",
+        "creator": "Prosenjit01",
+        "subcategory": "Art",
+        "title": "Decoration for your room- LED chimes !!!!",
+        "images": [
+            "https://content.instructables.com/FI1/NKZ3/HIUXB0RM/FI1NKZ3HIUXB0RM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNH/04OJ/HIUXBAM3/FNH04OJHIUXBAM3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNU/F7D2/HIUX9AE2/FNUF7D2HIUX9AE2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTP/B1LI/HIUXB0RN/FTPB1LIHIUXB0RN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGD/3SYE/HIUX7I24/FGD3SYEHIUX7I24.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOY/7276/HIUX7I25/FOY7276HIUX7I25.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOY/6AVI/HIVQBE34/FOY6AVIHIVQBE34.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ3/O0TH/HIUXB0RU/FJ3O0THHIUXB0RU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0U/A76F/HIUX9S2X/F0UA76FHIUX9S2X.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVD/MHQ1/HIVQBE36/FVDMHQ1HIVQBE36.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMW/A40G/HIVQBE38/FMWA40GHIVQBE38.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI3/6W7Y/HIUX9S2Y/FI36W7YHIUX9S2Y.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7U/RBCU/HIUXBAMD/F7URBCUHIUXBAMD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0K/8Q73/HIVQBE3A/F0K8Q73HIVQBE3A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRL/WEGN/HIUX5G5V/FRLWEGNHIUX5G5V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWX/TVU1/HIUXBAME/FWXTVU1HIUXBAME.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLV/NSYW/HIUXB0RZ/FLVNSYWHIUXB0RZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN9/11JI/HIUXB0S1/FN911JIHIUXB0S1.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4J/9V5I/HIUXB0S2/F4J9V5IHIUXB0S2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9W/A82N/HIUX9AE4/F9WA82NHIUX9AE4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLS/HOUF/HIUXB0S3/FLSHOUFHIUXB0S3.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGZ/CILV/HIVQBE3G/FGZCILVHIVQBE3G.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "12 LEDs (10 RED, 2 BLUE)",
+            "12 1K resistances",
+            "4-9 volt battery",
+            "Mount board",
+            "Copper thick wire",
+            "Insulated wire",
+            "50v 2.2nF electrolytic capacitor",
+            "16v 220nF electrolytic capacitor"
+        ],
+        "description": "This project describes how to build an LED chime decoration for a room using a parallel circuit with 12 LEDs, 1K resistors, and a 4-9 volt battery. The circuit includes capacitors for power stability. The LEDs are mounted, connected with resistors, and powered to create a decorative lighting effect.",
+        "steps": [
+            "Place the LEDs on the mount board.",
+            "Connect each 1K resistor to the anode of each LED.",
+            "Give positive supply to the LED via the resistor.",
+            "Connect individual negative supplies to each cathode probe.",
+            "Connect the battery supply to make the lights work.",
+            "Solder each resistor to the LED's anode pin.",
+            "Bend the resistor pin slightly to create a center point for soldering.",
+            "Solder the connections permanently using a thick copper wire.",
+            "Use insulated wire with cut insulation at the cathode point of each LED.",
+            "Connect 50v 2.2nF and 16v 220nF electrolytic capacitors for power supply stability, placing them between the circuit and supply.",
+            "Connect the cathode point to the battery's negative terminal and the circuit's anode to the battery's positive terminal.",
+            "The LED chime is now ready for decoration."
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Faking-a-Color-3d-Print/",
+        "creator": "mkoehle",
+        "subcategory": "Art",
+        "title": "Faking a Color 3d Print",
+        "images": [
+            "https://content.instructables.com/FD2/PY3M/IG2JOEGM/FD2PY3MIG2JOEGM.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZX/WYFQ/IG2JOEI1/FZXWYFQIG2JOEI1.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/8MH1/IDBHXK7C/FF78MH1IDBHXK7C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL0/MYZJ/JE4KKXXW/FL0MYZJJE4KKXXW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/5SBG/JE4KKXS5/FFF5SBGJE4KKXS5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPV/OENC/JE4KKXNU/FPVOENCJE4KKXNU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FH6/45YU/IG2JOE9U/FH645YUIG2JOE9U.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPB/72Y6/IG2LZHFO/FPB72Y6IG2LZHFO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FPV/SZB8/IG2LZHDC/FPVSZB8IG2LZHDC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024",
+            "https://content.instructables.com/FH6/1RPM/IG413Q4L/FH61RPMIG413Q4L.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU9/SLEK/IG412YP7/FU9SLEKIG412YP7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAB/OOLB/IG2JOEBM/FABOOLBIG2JOEBM.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAA/JP9V/IG2JOEFN/FAAJP9VIG2JOEFN.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Model (STL format)",
+            "Projection image",
+            "Laser cutter (or similar method of cutting paper)",
+            "Assembly supports (acrylic or wooden dowels)",
+            "Washers of the desired thickness",
+            "Programming chops"
+        ],
+        "description": "This project demonstrates how to simulate a color 3D print by stacking paper slices. Each slice has a printed section of a 2D image projected onto the model, creating the illusion of color when assembled.",
+        "steps": [
+            "Create a projection image by taking a screenshot of your textured model (or using a standalone image) with parallel projection and aligned to the x-axis. Crop and resize the image to match the model's dimensions.",
+            "Slice the 3D model along the z-axis at a specified spacing using a slicing program or custom code. The slices are exported as SVG files, including optional holes for guide rods.",
+            "Slice the projection image by taking a row of pixels at each slice's z-height and stretching it across the output image. The height of the output image should match the model's y-length.",
+            "Print the sliced images and model outlines onto paper, ensuring proper centering and no scaling. Number each slice for correct assembly.",
+            "Cut out the printed model outlines from the paper using a laser cutter or craft cutter.",
+            "Assemble the slices by feeding them onto guide rods, adding washers (if used) between each slice to maintain spacing."
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Word-Cloud-from-Google-Chats/",
+        "creator": "wtlebo",
+        "subcategory": "Art",
+        "title": "Word Cloud from Google Chats",
+        "images": [
+            "https://content.instructables.com/FYO/XXZO/GWOSAKSL/FYOXXZOGWOSAKSL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0I/5LFB/GWKKMKPN/F0I5LFBGWKKMKPN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZU/ZC6B/GWKKMKPO/FZUZC6BGWKKMKPO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCJ/SDUS/GWF5TZUP/FCJSDUSGWF5TZUP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG9/BNI7/GWPDSVNB/FG9BNI7GWPDSVNB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC0/HWJ6/GWP6Q2FE/FC0HWJ6GWP6Q2FE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3L/K3F7/GWF5TZTU/F3LK3F7GWF5TZTU.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3R/SVHY/GWP6Q2IL/F3RSVHYGWP6Q2IL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F20/KCCZ/GWP6Q2FP/F20KCCZGWP6Q2FP.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FRQ/IX5F/GWOSAL02/FRQIX5FGWOSAL02.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F23/FE85/GWF5U00L/F23FE85GWF5U00L.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2C/64T8/GWF5U00M/F2C64T8GWF5U00M.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Thunderbird",
+            "Notepad++ (or similar text editor)",
+            "rename.bat (batch renaming file, if required)"
+        ],
+        "description": "This project describes how to create a word cloud from Google Chat history using Thunderbird, some text manipulation, and the Wordle.net website. The process involves exporting chat data from Gmail using Thunderbird, cleaning and combining the text files, and then using Wordle.net to generate the word cloud.",
+        "steps": [
+            "Enable IMAP in Gmail settings under 'Forwarding and POP/IMAP'.",
+            "In Gmail settings, under 'Chats', select 'Show in IMAP'.",
+            "Install Thunderbird and set it up with your Gmail account, ensuring it's configured as IMAP.",
+            "Subscribe to the 'Chats' folder in Thunderbird's folder tree (right-click to change).",
+            "Install the ImportExportTools add-on into Thunderbird.",
+            "In Thunderbird, with the 'Chats' folder highlighted, export all messages in the folder to 'Plain Text Format' to a selected folder using 'Tools'->'ImportExportTools'->'Export all messages in the folder'.",
+            "Optionally, prepare text files from a single person by copying their chats into a dedicated directory. Use a batch renaming file (rename.bat) to remove spaces from filenames and shorten them.  Rename files to remove spaces from file names and shorten them. Save the \"rename.bat\" file in the directory containing the chat files. Run the batch file from the command prompt.",
+            "Optionally, combine all chat text files into a single text file using the DOS command 'copy /a *.txt allchats.txt' in the command prompt, navigating to the directory where the chat files are stored.",
+            "Open the combined text file ('allchats.txt') in Notepad++ (or a similar text editor) and use find/replace to remove common words/expressions (e.g., ' me ', ' AM ', ' PM ', ' minutes '). Optionally, change all text to upper or lower case.",
+            "Copy all the text from the cleaned file into the Wordle.net website to generate the word cloud. Customize color and text options and remove words by right-clicking them."
+        ]
+    }
+]

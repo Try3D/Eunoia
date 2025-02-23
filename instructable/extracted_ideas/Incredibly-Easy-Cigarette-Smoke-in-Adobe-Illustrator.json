@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Incredibly-Easy-Cigarette-Smoke-in-Adobe-Illustrat/",
+        "creator": "Sparkytastic",
+        "subcategory": "Art",
+        "title": "Incredibly Easy Cigarette Smoke in Adobe Illustrator",
+        "images": [
+            "https://content.instructables.com/F59/KZTB/HJKBQ2MG/F59KZTBHJKBQ2MG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F09/M0E4/GJC3WHZA/F09M0E4GJC3WHZA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSH/VNUL/HJKBQ2MH/FSHVNULHJKBQ2MH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM9/7NHO/HJKBQ2MI/FM97NHOHJKBQ2MI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL5/USS2/HJKBQ2MJ/FL5USS2HJKBQ2MJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUW/7AAY/HJKBQ2MK/FUW7AAYHJKBQ2MK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMN/ALO8/HJKBQ2ML/FMNALO8HJKBQ2ML.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEB/WAIZ/HJKBQ2MM/FEBWAIZHJKBQ2MM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F15/KM2H/HJKBQ2MN/F15KM2HHJKBQ2MN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX3/P6P8/HJKBQ2MO/FX3P6P8HJKBQ2MO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOX/CEE0/HJKBQ2MP/FOXCEE0HJKBQ2MP.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEP/S6ZW/HJKBQ2MQ/FEPS6ZWHJKBQ2MQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9H/ZZU8/HJKBQ2MT/F9HZZU8HJKBQ2MT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGP/VW0O/HJKBQ2MR/FGPVW0OHJKBQ2MR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F59/KZTB/HJKBQ2MG/F59KZTBHJKBQ2MG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKZ/QDYJ/HJKBQ4IN/FKZQDYJHJKBQ4IN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Adobe Illustrator CS2 or higher",
+            "Computer"
+        ],
+        "description": "This project guides you through creating a vector object of cigarette or other light, whispy smoke using Adobe Illustrator. It involves creating feather-shaped objects and manipulating them to resemble smoke.",
+        "steps": [
+            "Open Adobe Illustrator and create a new document of any size/shape, preferably CMYK for printing purposes.",
+            "Select the Pen Tool and create a point near the top of the workspace, then hold Shift and create another point about halfway or farther down. Adjust the curve of the line to create half of a 'feather'.",
+            "Finish the feather by clicking the original point and creating the new curve. Remove the stroke and set the fill color to gray.",
+            "Duplicate the feather twice, once to the left and once to the right. Rotate each new feather away from the original by 3 to 5 degrees.",
+            "Scale each duplicate down vertically from the top, making one a bit shorter than the other. Move the outside feathers so they share the same base point as the original.",
+            "Select all three feathers and use the Warp tool (adjusting the brush size to roughly 1/3 of the size of the feathers) to warp the feathers in a 'Z' shape, creating curves.",
+            "Optionally, use the Twirl Tool (adjusting the brush size to about half the size of the feathers) to click at three points along the smoke, spinning it inward slightly to simulate wind."
+        ]
+    }
+]

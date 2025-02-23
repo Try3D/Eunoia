@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/DIY-Chopper-Motocycle-From-Electronic-Parts/",
+        "creator": "YouOnlyL1",
+        "subcategory": "Art",
+        "title": "DIY || Chopper Motocycle from electronic parts ||",
+        "images": [
+            "https://content.instructables.com/F8K/OK9C/KK15FI2R/F8KOK9CKK15FI2R.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZD/MLK3/KHJ4PI3P/FZDMLK3KHJ4PI3P.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F85/M7ZQ/K7RRED3Y/F85M7ZQK7RRED3Y.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY7/062J/J98RSUEB/FY7062JJ98RSUEB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F54/PSAX/IKRNI758/F54PSAXIKRNI758.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0P/CKZA/IKRNI76J/F0PCKZAIKRNI76J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPK/63HL/IKRNI77O/FPK63HLIKRNI77O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCX/Q1PY/IKRNI78J/FCXQ1PYIKRNI78J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Copper wire >2.5mm^2",
+            "Small DC Motor 3Volt",
+            "Two LEDs for lights",
+            "Two Coils for wheels",
+            "Two Power Transistors and two small Transistors",
+            "Capacitor",
+            "Insulation from wire, for handles",
+            "Power Switch off/on",
+            "Red and Black wire < 1mm^2",
+            "Resistor for exhaust"
+        ],
+        "description": "This project outlines how to create a decorative chopper motorcycle model using electronic components. While the motorcycle won't be functional in terms of movement, the lights can be turned on and the small DC motor can be operated.",
+        "steps": [
+            "Gather the necessary construction materials: copper wire, a small 3V DC motor, two LEDs for lights, two coils for wheels, two power transistors, two small transistors, a capacitor, insulation from wire for handles, a power switch, red and black wire, and a resistor for the exhaust.",
+            "Acquire the required tools: hot glue gun, soldering iron, scissors, lead soldering, solder wire, and pliers.",
+            "Assemble the motorcycle model using the materials and tools, following the visual guidance (video or pictures).",
+            "Connect the LEDs and the DC motor to the power source (batteries) through the switch, allowing them to be operated."
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Arduino-Basic-PC-With-VGA-Output/",
+        "creator": "Rob Cai",
+        "subcategory": "Arduino",
+        "title": "Arduino Basic PC With VGA Output",
+        "images": [
+            "https://content.instructables.com/FTF/RNPZ/JD4UPGJS/FTFRNPZJD4UPGJS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC9/FVRY/JD4UPGJX/FC9FVRYJD4UPGJX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF7/D2EG/JD4UPGJV/FF7D2EGJD4UPGJV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9P/WVK3/IEO2XFF8/F9PWVK3IEO2XFF8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRI/LE6O/LEJZ2SUC/FRILE6OLEJZ2SUC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FXZ/O07Y/LADXW3M4/FXZO07YLADXW3M4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F9H/P0NL/L56R6CNG/F9HP0NLL56R6CNG.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F3W/FPWX/JD4UPH5W/F3WFPWXJD4UPH5W.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5A/KFBL/JD4US7HD/F5AKFBLJD4US7HD.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F4H/3LW9/JHATO0XE/F4H3LW9JHATO0XE.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXJ/SXIT/JHATO118/FXJSXITJHATO118.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FA1/6OXJ/JHATO0UC/FA16OXJJHATO0UC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFN/2C87/JHATO1B8/FFN2C87JHATO1B8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "DSUB15 Connector (VGA female connector or VGA cable)",
+            "Resistors: 2 x 68 Ohm and 2 x 470 Ohm",
+            "PS2 female connector",
+            "Arduino IDE 1.6.4"
+        ],
+        "description": "This project details how to build a basic PC using two Arduinos that outputs a color signal to a VGA monitor. It uses a PS2 keyboard for input and can save programs to the Arduino's EEPROM. One Arduino runs Tiny Basic Plus and controls the PS2 keyboard, while the second Arduino generates the VGA output using the VGAx library.",
+        "steps": [
+            "Download and install Arduino IDE 1.6.4.",
+            "Download and install the PS2keyboard library by copying the PS2keyboard folder to the Arduino libraries folder (arduino-1.6.4\\libraries).",
+            "Download the TinyBasicPlus_PS2_VGAx.ino file, uncompress it, and upload it to the first Arduino (the 'master').",
+            "Test the Tiny Basic installation through the serial monitor, setting the COM port and baud rate to 4800. Type '10 PRINT \"Hello, World!\" 20 GOTO 10 RUN' to test.",
+            "Connect the PS2 keyboard to the master Arduino: Keyboard Data to Arduino pin 8, keyboard IRQ (clock) to Arduino pin 3, and connect GND and +5V.",
+            "Download the VGAx library from GitHub and copy it to the Arduino software 'libraries' subfolder.",
+            "Download the VGAx-PC.ino code and upload it to the second Arduino board.",
+            "Connect the two Arduino boards, the VGA connector, and the PS2 keyboard according to the provided schematic."
+        ]
+    }
+]

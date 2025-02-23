@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://www.instructables.com/id/A-Guide-to-the-Basics-of-Animal-Animation/",
+        "creator": "Lettiee",
+        "subcategory": "Art",
+        "title": "A Guide to the Basics of Animal Animation",
+        "images": [
+            "https://content.instructables.com/FHN/HEOP/HWJJW5L9/FHNHEOPHWJJW5L9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5O/0ZV7/H6MERDDQ/F5O0ZV7H6MERDDQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPL/6HA6/HC9M97OB/FPL6HA6HC9M97OB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCT/IISX/HA4MGKO2/FCTIISXHA4MGKO2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEX/WGQD/H994NDVR/FEXWGQDH994NDVR.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKI/YT43/HWJJVWR7/FKIYT43HWJJVWR7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYG/6N2Z/HWJJVWR8/FYG6N2ZHWJJVWR8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/N9TO/HWJJW5LT/FLFN9TOHWJJW5LT.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXN/Z3WL/HWJJW6PC/FXNZ3WLHWJJW6PC.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXU/29GM/HWJJW6PL/FXU29GMHWJJW6PL.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKL/Z1K1/HWJJW6PM/FKLZ1K1HWJJW6PM.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F89/B9VT/HWJJW6PV/F89B9VTHWJJW6PV.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5B/Z8HJ/HWJJW6SO/F5BZ8HJHWJJW6SO.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FST/0SDQ/HWJJW6SP/FST0SDQHWJJW6SP.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Videos or stock photos of the animal being animated"
+        ],
+        "description": "This guide provides the basics of animal animation, focusing on anatomy, key frames, limb movement, and body movement in relation to the limbs.",
+        "steps": [
+            "Familiarize yourself with the animal's skeleton structure, paying attention to the placement of bones and joints as it dictates movement and flexibility. Compare skeletons of different animals to understand the nuances.",
+            "Understand the difference between key frames (points of most drastic movement) and inbetweens (frames that link key frames together). For walk cycles, create 4 key frames: two contacts (legs extended in front) and two passes (legs passing each other). Use reference material.",
+            "Consider how animals move their front and hind legs asynchronously. Front legs curl in for the pass and swing forward for contact, while hind legs pull in for the pass and stretch outwards for contact. Also consider individual variations and environment when animating the legs.",
+            "Animate the animal's body (shoulders, hips) in conjunction with its legs. The shoulders rise and tense when the leg is in contact, and the hips do the same. Avoid keeping the body static while the legs move.",
+            "Practice regularly and don't be discouraged. Over-exaggerated movements can make the animation more entertaining."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/A-Guide-to-the-Basics-of-Animal-Animation/",
+        "creator": "Lettiee",
+        "subcategory": "Art",
+        "title": "A Guide to the Basics of Animal Animation",
+        "images": [
+            "https://content.instructables.com/FHN/HEOP/HWJJW5L9/FHNHEOPHWJJW5L9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5O/0ZV7/H6MERDDQ/F5O0ZV7H6MERDDQ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPL/6HA6/HC9M97OB/FPL6HA6HC9M97OB.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCT/IISX/HA4MGKO2/FCTIISXHA4MGKO2.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEX/WGQD/H994NDVR/FEXWGQDH994NDVR.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKI/YT43/HWJJVWR7/FKIYT43HWJJVWR7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYG/6N2Z/HWJJVWR8/FYG6N2ZHWJJVWR8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/N9TO/HWJJW5LT/FLFN9TOHWJJW5LT.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXN/Z3WL/HWJJW6PC/FXNZ3WLHWJJW6PC.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXU/29GM/HWJJW6PL/FXU29GMHWJJW6PL.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKL/Z1K1/HWJJW6PM/FKLZ1K1HWJJW6PM.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F89/B9VT/HWJJW6PV/F89B9VTHWJJW6PV.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5B/Z8HJ/HWJJW6SO/F5BZ8HJHWJJW6SO.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FST/0SDQ/HWJJW6SP/FST0SDQHWJJW6SP.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Videos or stock photos of the animal you are animating"
+        ],
+        "description": "This guide provides a basic understanding of how to animate animals, focusing on anatomy, key frames, limb movement, and overall body movement in coordination with the limbs.",
+        "steps": [
+            "Familiarize yourself with the animal's skeletal structure, noting the placement of bones and joints to understand movement limitations and flexibility.",
+            "Identify key frames in the animation, focusing on points where the movement is most drastic. In-betweens link these key frames together with subtle movements.",
+            "Pay attention to how animals move their legs, usually not simultaneously. Front legs enter the contact stage as hind legs start their passing stage. Consider the way animals carry their legs, curl them, and how they adapt based on environment or personality.",
+            "Ensure the animal's body moves with its legs. The shoulders and hips should rise and tense in coordination with leg movements to create fluid motion. Exaggerated movements can add interest to the animation.",
+            "Practice consistently and don't be discouraged. Animation takes time and constant improvement."
+        ]
+    }
+]

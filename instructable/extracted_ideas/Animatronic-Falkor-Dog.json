@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Animatronic-Falkor-Dog/",
+        "creator": "kawhidc",
+        "subcategory": "Art",
+        "title": "Animatronic Falkor Dog",
+        "images": [
+            "https://content.instructables.com/FIC/SQB6/JT4TPGG6/FICSQB6JT4TPGG6.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDV/TTHF/JT4TPGG7/FDVTTHFJT4TPGG7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7T/AYG2/JT4TPFEI/F7TAYG2JT4TPFEI.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F23/LXG5/JT4TPGG9/F23LXG5JT4TPGG9.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGT/FVRI/JT4TPGGF/FGTFVRIJT4TPGGF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1R/7A7C/JT4TPGG8/F1R7A7CJT4TPGG8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNE/ZVLP/JT4TPGAZ/FNEZVLPJT4TPGAZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0I/FNTE/JT4TPGBO/F0IFNTEJT4TPGBO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM9/VAWD/JT4TPGBT/FM9VAWDJT4TPGBT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF5/H1AC/JT4TPGBV/FF5H1ACJT4TPGBV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZJ/VABN/JT4TPGBZ/FZJVABNJT4TPGBZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Motors",
+            "Furs",
+            "Electric iron"
+        ],
+        "description": "The project involves creating a custom animatronic dog resembling Falkor, a dragon-dog hybrid. The goal was to create an animatronic that walks and barks like a dog while maintaining dragon-like features to bring joy to a village and raise awareness for stray animals.",
+        "steps": [
+            "Create a product design drawing based on client specifications, iterating on the design until the client's vision is captured.",
+            "Test and integrate motors to achieve various movements within the limited space of the animatronic's body, ensuring optimal motor usage through programming adjustments.",
+            "Engrave the texture of scales onto the animatronic's body using an electric iron with precision and care.",
+            "Stick the furs onto the animatronic, carefully applying them to the face while preserving details like dimples.",
+            "The Animatronic Falkor Dog is completed, exhibiting bravery, lively behavior, and kindness."
+        ]
+    }
+]

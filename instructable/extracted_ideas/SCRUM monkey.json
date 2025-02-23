@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/SCRUM-Monkey/",
+        "creator": "nivini",
+        "subcategory": "Raspberry Pi",
+        "title": "SCRUM monkey",
+        "images": [
+            "https://content.instructables.com/FRW/4QYK/IJ5TWXTV/FRW4QYKIJ5TWXTV.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKV/XSL5/IJ5TWXTW/FKVXSL5IJ5TWXTW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN7/VDO8/KC7NS8RC/FN7VDO8KC7NS8RC.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPV/QZ24/GMSXINRU/FPVQZ24GMSXINRU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOE/YCJF/G4E0Y5K8/FOEYCJFG4E0Y5K8.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FVQ/O8ZW/IJ5TWXWB/FVQO8ZWIJ5TWXWB.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDP/W5ZP/IJ5TWXWD/FDPW5ZPIJ5TWXWD.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXQ/DTVH/IJ5TWXZ6/FXQDTVHIJ5TWXZ6.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "TIP120 (or 121, 122) Darlington Transistor",
+            "1K ohm resistor",
+            "Raspberry Pi"
+        ],
+        "description": "This project turns a monkey toy that makes noises and blinks into an alarm controlled by a Raspberry Pi. The alarm is activated at a specific time using a Python script and Linux crontab.",
+        "steps": [
+            "Connect the monkey toy to the Raspberry Pi using a Darlington transistor (TIP120/121/122 family) for switching, considering the monkey's power supply is 3.3V.",
+            "Write a Python script to activate the alarm at the desired time (13:40 in the example).",
+            "Use the Linux crontab program to schedule the Python script to run at the specified time. Open the crontab editor by typing 'crontab -e' in the Linux shell.",
+            "In the crontab editor, add a line specifying the schedule and the command to execute the Python script, for example: '40 13 * * * /usr/bin/python /home/scrum_monkey.py'"
+        ]
+    }
+]

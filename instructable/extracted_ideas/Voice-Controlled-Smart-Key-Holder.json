@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Voice-Controlled-Smart-Key-Holder/",
+        "creator": "shemakes.py",
+        "subcategory": "Arduino",
+        "title": "Voice Controlled Smart Key Holder",
+        "images": [
+            "https://content.instructables.com/FX2/C3F2/JT4TRMR3/FX2C3F2JT4TRMR3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLX/SMUV/JSYZEZNA/FLXSMUVJSYZEZNA.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FS4/Y0UF/JSYZHOB4/FS4Y0UFJSYZHOB4.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZC/LIMM/JT4TRNQD/FZCLIMMJT4TRNQD.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKX/PFMD/JT4TRODN/FKXPFMDJT4TRODN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS7/WT0Y/JT4TROFI/FS7WT0YJT4TROFI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJG/X9S3/JT4TRNZV/FJGX9S3JT4TRNZV.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFQ/EHRN/JT4TRO6Y/FFQEHRNJT4TRO6Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO3/7H47/JT4TRO7W/FO37H47JT4TRO7W.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJC/S8GJ/JT4TROKM/FJCS8GJJT4TROKM.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL6/6CMP/JT4TROKN/FL66CMPJT4TROKN.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS3/GJHD/JT4TROKQ/FS3GJHDJT4TROKQ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZS/X83F/JT4TROKT/FZSX83FJT4TROKT.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR8/XRZ7/JT4TROLI/FR8XRZ7JT4TROLI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5W/Y15B/JT4TROLJ/F5WY15BJT4TROLJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F25/EGU4/JT4TROTZ/F25EGU4JT4TROTZ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Arduino Uno/Nano",
+            "USB 2.0 Cable Type A/B (for UNO) and Cable/USB 2.0 A to USB 2.0 Mini B (for nano)",
+            "HC05 bluetooth module",
+            "LEDs (3)",
+            "3 resistors of value 100 ohms",
+            "9v battery and its connector",
+            "General Purpose Zero PCB Printed Circuit Board",
+            "Soldering iron",
+            "Soldering wire",
+            "Glue gun"
+        ],
+        "description": "This project creates a voice-controlled smart key holder that allows users to open locks by asking their smartphone. The phone communicates with the key holder, and a corresponding LED lights up to indicate the correct key.",
+        "steps": [
+            "Create a base/socket for the Arduino Uno on a zero board.",
+            "Connect the HC05 bluetooth module to the Arduino: Rx to Tx, Tx to Rx, Vcc to +5v, and GND to GND.",
+            "Connect the positive terminal of each LED to a 100-ohm resistor, and then connect the other side of the resistor to digital pins 11, 12, and 13 of the Arduino, respectively. Connect the negative terminals of all LEDs to GND.",
+            "Download the 'Arduino Bluetooth Controller' app.",
+            "Connect your phone to the HC05 bluetooth module using the passkey 0000 or 1234.",
+            "Upload the provided Arduino code (smartkeyholder.ino) to the Arduino."
+        ]
+    }
+]

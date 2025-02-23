@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/RPM-Measurement-Using-Hall-Sensor-and-Arduino/",
+        "creator": "JureINV",
+        "subcategory": "Arduino",
+        "title": "RPM Measurement Using Hall Sensor and Arduino",
+        "images": [
+            "https://content.instructables.com/FJX/KDQ0/IR6IU06O/FJXKDQ0IR6IU06O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGD/KV6L/IN4W4193/FGDKV6LIN4W4193.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZP/6GMB/IK1HPA64/FZP6GMBIK1HPA64.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIM/CWMI/IR6ITPHU/FIMCWMIIR6ITPHU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCQ/XT4S/IR6ITPEC/FCQXT4SIR6ITPEC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPP/V3CI/IR6ITPI9/FPPV3CIIR6ITPI9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FD4/HWXA/IR6ITWQZ/FD4HWXAIR6ITWQZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKE/X90X/IR6ITX6X/FKEX90XIR6ITX6X.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9P/2Y0X/IR6ITPEG/F9P2Y0XIR6ITPEG.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVR/L4UT/IR6ITYHP/FVRL4UTIR6ITYHP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Hall sensor (SS461A Honeywell latching Hall sensor)",
+            "Neodymium magnet",
+            "10K resistor"
+        ],
+        "description": "This project describes how to upgrade an RC car, or build a new device to measure RPM using a Hall sensor and a neodymium magnet, connected to a microcontroller. The Hall sensor detects the magnet's proximity as it rotates with the motor shaft, triggering an interrupt in the code to count RPM. The results can be displayed on an LCD or Serial Monitor.",
+        "steps": [
+            "Obtain a Hall sensor (e.g., SS461A Honeywell latching Hall sensor) and a neodymium magnet.",
+            "3D print a case to hold the magnet and attach it to the shaft of the motor.",
+            "3D print a setup for the sensor, including a way to connect it with Dupont wires and screw it to the setup.",
+            "Connect the sensor to the microcontroller. Connect VCC to power, GND to ground, and VCC to the signal with a 10K resistor. Connect the signal pin to a digital pin on the micro.",
+            "Position the sensor so the magnet passes close to it as the motor spins. This will trigger the sensor and the interrupt in the code.",
+            "Upload the provided code to the microcontroller. The code counts the number of times the sensor is triggered, calculates the RPM, and displays it on an LCD or Serial Monitor."
+        ]
+    }
+]

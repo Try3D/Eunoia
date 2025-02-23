@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Spark-Inbox-Monitor/",
+        "creator": "FlamingTempura",
+        "subcategory": "Art",
+        "title": "Spark Inbox Monitor",
+        "images": [
+            "https://content.instructables.com/FCB/CXXG/I2TR0G81/FCBCXXGI2TR0G81.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F53/T330/I2TR0ML3/F53T330I2TR0ML3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5O/6531/I2TR0G17/F5O6531I2TR0G17.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYN/NO5V/I2TR0DCL/FYNNO5VI2TR0DCL.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Spark Core",
+            "Internet Button"
+        ],
+        "description": "The Spark Inbox Monitor is a project that uses a Spark Core and an Internet Button to create an LED wheel that displays the number of emails in your inbox. The number of illuminated LEDs corresponds to the number of unread emails.",
+        "steps": [
+            "Plug the Spark Core into the Internet Button.",
+            "Set up the Spark Core following the instructions at http://docs.spark.io/connect/, noting the device name.",
+            "Copy the firmware code from https://github.com/FlamingTempura/spark-inbox/blob... into the spark.io editor and flash it to the Spark Core.",
+            "Note the access token from the Settings menu on spark.io.",
+            "Install Node.js on your computer following the instructions at http://nodejs.org/.",
+            "Download spark-inbox from https://github.com/FlamingTempura/spark-inbox",
+            "Rename config.example.json to config.json and edit it with a text editor, replacing the token, device name, username, and password for your email account (IMAP must be enabled).",
+            "In a terminal, run 'npm install'.",
+            "Run the application by running 'node app.js' in the terminal."
+        ]
+    }
+]

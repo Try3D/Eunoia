@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Biko/",
+        "creator": "StefaniaD4",
+        "subcategory": "Wearables",
+        "title": "Biko",
+        "images": [
+            "https://content.instructables.com/FM3/F7BW/ILPI8FQY/FM3F7BWILPI8FQY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDJ/O0XV/ILPI8006/FDJO0XVILPI8006.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOQ/PXLY/ILPI8DFX/FOQPXLYILPI8DFX.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCV/BRJ1/ILPI7ZZD/FCVBRJ1ILPI7ZZD.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOU/82M8/ILPI7ZZU/FOU82M8ILPI7ZZU.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQ9/8ZNF/ILPI8086/FQ98ZNFILPI8086.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ5/NNL2/ILPI802I/FJ5NNL2ILPI802I.png?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS3/Q42W/ILPI8031/FS3Q42WILPI8031.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8M/O5W6/ILPI87A9/F8MO5W6ILPI87A9.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Intel Edison Board",
+            "Accelerometer",
+            "Button",
+            "Display"
+        ],
+        "description": "Biko is a wearable device designed to monitor the health of loved ones and automatically notify users in case of emergency. It features a fall detection system and a lifesaving button that sends emergency SMS messages and smartphone notifications.",
+        "steps": [
+            "Develop the firmware using Eclipse IDE and C++ language, incorporating sensors like accelerometer, button, and display. The firmware should calibrate the accelerometer upon startup, detect anomalies, display alarms, send SMS via Twilio, and save alarms to Firebase.",
+            "Configure Twilio on the Intel Edison Board using curl and REST calls to enable SMS sending functionality.",
+            "Create a Firebase project and configure the URL in the Biko firmware. The device should send alarm information to Firebase. Develop an Android app that listens for changes on Firebase and displays new data on the smartphone, sending notifications to alert the user.",
+            "Integrate all components to create a wearable device."
+        ]
+    }
+]

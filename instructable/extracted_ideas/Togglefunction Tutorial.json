@@ -1,0 +1,40 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Togglefunction-Tutorial/",
+        "creator": "gssonbest123",
+        "subcategory": "Arduino",
+        "title": "Togglefunction Tutorial",
+        "images": [
+            "https://content.instructables.com/FJ7/9SJZ/J1WW68AY/FJ79SJZJ1WW68AY.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7P/15D1/J1WW68E5/F7P15D1J1WW68E5.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNY/LWVK/J1WW68L6/FNYLWVKJ1WW68L6.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F65/2DTV/J1WW6A1W/F652DTVJ1WW6A1W.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQJ/ASX5/J1WW6AKJ/FQJASX5J1WW6AKJ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZE/PQ66/J1WW6CFX/FZEPQ66J1WW6CFX.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9X/C1UR/J2GF9CP5/F9XC1URJ2GF9CP5.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2G/8ZBA/J2GF9DPA/F2G8ZBAJ2GF9DPA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0W/3B8Q/J2GF9DVY/F0W3B8QJ2GF9DVY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAM/C2YQ/J2KP7TIL/FAMC2YQJ2KP7TIL.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino board",
+            "Breadboard",
+            "Push button",
+            "Resistors (various values, including one for the LED)",
+            "LED",
+            "Jumper wires"
+        ],
+        "description": "This tutorial explains how to create a toggle function using an Arduino, a push button, and an LED. Pressing the button will toggle the LED on or off.",
+        "steps": [
+            "Install the Arduino software from the provided link.",
+            "In the Arduino IDE, within the 'void setup()' function, configure pin 7 as an INPUT and pin 12 as an OUTPUT.",
+            "In the 'void loop()' function, read the input from pin 7 using 'digitalRead(7)' and store it in the 'input' variable. Define 'input' as an integer ('int input = 0;') outside of the loop.",
+            "Define a boolean variable 'pin0n' (e.g., 'boolean pin0n = false;') outside the loop. This will represent the state of the LED (true for on, false for off).",
+            "Create an 'if' statement that checks if 'input' is 1 (button pressed) AND 'pin0n' is false. If so, set 'pin0n' to true.  Add an 'else if' condition that checks if 'input' is 1 AND 'pin0n' is true. If so, set 'pin0n' to false.",
+            "Create another 'if' statement: If 'pin0n' is true, write HIGH to pin 12 (turn the LED on). Else, write LOW to pin 12 (turn the LED off).",
+            "On the breadboard, connect a wire from the Arduino's 5V port to one side of the push button.  Connect the other side of the push button to a resistor that leads to ground.  Also, connect a wire from the button's output side to Arduino's pin 7.",
+            "Connect a wire from Arduino's pin 12 (with a suitable resistor) to the positive side of the LED. Connect the negative side of the LED to ground.",
+            "Upload the code to the Arduino."
+        ]
+    }
+]

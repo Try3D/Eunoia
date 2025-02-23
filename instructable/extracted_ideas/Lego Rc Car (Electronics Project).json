@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Lego-Rc-Car-Electronics-Project/",
+        "creator": "cdepp",
+        "subcategory": "Electronics",
+        "title": "Lego Rc Car (Electronics Project)",
+        "images": [
+            "https://content.instructables.com/F71/6P2A/IXQFZ5ZW/F716P2AIXQFZ5ZW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX9/Q33Q/IXQFZ6ST/FX9Q33QIXQFZ6ST.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FE0/AT8E/IXQFZ6HI/FE0AT8EIXQFZ6HI.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F38/5V61/IXQFZ4A2/F385V61IXQFZ4A2.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "2 lego rc motors",
+            "1 lego receiver",
+            "1 lego rc battery pack",
+            "1 lego rc controller",
+            "6 AAA batteries"
+        ],
+        "description": "This project details how to build a Lego RC car that can move forwards, backwards, and turn left and right. The car is wireless and connects to a controller with a range of 33ft.",
+        "steps": [
+            "Build the base of the car using flat Lego base pieces, connecting three base pieces and adding smaller pieces to the bottom for sturdiness.  Create a frame for the battery pack and receiver, and another frame to hold the back tires.",
+            "Attach the front two motors to the base plate, and then attach axles into each motor and the back two tire spots. Attach the four tires to the car and level the car by adding or removing pieces as needed to ensure all tires work equally well."
+        ]
+    }
+]

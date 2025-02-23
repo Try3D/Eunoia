@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Testing-a-Remote-Control/",
+        "creator": "Boddeeen",
+        "subcategory": "Electronics",
+        "title": "Testing a Remote Control",
+        "images": [
+            "https://content.instructables.com/F28/SUXD/IE0UXQ4P/F28SUXDIE0UXQ4P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6Q/4LT9/I395R9HW/F6Q4LT9I395R9HW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQF/EZEK/IE0V6GZP/FQFEZEKIE0V6GZP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYB/84KJ/IE0V679G/FYB84KJIE0V679G.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGG/UGYJ/IE0UXHTY/FGGUGYJIE0UXHTY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRH/Z857/IE0UXP3P/FRHZ857IE0UXP3P.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM5/66A7/IE0UXSZE/FM566A7IE0UXSZE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMW/2PO4/IE0UXSI4/FMW2PO4IE0UXSI4.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUA/EJCG/IE0UXP4C/FUAEJCGIE0UXP4C.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FS9/K3VY/IE0UXP6D/FS9K3VYIE0UXP6D.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2W/W0R2/IE0UXOWK/F2WW0R2IE0UXOWK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM3/ITEE/IE0UXOY2/FM3ITEEIE0UXOY2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F28/SUXD/IE0UXQ4P/F28SUXDIE0UXQ4P.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Faulty remote control",
+            "Digital camera (phone, camcorder, computer)"
+        ],
+        "description": "This project provides a guide to troubleshoot a faulty remote control to determine if the problem is with the batteries, individual buttons, or the infrared LED.",
+        "steps": [
+            "Check if specific buttons are not working, or if none of the buttons are functional.",
+            "If no buttons work, try replacing the batteries to rule out a battery issue.",
+            "Turn on a digital camera and point the lens at the infrared LED on the remote.",
+            "Press the buttons on the remote and observe the camera screen for a light indicating the infrared LED is working.",
+            "Test multiple buttons to identify if the issue is with specific buttons or the LED itself.",
+            "If no light appears for any button, there may be a connection issue or the LED is burned out. If a light appears, then the individual button is likely broken."
+        ]
+    }
+]

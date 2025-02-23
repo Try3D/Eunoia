@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Laser-Cut-Fine-Art/",
+        "creator": "marinelaArt",
+        "subcategory": "Art",
+        "title": "Laser Cut Fine Art!",
+        "images": [
+            "https://content.instructables.com/FT2/LGN6/I5BRVQQO/FT2LGN6I5BRVQQO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FK8/1UD1/I5BRVQNW/FK81UD1I5BRVQNW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F09/TY71/I5BRVQQX/F09TY71I5BRVQQX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHT/JID2/I5BRVQO6/FHTJID2I5BRVQO6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWM/NP2V/I5BRVQNF/FWMNP2VI5BRVQNF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY5/5HAV/I5BRVQP1/FY55HAVI5BRVQP1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZC/E2WY/I5BRVQQS/FZCE2WYI5BRVQQS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEV/FZXS/I5BRVQ7B/FEVFZXSI5BRVQ7B.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1K/909Y/I6SNUNAV/F1K909YI6SNUNAV.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F91/SH3E/I5BRVXX7/F91SH3EI5BRVXX7.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKM/715C/I5BRVXXV/FKM715CI5BRVXXV.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5V/BML0/I5BRVXXX/F5VBML0I5BRVXXX.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJK/L1O7/I5BRW747/FJKL1O7I5BRW747.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNL/OSI7/I5BRW70J/FNLOSI7I5BRW70J.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCX/4NJE/I5BRWHDX/FCX4NJEI5BRWHDX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGP/4287/I5BRWIPW/FGP4287I5BRWIPW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLK/29XI/I5BRWJMD/FLK29XII5BRWJMD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVW/G2ZF/I5BRWJN9/FVWG2ZFI5BRWJN9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCO/3L53/I5BRWO7K/FCO3L53I5BRWO7K.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9I/W6G3/I5BRWO86/F9IW6G3I5BRWO86.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Wood",
+            "Laser cutter",
+            "Acrylic paint (optional)"
+        ],
+        "description": "This project demonstrates how to create unique art by laser engraving images onto wood. The engraved wood can then be painted to add further detail and customization.",
+        "steps": [
+            "Choose an image or artwork you want to engrave on wood. You can use existing photos or find images online.",
+            "Prepare the image for laser cutting by ensuring high contrast. Use a photo editing application like Paint, Gimp, or Photoshop to convert the image to black and white and adjust the contrast to highlight the desired details.",
+            "Laser engrave the prepared image onto a piece of wood using a laser cutter. The darker areas of the image will be engraved, while the lighter areas will remain untouched.",
+            "Once engraved, you can choose to paint the wood. You can paint either the engraved areas or the untouched areas with acrylic paint, depending on the desired effect."
+        ]
+    }
+]

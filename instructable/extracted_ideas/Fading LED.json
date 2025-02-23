@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Fading-LED-1/",
+        "creator": "Chris Project",
+        "subcategory": "LEDs",
+        "title": "Fading LED",
+        "images": [
+            "https://content.instructables.com/FKD/4PAO/IUKEPCSZ/FKD4PAOIUKEPCSZ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHG/QZ81/IR85H8IW/FHGQZ81IR85H8IW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2Z/LSBH/J67WI0Y0/F2ZLSBHJ67WI0Y0.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FTI/6HUU/IYOQMCKH/FTI6HUUIYOQMCKH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FHY/Y4FR/IV0ALFVR/FHYY4FRIV0ALFVR.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYP/Q8NS/IUKEPCW8/FYPQ8NSIUKEPCW8.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZB/4F6P/IUKEPFNX/FZB4F6PIUKEPFNX.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIE/FXTB/IUKEPCXJ/FIEFXTBIUKEPCXJ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO4/HDZP/IUKEPCYI/FO4HDZPIUKEPCYI.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FT4/LP1F/IUKEPD0K/FT4LP1FIUKEPD0K.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCC/QDRW/IUKEPD46/FCCQDRWIUKEPD46.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7X/ZW5C/IUKEPDFO/F7XZW5CIUKEPDFO.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMY/DUKI/IUKEPDIM/FMYDUKIIUKEPDIM.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2A/35HN/IUKEPE8B/F2A35HNIUKEPE8B.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU5/XS6U/IUKEPEM6/FU5XS6UIUKEPEM6.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKN/1WBS/IUKEPEVA/FKN1WBSIUKEPEVA.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "9V power supply (or variable bench power supply)",
+            "Red LED",
+            "10 uF capacitor",
+            "NE555 timer chip",
+            "470 ohm resistor",
+            "100k ohm resistor",
+            "BC547 transistor"
+        ],
+        "description": "This project demonstrates how to create a fading LED effect using a 555 timer, transistor, and other components. The LED will gradually increase and decrease in brightness.",
+        "steps": [
+            "Arrange the NE555 timer chip pins.",
+            "Solder the 100k ohm resistor to pin 3 of the NE555.",
+            "Connect the base pin of the BC547 transistor to the other pin of the 100k ohm resistor.",
+            "Connect the 470 ohm resistor to the emitter pin of the BC547 transistor.",
+            "Connect the positive pin of the LED to the other pin of the 470 ohm resistor.",
+            "Connect the positive pin of the 10 uF capacitor to the 100k ohm resistor and the base pin of the BC547 transistor.",
+            "Connect pin 6 of the NE555 to the 100k ohm resistor, the base pin of the BC547 transistor, and the positive pin of the 10uF capacitor.",
+            "Connect pin 8 and pin 4 of the NE555 and the emitter pin of the BC547 to the VCC (positive voltage). Connect pin 1 of the NE555, the negative pin of the 10uF capacitor, and the negative pin of the LED to Ground."
+        ]
+    }
+]

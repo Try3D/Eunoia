@@ -1,0 +1,22 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-electronic-components-work-The-diode/",
+        "creator": "pewtu",
+        "subcategory": "Electronics",
+        "title": "How electronic components work. The diode",
+        "images": [
+            "https://content.instructables.com/FXM/7PED/HSLOJ7YZ/FXM7PEDHSLOJ7YZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEF/4F2Q/HSLQR35V/FEF4F2QHSLQR35V.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png"
+        ],
+        "materials_required": [
+            "Diodes (e.g., signal diode, power diode, schottky diode, zener diode, avalanche diode, laser diode, light emitting diode, 1N4001)"
+        ],
+        "description": "This project explains how diodes work, including different types of diodes and how to interpret diode data sheets. It covers concepts like forward current, reverse voltage, and peak inverse voltage to ensure safe and effective circuit design.",
+        "steps": [
+            "Understand that a diode is a device that allows current to flow in only one direction, acting like a valve.",
+            "Learn to interpret diode data sheets, focusing on maximum forward current (If max and If avg) and peak inverse voltage (PIV).",
+            "Identify the 1N4001 diode as an example, noting its maximum reverse voltage (50V), average forward current (1.0 A), and maximum surge current (50 A for 8.3ms)."
+        ]
+    }
+]

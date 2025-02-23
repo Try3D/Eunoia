@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Solar-Powered-Clock/",
+        "creator": "RufusTheGreat",
+        "subcategory": "Clocks",
+        "title": "Solar Powered Clock",
+        "images": [
+            "https://content.instructables.com/FJS/AVNH/GSYERLB9/FJSAVNHGSYERLB9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSV/HVEE/GSR9IEA2/FSVHVEEGSR9IEA2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIE/5LLU/GSNQEFSZ/FIE5LLUGSNQEFSZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F11/Z5PN/GSRO5PQT/F11Z5PNGSRO5PQT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8J/4088/GSR9IEA3/F8J4088GSR9IEA3.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Solar powered garden light (cheap kind with tiny solar cell, AA rechargeable battery and LED)",
+            "Clock that runs on a single AA battery",
+            "Multimeter (optional, for determining polarity of solar cell)"
+        ],
+        "description": "This project converts a standard AA battery clock into a solar-recharged clock by repurposing the solar cell, rechargeable battery, and battery contacts from a cheap solar-powered garden light.  It's a kid-friendly project that demonstrates reusing modular parts.",
+        "steps": [
+            "Disassemble the solar garden lamp to extract the solar cell, AA rechargeable battery, and battery contacts. Be careful when removing the solar cell as it is fragile.",
+            "Determine the positive and negative leads of the solar cell. If unmarked, use a multimeter in DC voltage mode and shine light on the cell. Mark the positive lead.",
+            "Connect the battery contacts to the leads of the solar cell. The spring contact is negative. Solder and heat shrink the connections for a better build, or use tightly twisted wire and tape.",
+            "Insert the AA rechargeable battery into the clock.",
+            "Wedge the solar lamp's battery contacts between the clock and its existing battery contacts.",
+            "Mount the solar cell on the back of the clock with tape (or more permanent mounting).",
+            "Hang the clock in a window with sufficient light to charge the battery."
+        ]
+    }
+]

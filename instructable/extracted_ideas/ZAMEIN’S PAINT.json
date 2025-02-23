@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/ZAMEINS-PAINT/",
+        "creator": "Zamein",
+        "subcategory": "Software",
+        "title": "ZAMEIN\u2019S PAINT",
+        "images": [
+            "https://content.instructables.com/FC1/SXF1/IU2NFUDL/FC1SXF1IU2NFUDL.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7O/O79O/IU1EDEHU/F7OO79OIU1EDEHU.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP4/DIQR/IY3D3R3U/FP4DIQRIY3D3R3U.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKH/SJV1/IXUSFVAF/FKHSJV1IXUSFVAF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F0Y/UMHX/IXQG488G/F0YUMHXIXQG488G.jpg?auto=webp&crop=1%3A1&frame=1&width=130"
+        ],
+        "materials_required": [
+            "Java Development Environment"
+        ],
+        "description": "ZAMEIN\u2019S PAINT is a simple software project developed in Java for practicing graphical element programming. It's a very basic drawing application that allows users to draw lines. It features a user-friendly interface with a color palette on the right and a canvas-clearing button. Version 0.2 includes a toolbar on the left for adjusting the line thickness.",
+        "steps": [
+            "The project involves programming graphical elements using Java.",
+            "The software allows drawing of lines on a canvas.",
+            "A color palette is provided on the right side of the screen.",
+            "A button in the lower right corner clears the drawing canvas.",
+            "Version 0.2 adds a toolbar on the left side for selecting the drawing line thickness.",
+            "The application can be downloaded."
+        ]
+    }
+]

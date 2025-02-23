@@ -1,0 +1,37 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Combining-Tools-to-Create-Art/",
+        "creator": "scienceguy4",
+        "subcategory": "Art",
+        "title": "Combining MakeyMakey, CircuitScribe and Scratch to Create Art",
+        "images": [
+            "https://content.instructables.com/F7U/R3PT/I7VQO7DT/F7UR3PTI7VQO7DT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FO5/TNQ2/IDRLGJYX/FO5TNQ2IDRLGJYX.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUM/1OWK/I7RGG8E8/FUM1OWKI7RGG8E8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7L/31WU/I7VQOL57/F7L31WUI7VQOL57.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F84/UYPV/I7VQOL5M/F84UYPVI7VQOL5M.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU6/0B7P/I7VQOL75/FU60B7PI7VQOL75.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0L/LQZ2/I7VQOL6L/F0LLQZ2I7VQOL6L.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F13/AIU7/I7VQOL6U/F13AIU7I7VQOL6U.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/F2KX/I7VQOL7G/FP5F2KXI7VQOL7G.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCE/ODRV/I7VQOL5Y/FCEODRVI7VQOL5Y.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "CircuitScribe pen",
+            "MakeyMakey",
+            "Jumper cables with alligator clips"
+        ],
+        "description": "This project combines MakeyMakey, CircuitScribe, and Scratch to create an interactive art installation. By drawing conductive lines with a CircuitScribe pen and connecting them to a MakeyMakey, you can trigger actions in a Scratch program, such as controlling a dancer's movements by tapping on the paper.",
+        "steps": [
+            "Draw tap pads on a piece of paper using a CircuitScribe pen.  Ensure the lines are conductive by going over them multiple times to avoid breaks in the ink.",
+            "Label each tap pad with the desired dance move (e.g., \"Restart\", \"Split\", \"Tilt Jump\").",
+            "Connect alligator clips to one end of each conductive line.",
+            "Connect the other end of each alligator clip cable to the MakeyMakey board, mapping each tap pad to a specific letter or number.",
+            "In Scratch, choose a background and costumes (dancer sprites) for the project.",
+            "Create scripts for the dancer sprite and any button sprites to respond to keyboard input or button clicks.",
+            "Write scripts that change the dancer's costume based on the input received from the MakeyMakey (corresponding to taps on the conductive lines).",
+            "Combine the hardware and software components to make an interactive art installation."
+        ]
+    }
+]

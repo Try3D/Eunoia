@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Wearable-Tech-Wallet/",
+        "creator": "MargenauMaker",
+        "subcategory": "Arduino",
+        "title": "Wearable Tech Wallet",
+        "images": [
+            "https://content.instructables.com/FR6/QR5B/K1TF2323/FR6QR5BK1TF2323.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYW/4BEC/K1UYVC74/FYW4BECK1UYVC74.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Y/29GC/K0YBF6KF/F5Y29GCK0YBF6KF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FLD/PL0S/KKOFLUI1/FLDPL0SKKOFLUI1.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZV/CTQG/KGQJZ7LM/FZVCTQGKGQJZ7LM.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FYW/VP7Q/K6AEIJDW/FYWVP7QK6AEIJDW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMD/KBZT/K1TF23ML/FMDKBZTK1TF23ML.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHO/Q2ZF/K1TF23MF/FHOQ2ZFK1TF23MF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7T/M00A/K1TF23NP/F7TM00AK1TF23NP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC4/ZX25/K1TF23MS/FC4ZX25K1TF23MS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHN/QTT7/K1UYVBQ6/FHNQTT7K1UYVBQ6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/FUX/TTK2/K1TF23MY/FUXTTK2K1TF23MY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG0/019L/K1UYVDOS/FG0019LK1UYVDOS.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPX/WENB/K1UYVDOT/FPXWENBK1UYVDOT.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZF/4MAX/K1TF23MC/FZF4MAXK1TF23MC.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ8/ENKJ/K1TF23MR/FJ8ENKJK1TF23MR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQY/1A3F/K1UYVBRK/FQY1A3FK1UYVBRK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ8/Z2P3/K1TF23MP/FZ8Z2P3K1TF23MP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOV/4X5G/K1UYVBU2/FOV4X5GK1UYVBU2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F50/PJHQ/K1UYVBXU/F50PJHQK1UYVBXU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNB/P8IV/K1TF23MM/FNBP8IVK1TF23MM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNT/OFNH/K1UYVBTY/FNTOFNHK1UYVBTY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNX/GF4O/K1UYVBU4/FNXGF4OK1UYVBU4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6X/I1IY/K1TF2321/F6XI1IYK1TF2321.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png"
+        ],
+        "materials_required": [
+            "Lilypad Lilymini",
+            "Conductive thread",
+            "Wallet pattern",
+            "Heavy canvas, nylon or cordura",
+            "Tailors chalk",
+            "Cutting mat",
+            "Razor knife/scissors",
+            "Hot glue gun",
+            "Puffpaint for fabric (optional)",
+            "GitHub repository for Arduino files"
+        ],
+        "description": "This project combines sewing and coding skills to create a wearable tech wallet. It teaches basic coding, project design, and perseverance while creating a practical item. The project is designed for middle or high school Makerspace or Design classes and takes 10-12 class periods.",
+        "steps": [
+            "Learn basic sewing skills, such as sewing a button and doing a running stitch.",
+            "Precut the canvas and use the provided pattern to cut out the wallet pieces using a razor knife or fabric shears.",
+            "Learn the basics of Arduino IDE and programming for Lilymini using the provided links and Github examples. Practice modifying code to control the Lilymini functions.",
+            "Plan the layout of the Lilymini, LEDs, and any sensors on the wallet pattern. Attach the Lilymini and lights using conductive thread, ensuring that thread lines do not touch to avoid shorts. Hot glue can be used to secure LEDs and components.",
+            "Sew the wallet together using a sewing machine, being careful not to cut or crimp the conductive thread. Reinforce the edges and pressure points. Test the connections, and add puff paint to protect the conductive thread."
+        ]
+    }
+]

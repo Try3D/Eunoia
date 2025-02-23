@@ -1,0 +1,30 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Intro-Sugru-at-our-DIY-Quadcopter-Structure/",
+        "creator": "openlabsAL",
+        "subcategory": "Art",
+        "title": "Intro : Sugru at our DIY Quadcopter Structure",
+        "images": [
+            "https://content.instructables.com/F6U/P3CG/I28W9AD9/F6UP3CGI28W9AD9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFN/5J6N/HIGF4UJX/FFN5J6NHIGF4UJX.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUD/SQ7H/I0HZ13BL/FUDSQ7HI0HZ13BL.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAC/4RBC/HZJO4QAZ/FAC4RBCHZJO4QAZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FY6/TBTG/I28W9GXH/FY6TBTGI28W9GXH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FM7/XMYR/I28W9GSP/FM7XMYRI28W9GSP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL2/Q4VN/I28W9E6G/FL2Q4VNI28W9E6G.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGK/FOLB/I28W9E73/FGKFOLBI28W9E73.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGP/JUCR/I28W9E89/FGPJUCRI28W9E89.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0V/D0PU/I28W9GZM/F0VD0PUI28W9GZM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPG/9731/I28OI5TV/FPG9731I28OI5TV.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Sugru",
+            "Cardboard (65x50 mm)"
+        ],
+        "description": "This project details how Sugru was used to improve a DIY quadcopter structure. The original structure, built with a Berkley ment box, grills, soda cans, and plastic, was heavy and inflexible. Sugru was used as a lightweight and flexible alternative to replace motor mounts and provide buffering, reducing noise and improving motor stability.",
+        "steps": [
+            "Replace the original motor mounts (made from can bottoms) with a cardboard piece (65x50mm) reinforced with a thin layer of Sugru. This provides a lighter and more durable motor mount.",
+            "Replace the rigid plastic motor fixings with Sugru to secure the motors. This flexible material buffers the motor, reducing noise and vibration during operation."
+        ]
+    }
+]

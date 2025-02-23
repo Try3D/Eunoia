@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/DIY-Invisible-Fence-battery/",
+        "creator": "Giant",
+        "subcategory": "Electronics",
+        "title": "DIY Invisible Fence battery",
+        "images": [
+            "https://content.instructables.com/FID/L4D7/UYZEP27VWL4/FIDL4D7UYZEP27VWL4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9U/ER84/N8BEP27VWM9/F9UER84N8BEP27VWM9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F26/0JWO/NJEEP27VWNM/F260JWONJEEP27VWNM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDI/FOLP/3ZVEP27VWOR/FDIFOLP3ZVEP27VWOR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3V/IJ78/080EP27VWQ4/F3VIJ78080EP27VWQ4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F70/ES93/JOPEP27VWRH/F70ES93JOPEP27VWRH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWN/15SR/BDXEP27VWSU/FWN15SRBDXEP27VWSU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNJ/LLM2/EEHEP27VWU7/FNJLLM2EEHEP27VWU7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKU/RL96/7F5EP27VWVK/FKURL967F5EP27VWVK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSK/PJ4M/GF5V65ZC/FSKPJ4MGF5V65ZC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FID/L4D7/UYZEP27VWL4/FIDL4D7UYZEP27VWL4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F9U/ER84/N8BEP27VWM9/F9UER84N8BEP27VWM9.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F26/0JWO/NJEEP27VWNM/F260JWONJEEP27VWNM.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDI/FOLP/3ZVEP27VWOR/FDIFOLP3ZVEP27VWOR.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3V/IJ78/080EP27VWQ4/F3VIJ78080EP27VWQ4.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F70/ES93/JOPEP27VWRH/F70ES93JOPEP27VWRH.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWN/15SR/BDXEP27VWSU/FWN15SRBDXEP27VWSU.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNJ/LLM2/EEHEP27VWU7/FNJLLM2EEHEP27VWU7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKU/RL96/7F5EP27VWVK/FKURL967F5EP27VWVK.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Spent Invisible Fence battery module",
+            "3V lithium cell (CR1/3N or DL1/3N)"
+        ],
+        "description": "This project outlines how to replace the battery in an Invisible Fence pet containment system collar, using a readily available and cheaper battery instead of purchasing an expensive replacement pack from the dealer.",
+        "steps": [
+            "Prepare the necessary tools and supplies: a 3V lithium cell (CR1/3N or DL1/3N), a spent Invisible Fence battery module, and a sharp knife or razor blade.",
+            "Hold the battery module sideways and grasp it firmly.",
+            "Use a sharp knife to carefully separate the cover ring from the battery housing.",
+            "Gently work around the battery housing until the cover comes off, being mindful of the metal contacts and noting the orientation of the cell.",
+            "Gently pull out the battery assembly by the metal contacts.",
+            "Remove the old cell from the metal clip and discard it responsibly.",
+            "Put the metal clip around the new cell, ensuring the positive side (metal can) is in contact with the clip. Gently insert it into the plastic housing, aligning the metal clip with the grooves.",
+            "Check that the cell is fully inserted and correctly oriented.",
+            "Replace the plastic cover, snapping it into position between the two metal contacts."
+        ]
+    }
+]

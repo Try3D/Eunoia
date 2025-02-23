@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Recording-HD-720p-video-in-Max-7/",
+        "creator": "hzimmerman",
+        "subcategory": "Art",
+        "title": "Recording HD (720p) video in Max 7",
+        "images": [
+            "https://content.instructables.com/FKD/AICD/I5UXARXQ/FKDAICDI5UXARXQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FQQ/PE9F/ISCB9GDZ/FQQPE9FISCB9GDZ.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FAU/OXIP/IEX516MF/FAUOXIPIEX516MF.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FK5/QELE/IB22B49M/FK5QELEIB22B49M.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F3Y/3X2I/I5UXASD9/F3Y3X2II5UXASD9.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKO/704N/I5UXAST3/FKO704NI5UXAST3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FON/FEQX/I5UXAT2B/FONFEQXI5UXAT2B.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRU/YOL1/I5UXAT2W/FRUYOL1I5UXAT2W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBW/4MCL/I5UXATFH/FBW4MCLI5UXATFH.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FAU/MV5L/I5UXATNM/FAUMV5LI5UXATNM.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Max 7",
+            "Final Cut Pro X (or similar video editing software)",
+            "Cycle-delic patch"
+        ],
+        "description": "This project guides you on how to record Jitter video output from Max 7 patches running on OSX in HD (720p) quality, ensuring the video is editable in programs like Final Cut Pro X and viewable via QuickView in the OSX Finder.",
+        "steps": [
+            "Open the Cycle-delic patch in Max 7.",
+            "Ensure all parts of the patch that reference the initial 320 x 240 video format are changed to 1280 x 720 to generate HD video. This includes editing the [p stuff] object.",
+            "Adjust the \"Center\" pictslider parameters for HD video. Set the \"Bottom\" value to approximately 730 and the \"Right side\" value to around 1290.",
+            "Add a [jit.record] object with dimensions 1280 and 720 to record the Jitter matrix output from the [p stuff] object. Set the engine attribute to 'avf' and the codec to 'prores422'. Add [write 25.] and [stop] messages to control recording at 25 frames per second.",
+            "Click the [write] message box to specify the save location and name for the new movie. After the recording is complete, a prores422 Quicktime movie in 1280 x 720 quality will be created.",
+            "Use \"File - New From Clipboard\" to paste the provided Max code to generate the patch."
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Holographic-3D-easy-homemade/",
+        "creator": "Aadhithyan",
+        "subcategory": "Art",
+        "title": "Holographic 3D easy homemade",
+        "images": [
+            "https://content.instructables.com/FFT/F7JB/IALX71LZ/FFTF7JBIALX71LZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGB/T77L/IJX7FR0O/FGBT77LIJX7FR0O.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F2I/TBPW/ISCC05PC/F2ITBPWISCC05PC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPF/C9CX/IRC6WY36/FPFC9CXIRC6WY36.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FE3/QBJZ/IQV7KZIO/FE3QBJZIQV7KZIO.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUQ/3N05/ICZ4S5NE/FUQ3N05ICZ4S5NE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F70/RBT8/ICZ4S5OO/F70RBT8ICZ4S5OO.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ4/U7IP/ICZ4S5P7/FZ4U7IPICZ4S5P7.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGK/LBZA/ICZ4S5P8/FGKLBZAICZ4S5P8.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLT/9LAD/ICZ4S5XD/FLT9LADICZ4S5XD.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDI/QD7S/ICZ4S6AE/FDIQD7SICZ4S6AE.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN0/FYP2/ICZ4S6AF/FN0FYP2ICZ4S6AF.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZP/KJ85/ICZ4S6GW/FZPKJ85ICZ4S6GW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Plastic sheet or glass"
+        ],
+        "description": "This project is a tutorial for creating a simple holographic projection using readily available materials. It involves constructing a pyramid-shaped reflector from plastic sheets and using it to display holographic videos from a screen.",
+        "steps": [
+            "Cut the plastic sheet into four equal triangles according to a template.",
+            "Join the triangles together in the shape of a pyramid using cello tape and glue, ensuring all edges are securely fastened.",
+            "Allow the glue to dry completely, then remove the cello tape.",
+            "Download holographic videos and position the completed pyramid on the screen, aligning it with the crosshair in the video to view the holographic projection."
+        ]
+    }
+]

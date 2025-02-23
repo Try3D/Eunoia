@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Tailgate-Detractor-Table-top/",
+        "creator": "Telpuialion",
+        "subcategory": "Arduino",
+        "title": "Tailgate Detractor (Table-top)",
+        "images": [
+            "https://content.instructables.com/F9Z/4AYG/INUUY4VK/F9Z4AYGINUUY4VK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4Y/MKJL/INUUY66T/F4YMKJLINUUY66T.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBF/UIXI/INUUY6AY/FBFUIXIINUUY6AY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJA/YFZA/INUUY5H6/FJAYFZAINUUY5H6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB3/UHOB/INUUY5IK/FB3UHOBINUUY5IK.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2X/ZH4I/J0IEFE2I/F2XZH4IJ0IEFE2I.png?auto=webp&frame=1&width=320",
+            "https://content.instructables.com/FIN/U1F8/J0IEFE07/FINU1F8J0IEFE07.png?auto=webp&frame=1&width=320",
+            "https://content.instructables.com/FT4/5SZA/INUUY5RR/FT45SZAINUUY5RR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZW/TJF8/INUUY5SW/FZWTJF8INUUY5SW.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FXM/21OL/INUUY6KM/FXM21OLINUUY6KM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Arduino Uno",
+            "HC-SR04 Ultrasonic Range Sensor",
+            "Loctite Super Glue",
+            "Mini breadboard with a power rail",
+            "9V battery OR Arduino compatible USB cable",
+            "2x Standard servo motors",
+            "A pack of male-male wires",
+            "A pack of female-male wires",
+            "3D printed arm",
+            "3D printed hand"
+        ],
+        "description": "This project is a table-top demonstration of a tailgating detractor. It uses an ultrasonic sensor to detect objects within a certain range and then actuates an arm and hand to 'warn' the tailgater. The design is customizable and can be adapted for use in a real vehicle.",
+        "steps": [
+            "3D print the arm and hand components using the provided STL files or custom designs.",
+            "Connect the HC-SR04 Ultrasonic Range Sensor to the Arduino Uno: VCC to 5V, Trig to pin 3, Echo to pin 2, and Gnd to GND.",
+            "Connect the arm servo to the Arduino Uno: Black/Brown wire to ground, Red wire to 5V, and White/Orange wire to pin 6.",
+            "Connect the hand servo to the Arduino Uno: Black/Brown wire to ground, Red wire to 5V, and White/Orange wire to pin 5.",
+            "Ensure the breadboard power rails are properly connected to the Arduino ( '+' rail to 5V and '-' rail to GND).",
+            "Upload the provided Arduino code (Projectupdate.ino.ino) to the Arduino Uno using the Arduino IDE.",
+            "Cut two holes in the box for the proximity sensor.",
+            "Cut a slot in the box for the arm to move freely.",
+            "Determine where the Arduino will be placed and cut a hole for the USB cable if using a cable for power.",
+            "Affix the Arduino and breadboard to the base of the box and then affix the arm servo to the base.",
+            "Attach all wires to the breadboard and place the proximity sensor into its slot.",
+            "Attach the arm to the arm servo and the hand to the hand servo, using screws, cable ties, electrical tape, or super glue.",
+            "Glue the arm servo, along with the arm assembly, to the base of the box, considering a wooden strip for height adjustment.",
+            "Screw the top of the box on to complete the assembly."
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Conductive-Dough-and-Makey-Makey/",
+        "creator": "Digijeunes",
+        "subcategory": "Art",
+        "title": "Conductive Dough and Makey-Makey",
+        "images": [
+            "https://content.instructables.com/FQQ/870A/JQ6YM7SZ/FQQ870AJQ6YM7SZ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH6/1TQS/LZ70757Y/FH61TQSLZ70757Y.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FL7/XIJ7/LXVUI7MC/FL7XIJ7LXVUI7MC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPR/A8HD/LKCLF8C5/FPRA8HDLKCLF8C5.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FIK/GDYU/LKFG8Z5C/FIKGDYULKFG8Z5C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F4R/062X/JQ6YM7SB/F4R062XJQ6YM7SB.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0R/O14X/JQ6YM7SC/F0RO14XJQ6YM7SC.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWX/JRW4/JQ6YM7SD/FWXJRW4JQ6YM7SD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3S/G6QO/JQ6YM7RG/F3SG6QOJQ6YM7RG.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Cream of tartar",
+            "Makey Makey"
+        ],
+        "description": "This tutorial demonstrates how to create conductive dough and use it in conjunction with a Makey Makey to build interactive objects such as musical instruments and video game controllers.",
+        "steps": [
+            "Mix water, 1 cup of flour, salt, cream of tartar, vegetable oil, and food coloring (optional) in a medium-sized pot.",
+            "Cook the mixture over medium heat, stirring continuously until a ball forms.",
+            "Place the dough ball on a lightly floured surface.",
+            "Slowly knead the remaining flour into the ball until the desired consistency is reached, being careful not to add too much flour.",
+            "Combine the conductive dough with the Makey Makey to create interactive items."
+        ]
+    }
+]

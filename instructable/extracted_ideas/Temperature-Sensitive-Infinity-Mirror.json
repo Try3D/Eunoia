@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Temperature-sensitive-Infinity-Mirror/",
+        "creator": "spacedandy",
+        "subcategory": "Art",
+        "title": "Temperature-Sensitive Infinity Mirror",
+        "images": [
+            "https://content.instructables.com/FPN/ESXA/HP3CUJ4F/FPNESXAHP3CUJ4F.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZ4/1JFK/HP3CUJ4G/FZ41JFKHP3CUJ4G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVQ/Z3LW/HP3CUJ4E/FVQZ3LWHP3CUJ4E.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FI7/UQIR/HP3CUJ4C/FI7UQIRHP3CUJ4C.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F25/JJNL/HP5Z7L33/F25JJNLHP5Z7L33.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSS/JFO7/HP5F4A05/FSSJFO7HP5F4A05.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQA/RP1U/HP0CRNW0/FQARP1UHP0CRNW0.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTN/1W35/HP5F4B47/FTN1W35HP5F4B47.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0P/AUGH/HP3CUJ6V/F0PAUGHHP3CUJ6V.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOU/L880/HP5F4A16/FOUL880HP5F4A16.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4R/0Q9X/HP5F4B45/F4R0Q9XHP5F4B45.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWH/40SL/HP5F4B5A/FWH40SLHP5F4B5A.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FH1/Z1WD/HP5WS1YU/FH1Z1WDHP5WS1YU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Perforated board",
+            "RGB LED strip (x2)",
+            "N-Channel MOSFETS (x6)",
+            "Barrel jack breadboard adapter",
+            "12V/5A power supply",
+            "DS18B20 One-wire Temperature Sensor",
+            "4.7K Resistor",
+            "Four-conductor hook up cable",
+            "\u00bc\u201d whitewood board",
+            "12\u201d mirror tiles (x2)",
+            "11 \u00bd\u201d x 8\u201d sheet of glass (x2)",
+            "\u00bd\u201d foam sheet",
+            "Mirrored window tint",
+            "Glass cutter",
+            "Duckbill clamp",
+            "CNC machine"
+        ],
+        "description": "This project involves creating a pair of temperature-sensitive infinity mirrors that flash red and blue based on ambient temperature fluctuations, utilizing an Arduino Uno, RGB LED strips, a DS18B20 temperature sensor, and a custom-built box with mirrored surfaces.",
+        "steps": [
+            "Arrange the LED strips: Follow an LED strip usage diagram, connecting the MOSFETs to the Arduino and LED strips, powering the strips with an external barrel jack adapter.",
+            "Connect the one-wire temperature sensor: Connect the DS18S20 sensor to the Arduino and upload the code to read temperature data and control the LED fading based on temperature changes.  Include the One Wire folder into the Arduino library.",
+            "Cut out the box: Cut out the wood pieces for the box, considering the thickness of the material and ensuring enough space for the electronic components. A CNC machine can be used for precision.",
+            "Assemble the box: Join the box pieces using hot glue and sand them lightly. Pad the inside edges with foam, securing it with masking tape.  Consider using wood instead of foam in the future.",
+            "Cut glass and secure LEDs: Cut the glass and mirrors to fit inside the frame. Apply mirrored window tint to the glass. Secure the LED strip to the foam padding using super glue, then place the mirrors inside the box.",
+            "Finalize and test: Secure the mirrors temporarily and connect the wires. Test the temperature-sensitive LED response."
+        ]
+    }
+]

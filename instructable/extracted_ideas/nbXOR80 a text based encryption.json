@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/nbXOR80-a-text-based-encryption/",
+        "creator": "jds1969",
+        "subcategory": "Software",
+        "title": "nbXOR80 a text based encryption",
+        "images": [
+            "https://content.instructables.com/FQ1/UQ3V/HZ6T8S0T/FQ1UQ3VHZ6T8S0T.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FN7/F0CZ/LU02R7NC/FN7F0CZLU02R7NC.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F7O/0L6O/I622I0GU/F7O0L6OI622I0GU.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNC/HJ3J/HLJUGO9V/FNCHJ3JHLJUGO9V.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FCZ/Q4SL/I6NI54I3/FCZQ4SLI6NI54I3.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRU/ZH3Z/I6NI5AT1/FRUZH3ZI6NI5AT1.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F93/K2LZ/I6NI5M2N/F93K2LZI6NI5M2N.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJQ/ZETC/I6NI4Y9A/FJQZETCI6NI4Y9A.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/F25/88HW/I6NI4Y94/F2588HWI6NI4Y94.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FE6/YM74/I6NI4Y8X/FE6YM74I6NI4Y8X.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0I/96LK/I6NI4Y8R/F0I96LKI6NI4Y8R.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FEX/JJRJ/I6RSK56Q/FEXJJRJI6RSK56Q.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Javascript IDE",
+            "Web hosting",
+            "A text editor"
+        ],
+        "description": "NbXOR80 is a text-based encryption algorithm designed to be portable and open-source, operating entirely with printable characters from a standard US keyboard. It aims to provide strong encryption without requiring any software installation. The core idea is to create a substitution cipher that is hard to crack using an XOR-type mechanism. The algorithm utilizes a key hash algorithm and a mode of operation called 'Propagating Cipher Block Chaining'.",
+        "steps": [
+            "Understand the limitations of modern encryption algorithms which create binary data that is often unprintable. The goal is to create a text-based operation with printable characters from a standard US keyboard that is strong, portable, free, and open source.",
+            "Learn about the Avalanche Effect which indicates that a minor change in the message text will cause a substantial change in the output.",
+            "Use stirring and mixing methods to hopelessly cover the data to create a noticeable avalanche effect in the output. Note that the output plaintext is a result of this process.",
+            "Build a key hash algorithm, assuming that the output from all four operations joined together (XOR'd) will result in qualities that are sufficiently noisy, indistinguishable from random, and collision resistant due to the nature of the diffusion.",
+            "Demonstrate one-line encryption, parsing, and full operating mode, by incorporating 'Propagating Cipher Block Chaining' method and adding random characters (salt) to the first line of the message to add further noise.",
+            "Specifications of the full code are provided and can be ported to other programming languages."
+        ]
+    }
+]

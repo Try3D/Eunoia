@@ -1,0 +1,63 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Making-Android-Application-for-Small-Business-Usin/",
+        "creator": "coolkhush4u",
+        "subcategory": "Software",
+        "title": "Making Android Application for Small Business Using MIT APP and Google Fusion Table",
+        "images": [
+            "https://content.instructables.com/F67/2JLM/JT4TSC0K/F672JLMJT4TSC0K.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNW/XXM2/JS0OQ11H/FNWXXM2JS0OQ11H.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F6V/CVV1/K4K1LIBD/F6VCVV1K4K1LIBD.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEQ/522K/JSCG2RW7/FEQ522KJSCG2RW7.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2T/QZW3/JSCG69DT/F2TQZW3JSCG69DT.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/NWPF/JSCG69DV/FVVNWPFJSCG69DV.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTV/A314/JSCG69E0/FTVA314JSCG69E0.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FPX/44OQ/JSCG6H4M/FPX44OQJSCG6H4M.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDF/QY41/JSCG6H4O/FDFQY41JSCG6H4O.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVP/LHNW/JSCG6H4P/FVPLHNWJSCG6H4P.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0V/T5S4/JSCG6H4Q/F0VT5S4JSCG6H4Q.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FN0/WREO/JSCG6H4T/FN0WREOJSCG6H4T.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIG/UO7H/JSCG6H4X/FIGUO7HJSCG6H4X.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FY1/COS5/JSCG6H53/FY1COS5JSCG6H53.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLH/BS5F/JSCG6H55/FLHBS5FJSCG6H55.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0O/HCHH/JSCG6H59/F0OHCHHJSCG6H59.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIM/6VMJ/JSCG6H5B/FIM6VMJJSCG6H5B.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWR/PLL2/JSCG6H5M/FWRPLL2JSCG6H5M.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTY/CM83/JSCG6H5N/FTYCM83JSCG6H5N.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7S/7M15/JSCG6IKR/F7S7M15JSCG6IKR.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FFY/5L23/JSCG6ILP/FFY5L23JSCG6ILP.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6X/T8SB/JSCG6IM0/F6XT8SBJSCG6IM0.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F7Y/AZF7/JSCG6IN4/F7YAZF7JSCG6IN4.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FX0/EIYD/JSCG6INJ/FX0EIYDJSCG6INJ.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYJ/V882/JSCG6INS/FYJV882JSCG6INS.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGB/L1R1/JT4TQ1WU/FGBL1R1JT4TQ1WU.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOW/0G72/JT4TQ1WV/FOW0G72JT4TQ1WV.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEA/94WJ/JT4TPT2S/FEA94WJJT4TPT2S.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUJ/LCYE/JT4TPT2T/FUJLCYEJT4TPT2T.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZA/MVVZ/JT4TPT3M/FZAMVVZJT4TPT3M.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSO/LV9Q/JT4TPT45/FSOLV9QJT4TPT45.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGW/RR3E/JT4TPT46/FGWRR3EJT4TPT46.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWX/ANP0/JT4TPT4P/FWXANP0JT4TPT4P.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F09/D3IL/JT4TPT4Q/F09D3ILJT4TPT4Q.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQC/FH01/JT4TPT59/FQCFH01JT4TPT59.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLH/7D7I/JT4TPT63/FLH7D7IJT4TPT63.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0F/7ZJ9/JT4TS8X0/F0F7ZJ9JT4TS8X0.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Google Fusion Table",
+            "Google Console",
+            ".p12 key file (downloaded from Google Developer Console)"
+        ],
+        "description": "This project guides you through creating an Android application for a small business, specifically a tea shop, using MIT App Inventor and Google Fusion Tables. The app allows customers to place orders for tea (or other items) for pickup or delivery. The tutorial covers setting up a service account for Fusion Tables, creating and sharing tables, designing the app interface, and programming the app's behavior using the MIT App Inventor blocks editor.",
+        "steps": [
+            "Become familiar with MIT App Inventor, Google Fusion Table, Google Console, and Google Play Store.",
+            "Design the TeaCelebration app screen using the MIT App Inventor designer, including components for user input and display.",
+            "Create a service account for Fusion Tables in the Google Developers Console: create a new project, enable the Fusion Tables API, create service account credentials, and download the .p12 key file.",
+            "Create and set up Google Fusion Tables to store the app's data: connect Fusion Tables to Google Drive, create a new table, and share the table with the service account email address, granting edit access.",
+            "Determine the Fusion Table URL and Table ID: publish the table, copy the URL, and find the Table ID in the table's settings. Then upload the downloaded .p12 key file into App Inventor.",
+            "Program the app's behavior in the MIT App Inventor Blocks Editor: initialize the screen, set up procedures for resetting the form, create list picker blocks for tea and snack choices, insert data into the Fusion Table using the FusiontablesControl component, and handle responses from the Fusion Tables service.",
+            "Test the app, and then package it for distribution.",
+            "Upload the app to the Google Play Store by following the instructions in Google Play Console."
+        ]
+    }
+]

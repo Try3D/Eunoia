@@ -1,0 +1,75 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-set-up-a-Public-Window/",
+        "creator": "Art of Coding",
+        "subcategory": "Art",
+        "title": "How to set up a Public Window",
+        "images": [
+            "https://content.instructables.com/F3M/UCCZ/GNVIDK4T/F3MUCCZGNVIDK4T.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBJ/YS1D/GPBDIH0W/FBJYS1DGPBDIH0W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP8/BINO/GPLJ2KEQ/FP8BINOGPLJ2KEQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/KHCM/GNSADMBW/F3IKHCMGNSADMBW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSH/VULM/GP7IHK3G/FSHVULMGP7IHK3G.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHE/B303/GPU0O8I8/FHEB303GPU0O8I8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/JMO0/GPLJ2IMK/FJRJMO0GPLJ2IMK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYC/FG6I/GPU0O8A8/FYCFG6IGPU0O8A8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJS/OPX6/GPBDIMT6/FJSOPX6GPBDIMT6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8I/MVCK/GPU0O7RN/F8IMVCKGPU0O7RN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDO/USOA/GPU0O7RM/FDOUSOAGPU0O7RM.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3E/2L2P/GPU0O89M/F3E2L2PGPU0O89M.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTK/USJH/GPBDIMPD/FTKUSJHGPBDIMPD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Touch screen",
+            "Arduino",
+            "Public Window software"
+        ],
+        "description": "This project allows artists to display their creations in a window and have people from all around the world interact with it. It involves connecting an artwork via an Arduino to a PC with a touchscreen, enabling interaction through the screen and remote viewing/control from other Public Windows.",
+        "steps": [
+            "Obtain a window, a computer with Windows XP or later, internet connection, Public Window account, Public Window software, a touchscreen, and an Arduino.",
+            "Connect the hardware according to the manuals of the products.",
+            "Install the Public Window software on your computer including Microsoft .Net Framework 4 and the Arduino drivers. Configure the owner.txt file with your Public Window username.",
+            "Create a GUI using the online tool by logging in with your Public Window credentials, adding items (buttons, images, webcams), positioning and resizing them, and assigning actions to the items.",
+            "Create an Arduino sketch to control your artwork. Ensure there is a serial connection to allow the PC software to send commands to the Arduino via USB. The provided script will listen to the serial port and control an LED based on received commands.",
+            "Start 'PublicWindow.exe' and allow any Flash permission requests that appear."
+        ]
+    },
+    {
+        "url": "https://www.instructables.com/id/How-to-set-up-a-Public-Window/",
+        "creator": "Art of Coding",
+        "subcategory": "Art",
+        "title": "How to set up a Public Window",
+        "images": [
+            "https://content.instructables.com/F3M/UCCZ/GNVIDK4T/F3MUCCZGNVIDK4T.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FBJ/YS1D/GPBDIH0W/FBJYS1DGPBDIH0W.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP8/BINO/GPLJ2KEQ/FP8BINOGPLJ2KEQ.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/KHCM/GNSADMBW/F3IKHCMGNSADMBW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSH/VULM/GP7IHK3G/FSHVULMGP7IHK3G.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHE/B303/GPU0O8I8/FHEB303GPU0O8I8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJR/JMO0/GPLJ2IMK/FJRJMO0GPLJ2IMK.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYC/FG6I/GPU0O8A8/FYCFG6IGPU0O8A8.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJS/OPX6/GPBDIMT6/FJSOPX6GPBDIMT6.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8I/MVCK/GPU0O7RN/F8IMVCKGPU0O7RN.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDO/USOA/GPU0O7RM/FDOUSOAGPU0O7RM.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3E/2L2P/GPU0O89M/F3E2L2PGPU0O89M.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FTK/USJH/GPBDIMPD/FTKUSJHGPBDIMPD.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Touch screen",
+            "Arduino",
+            "Public Window software (downloadable)",
+            "Arduino drivers (downloadable)",
+            "Microsoft .Net Framework 4 (downloadable)"
+        ],
+        "description": "This project describes how to set up a Public Window, an open-source project that allows artists to display their creations in a window and interact with people worldwide. It involves connecting an artwork via Arduino to a PC with a touchscreen, enabling remote interaction and viewing through cameras.",
+        "steps": [
+            "Download and install Microsoft .Net Framework 4 if it's not already installed.",
+            "Download the Public Window software and unzip it to a folder.",
+            "Open 'owner.txt' in the unzipped folder, enter your Public Window username, and save the file.",
+            "Download and install the Arduino drivers.",
+            "Create a GUI for the touchscreen using the online tool at http://basbase.com/guimaker, adding buttons, images, and webcams as needed. Customize the appearance and assign actions to the GUI elements.",
+            "Create an Arduino sketch to control the artwork based on serial commands received from the PC. The provided example turns an LED on when it receives a '1' and off when it receives a '2'.",
+            "Start the 'PublicWindow.exe' program and allow any Flash permission requests."
+        ]
+    }
+]

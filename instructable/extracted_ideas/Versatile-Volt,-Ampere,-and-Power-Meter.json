@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Versatile-Volt-Ampere-and-Power-Meter/",
+        "creator": "Andreas Spiess",
+        "subcategory": "Arduino",
+        "title": "Versatile Volt, Ampere, and Power Meter",
+        "images": [
+            "https://content.instructables.com/FLF/TR67/JG42W2ZP/FLFTR67JG42W2ZP.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVV/VBC8/JJYK3KDW/FVVVBC8JJYK3KDW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FRL/HWTD/J86HSGOP/FRLHWTDJ86HSGOP.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FOD/GYH1/J5WQBS2J/FODGYH1J5WQBS2J.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F57/XYE9/J5SFYFIY/F57XYE9J5SFYFIY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F5Q/OLFP/JG42W2ZO/F5QOLFPJG42W2ZO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRN/4UU7/JG74WYT9/FRN4UU7JG74WYT9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F82/V9PZ/JG42W3IZ/F82V9PZJG42W3IZ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUV/EI6B/JG74WY02/FUVEI6BJG74WY02.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F08/SSVB/JG42W2ZN/F08SSVBJG42W2ZN.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FEF/54U0/JG74WYA8/FEF54U0JG74WYA8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYV/AXA0/JG74WYK4/FYVAXA0JG74WYK4.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F35/D3FB/JG74WY7V/F35D3FBJG74WY7V.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1R/PS8I/JG74WYVG/F1RPS8IJG74WYVG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4X/KBDZ/JG74WXZQ/F4XKBDZJG74WXZQ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F5Q/OLFP/JG42W2ZO/F5QOLFPJG42W2ZO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Meter (33V/3A, 33V/10A, or 100V/10A)",
+            "3D printed case (or alternative case)",
+            "Banana plugs",
+            "9V battery incl. connector",
+            "Switch",
+            "20 AWG wire",
+            "Connectors without isolators",
+            "Heat-shrink tubes"
+        ],
+        "description": "This project describes how to build a small and inexpensive volt, ampere, and power meter that can measure voltage and current simultaneously, which is useful for power and efficiency measurements.",
+        "steps": [
+            "Download and print the 3D case or find alternative case.",
+            "Connect banana plugs to the meter wires.",
+            "Connect one black banana plug to the thick black wire and another to the thick red wire. Connect the two red banana plugs internally.",
+            "Connect the yellow wire to the green banana plug.",
+            "Connect the thin black and white wires to a 9V battery connector and include a switch in the red wire to turn the device off when not in use.",
+            "Use connectors without isolators and heat-shrink tubes for isolation.",
+            "Assemble all parts according to the diagram and connect the two red banana plugs with a 20 AWG wire. Fix the meter and switch with hot glue if needed.",
+            "Label input and output pins, connect the input to a power supply or battery, and connect a resistor to the output.",
+            "Verify the meter shows values greater than zero and compare readings to a multimeter for accuracy."
+        ]
+    }
+]

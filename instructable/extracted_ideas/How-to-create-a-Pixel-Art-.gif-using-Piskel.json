@@ -1,0 +1,22 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-to-create-a-Pixel-Art-gif-using-Piskel/",
+        "creator": "evansem",
+        "subcategory": "Art",
+        "title": "How to create a Pixel Art .gif using Piskel",
+        "images": [
+            "https://content.instructables.com/FYE/66TZ/I7KBEV1Y/FYE66TZI7KBEV1Y.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F44/430X/I7KBEMBT/F44430XI7KBEMBT.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FOT/QOGU/I7KBETZ7/FOTQOGUI7KBETZ7.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F99/TOR2/I7KBEUEW/F99TOR2I7KBEUEW.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [],
+        "description": "This project explains how to create static and animated pixel art .gifs using Piskel, an online, in-browser application. Piskel offers features like live previewing animations and easy saving and exporting of images and gifs for sharing.",
+        "steps": [
+            "Familiarize yourself with the Piskel interface, including the toolbar on the left for drawing and coloring, the live preview box in the upper right for viewing and adjusting animation speed, and the tools on the far right for exporting.",
+            "Draw your first image using the tools available in Piskel. Remember that pixel art consists of square pixels, so creating curves involves strategically placing pixels to create the illusion of curvature. This image will be the first frame of your animation.",
+            "Decide which parts of your image you want to animate. Then, create the subsequent frames to transition the moving objects from one position to the next. Use the live preview to adjust the frames per second for the desired animation speed.",
+            "Export your creation as either individual image files or as an animated .gif. Choose the export option that best suits your sharing needs, save the file to your computer, and share it."
+        ]
+    }
+]

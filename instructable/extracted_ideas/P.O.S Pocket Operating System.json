@@ -1,0 +1,35 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Pocket-Operating-System/",
+        "creator": "littlechef37",
+        "subcategory": "Microsoft",
+        "title": "P.O.S Pocket Operating System",
+        "images": [
+            "https://content.instructables.com/FG7/H7JK/FEDLXAAH/FG7H7JKFEDLXAAH.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FDK/IAO6/FQ6EBN5G/FDKIAO6FQ6EBN5G.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FFF/4787/FSPRNJAW/FFF4787FSPRNJAW.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEU/ZB5O/FPIOLZXF/FEUZB5OFPIOLZXF.bmp?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FMZ/P5YO/F9053XYH/FMZP5YOF9053XYH.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FW3/2UYU/FEEMAND6/FW32UYUFEEMAND6.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F11/9UHE/FEEMAND5/F119UHEFEEMAND5.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FO6/LSIR/FEEMAND4/FO6LSIRFEEMAND4.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F0H/0902/FEEMAND3/F0H0902FEEMAND3.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCK/NB06/FEEMAND2/FCKNB06FEEMAND2.bmp?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FW4/F59R/FSPRPXCY/FW4F59RFSPRPXCY.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "A Flashdrive (256mb or greater)",
+            "A copy of SLAX (downloadable)",
+            "A file extractor capable of extracting .tar files (e.g., 7-Zip)"
+        ],
+        "description": "This project guides you through installing the SLAX Linux distribution on a flash drive from a Windows computer, creating a portable operating system that doesn't require installation on the hard drive.",
+        "steps": [
+            "Format your flash drive as FAT by right-clicking on the drive in 'My Computer' and selecting 'Format'. Ensure the file system is set to FAT.",
+            "Extract the SLAX archive to the root directory of your flash drive using a file extractor like 7-Zip.",
+            "Navigate to the 'x:\\boot\\' directory on your flash drive in Windows Explorer, where 'x' is the drive letter of your flash drive. Double-click 'makeboot.bat' to make the drive bootable and install the MBR. Ensure the correct drive letter is displayed in the Command Prompt window.",
+            "Restart your computer and enter the BIOS setup (usually by pressing DEL, F2, F8, or F10 during startup).",
+            "In the BIOS, navigate to 'BIOS FEATURES SETUP' and then 'Boot Order'. Set 'usb flash drive', 'usb zip disk', and 'usb hdd' near the top of the boot order, ensuring your master hard drive is still in the list.",
+            "After booting into SLAX, download programs from the SLAX repositories and install them by double-clicking the '.lzm' files."
+        ]
+    }
+]

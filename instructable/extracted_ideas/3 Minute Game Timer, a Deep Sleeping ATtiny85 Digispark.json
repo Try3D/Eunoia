@@ -1,0 +1,49 @@
+[
+    {
+        "url": "https://www.instructables.com/id/3-Minute-Game-Timer/",
+        "creator": "RonM9",
+        "subcategory": "Arduino",
+        "title": "3 Minute Game Timer, a Deep Sleeping ATtiny85 Digispark",
+        "images": [
+            "https://content.instructables.com/F2R/CR15/IGM5OFYK/F2RCR15IGM5OFYK.gif?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIP/QMKE/IGL4CKV1/FIPQMKEIGL4CKV1.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLF/LH6X/K10ZJ2MU/FLFLH6XK10ZJ2MU.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FXN/SZE1/LYLKI2GG/FXNSZE1LYLKI2GG.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZS/JDNX/M1TJS6K6/FZSJDNXM1TJS6K6.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FP5/YHSN/LAJZQJGW/FP5YHSNLAJZQJGW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNF/1TMU/IGL4CKXB/FNF1TMUIGL4CKXB.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F24/NX7I/IGL4CKXD/F24NX7IIGL4CKXD.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMZ/IJQH/KJK06094/FMZIJQHKJK06094.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F2F/Q43K/IGL4CKXY/F2FQ43KIGL4CKXY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG1/E9YK/IGL4CKY9/FG1E9YKIGL4CKY9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F83/25NP/IGL4CLE6/F8325NPIGL4CLE6.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F49/BMUZ/IGL4CKYW/F49BMUZIGL4CKYW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FSL/EBIW/IGL4CKZR/FSLEBIWIGL4CKZR.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif"
+        ],
+        "materials_required": [
+            "Digispark ATtiny85 board",
+            "3 LEDs (green, yellow, red)",
+            "Tilt switch",
+            "Active buzzer",
+            "CR2032 battery and holder",
+            "47 uF capacitor (optional)"
+        ],
+        "description": "This project creates a small, low-power timer using an ATtiny85 Digispark board, intended for use with games. It utilizes LEDs and a buzzer to indicate the passage of time and enters a deep sleep mode to conserve battery life.",
+        "steps": [
+            "Cut the three leads coming out of the 78M05 voltage regulator on the Digispark board to reduce power consumption.",
+            "Cut the trace between the power-on LED and its supply resistor to further reduce power consumption, but without removing either component.",
+            "(Optional) Cut the trace to the resistor R3 used to pull up the PB3 signal. If you do this, you need to solder in a diode (1N4148) from the '5v' line to the end of R3 you cut the trace by.",
+            "Wire the LEDs, resistor, tilt switch, and buzzer directly to the Digispark board.",
+            "Mount the tilt switch so it is normally open when the container is set how you want it while it is timing and during storage.",
+            "Hot glue a spring metal clip inside a container's top to hold the assembly in place.",
+            "File the USB edge of the board so it can be wedged in the clip more easily, and wrap a piece of paper over the edge of the board before pressing it in to prevent shorts.",
+            "Potentially file off the corner of the buzzer to fit it into the container, and secure the battery holder to the PCB with hot glue.",
+            "In the Arduino IDE, select the board as \u201cDigispark (Default \u2013 16.5mhz)\u201d when programming the MCU.",
+            "Upload the provided code to the Digispark board.",
+            "Flip the unit over and put it back up right to start the timer period. This will be marked by three quick flashes and chirps.",
+            "Observe the LED flashes and buzzer chirps to track the passage of each minute, per the code's instructions.",
+            "Stop the timing process by turning the timer back over."
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.instructables.com/id/How-To-Make-Paper-Circuits/",
+        "creator": "shealynn anderson",
+        "subcategory": "Art",
+        "title": "How To Make Paper Circuits",
+        "images": [
+            "https://content.instructables.com/FIO/2KAG/ID02FJ24/FIO2KAGID02FJ24.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVE/7C03/ID02FJNO/FVE7C03ID02FJNO.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FP5/DM86/ID02FJNN/FP5DM86ID02FJNN.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FXS/IAHQ/ID02FJNI/FXSIAHQID02FJNI.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZD/7BJA/ID02FJLA/FZD7BJAID02FJLA.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FVE/90V0/ID02FJL9/FVE90V0ID02FJL9.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FC0/0XOV/ID02FJE1/FC00XOVID02FJE1.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FLU/FZH7/ID02FJJ4/FLUFZH7ID02FJJ4.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4U/VWYJ/ID02FJH2/F4UVWYJID02FJH2.jpg?auto=webp&fit=bounds&frame=1&height=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKZ/KUVY/ID02G01D/FKZKUVYID02G01D.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F40/1UFC/ID02FJ9U/F401UFCID02FJ9U.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F63/Y51P/ID02FJ7G/F63Y51PID02FJ7G.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F24/RYL1/ID02FJ5B/F24RYL1ID02FJ5B.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FIL/HLJQ/ID02FJ53/FILHLJQID02FJ53.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FL4/EZMF/ID02FW6H/FL4EZMFID02FW6H.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ3/ZRAE/ID02FW1O/FJ3ZRAEID02FW1O.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Print out of a paper circuit template",
+            "Copper tape",
+            "1 LED light",
+            "2 Batteries"
+        ],
+        "description": "This project explains how to create a simple paper circuit that lights up an LED using copper tape, batteries, and a paper template.",
+        "steps": [
+            "Lay copper tape on the template to determine the optimal size, aiming to minimize cuts by folding at corners for direction changes.",
+            "Cut the copper tape to the determined size.",
+            "Remove the backing and carefully place the copper tape on the template's outline, ensuring it's smooth and flat, especially at folded corners.",
+            "Repeat the process until all copper tape sections are applied, including the 'switch' area in the bottom left corner.",
+            "Bend the LED light's legs outwards, noting that the longer leg is positive and the shorter leg is negative.",
+            "Place the LED light in the designated spot on the template, folding the copper tape over its legs, ensuring correct polarity and secure contact.",
+            "Position one battery with its positive side facing down within the outlined circle for the positive battery.",
+            "Place the second battery with its negative side facing down within its designated circle.",
+            "Fold the paper corner with the positive battery over, so both batteries are touching, adjusting their position as needed.",
+            "Fold the corner with the copper tape 'switch' to bridge the circuit gap, aligning the tape ends with the circuit.",
+            "With the circuit complete, folding the batteries and switch should illuminate the LED light."
+        ]
+    }
+]

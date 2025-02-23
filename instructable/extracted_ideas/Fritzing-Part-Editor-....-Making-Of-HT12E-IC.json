@@ -1,0 +1,36 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Fritzing-Part-Editor-Making-of-HT12E-IC/",
+        "creator": "monusuthar2016",
+        "subcategory": "Art",
+        "title": "Fritzing Part Editor .... Making Of HT12E IC",
+        "images": [
+            "https://content.instructables.com/FB6/0F0D/IX0PVQWU/FB60F0DIX0PVQWU.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FQN/HTO7/IX0PVQWW/FQNHTO7IX0PVQWW.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FG9/HKEB/IX0PVQXO/FG9HKEBIX0PVQXO.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FZD/YL2D/IJEKLVI0/FZDYL2DIJEKLVI0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FDH/8ZQP/JIKJW14S/FDH8ZQPJIKJW14S.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FGL/7Z1U/JAWU3UOE/FGL7Z1UJAWU3UOE.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FWF/U4GM/JAMTU3IY/FWFU4GMJAMTU3IY.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FKB/1TEZ/IX0PVRE8/FKB1TEZIX0PVRE8.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FHW/EEU5/IX0PVRNB/FHWEEU5IX0PVRNB.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYP/FNQI/IX0PVRO3/FYPFNQIIX0PVRO3.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYO/Z7HM/IX0PVRWB/FYOZ7HMIX0PVRWB.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FCR/ZIJY/IX0PVS59/FCRZIJYIX0PVS59.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F6S/Y8JG/IX0PVSHL/F6SY8JGIX0PVSHL.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Fritzing software"
+        ],
+        "description": "This project details how to create a custom Fritzing part for the HT12E IC, addressing the lack of this part in the software's library. It involves modifying an existing IC part within Fritzing to match the specifications of the HT12E.",
+        "steps": [
+            "Open Fritzing and select any existing IC part.",
+            "Change the number of pins to 18 on the right side panel to match the HT12E IC.",
+            "Right-click on the IC and select 'Edit'.",
+            "Go to the 'Metadata' section and change the label and chip label to reflect the HT12E IC.",
+            "Go to the 'Connectors' section and assign the correct names to each of the 18 pins.",
+            "Go to the 'Icon' section and click 'Reuse Breadboard Image'.",
+            "Click 'File' then 'Save a New Part' to save the newly created HT12E IC part."
+        ]
+    }
+]

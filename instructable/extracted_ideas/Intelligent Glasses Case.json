@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Intelligent-Glasses-Case/",
+        "creator": "kita0314",
+        "subcategory": "Arduino",
+        "title": "Intelligent Glasses Case",
+        "images": [
+            "https://content.instructables.com/F62/GVVD/JWGNYQWW/F62GVVDJWGNYQWW.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FKR/P1JW/JWET59HA/FKRP1JWJWET59HA.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FU9/OZFP/JWB4FM2V/FU9OZFPJWB4FM2V.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8W/X5P9/JWB4FM08/F8WX5P9JWB4FM08.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/file.default.gif",
+            "https://content.instructables.com/FID/UYBR/JWGNVYUX/FIDUYBRJWGNVYUX.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F40/RRUD/JWGNW8EY/F40RRUDJWGNW8EY.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FUQ/A7CU/JWGNYQ3I/FUQA7CUJWGNYQ3I.png?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Ultrasonic Sensor CH-SR04",
+            "L298N a dual H-Bridge motor driver",
+            "Arduino Leonardo",
+            "12v RGB LED stripe",
+            "12v adaptor",
+            "A box (the glass case)"
+        ],
+        "description": "The LED Glasses Case helps locate glasses in the dark and can be used as a night lamp. It uses an RGB stripe, ultrasonic sensor, L2N98 driver, and a 12v power supply, controlled by an Arduino Leonardo.",
+        "steps": [
+            "Connect the D-Pins and the 12v RGB strip to the L298N motor driver. Connect the D-pins with \"~\" like Pin 3, 5, 6 for analogWrite.",
+            "Connect the Ultrasonic Sensor to the Arduino Board with Trig to Pin 13 and Echo to Pin 11.",
+            "Download and upload the code from the provided link to the Arduino.",
+            "Create the glasses case by finding a suitable box, drilling holes for the LED strip and 12v power, and cutting a hole for the ultrasonic sensor. Place the board on top, ensuring the sensor is at least 2cm away from the glasses. Plug in the power.",
+            "Plug in the 12v power and the input of the arduino board then it's done."
+        ]
+    }
+]

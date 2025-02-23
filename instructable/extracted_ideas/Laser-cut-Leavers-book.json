@@ -1,0 +1,39 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Laser-cut-Leavers-book/",
+        "creator": "mattdenney",
+        "subcategory": "Art",
+        "title": "Laser cut Leavers book",
+        "images": [
+            "https://content.instructables.com/F3W/KL9V/HH2W53JM/F3WKL9VHH2W53JM.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/static/image/project.default.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FSM/XS7Y/HHS9LY3V/FSMXS7YHHS9LY3V.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FNT/E041/HHS9KQ7M/FNTE041HHS9KQ7M.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FZ3/SRUY/HHMI8VUZ/FZ3SRUYHHMI8VUZ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F1O/73S1/HH2W53KU/F1O73S1HH2W53KU.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8U/0BXQ/HH2W53KW/F8U0BXQHH2W53KW.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F8U/Q8K5/HH2W53KY/F8UQ8K5HH2W53KY.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F4F/VDKU/HH2W53KZ/F4FVDKUHH2W53KZ.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWA/CRWS/HH2W53NF/FWACRWSHH2W53NF.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FRJ/J1CV/HH2W53N2/FRJJ1CVHH2W53N2.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F1I/0JWP/HH2W53P8/F1I0JWPHH2W53P8.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Leavers book (or diary/hardback book)",
+            "Laser cutter",
+            "2D design software",
+            "Logos/Pictures",
+            "Rubber or slightly damp cloth"
+        ],
+        "description": "This project is about personalizing leavers books (or similar hardback books/diaries) using a laser cutter to engrave designs and text onto the cover, making them unique and easily identifiable.",
+        "steps": [
+            "Measure the leavers book cover from the binding to the edge to determine the correct size for the design.",
+            "Set up the design space in 2D design software, ensuring the material size matches the cover size and leaving a gap between the edge and the design to avoid cutting into the binding.",
+            "Choose personal elements such as name, symbols, school name, and meaningful logos to incorporate into the design for both the front and back covers.",
+            "Select a preferred font, preferably with a thin fill, to minimize burning through the cover and reduce cutting time. Ensure all logos and pictures have transparent backgrounds to prevent unwanted cuts.",
+            "Use the laser cutter with high speed and low power settings to engrave the design onto the cover. Test the laser strength on a piece of card or a spare leavers book first.",
+            "Clean up any residue left on the cover after engraving using a rubber or a very slightly damp cloth, brushing lightly to avoid damaging the engraving.",
+            "Get the leavers book signed and keep it as a reminder of memories."
+        ]
+    }
+]

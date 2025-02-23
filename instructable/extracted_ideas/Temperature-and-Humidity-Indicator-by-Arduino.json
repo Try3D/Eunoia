@@ -1,0 +1,41 @@
+[
+    {
+        "url": "https://www.instructables.com/id/Temperature-and-Humidity-Indicator-by-Arduino/",
+        "creator": "AnnaMai",
+        "subcategory": "Arduino",
+        "title": "Temperature and Humidity Indicator by Arduino",
+        "images": [
+            "https://content.instructables.com/F3N/GCX8/K20QCUVF/F3NGCX8K20QCUVF.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F30/MZ4Q/K1UVX1KW/F30MZ4QK1UVX1KW.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FPX/H6HZ/LOR78TLN/FPXH6HZLOR78TLN.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F75/T9IY/LEHGLGCJ/F75T9IYLEHGLGCJ.png?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FBL/9187/KZWPQF6C/FBL9187KZWPQF6C.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FEV/K9PN/K20QCUWG/FEVK9PNK20QCUWG.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FR1/P26K/K20QCUWF/FR1P26KK20QCUWF.png?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FNR/83EP/K20QCUZJ/FNR83EPK20QCUZJ.jpg?auto=webp&fit=bounds&frame=1auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F07/I6L8/K20QCUXG/F07I6L8K20QCUXG.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/F3I/UCEY/K20QCUXH/F3IUCEYK20QCUXH.jpg?auto=webp&fit=bounds&frame=1&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FYP/NTIT/K20QCUYJ/FYPNTITK20QCUYJ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FB6/X4ZU/K20QCUZL/FB6X4ZUK20QCUZL.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FF6/PFRH/K20QCV0L/FF6PFRHK20QCV0L.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FMU/GIT8/K20QCUZK/FMUGIT8K20QCUZK.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FGQ/OPC9/K20QCVRP/FGQOPC9K20QCVRP.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJV/F86P/K20QCVRQ/FJVF86PK20QCVRQ.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FJ8/VQQ4/K20QCUYH/FJ8VQQ4K20QCUYH.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300",
+            "https://content.instructables.com/FWJ/YG0X/K20QCUYI/FWJYG0XK20QCUYI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=300"
+        ],
+        "materials_required": [
+            "Sensor temperature and humidity DHT-22",
+            "Servo motors SG90",
+            "MDF box"
+        ],
+        "description": "This project creates a temperature and humidity indicator using an Arduino, a DHT-22 sensor, and servo motors to control needles on an indicator ruler. The device is housed in a laser-cut MDF box, making it suitable for personal use or as a gift. The calibration process is emphasized to ensure accurate readings.",
+        "steps": [
+            "Make a circuit based on the provided image.",
+            "Download the Arduino code from the provided link.",
+            "Calibrate the servo motors by finding the servo angles for specific temperature points (0 and 50 degrees C), inputting these values into an excel file to determine the a and b factors (in function f(x)=ax+b), then inputting those a and b factors into the Arduino code, and repeating for humidity.",
+            "Test the indicator by comparing the serial monitor screen value with the indicator reading.",
+            "Install the background indicator, Arduino UNO, servo motors, and sensor into the MDF box, install needles, upload the code, connect the power, and attach the back cover."
+        ]
+    }
+]

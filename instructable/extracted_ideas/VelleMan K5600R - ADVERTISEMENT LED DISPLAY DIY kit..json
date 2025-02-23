@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://www.instructables.com/id/VelleMan-K5600R-ADVERTISEMENT-LED-DISPLAY-DIY-Kit/",
+        "creator": "vandenbrande",
+        "subcategory": "Microcontrollers",
+        "title": "VelleMan K5600R - ADVERTISEMENT LED DISPLAY DIY kit.",
+        "images": [
+            "https://content.instructables.com/FOV/WY8X/JASJTYH7/FOVWY8XJASJTYH7.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/F11/TACB/J8YRBSF0/F11TACBJ8YRBSF0.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FR9/W6VE/J8YRBW4X/FR9W6VEJ8YRBW4X.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/FUQ/ZCPS/J5K6OUSX/FUQZCPSJ5K6OUSX.jpg?auto=webp&crop=1%3A1&frame=1&width=130",
+            "https://content.instructables.com/static/image/attachment-PDF.png",
+            "https://content.instructables.com/static/image/attachment-PDF.png"
+        ],
+        "materials_required": [
+            "Velleman K5600R DIY Kit",
+            "Soldering tin (0.5 to 1 mm)"
+        ],
+        "description": "This project involves building a Velleman K5600R Advertisement LED Display DIY kit. The author intends to later add an Arduino, Bluetooth Module HC-06, and a mobile app to control the effects and power of the display.",
+        "steps": [
+            "Obtain the Velleman K5600R DIY Kit.",
+            "Gather necessary tools: soldering iron and soldering tin.",
+            "Solder the components according to the provided instructions (illustrated_assembly_manual_k5600.pdf).",
+            "The project focuses solely on building the display itself; programming is not required for this part."
+        ]
+    }
+]
