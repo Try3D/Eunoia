@@ -1,22 +1,46 @@
-# Eunoia - Enchanced DIY Learning App
+# Eunoia - AI-Powered DIY Learning Platform
 
-## Project Overview
-This project is a DIY recommendation system that retrieves appropriate do-it-yourself (DIY) projects based on user-provided materials. The system leverages Retrieval-Augmented Generation (RAG) to enhance search accuracy.
 
-## Tech Stack
-- **Backend**: FastAPI (for creating API routes)
-- **Machine Learning**: Web scraping with BeautifulSoup4, JSON storage, and vector embeddings for retrieval
-- **Frontend**: React Native (for user interface)
+**Eunoia** is an AI-powered platform designed to enhance **learning engagement through environmental interaction**. The system leverages **computer vision, Retrieval-Augmented Generation (RAG), and gamification** to help users repurpose physical materials into interactive, customizable learning experiences.
 
-## Features
-- Web scrapes DIY projects from [Instructables](https://www.instructables.com/) using `beautifulsoup4`
-- Stores DIY data in JSON format
-- Generates vector embeddings for efficient retrieval
-- Uses RAG to recommend DIY projects based on user-provided materials
-- Provides an interactive frontend built with React Native
+## 🔥 Hackathon Problem Statement - SNUC Hacks
+**Learning Engagement Platform with Environmental Interaction**
 
-## Setup Instructions
-### Backend
+- **Challenge**: Build an AI-powered platform that uses device cameras to analyze physical materials in a user’s environment and auto-generate interactive, novel learning experiences.
+- **Goal**: Revolutionize how educators and learners transform real-world objects into engaging educational content.
+- **Feature Ideas**:
+  - **Collaborative Learning Zones** - Enable shared projects using combined resources.
+  - **Skill-Based Gamification** - Reward progress and challenge completion with badges.
+  - **Adaptive Content Suggestions** - Personalize educational content based on user learning styles.
+
+## 🌟 Features
+- **Web Scraping for DIY Projects**: Extracts DIY project data from [Instructables](https://www.instructables.com/) using `beautifulsoup4`.
+- **Material Recognition using AI**: Uses the **device camera** and **Gemini fine-tuning** to analyze materials for suitable DIY recommendations.
+- **Vector Search with ChromaDB**: Efficient storage and retrieval of project embeddings for better matching.
+- **AI-Powered Recommendations**: Utilizes the **Gemini API** to generate interactive learning experiences based on user materials.
+- **User Dashboard**:
+  - Tracks achievements 🏆
+  - Monitors ongoing DIY projects 📌
+- **Explore Section**: Discover new and trending DIY projects.
+- **Gamification Elements**: Users earn badges and rewards based on their learning progress.
+
+## 🏗️ System Design
+
+![System Design](./Design.png)
+
+## ⚙️ Tech Stack
+### **Backend**
+- **FastAPI** - API development & management
+- **BeautifulSoup4** - Web scraping for DIY data
+- **ChromaDB** - Vector database for efficient retrieval
+- **Gemini API** - AI-powered recommendations
+- **OpenCV & TensorFlow** - Object detection & material analysis
+
+### **Frontend**
+- **React Native** - Cross-platform mobile application development
+
+## 🚀 Installation & Setup
+### **Backend Setup**
 1. Clone the repository:
    ```sh
    git clone https://github.com/Try3D/Eunoia.git
@@ -36,7 +60,7 @@ This project is a DIY recommendation system that retrieves appropriate do-it-you
    uvicorn main:app --reload
    ```
 
-### Frontend
+### **Frontend Setup**
 1. Navigate to the frontend directory:
    ```sh
    cd frontend
@@ -49,13 +73,5 @@ This project is a DIY recommendation system that retrieves appropriate do-it-you
    ```sh
    npm start
    ```
-
-
-
-## Future Enhancements
-- Implement user authentication
-- Improve the search algorithm
-- Add a rating system for DIY projects
-
-
+🚀 **Transform your everyday objects into learning experiences!**
 
