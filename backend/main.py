@@ -56,6 +56,166 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+ACHIEVEMENTS = [
+    {
+        "id": 1,
+        "title": "First Timer",
+        "description": "Complete your first DIY project",
+        "icon": "🌟",
+        "xp": 100,
+        "unlocked": True,
+        "date_unlocked": "2024-01-15",
+        "progress": 100,
+        "total_required": 1
+    },
+    {
+        "id": 2,
+        "title": "Weekend Warrior",
+        "description": "Complete 3 projects in one weekend",
+        "icon": "⚡",
+        "xp": 250,
+        "unlocked": False,
+        "progress": 1,
+        "total_required": 3
+    },
+    {
+        "id": 3,
+        "title": "Tool Master",
+        "description": "Use 10 different tools",
+        "icon": "🔧",
+        "xp": 300,
+        "unlocked": False,
+        "progress": 6,
+        "total_required": 10
+    },
+    {
+        "id": 4,
+        "title": "Eco Warrior",
+        "description": "Complete 5 upcycling projects",
+        "icon": "♻",
+        "xp": 400,
+        "unlocked": False,
+        "progress": 2,
+        "total_required": 5
+    },
+    {
+        "id": 5,
+        "title": "Safety First",
+        "description": "Complete the safety tutorial",
+        "icon": "🛡",
+        "xp": 50,
+        "unlocked": True,
+        "date_unlocked": "2024-01-10",
+        "progress": 1,
+        "total_required": 1
+    },
+    {
+        "id": 6,
+        "title": "Community Helper",
+        "description": "Help 3 other makers with their projects",
+        "icon": "🤝",
+        "xp": 200,
+        "unlocked": False,
+        "progress": 1,
+        "total_required": 3
+    },
+    {
+        "id": 7,
+        "title": "Perfect Streak",
+        "description": "Complete 5 projects without any mistakes",
+        "icon": "🎯",
+        "xp": 500,
+        "unlocked": False,
+        "progress": 3,
+        "total_required": 5
+    },
+    {
+        "id": 8,
+        "title": "Material Explorer",
+        "description": "Use 15 different materials",
+        "icon": "🧪",
+        "xp": 350,
+        "unlocked": False,
+        "progress": 8,
+        "total_required": 15
+    }
+]
+
+PROJECTS = [
+    {
+        "id": 1,
+        "title": "Wooden Bookshelf",
+        "progress": 75,
+        "dueDate": "2024-03-15",
+        "materials": ["wood", "screws", "wood stain", "measuring tape"],
+        "status": "in_progress",
+        "thumbnail": "bookshelf.jpg",
+        "lastModified": "2024-02-01"
+    },
+    {
+        "id": 2,
+        "title": "Herb Garden Box",
+        "progress": 30,
+        "dueDate": "2024-03-20",
+        "materials": ["cedar planks", "soil", "seeds", "drill"],
+        "status": "planning",
+        "thumbnail": "garden.jpg",
+        "lastModified": "2024-02-03"
+    },
+    {
+        "id": 3,
+        "title": "Wall Mounted Desk",
+        "progress": 90,
+        "dueDate": "2024-02-28",
+        "materials": ["plywood", "brackets", "screws", "wall anchors"],
+        "status": "nearly_complete",
+        "thumbnail": "desk.jpg",
+        "lastModified": "2024-02-05"
+    }
+]
+
+LEADERBOARD = [
+    {
+        "rank": 1,
+        "username": "DIYMaster",
+        "projects_completed": 47,
+        "total_xp": 12500,
+        "streak_days": 15,
+        "avatar": "avatar1.jpg"
+    },
+    {
+        "rank": 2,
+        "username": "CraftGenius",
+        "projects_completed": 42,
+        "total_xp": 11200,
+        "streak_days": 12,
+        "avatar": "avatar2.jpg"
+    },
+    {
+        "rank": 3,
+        "username": "MakerPro",
+        "projects_completed": 38,
+        "total_xp": 10800,
+        "streak_days": 8,
+        "avatar": "avatar3.jpg"
+    },
+    {
+        "rank": 4,
+        "username": "CreativeCrafter",
+        "projects_completed": 35,
+        "total_xp": 9500,
+        "streak_days": 6,
+        "avatar": "avatar4.jpg"
+    },
+    {
+        "rank": 5,
+        "username": "BuildItBetter",
+        "projects_completed": 31,
+        "total_xp": 8900,
+        "streak_days": 4,
+        "avatar": "avatar5.jpg"
+    }
+]
 
 @app.post("/analyze")
 async def analyze_image(file: UploadFile = File(...)):
@@ -114,7 +274,7 @@ async def analyze_image(file: UploadFile = File(...)):
         )
 
         # Parse the AI response
-        ai_project = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
+        ai_project = json.loads(project_response.text.lstrip(".json").rstrip(""))
 
         return {
             "status": "success",
@@ -126,6 +286,38 @@ async def analyze_image(file: UploadFile = File(...)):
 
     except Exception as e:
         print(f"Error processing image: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/generate/{category}")
+async def generate_project(category: str):
+    try:
+        # Generate project based on category
+        project_response = client.models.generate_content(
+            model="gemini-2.0-flash-exp",
+            contents=[
+                f"Generate a DIY project for the category: {category}\n\n"
+                "The project should be suitable for beginners to intermediate level makers.\n"
+                "Return it in this exact JSON format (no markdown):\n"
+                "{\n"
+                '  "title": "Project Name",\n'
+                '  "materials": ["item1", "item2", "item3"],\n'
+                '  "difficulty": "Easy/Medium/Hard",\n'
+                '  "timeRequired": "estimated time",\n'
+                '  "steps": ["step1", "step2", "step3"],\n'
+                '  "tips": ["tip1", "tip2"],\n'
+                '  "warnings": {"1": "warning for step 1 (if any)", "2": "warning for step 2 (if any)"}\n'
+                "}"
+            ],
+        )
+        import json
+        project_data = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
+        return {
+            "status": "success",
+            "message": project_data
+        }
+
+    except Exception as e:
+        print(f"Error generating project: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -176,8 +368,8 @@ async def clarify_step(request: dict):
         cleaned_response = response.text.strip()
         
         # Remove any markdown formatting
-        if '```' in cleaned_response:
-            cleaned_response = cleaned_response.split('```')[1]
+        if '' in cleaned_response:
+            cleaned_response = cleaned_response.split('')[1]
             if cleaned_response.startswith('json\n'):
                 cleaned_response = cleaned_response[5:]
         
@@ -208,6 +400,11 @@ async def clarify_step(request: dict):
         print(f"Error in clarify_step: {str(e)}")
         print(f"Request data: {request}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/leaderboard")
+def get_leaderboard():
+    """Return the current leaderboard standings"""
+    return LEADERBOARD
 
 if __name__ == "__main__":
     import uvicorn
