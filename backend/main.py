@@ -67,11 +67,10 @@ async def analyze_image(file: UploadFile = File(...)):
         # Parse the response text as JSON
         import json
         project_data = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
-        print(project_data)
+        print(project_data["steps"])
         return {
             "status": "success",
-            "items": items_list.split(','),
-            "project": project_data
+            "message": project_data["steps"]
         }
 
     except Exception as e:
