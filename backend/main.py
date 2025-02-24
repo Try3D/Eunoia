@@ -52,14 +52,15 @@ async def analyze_image(file: UploadFile = File(...)):
             model="gemini-2.0-flash-exp",
             contents=[
                 f"Using these items: {items_list}\n\n"
-                "Generate a DIY project and return it in this exact JSON format (no markdown):\n"
+                "Generate a DIY project and return it in this exact JSON format (no markdown) The warnings should only be hazardous ones:\n"
                 "{\n"
                 '  "title": "Project Name",\n'
                 '  "materials": ["item1", "item2", "item3"],\n'
                 '  "difficulty": "Easy/Medium/Hard",\n'
                 '  "timeRequired": "estimated time",\n'
                 '  "steps": ["step1", "step2", "step3"],\n'
-                '  "tips": ["tip1", "tip2"]\n'
+                '  "tips": ["tip1", "tip2"],\n'  # Added comma here
+                '  "warnings": {"1": "warning in step 1 (if any)", "2": "warning in step 2 (if any)", "3": "warning in step 3 (if any)"}\n'  # Fixed warnings format
                 "}"
             ],
         )
@@ -70,13 +71,28 @@ async def analyze_image(file: UploadFile = File(...)):
         print(project_data["steps"])
         return {
             "status": "success",
-            "message": project_data["steps"]
+            "message": project_data
         }
 
     except Exception as e:
         print(f"Error processing image: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+@app.get("/leaderboard")
+def leaderboard():
+    return [
+        {"rank": 1, "name": "Emma", "diy_completed": 95, "days_active": 100},
+        {"rank": 2, "name": "Liam", "diy_completed": 85, "days_active": 90},
+        {"rank": 3, "name": "Ava", "diy_completed": 75, "days_active": 80},
+        {"rank": 4, "name": "Noah", "diy_completed": 65, "days_active": 75},
+        {"rank": 5, "name": "Olivia", "diy_completed": 60, "days_active": 70},
+        {"rank": 6, "name": "Lucas", "diy_completed": 50, "days_active": 65},
+        {"rank": 7, "name": "Mia", "diy_completed": 40, "days_active": 60},
+        {"rank": 8, "name": "Ethan", "diy_completed": 30, "days_active": 50},
+        {"rank": 9, "name": "Sophia", "diy_completed": 20, "days_active": 45},
+        {"rank": 10, "name": "Mason", "diy_completed": 15, "days_active": 30},
+    ]
 
 if __name__ == "__main__":
     import uvicorn
