@@ -56,7 +56,7 @@ export default function App() {
           name: "photo.jpg",
         } as any);
 
-        const response = await fetch("http://10.31.23.91:8000/analyze", {
+        const response = await fetch("http://10.31.23.247:8000/analyze", {
           method: "POST",
           body: formData,
           headers: {
@@ -117,7 +117,9 @@ export default function App() {
       <View style={styles.analysisContainer}>
         {analysisState.status === "loading" ? (
           <View style={styles.loadingContainer}>
-            <Text style={styles.loadingText}>Analyzing image with AI...</Text>
+            <Text style={styles.loadingText}>
+              Looking for objects in the context...
+            </Text>
           </View>
         ) : (
           <View style={styles.resultContainer}>
@@ -149,8 +151,8 @@ export default function App() {
       {analysisState.status !== "idle"
         ? renderAnalysis()
         : uri
-          ? renderPicture()
-          : renderCamera()}
+        ? renderPicture()
+        : renderCamera()}
     </View>
   );
 }

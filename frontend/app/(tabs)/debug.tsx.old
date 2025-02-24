@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+import { useState, useEffect } from "react";
+
+import ParallaxScrollView from "@/components/ParallaxScrollView";
+import { ThemedText } from "@/components/ThemedText";
+import { ThemedView } from "@/components/ThemedView";
+import { IconSymbol } from "@/components/ui/IconSymbol";
+
+export default function TabTwoScreen() {
+  const [data, setData] = useState<{ Hello: string } | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("http://10.31.23.247:8000/", {});
+        const jsonData = await response.json();
+        setData(jsonData);
+      } catch (err) {
+        setError("Failed to fetch data");
+        console.error("Error fetching data:", err);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  return (
+    <ParallaxScrollView
+      headerBackgroundColor={{ light: "#D0D0D0", dark: "#353636" }}
+      headerImage={
+        <IconSymbol
+          size={310}
+          color="#808080"
+          name="chevron.left.forwardslash.chevron.right"
+          style={styles.headerImage}
+        />
+      }
+    >
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title">API Response</ThemedText>
+      </ThemedView>
+
+      {error ? (
+        <ThemedText style={styles.errorText}>{error}</ThemedText>
+      ) : data ? (
+        <ThemedText style={styles.responseText}>
+          {JSON.stringify(data, null, 2)}
+        </ThemedText>
+      ) : (
+        <ThemedText>Loading...</ThemedText>
+      )}
+    </ParallaxScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  headerImage: {
+    color: "#808080",
+    bottom: -90,
+    left: -35,
+    position: "absolute",
+  },
+  titleContainer: {
+    flexDirection: "row",
+    gap: 8,
+  },
+  responseText: {
+    fontSize: 18,
+    padding: 16,
+  },
+  errorText: {
+    color: "red",
+    padding: 16,
+  },
+});

@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# extracted_ideas
+instructable/extracted_ideas
