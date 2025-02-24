@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import {
   ScrollView,
   View,
@@ -62,32 +62,32 @@ const achievements = [
   },
 ];
 
-const leaderboard = [
-  {
-    id: 1,
-    username: "PhotoPro",
-    points: 2500,
-    avatar: "/api/placeholder/32/32",
-  },
-  {
-    id: 2,
-    username: "LightMaster",
-    points: 2300,
-    avatar: "/api/placeholder/32/32",
-  },
-  {
-    id: 3,
-    username: "FrameArtist",
-    points: 2100,
-    avatar: "/api/placeholder/32/32",
-  },
-];
+type LeaderboardEntry = {
+  rank: number;
+  name: string;
+  diy_completed: number;
+  days_active: number;
+};
 
 export default function DashboardScreen() {
+  const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>([]);
   const colorScheme = useColorScheme();
   const theme = colors[colorScheme ?? "light"];
-
   const styles = makeStyles(theme);
+
+  useEffect(() => {
+    const fetchLeaderboard = async () => {
+      try {
+        const response = await fetch('http://10.31.23.247:8000/leaderboard');
+        const data = await response.json();
+        setLeaderboardData(data);
+      } catch (error) {
+        console.error('Error fetching leaderboard:', error);
+      }
+    };
+
+    fetchLeaderboard();
+  }, []);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -95,6 +95,11 @@ export default function DashboardScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Text style={styles.headerTitle}>Dashboard</Text>
+        </View>
+
+        {/* Greeting Section */}
+        <View style={styles.section}>
+          <Text style={styles.greeting}>Hey User! 👋</Text>
         </View>
 
         {/* Ongoing Projects Section */}
@@ -140,12 +145,15 @@ export default function DashboardScreen() {
         {/* Leaderboard Section */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Leaderboard</Text>
-          {leaderboard.map((user, index) => (
-            <View key={user.id} style={styles.leaderboardRow}>
-              <Text style={styles.rank}>#{index + 1}</Text>
-              <Image source={{ uri: user.avatar }} style={styles.avatar} />
-              <Text style={styles.username}>{user.username}</Text>
-              <Text style={styles.points}>{user.points}</Text>
+          {leaderboardData.map((user) => (
+            <View key={user.rank} style={styles.leaderboardRow}>
+              <Text style={styles.rank}>#{user.rank}</Text>
+              <View style={styles.userInfo}>
+                <Text style={styles.username}>{user.name}</Text>
+                <Text style={styles.stats}>
+                  {user.diy_completed} DIYs • {user.days_active} days active
+                </Text>
+              </View>
             </View>
           ))}
         </View>
@@ -259,32 +267,35 @@ const makeStyles = (theme: typeof colors.light) =>
       textAlign: "center",
     },
     leaderboardRow: {
-      flexDirection: "row",
-      alignItems: "center",
-      paddingVertical: 8,
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingVertical: 12,
       borderBottomWidth: 1,
       borderBottomColor: theme.border,
     },
     rank: {
       width: 40,
       fontSize: 16,
-      fontWeight: "600",
+      fontWeight: '600',
       color: theme.text,
     },
-    avatar: {
-      width: 32,
-      height: 32,
-      borderRadius: 16,
-      marginRight: 12,
+    userInfo: {
+      flex: 1,
     },
     username: {
-      flex: 1,
       fontSize: 16,
+      fontWeight: '500',
       color: theme.text,
     },
-    points: {
-      fontSize: 16,
+    stats: {
+      fontSize: 14,
+      color: theme.textSecondary,
+      marginTop: 4,
+    },
+    greeting: {
+      fontSize: 24,
       fontWeight: "600",
-      color: theme.progressFill,
+      color: theme.text,
+      marginBottom: 8,
     },
   });
