@@ -1,9 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from google import genai
-import google.generativeai as gai
 from google.genai import types
-import os
 import base64
 import io
 
@@ -25,7 +23,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-gai.configure(api_key="AIzaSyDhjOSqI3j4rB1AzbgwqS6U3EGSoNvWpPs")
 
 @app.get("/")
 def hello():
@@ -36,50 +33,46 @@ def hello():
 async def analyze_image(file: UploadFile = File(...)):
     try:
         print("Received file upload request")
-
-        # Read file contents
         contents = await file.read()
 
-        # Ask Gemini to analyze the image
-        response = client.models.generate_content(
+        # Session 1: List items in the image
+        items_response = client.models.generate_content(
             model="gemini-2.0-flash-exp",
             contents=[
-                "List only the important objects in the scene that could be useful for a project or recipe. Try to find the exact model of whatever object is present. Exclude any unnecessary environment objects. No need of a detailed explanation.",
+                "List only the important objects in the scene that could be useful for a project. Return only a comma-separated list of items, no other text.",
                 types.Part.from_bytes(data=contents, mime_type=file.content_type),
             ],
         )
+        
+        items_list = items_response.text.strip()
+        print(f"Items found: {items_list}")
 
-        items = response.text
-
-        # Create the model
-        generation_config = {
-        "temperature": 0.7,
-        "top_p": 0.95,
-        "top_k": 64,
-        "max_output_tokens": 65536,
-        "response_mime_type": "text/plain",
-        }
-
-        model = gai.GenerativeModel(
-        model_name="tunedModels/diy-project-lzf1cxkht10p",
-        generation_config=generation_config,
-        )
-
-        chat_session = model.start_chat(
-        history=[
-            {
-            "role": "system",
-            "parts": [
-                "Generate a creative DIY project idea the items given by the user\n\nThe output must be in the following JSON format:\n\njson\n{\n    \\\"description\\\": \\\"A clear explanation of what the project is and what it will look like when completed.\\\",\n    \\\"steps\\\": [\n        \\\"Step 1 in detail.\\\",\n        \\\"Step 2 in detail.\\\",\n        \\\"Step 3 in detail.\\\",\n        \\\"Step 4 in detail.\\\",\n        \\\"Step 5 in detail.\\\",\n        \\\"Step 6 in detail.\\\"\n    ]\n}\nThe project idea should be visually appealing, engaging, and detailed enough for someone to visualize the final outcome. Each step must be specific, ensuring that anyone can follow along and complete the project successfully.\n\nExample Output Format:\njson\n{\n    \\\"description\\\": \\\"This project guides you through the process of creating your own headphones using basic materials. The headphones work by converting electrical energy into vibrations, which are then amplified to produce sound.\\\",\n    \\\"steps\\\": [\n        \\\"Assemble the voice coil by wrapping copper wire around a cylindrical object (like a glue stick) approximately 40 times, then carefully removing it and securing the coil's shape.\\\",\n        \\\"Sand the ends of the copper wire to remove any coating, ensuring a good electrical connection.\\\",\n        \\\"Place one magnet on top of the plastic cup and another inside. Position the voice coil on top of the cup, over the magnet, and secure it with electrical tape, leaving the wire ends exposed.\\\",\n        \\\"Attach the copper wire ends to the aux plug holes, twisting to ensure a secure connection.\\\",\n        \\\"Plug the aux cord into a phone or device and play music at full volume to test the headphones.\\\"\n    ]\n}\n",
+        # Session 2: Generate DIY project based on items
+        project_response = client.models.generate_content(
+            model="gemini-2.0-flash-exp",
+            contents=[
+                f"Using these items: {items_list}\n\n"
+                "Generate a DIY project and return it in this exact JSON format (no markdown):\n"
+                "{\n"
+                '  "title": "Project Name",\n'
+                '  "materials": ["item1", "item2", "item3"],\n'
+                '  "difficulty": "Easy/Medium/Hard",\n'
+                '  "timeRequired": "estimated time",\n'
+                '  "steps": ["step1", "step2", "step3"],\n'
+                '  "tips": ["tip1", "tip2"]\n'
+                "}"
             ],
-            },
-        ]
         )
 
-        response = chat_session.send_message(items)
-
-        print(response.text)
-        return {"status": "success", "message": response.text}
+        # Parse the response text as JSON
+        import json
+        project_data = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
+        print(project_data)
+        return {
+            "status": "success",
+            "items": items_list.split(','),
+            "project": project_data
+        }
 
     except Exception as e:
         print(f"Error processing image: {str(e)}")
