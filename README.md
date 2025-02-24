@@ -43,8 +43,7 @@
 - **FastAPI** - API development & management
 - **BeautifulSoup4** - Web scraping for DIY data
 - **ChromaDB** - Vector database for efficient retrieval
-- **Gemini API** - AI-powered recommendations
-- **OpenCV & TensorFlow** - Object detection & material analysis
+- **Gemini API** - Object Detection and AI-powered recommendations
 - **Retrieval-Augmented Generation (RAG)** - AI-enhanced contextual learning
 
 ### **Frontend**
@@ -68,7 +67,7 @@
    ```
 4. Run the FastAPI server:
    ```sh
-   uvicorn main:app --reload
+   uvicorn main:app --reload --host 0.0.0.0
    ```
 
 ### **Frontend Setup**
@@ -82,7 +81,7 @@
    ```
 3. Start the React Native app:
    ```sh
-   npm start
+   npx expo start
    ```
 
 
