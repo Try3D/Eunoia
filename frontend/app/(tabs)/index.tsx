@@ -2,7 +2,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { CameraType, CameraView, useCameraPermissions } from "expo-camera";
 import { useRef, useState, useEffect } from "react";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
-import { Animated, Easing } from "react-native";
+import { Animated, Easing, Alert } from "react-native";
 
 import {
   StyleSheet,
@@ -23,7 +23,7 @@ const CARD_WIDTH = SCREEN_WIDTH * 0.9;
 const CARD_MARGIN = (SCREEN_WIDTH - CARD_WIDTH) / 2;
 
 type AnalysisState = {
-  status: "idle" | "loading" | "complete";
+  status: "idle" | "loading" | "complete" | "selecting";
   project?: {
     title: string;
     materials: string[];
@@ -60,6 +60,10 @@ export default function App() {
   const [analysisState, setAnalysisState] = useState<AnalysisState>({
     status: "idle",
   });
+  const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
+  const [stepClarifications, setStepClarifications] = useState<{[key: number]: any}>({});
+  const [projectSuggestions, setProjectSuggestions] = useState([]);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
     requestPermission();
@@ -88,7 +92,7 @@ export default function App() {
           name: "photo.jpg",
         } as any);
 
-        const response = await fetch("http://10.31.23.247:8000/analyze", {
+        const response = await fetch("http://10.31.23.91:8000/analyze", {
           method: "POST",
           body: formData,
           headers: {
@@ -97,10 +101,10 @@ export default function App() {
         });
 
         const result = await response.json();
-        setAnalysisState({
-          status: "complete",
-          project: result.message,
-        });
+        console.log("API Response:", result); // Debug log
+        
+        setProjectSuggestions(result.message); // Set the entire message object
+        setAnalysisState({ status: "selecting" });
       }
     } catch (error) {
       console.error("Error:", error);
@@ -113,6 +117,95 @@ export default function App() {
 
   const toggleFacing = () => {
     setFacing((prev) => (prev === "back" ? "front" : "back"));
+  };
+
+  const handleStepCompletion = async (stepNumber: number) => {
+    try {
+      const response = await fetch('http://10.31.23.91:8000/step', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          projectTitle: analysisState.project?.title,
+          stepNumber: stepNumber,
+        }),
+      });
+
+      if (response.ok) {
+        setCompletedSteps(prev => new Set(prev.add(stepNumber)));
+        Alert.alert('Success', 'Step marked as complete!');
+      } else {
+        Alert.alert('Error', 'Failed to mark step as complete');
+      }
+    } catch (error) {
+      console.error('Error marking step complete:', error);
+      Alert.alert('Error', 'Failed to mark step as complete');
+    }
+  };
+
+  const handleStepClarification = async (stepNumber: number) => {
+    try {
+      const response = await fetch('http://10.31.23.91:8000/clarify-step', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          projectTitle: analysisState.project?.title,
+          stepNumber: stepNumber,
+          stepContent: analysisState.project?.steps[stepNumber - 1],
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setStepClarifications(prev => ({
+          ...prev,
+          [stepNumber]: data.clarification
+        }));
+      } else {
+        Alert.alert('Error', 'Failed to get step clarification');
+      }
+    } catch (error) {
+      console.error('Error getting clarification:', error);
+      Alert.alert('Error', 'Failed to get step clarification');
+    }
+  };
+
+  const handleProjectSelection = (project) => {
+    setSelectedProject(project);
+    setAnalysisState({
+      status: "complete",
+      project: {
+        ...project,
+        title: project.title,
+        materials: project.materials,
+        difficulty: project.difficulty,
+        timeRequired: project.timeRequired,
+        steps: project.steps,
+        tips: project.tips,
+        warnings: project.warnings
+      }
+    });
+  };
+
+  const handleBackButton = () => {
+    if (analysisState.status === "complete") {
+      // Just go back to selection view while preserving suggestions
+      setAnalysisState({ status: "selecting" });
+      setSelectedProject(null);
+      setCompletedSteps(new Set()); // Reset completed steps
+      setStepClarifications({}); // Reset clarifications
+    } else if (analysisState.status === "selecting") {
+      // Only when going back from selection to camera
+      setUri(null);
+      setAnalysisState({ status: "idle" });
+      setProjectSuggestions([]);
+      setSelectedProject(null);
+      setCompletedSteps(new Set());
+      setStepClarifications({});
+    }
   };
 
   const renderPicture = () => {
@@ -145,6 +238,51 @@ export default function App() {
   };
 
   const renderAnalysis = () => {
+    if (analysisState.status === "selecting") {
+      return (
+        <View style={styles.analysisContainer}>
+          <Text style={styles.headerText}>Choose a Project</Text>
+          <ScrollView>
+            {projectSuggestions?.similar_projects?.length > 0 && (
+              <>
+                <Text style={styles.sectionHeader}>Existing Projects</Text>
+                {projectSuggestions.similar_projects.map((project, index) => (
+                  <Pressable
+                    key={index}
+                    style={[styles.projectSuggestionCard, styles.similarProjectCard]}
+                    onPress={() => handleProjectSelection(project)}
+                  >
+                    <Text style={styles.projectTitle}>{project.title}</Text>
+                    <Text style={styles.materialsText}>
+                      Materials: {project.materials.join(", ")}
+                    </Text>
+                  </Pressable>
+                ))}
+              </>
+            )}
+
+            {projectSuggestions?.ai_projects?.length > 0 && (
+              <>
+                <Text style={styles.sectionHeader}>New Projects</Text>
+                {projectSuggestions.ai_projects.map((project, index) => (
+                  <Pressable
+                    key={index}
+                    style={[styles.projectSuggestionCard, styles.aiProjectCard]}
+                    onPress={() => handleProjectSelection(project)}
+                  >
+                    <Text style={styles.projectTitle}>{project.title}</Text>
+                    <Text style={styles.materialsText}>
+                      Materials: {project.materials.join(", ")}
+                    </Text>
+                  </Pressable>
+                ))}
+              </>
+            )}
+          </ScrollView>
+        </View>
+      );
+    }
+
     return (
       <View style={styles.analysisContainer}>
         {analysisState.status === "loading" ? (
@@ -207,6 +345,35 @@ export default function App() {
                     <View key={index} style={styles.card}>
                       <Text style={styles.stepNumber}>Step {index + 1}</Text>
                       <Text style={styles.stepText}>{step}</Text>
+                      
+                      {/* Show clarification if available */}
+                      {stepClarifications[index + 1] && (
+                        <View style={styles.clarificationContainer}>
+                          <Text style={styles.clarificationTitle}>Detailed Instructions:</Text>
+                          {stepClarifications[index + 1].detailed_steps.map((substep: string, i: number) => (
+                            <Text key={i} style={styles.substepText}>• {substep}</Text>
+                          ))}
+                          
+                          <Text style={styles.clarificationTitle}>Helpful Tips:</Text>
+                          {stepClarifications[index + 1].tips.map((tip: string, i: number) => (
+                            <Text key={i} style={styles.tipText}>• {tip}</Text>
+                          ))}
+                          
+                          <Text style={styles.clarificationTitle}>Watch Out For:</Text>
+                          {stepClarifications[index + 1].common_mistakes.map((mistake: string, i: number) => (
+                            <Text key={i} style={styles.mistakeText}>• {mistake}</Text>
+                          ))}
+                        </View>
+                      )}
+
+                      {/* Need Help button */}
+                      <Pressable
+                        style={styles.helpButton}
+                        onPress={() => handleStepClarification(index + 1)}
+                      >
+                        <Text style={styles.helpButtonText}>Need Help?</Text>
+                      </Pressable>
+
                       {analysisState.project?.warnings &&
                         analysisState.project.warnings[index + 1] && (
                           <View style={styles.warningContainer}>
@@ -215,6 +382,18 @@ export default function App() {
                             </Text>
                           </View>
                         )}
+                      <Pressable
+                        style={[
+                          styles.completeButton,
+                          completedSteps.has(index + 1) && styles.completeButtonDisabled
+                        ]}
+                        onPress={() => handleStepCompletion(index + 1)}
+                        disabled={completedSteps.has(index + 1)}
+                      >
+                        <Text style={styles.completeButtonText}>
+                          {completedSteps.has(index + 1) ? 'Completed!' : 'Mark Complete'}
+                        </Text>
+                      </Pressable>
                       <Text style={styles.pageIndicator}>
                         {index + 2}/
                         {(analysisState.project?.steps.length || 0) + 2}
@@ -240,10 +419,7 @@ export default function App() {
             </GestureScrollView>
             <Pressable
               style={styles.backButtonTop}
-              onPress={() => {
-                setUri(null);
-                setAnalysisState({ status: "idle" });
-              }}
+              onPress={handleBackButton}
             >
               <Ionicons name="arrow-back" size={24} color="white" />
             </Pressable>
@@ -400,8 +576,8 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 16,
     lineHeight: 24,
-    marginLeft: 16,
-    marginBottom: 8,
+    textAlign: "left",
+    padding: 16,
   },
   errorText: {
     color: "#ff6b6b",
@@ -524,5 +700,108 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     alignItems: "center",
     justifyContent: "center",
+  },
+  completeButton: {
+    backgroundColor: '#4CAF50',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginTop: 20,
+    marginBottom: 40,
+  },
+  completeButtonDisabled: {
+    backgroundColor: '#666',
+    opacity: 0.7,
+  },
+  completeButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  helpButton: {
+    backgroundColor: '#007AFF',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  helpButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  clarificationContainer: {
+    backgroundColor: '#2A2A2A',
+    padding: 16,
+    borderRadius: 8,
+    marginTop: 16,
+    width: '100%',
+  },
+  clarificationTitle: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginTop: 12,
+    marginBottom: 8,
+  },
+  substepText: {
+    color: '#FFF',
+    fontSize: 14,
+    marginBottom: 6,
+    paddingLeft: 8,
+  },
+  tipText: {
+    color: '#4CAF50',
+    fontSize: 14,
+    marginBottom: 6,
+    paddingLeft: 8,
+  },
+  mistakeText: {
+    color: '#FF6B6B',
+    fontSize: 14,
+    marginBottom: 6,
+    paddingLeft: 8,
+  },
+  projectSuggestionCard: {
+    backgroundColor: '#2A2A2A',
+    padding: 20,
+    margin: 10,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#444',
+  },
+  similarityScore: {
+    color: '#4CAF50',
+    fontSize: 16,
+    marginTop: 8,
+  },
+  materialsText: {
+    color: '#fff',
+    fontSize: 14,
+    marginTop: 8,
+  },
+  sectionHeader: {
+    color: '#fff',
+    fontSize: 20,
+    fontWeight: 'bold',
+    padding: 16,
+    paddingBottom: 8,
+  },
+  similarProjectCard: {
+    borderColor: '#4CAF50',
+    borderWidth: 2,
+  },
+  aiProjectCard: {
+    borderColor: '#007AFF',
+    borderWidth: 2,
+  },
+  sourceText: {
+    color: '#888',
+    fontSize: 12,
+    marginTop: 8,
+    fontStyle: 'italic',
   },
 });

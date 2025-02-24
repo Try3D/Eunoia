@@ -75,27 +75,7 @@ async def analyze_image(file: UploadFile = File(...)):
         items_list = items_response.text.strip()
         print(f"Items found: {items_list}")
 
-        # Find similar projects based on materials
-        items_array = [item.strip() for item in items_list.split(',')]
-        similar_matches = find_similar_materials(items_array)
-        
-        # Format similar projects with similarity scores
-        similar_projects = [
-            {
-                **match[0],
-                "similarity": float(match[1]),  # Convert numpy float to Python float
-                "title": match[0].get("title", "Untitled Project"),
-                "materials": match[0].get("materials_required", []),
-                "steps": match[0].get("steps", []),
-                "tips": match[0].get("tips", []),
-                "difficulty": match[0].get("difficulty", "Medium"),
-                "timeRequired": match[0].get("time_required", "Unknown"),
-                "warnings": {}
-            }
-            for match in similar_matches
-        ]
-
-        # Generate AI project
+        # Session 2: Generate DIY project based on items
         project_response = client.models.generate_content(
             model="gemini-2.0-flash-exp",
             contents=[
@@ -107,27 +87,68 @@ async def analyze_image(file: UploadFile = File(...)):
                 '  "difficulty": "Easy/Medium/Hard",\n'
                 '  "timeRequired": "estimated time",\n'
                 '  "steps": ["step1", "step2", "step3"],\n'
-                '  "tips": ["tip1", "tip2"],\n'
-                '  "warnings": {"1": "warning in step 1 (if any)", "2": "warning in step 2 (if any)", "3": "warning in step 3 (if any)"}\n'
+                '  "tips": ["tip1", "tip2"],\n'  # Added comma here
+                '  "warnings": {"1": "warning in step 1 (if any)", "2": "warning in step 2 (if any)", "3": "warning in step 3 (if any)"}\n'  # Fixed warnings format
                 "}"
             ],
         )
 
-        # Parse the AI response
-        ai_project = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
-
+        # Parse the response text as JSON
+        project_data = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
+        print(project_data["steps"])
         return {
             "status": "success",
-            "message": {
-                "similar_projects": similar_projects,
-                "ai_projects": [ai_project]
-            }
+            "message": project_data
         }
 
     except Exception as e:
         print(f"Error processing image: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+@app.get("/leaderboard")
+def leaderboard():
+    return [
+        {"rank": 1, "name": "Emma", "diy_completed": 95, "days_active": 100},
+        {"rank": 2, "name": "Liam", "diy_completed": 85, "days_active": 90},
+        {"rank": 3, "name": "Ava", "diy_completed": 75, "days_active": 80},
+        {"rank": 4, "name": "Noah", "diy_completed": 65, "days_active": 75},
+        {"rank": 5, "name": "Olivia", "diy_completed": 60, "days_active": 70},
+        {"rank": 6, "name": "Lucas", "diy_completed": 50, "days_active": 65},
+        {"rank": 7, "name": "Mia", "diy_completed": 40, "days_active": 60},
+        {"rank": 8, "name": "Ethan", "diy_completed": 30, "days_active": 50},
+        {"rank": 9, "name": "Sophia", "diy_completed": 20, "days_active": 45},
+        {"rank": 10, "name": "Mason", "diy_completed": 15, "days_active": 30},
+    ]
+
+# Mock data for projects
+PROJECTS = [
+    {"id": 1, "title": "Mountain Landscape", "progress": 75, "dueDate": "2025-03-01"},
+    {"id": 2, "title": "City Streets", "progress": 30, "dueDate": "2025-03-15"},
+    {"id": 3, "title": "Portrait Series", "progress": 90, "dueDate": "2025-02-28"},
+]
+
+# Mock data for achievements
+ACHIEVEMENTS = [
+    {
+        "id": 1,
+        "title": "First Upload",
+        "icon": "🎯",
+        "description": "Posted your first project"
+    },
+    {
+        "id": 2,
+        "title": "Rising Star",
+        "icon": "⭐",
+        "description": "100 likes received"
+    },
+    {
+        "id": 3,
+        "title": "Community Leader",
+        "icon": "👑",
+        "description": "Top contributor this week"
+    }
+]
 
 # Add these new endpoints
 @app.get("/projects")
