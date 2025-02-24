@@ -13,7 +13,7 @@ export default function TabTwoScreen() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.29.106:8000", {});
+        const response = await fetch("http://10.31.23.91:8000", {});
         const jsonData = await response.json();
         setData(jsonData);
       } catch (err) {
@@ -74,4 +74,3 @@ const styles = StyleSheet.create({
     padding: 16,
   },
 });
-

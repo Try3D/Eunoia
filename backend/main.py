@@ -14,6 +14,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8081",
         "http://localhost:19006",
+        "http://10.31.22.178",
+        "10.31.22.178:60676",
     ],  # Add Expo web port
     allow_credentials=True,
     allow_methods=["*"],
