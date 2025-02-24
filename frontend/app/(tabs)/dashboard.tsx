@@ -34,34 +34,6 @@ const colors = {
   },
 };
 
-// Mock data remains the same as before
-const projects = [
-  { id: 1, title: "Mountain Landscape", progress: 75, dueDate: "2025-03-01" },
-  { id: 2, title: "City Streets", progress: 30, dueDate: "2025-03-15" },
-  { id: 3, title: "Portrait Series", progress: 90, dueDate: "2025-02-28" },
-];
-
-const achievements = [
-  {
-    id: 1,
-    title: "First Upload",
-    icon: "🎯",
-    description: "Posted your first project",
-  },
-  {
-    id: 2,
-    title: "Rising Star",
-    icon: "⭐",
-    description: "100 likes received",
-  },
-  {
-    id: 3,
-    title: "Community Leader",
-    icon: "👑",
-    description: "Top contributor this week",
-  },
-];
-
 type LeaderboardEntry = {
   rank: number;
   name: string;
@@ -70,23 +42,36 @@ type LeaderboardEntry = {
 };
 
 export default function DashboardScreen() {
+  const [projects, setProjects] = useState([]);
+  const [achievements, setAchievements] = useState([]);
   const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>([]);
   const colorScheme = useColorScheme();
   const theme = colors[colorScheme ?? "light"];
   const styles = makeStyles(theme);
 
   useEffect(() => {
-    const fetchLeaderboard = async () => {
+    const fetchDashboardData = async () => {
       try {
-        const response = await fetch('http://10.31.23.247:8000/leaderboard');
-        const data = await response.json();
-        setLeaderboardData(data);
+        // Fetch all data in parallel
+        const [projectsRes, achievementsRes, leaderboardRes] = await Promise.all([
+          fetch('http://10.31.23.91:8000/projects'),
+          fetch('http://10.31.23.91:8000/achievements'),
+          fetch('http://10.31.23.91:8000/leaderboard')
+        ]);
+
+        const projectsData = await projectsRes.json();
+        const achievementsData = await achievementsRes.json();
+        const leaderboardData = await leaderboardRes.json();
+
+        setProjects(projectsData);
+        setAchievements(achievementsData);
+        setLeaderboardData(leaderboardData);
       } catch (error) {
-        console.error('Error fetching leaderboard:', error);
+        console.error('Error fetching dashboard data:', error);
       }
     };
 
-    fetchLeaderboard();
+    fetchDashboardData();
   }, []);
 
   return (
@@ -99,7 +84,7 @@ export default function DashboardScreen() {
 
         {/* Greeting Section */}
         <View style={styles.section}>
-          <Text style={styles.greeting}>Hey User! 👋</Text>
+          <Text style={styles.greeting}>Hello User! 👋</Text>
         </View>
 
         {/* Ongoing Projects Section */}
