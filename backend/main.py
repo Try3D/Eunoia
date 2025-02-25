@@ -1,56 +1,26 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from google import genai
 from google.genai import types
-import json  # Add this import
-import base64
-import io
-import pandas as pd
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
+import chromadb
+from sqlalchemy.orm import Session
+
+# Import database modules
+from database import get_db
+from models import Achievement, User, Project, UserAchievement
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
-
-with open(
-    "../instructable/combined_data_with_embeddings.json", "r", encoding="utf-8"
-) as f:
-    combined_data = json.load(f)
-
-
-def find_similar_materials(user_materials, top_n=3):
-    user_text = ", ".join(user_materials)
-    user_embedding = model.encode(user_text).reshape(1, -1)
-
-    similarities = [
-        (
-            item,
-            cosine_similarity(
-                user_embedding, np.array(item["embedding"]).reshape(1, -1)
-            )[0][0],
-        )
-        for item in combined_data
-        if "embedding" in item
-    ]
-
-    similarities.sort(key=lambda x: x[1], reverse=True)
-    return similarities[:top_n]
-
-
-user_input_materials = ["wood", "nails", "glue"]
-top_matches = find_similar_materials(user_input_materials)
-
-for i, (match, score) in enumerate(top_matches, 1):
-    print(f"\nMatch {i}:")
-    print(f"Materials Required: {match['materials_required']}")
-    print(f"Steps: {match.get('steps', 'No steps provided')}")
-    print(f"Similarity Score: {score:.4f}")
-
 
 app = FastAPI()
 
 client = genai.Client(api_key="AIzaSyDhjOSqI3j4rB1AzbgwqS6U3EGSoNvWpPs")
+
+# Initialize ChromaDB client
+chroma_client = chromadb.PersistentClient(path="../scripts/chroma_db")
+collection = chroma_client.get_or_create_collection(name="materials_collection")
 
 app.add_middleware(
     CORSMiddleware,
@@ -60,176 +30,62 @@ app.add_middleware(
         "http://10.31.22.178",
         "http://10.31.23.247:8000",
         "http://10.31.23.247:8001",
-    ],  # Add Expo web port
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-ACHIEVEMENTS = [
-    {
-        "id": 1,
-        "title": "First Timer",
-        "description": "Complete your first DIY project",
-        "icon": "🌟",
-        "xp": 100,
-        "unlocked": True,
-        "date_unlocked": "2024-01-15",
-        "progress": 100,
-        "total_required": 1,
-    },
-    {
-        "id": 2,
-        "title": "Weekend Warrior",
-        "description": "Complete 3 projects in one weekend",
-        "icon": "⚡",
-        "xp": 250,
-        "unlocked": False,
-        "progress": 1,
-        "total_required": 3,
-    },
-    {
-        "id": 3,
-        "title": "Tool Master",
-        "description": "Use 10 different tools",
-        "icon": "🔧",
-        "xp": 300,
-        "unlocked": False,
-        "progress": 6,
-        "total_required": 10,
-    },
-    {
-        "id": 4,
-        "title": "Eco Warrior",
-        "description": "Complete 5 upcycling projects",
-        "icon": "♻️",
-        "xp": 400,
-        "unlocked": False,
-        "progress": 2,
-        "total_required": 5,
-    },
-    {
-        "id": 5,
-        "title": "Safety First",
-        "description": "Complete the safety tutorial",
-        "icon": "🛡️",
-        "xp": 50,
-        "unlocked": True,
-        "date_unlocked": "2024-01-10",
-        "progress": 1,
-        "total_required": 1,
-    },
-    {
-        "id": 6,
-        "title": "Community Helper",
-        "description": "Help 3 other makers with their projects",
-        "icon": "🤝",
-        "xp": 200,
-        "unlocked": False,
-        "progress": 1,
-        "total_required": 3,
-    },
-    {
-        "id": 7,
-        "title": "Perfect Streak",
-        "description": "Complete 5 projects without any mistakes",
-        "icon": "🎯",
-        "xp": 500,
-        "unlocked": False,
-        "progress": 3,
-        "total_required": 5,
-    },
-    {
-        "id": 8,
-        "title": "Material Explorer",
-        "description": "Use 15 different materials",
-        "icon": "🧪",
-        "xp": 350,
-        "unlocked": False,
-        "progress": 8,
-        "total_required": 15,
-    },
-]
 
-PROJECTS = [
-    {
-        "id": 1,
-        "title": "Wooden Bookshelf",
-        "progress": 75,
-        "dueDate": "2024-03-15",
-        "materials": ["wood", "screws", "wood stain", "measuring tape"],
-        "status": "in_progress",
-        "thumbnail": "bookshelf.jpg",
-        "lastModified": "2024-02-01",
-    },
-    {
-        "id": 2,
-        "title": "Herb Garden Box",
-        "progress": 30,
-        "dueDate": "2024-03-20",
-        "materials": ["cedar planks", "soil", "seeds", "drill"],
-        "status": "planning",
-        "thumbnail": "garden.jpg",
-        "lastModified": "2024-02-03",
-    },
-    {
-        "id": 3,
-        "title": "Wall Mounted Desk",
-        "progress": 90,
-        "dueDate": "2024-02-28",
-        "materials": ["plywood", "brackets", "screws", "wall anchors"],
-        "status": "nearly_complete",
-        "thumbnail": "desk.jpg",
-        "lastModified": "2024-02-05",
-    },
-]
+def find_similar_materials(user_materials, top_n=2):
+    """Find similar materials using ChromaDB"""
+    user_text = ", ".join(user_materials)
 
-LEADERBOARD = [
-    {
-        "rank": 1,
-        "username": "DIYMaster",
-        "projects_completed": 47,
-        "total_xp": 12500,
-        "streak_days": 15,
-        "avatar": "avatar1.jpg",
-    },
-    {
-        "rank": 2,
-        "username": "CraftGenius",
-        "projects_completed": 42,
-        "total_xp": 11200,
-        "streak_days": 12,
-        "avatar": "avatar2.jpg",
-    },
-    {
-        "rank": 3,
-        "username": "MakerPro",
-        "projects_completed": 38,
-        "total_xp": 10800,
-        "streak_days": 8,
-        "avatar": "avatar3.jpg",
-    },
-    {
-        "rank": 4,
-        "username": "CreativeCrafter",
-        "projects_completed": 35,
-        "total_xp": 9500,
-        "streak_days": 6,
-        "avatar": "avatar4.jpg",
-    },
-    {
-        "rank": 5,
-        "username": "BuildItBetter",
-        "projects_completed": 31,
-        "total_xp": 8900,
-        "streak_days": 4,
-        "avatar": "avatar5.jpg",
-    },
-]
+    # Query ChromaDB for similar materials
+    results = collection.query(
+        query_texts=[user_text],
+        n_results=top_n,
+        include=["metadatas", "documents", "distances"],
+    )
+
+    similar_projects = []
+
+    # Process results from ChromaDB
+    if results and "metadatas" in results and len(results["metadatas"]) > 0:
+        for i, metadata in enumerate(results["metadatas"][0]):
+            # ChromaDB returns distance, convert to similarity score (1 - distance)
+            similarity = results["distances"][0][i]
+            similarity_score = 1 - similarity if similarity <= 1 else 0
+
+            # Decode metadata (convert stored JSON strings back to lists)
+            decoded_metadata = {
+                k: json.loads(v)
+                if isinstance(v, str) and (v.startswith("[") or v.startswith("{"))
+                else v
+                for k, v in metadata.items()
+            }
+
+            # Extract relevant fields from metadata
+            project_data = {
+                "id": results["ids"][0][i],
+                "title": decoded_metadata.get("title", "Untitled Project"),
+                "materials_required": decoded_metadata.get("materials_required", []),
+                "steps": decoded_metadata.get("steps", []),
+                "tips": decoded_metadata.get("tips", []),
+                "difficulty": decoded_metadata.get("difficulty", "Medium"),
+                "time_required": decoded_metadata.get("time_required", "Unknown"),
+            }
+
+            similar_projects.append((project_data, similarity_score))
+
+    # Sort by similarity score (higher is better)
+    similar_projects.sort(key=lambda x: x[1], reverse=True)
+
+    return similar_projects
 
 
 @app.post("/analyze")
-async def analyze_image(file: UploadFile = File(...)):
+async def analyze_image(file: UploadFile = File(...), db: Session = Depends(get_db)):
     try:
         print("Received file upload request")
         contents = await file.read()
@@ -254,7 +110,7 @@ async def analyze_image(file: UploadFile = File(...)):
         similar_projects = [
             {
                 **match[0],
-                "similarity": float(match[1]),  # Convert numpy float to Python float
+                "similarity": float(match[1]),
                 "title": match[0].get("title", "Untitled Project"),
                 "materials": match[0].get("materials_required", []),
                 "steps": match[0].get("steps", []),
@@ -285,7 +141,26 @@ async def analyze_image(file: UploadFile = File(...)):
         )
 
         # Parse the AI response
-        ai_project = json.loads(project_response.text.lstrip("```.json").rstrip("```"))
+        try:
+            response_text = project_response.text
+            # Strip markdown code blocks if present
+            if "```" in response_text:
+                response_text = response_text.split("```")[1]
+                if response_text.startswith("json\n"):
+                    response_text = response_text[5:]
+
+            ai_project = json.loads(response_text.strip())
+        except json.JSONDecodeError:
+            # Fallback in case of malformed JSON
+            ai_project = {
+                "title": "Custom Project",
+                "materials": items_array,
+                "difficulty": "Medium",
+                "timeRequired": "30 minutes",
+                "steps": ["Step 1: Gather materials", "Step 2: Create your project"],
+                "tips": ["Be creative"],
+                "warnings": {},
+            }
 
         return {
             "status": "success",
@@ -300,15 +175,73 @@ async def analyze_image(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# Add these new endpoints
+@app.post("/step")
+async def complete_step(request: dict, db: Session = Depends(get_db)):
+    """Mark a step as complete and update progress"""
+    try:
+        project = (
+            db.query(Project)
+            .filter(
+                Project.title == request["projectTitle"],
+                Project.user_id == 1,  # Hardcoded for now
+            )
+            .first()
+        )
+
+        if not project:
+            raise HTTPException(status_code=404, detail="Project not found")
+
+        # Add step to completed steps if not already there
+        completed_steps = project.completed_steps or []
+        if request["stepNumber"] not in completed_steps:
+            completed_steps.append(request["stepNumber"])
+            project.completed_steps = completed_steps
+
+        # Update progress
+        total_steps = len(project.steps)
+        project.progress = (len(completed_steps) / total_steps) * 100
+
+        db.commit()
+        return {"success": True, "progress": project.progress}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.get("/projects")
-def get_projects():
-    return PROJECTS
+def get_projects(db: Session = Depends(get_db)):
+    return []
 
 
 @app.get("/achievements")
-def get_achievements():
-    return ACHIEVEMENTS
+def get_achievements(user_id: int = 1, db: Session = Depends(get_db)):
+    """Retrieve achievements for a user, defaults to user_id 1"""
+    # Join UserAchievement with Achievement to get all achievement data
+    user_achievements = (
+        db.query(Achievement, UserAchievement)
+        .join(UserAchievement, Achievement.id == UserAchievement.achievement_id)
+        .filter(UserAchievement.user_id == user_id)
+        .all()
+    )
+
+    result = []
+    for achievement, user_achievement in user_achievements:
+        result.append(
+            {
+                "id": achievement.id,
+                "title": achievement.title,
+                "description": achievement.description,
+                "icon": achievement.icon,
+                "xp": achievement.xp,
+                "unlocked": user_achievement.unlocked,
+                "date_unlocked": user_achievement.date_unlocked.isoformat()
+                if user_achievement.date_unlocked
+                else None,
+                "progress": user_achievement.progress,
+                "total_required": achievement.total_required,
+            }
+        )
+
+    return result
 
 
 @app.post("/clarify-step")
@@ -389,9 +322,66 @@ async def clarify_step(request: dict):
 
 
 @app.get("/leaderboard")
-def get_leaderboard():
-    """Return the current leaderboard standings"""
-    return LEADERBOARD
+def get_leaderboard(db: Session = Depends(get_db)):
+    """Return the current leaderboard standings from database"""
+    users = db.query(User).order_by(User.total_xp.desc()).all()
+
+    result = []
+    for i, user in enumerate(users):
+        result.append(
+            {
+                "rank": i + 1,
+                "username": user.username,
+                "projects_completed": user.projects_completed,
+                "total_xp": user.total_xp,
+                "streak_days": user.streak_days,
+                "avatar": user.avatar,
+            }
+        )
+
+    print(result)
+    return result
+
+
+@app.post("/generate/{category}")
+async def generate_project(category: str):
+    """Generate project ideas for a specific category"""
+    try:
+        # Create a category-specific prompt
+        prompt = f"""Generate 3 DIY project ideas for the {category} category. 
+        Return them in this exact JSON format (no markdown):
+        {{
+          "similar_projects": [],
+          "ai_projects": [
+            {{
+              "title": "Project Name",
+              "materials": ["item1", "item2", "item3"],
+              "difficulty": "Easy/Medium/Hard",
+              "timeRequired": "estimated time",
+              "steps": ["step1", "step2", "step3"],
+              "tips": ["tip1", "tip2"],
+              "warnings": {{"1": "warning for step 1", "2": "warning for step 2"}}
+            }}
+          ]
+        }}"""
+
+        response = client.models.generate_content(
+            model="gemini-2.0-flash-exp", contents=[prompt]
+        )
+
+        # Clean and parse the response
+        cleaned_response = response.text.strip()
+        if "```" in cleaned_response:
+            cleaned_response = cleaned_response.split("```")[1]
+            if cleaned_response.startswith("json\n"):
+                cleaned_response = cleaned_response[5:]
+
+        result = json.loads(cleaned_response)
+        print(result)
+        return {"status": "success", "message": result}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 if __name__ == "__main__":

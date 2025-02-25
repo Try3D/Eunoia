@@ -32,11 +32,14 @@ const colors = {
   },
 };
 
+// Update the LeaderboardEntry type to match backend response
 type LeaderboardEntry = {
   rank: number;
-  name: string;
-  diy_completed: number;
-  days_active: number;
+  username: string;
+  projects_completed: number;
+  total_xp: number;
+  streak_days: number;
+  avatar: string;
 };
 
 export default function DashboardScreen() {
@@ -135,9 +138,9 @@ export default function DashboardScreen() {
             <View key={user.rank} style={styles.leaderboardRow}>
               <Text style={styles.rank}>#{user.rank}</Text>
               <View style={styles.userInfo}>
-                <Text style={styles.username}>{user.name}</Text>
+                <Text style={styles.username}>{user.username}</Text>
                 <Text style={styles.stats}>
-                  {user.diy_completed} DIYs • {user.days_active} days active
+                  {user.projects_completed} Projects • {user.total_xp} XP • {user.streak_days} day streak
                 </Text>
               </View>
             </View>

@@ -105,6 +105,13 @@ const categories = [
 // Create makeStyles function
 const makeStyles = (theme: typeof colors.light) =>
   StyleSheet.create({
+    projectTitle: {
+      color: "white",
+      fontSize: 24,
+      fontWeight: "bold",
+      marginBottom: 20,
+      textAlign: "center",
+    },
     container: {
       flex: 1,
       backgroundColor: theme.background,
@@ -144,6 +151,12 @@ const makeStyles = (theme: typeof colors.light) =>
       elevation: 3,
       margin: "2%", // Use percentage margin for consistent spacing
     },
+  errorText: {
+    color: "#ff6b6b",
+    fontSize: 16,
+    textAlign: "center",
+    padding: 16,
+  },
     card: {
       width: CARD_WIDTH,
       backgroundColor: "#222",
@@ -556,13 +569,6 @@ const styles = StyleSheet.create({
     textAlign: "left",
     padding: 16,
   },
-  projectTitle: {
-    color: "white",
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 20,
-    textAlign: "center",
-  },
   sectionTitle: {
     color: "white",
     fontSize: 18,
@@ -576,12 +582,6 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginLeft: 16,
     marginBottom: 8,
-  },
-  errorText: {
-    color: "#ff6b6b",
-    fontSize: 16,
-    textAlign: "center",
-    padding: 16,
   },
   stepNumber: {
     color: "#fff",
