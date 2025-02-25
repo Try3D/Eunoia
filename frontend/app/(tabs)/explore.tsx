@@ -36,7 +36,7 @@ Animated.loop(
     duration: 1000,
     easing: Easing.linear,
     useNativeDriver: true,
-  })
+  }),
 ).start();
 
 const spin = spinValue.interpolate({
@@ -257,7 +257,7 @@ export default function TabTwoScreen() {
       setProjectState({ status: "loading" });
 
       const response = await fetch(
-        `http://10.31.23.247:8000/generate/${category
+        `http://10.57.140.132:8000/generate/${category
           .toLowerCase()
           .replace(/ /g, "-")}`,
         {
@@ -265,7 +265,7 @@ export default function TabTwoScreen() {
           headers: {
             Accept: "application/json",
           },
-        }
+        },
       );
 
       const result = await response.json();
@@ -335,7 +335,7 @@ export default function TabTwoScreen() {
                           <Text key={index} style={styles.materialItem}>
                             • {material}
                           </Text>
-                        )
+                        ),
                       )}
                     </View>
                     <Text style={styles.pageIndicator}>

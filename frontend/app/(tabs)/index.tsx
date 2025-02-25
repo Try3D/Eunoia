@@ -44,7 +44,7 @@ Animated.loop(
     duration: 1000,
     easing: Easing.linear,
     useNativeDriver: true,
-  })
+  }),
 ).start();
 
 const spin = spinValue.interpolate({
@@ -61,9 +61,12 @@ export default function App() {
     status: "idle",
   });
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
-  const [stepClarifications, setStepClarifications] = useState<{[key: number]: any}>({});
+  const [stepClarifications, setStepClarifications] = useState<{
+    [key: number]: any;
+  }>({});
   const [projectSuggestions, setProjectSuggestions] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [loadingClarification, setLoadingClarification] = useState<number | null>(null);
 
   useEffect(() => {
     requestPermission();
@@ -92,7 +95,7 @@ export default function App() {
           name: "photo.jpg",
         } as any);
 
-        const response = await fetch("http://10.31.23.91:8000/analyze", {
+        const response = await fetch("http://10.57.140.132:8000/analyze", {
           method: "POST",
           body: formData,
           headers: {
@@ -102,7 +105,7 @@ export default function App() {
 
         const result = await response.json();
         console.log("API Response:", result); // Debug log
-        
+
         setProjectSuggestions(result.message); // Set the entire message object
         setAnalysisState({ status: "selecting" });
       }
@@ -121,10 +124,10 @@ export default function App() {
 
   const handleStepCompletion = async (stepNumber: number) => {
     try {
-      const response = await fetch('http://10.31.23.91:8000/step', {
-        method: 'POST',
+      const response = await fetch("http://10.57.140.132:8000/step", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           projectTitle: analysisState.project?.title,
@@ -133,23 +136,24 @@ export default function App() {
       });
 
       if (response.ok) {
-        setCompletedSteps(prev => new Set(prev.add(stepNumber)));
-        Alert.alert('Success', 'Step marked as complete!');
+        setCompletedSteps((prev) => new Set(prev.add(stepNumber)));
+        Alert.alert("Success", "Step marked as complete!");
       } else {
-        Alert.alert('Error', 'Failed to mark step as complete');
+        Alert.alert("Error", "Failed to mark step as complete");
       }
     } catch (error) {
-      console.error('Error marking step complete:', error);
-      Alert.alert('Error', 'Failed to mark step as complete');
+      console.error("Error marking step complete:", error);
+      Alert.alert("Error", "Failed to mark step as complete");
     }
   };
 
   const handleStepClarification = async (stepNumber: number) => {
     try {
-      const response = await fetch('http://10.31.23.91:8000/clarify-step', {
-        method: 'POST',
+      setLoadingClarification(stepNumber);
+      const response = await fetch("http://10.57.140.132:8000/clarify-step", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           projectTitle: analysisState.project?.title,
@@ -160,16 +164,18 @@ export default function App() {
 
       if (response.ok) {
         const data = await response.json();
-        setStepClarifications(prev => ({
+        setStepClarifications((prev) => ({
           ...prev,
-          [stepNumber]: data.clarification
+          [stepNumber]: data.clarification,
         }));
       } else {
-        Alert.alert('Error', 'Failed to get step clarification');
+        Alert.alert("Error", "Failed to get step clarification");
       }
     } catch (error) {
-      console.error('Error getting clarification:', error);
-      Alert.alert('Error', 'Failed to get step clarification');
+      console.error("Error getting clarification:", error);
+      Alert.alert("Error", "Failed to get step clarification");
+    } finally {
+      setLoadingClarification(null);
     }
   };
 
@@ -185,8 +191,8 @@ export default function App() {
         timeRequired: project.timeRequired,
         steps: project.steps,
         tips: project.tips,
-        warnings: project.warnings
-      }
+        warnings: project.warnings,
+      },
     });
   };
 
@@ -249,7 +255,10 @@ export default function App() {
                 {projectSuggestions.similar_projects.map((project, index) => (
                   <Pressable
                     key={index}
-                    style={[styles.projectSuggestionCard, styles.similarProjectCard]}
+                    style={[
+                      styles.projectSuggestionCard,
+                      styles.similarProjectCard,
+                    ]}
                     onPress={() => handleProjectSelection(project)}
                   >
                     <Text style={styles.projectTitle}>{project.title}</Text>
@@ -332,7 +341,7 @@ export default function App() {
                           <Text key={index} style={styles.materialItem}>
                             • {material}
                           </Text>
-                        )
+                        ),
                       )}
                     </View>
                     <Text style={styles.pageIndicator}>
@@ -345,82 +354,132 @@ export default function App() {
                     <View key={index} style={styles.card}>
                       <Text style={styles.stepNumber}>Step {index + 1}</Text>
                       <Text style={styles.stepText}>{step}</Text>
+
+                      {/* Scrollable container for clarification content */}
+                      <View style={styles.cardContentContainer}>
+                        <ScrollView 
+                          style={styles.cardScrollContent}
+                          showsVerticalScrollIndicator={true}
+                        >
+                          {/* Show clarification if available */}
+                          {stepClarifications[index + 1] && (
+                            <View style={styles.clarificationContainer}>
+                              <Text style={styles.clarificationTitle}>
+                                Detailed Instructions:
+                              </Text>
+                              {stepClarifications[index + 1].detailed_steps.map(
+                                (substep: string, i: number) => (
+                                  <Text key={i} style={styles.substepText}>
+                                    • {substep}
+                                  </Text>
+                                ),
+                              )}
+
+                              <Text style={styles.clarificationTitle}>
+                                Helpful Tips:
+                              </Text>
+                              {stepClarifications[index + 1].tips.map(
+                                (tip: string, i: number) => (
+                                  <Text key={i} style={styles.tipText}>
+                                    • {tip}
+                                  </Text>
+                                ),
+                              )}
+
+                              <Text style={styles.clarificationTitle}>
+                                Watch Out For:
+                              </Text>
+                              {stepClarifications[index + 1].common_mistakes.map(
+                                (mistake: string, i: number) => (
+                                  <Text key={i} style={styles.mistakeText}>
+                                    • {mistake}
+                                  </Text>
+                                ),
+                              )}
+                            </View>
+                          )}
+
+                          {analysisState.project?.warnings &&
+                            analysisState.project.warnings[index + 1] && (
+                              <View style={styles.warningContainer}>
+                                <Text style={styles.warningText}>
+                                  ⚠️ {analysisState.project.warnings[index + 1]}
+                                </Text>
+                              </View>
+                            )}
+                        </ScrollView>
+                      </View>
+
+                      {/* Button container fixed at the bottom */}
+                      <View style={styles.cardButtonContainer}>
+                        {/* Need Help button */}
+                        <Pressable
+                          style={[
+                            styles.helpButton,
+                            loadingClarification === index + 1 && styles.helpButtonLoading
+                          ]}
+                          onPress={() => handleStepClarification(index + 1)}
+                          disabled={loadingClarification === index + 1}
+                        >
+                          {loadingClarification === index + 1 ? (
+                            <View style={styles.helpButtonLoadingContent}>
+                              <Animated.View style={[styles.smallLoaderRing, { transform: [{ rotate: spin }] }]}>
+                                <Ionicons name="hammer" size={16} color="white" />
+                              </Animated.View>
+                              <Text style={styles.helpButtonText}>Generating...</Text>
+                            </View>
+                          ) : (
+                            <Text style={styles.helpButtonText}>Need Help?</Text>
+                          )}
+                        </Pressable>
+
+                        <Pressable
+                          style={[
+                            styles.completeButton,
+                            completedSteps.has(index + 1) &&
+                              styles.completeButtonDisabled,
+                          ]}
+                          onPress={() => handleStepCompletion(index + 1)}
+                          disabled={completedSteps.has(index + 1)}
+                        >
+                          <Text style={styles.completeButtonText}>
+                            {completedSteps.has(index + 1)
+                              ? "Completed!"
+                              : "Mark Complete"}
+                          </Text>
+                        </Pressable>
+                      </View>
                       
-                      {/* Show clarification if available */}
-                      {stepClarifications[index + 1] && (
-                        <View style={styles.clarificationContainer}>
-                          <Text style={styles.clarificationTitle}>Detailed Instructions:</Text>
-                          {stepClarifications[index + 1].detailed_steps.map((substep: string, i: number) => (
-                            <Text key={i} style={styles.substepText}>• {substep}</Text>
-                          ))}
-                          
-                          <Text style={styles.clarificationTitle}>Helpful Tips:</Text>
-                          {stepClarifications[index + 1].tips.map((tip: string, i: number) => (
-                            <Text key={i} style={styles.tipText}>• {tip}</Text>
-                          ))}
-                          
-                          <Text style={styles.clarificationTitle}>Watch Out For:</Text>
-                          {stepClarifications[index + 1].common_mistakes.map((mistake: string, i: number) => (
-                            <Text key={i} style={styles.mistakeText}>• {mistake}</Text>
-                          ))}
-                        </View>
-                      )}
-
-                      {/* Need Help button */}
-                      <Pressable
-                        style={styles.helpButton}
-                        onPress={() => handleStepClarification(index + 1)}
-                      >
-                        <Text style={styles.helpButtonText}>Need Help?</Text>
-                      </Pressable>
-
-                      {analysisState.project?.warnings &&
-                        analysisState.project.warnings[index + 1] && (
-                          <View style={styles.warningContainer}>
-                            <Text style={styles.warningText}>
-                              ⚠️ {analysisState.project.warnings[index + 1]}
-                            </Text>
-                          </View>
-                        )}
-                      <Pressable
-                        style={[
-                          styles.completeButton,
-                          completedSteps.has(index + 1) && styles.completeButtonDisabled
-                        ]}
-                        onPress={() => handleStepCompletion(index + 1)}
-                        disabled={completedSteps.has(index + 1)}
-                      >
-                        <Text style={styles.completeButtonText}>
-                          {completedSteps.has(index + 1) ? 'Completed!' : 'Mark Complete'}
-                        </Text>
-                      </Pressable>
                       <Text style={styles.pageIndicator}>
-                        {index + 2}/
-                        {(analysisState.project?.steps.length || 0) + 2}
+                        {index + 2}/{(analysisState.project?.steps.length || 0) + 2}
                       </Text>
                     </View>
                   ))}
 
                   {/* Tips Card */}
+                  {analysisState.project?.tips?.length > 0 && (
                   <View style={styles.card}>
                     <Text style={styles.tipsTitle}>Helpful Tips</Text>
-                    {analysisState.project?.tips.map((tip, index) => (
-                      <Text key={index} style={styles.tipItem}>
-                        • {tip}
-                      </Text>
-                    ))}
+                    <ScrollView 
+                      style={styles.cardScrollContent}
+                      showsVerticalScrollIndicator={true}
+                    >
+                      {analysisState.project?.tips.map((tip, index) => (
+                        <Text key={index} style={styles.tipItem}>
+                          • {tip}
+                        </Text>
+                      ))}
+                    </ScrollView>
                     <Text style={styles.pageIndicator}>
                       {(analysisState.project?.steps.length || 0) + 2}/
                       {(analysisState.project?.steps.length || 0) + 2}
                     </Text>
                   </View>
+                    )}
                 </>
               )}
             </GestureScrollView>
-            <Pressable
-              style={styles.backButtonTop}
-              onPress={handleBackButton}
-            >
+            <Pressable style={styles.backButtonTop} onPress={handleBackButton}>
               <Ionicons name="arrow-back" size={24} color="white" />
             </Pressable>
           </View>
@@ -434,8 +493,8 @@ export default function App() {
         {analysisState.status !== "idle"
           ? renderAnalysis()
           : uri
-          ? renderPicture()
-          : renderCamera()}
+            ? renderPicture()
+            : renderCamera()}
       </View>
     </GestureHandlerRootView>
   );
@@ -596,6 +655,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 24,
     textAlign: "center",
+    marginBottom: 16,
   },
   pageIndicator: {
     color: "#666",
@@ -663,7 +723,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 24,
     marginHorizontal: 10,
-    height: 600, // Increased height to 600
+    height: 600, // Fixed height for cards
     justifyContent: "flex-start",
     alignItems: "center",
     shadowColor: "#000",
@@ -674,13 +734,30 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
+    position: "relative", // To position elements absolutely within the card
+  },
+  // New styles for scrollable content
+  cardContentContainer: {
+    flex: 1,
+    width: "100%",
+    marginVertical: 10,
+    maxHeight: 300, // Allocate fixed height for scrollable content
+  },
+  cardScrollContent: {
+    width: "100%",
+    flexGrow: 0,
+  },
+  cardButtonContainer: {
+    width: "100%",
+    marginTop: 8,
+    marginBottom: 40,
   },
   warningContainer: {
     backgroundColor: "#ff4444",
     padding: 12,
     borderRadius: 8,
     marginTop: 16,
-    marginBottom: 24,
+    marginBottom: 16,
     width: "100%",
   },
   warningText: {
@@ -691,7 +768,7 @@ const styles = StyleSheet.create({
   },
   backButtonTop: {
     position: "absolute",
-    top: 60,
+    top: 0,
     left: 20,
     zIndex: 1,
     width: 40,
@@ -702,106 +779,132 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   completeButton: {
-    backgroundColor: '#4CAF50',
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderRadius: 8,
-    marginTop: 20,
-    marginBottom: 40,
-  },
-  completeButtonDisabled: {
-    backgroundColor: '#666',
-    opacity: 0.7,
-  },
-  completeButtonText: {
-    color: 'white',
-    fontSize: 16,
-    fontWeight: '600',
-    textAlign: 'center',
-  },
-  helpButton: {
-    backgroundColor: '#007AFF',
+    backgroundColor: "#4CAF50",
     paddingHorizontal: 20,
     paddingVertical: 12,
     borderRadius: 8,
     marginTop: 10,
+  },
+  completeButtonDisabled: {
+    backgroundColor: "#666",
+    opacity: 0.7,
+  },
+  completeButtonText: {
+    color: "white",
+    fontSize: 16,
+    fontWeight: "600",
+    textAlign: "center",
+  },
+  helpButton: {
+    backgroundColor: "#007AFF",
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 8,
     marginBottom: 10,
   },
   helpButtonText: {
-    color: 'white',
+    color: "white",
     fontSize: 16,
-    fontWeight: '600',
-    textAlign: 'center',
+    fontWeight: "600",
+    textAlign: "center",
   },
   clarificationContainer: {
-    backgroundColor: '#2A2A2A',
+    backgroundColor: "#2A2A2A",
     padding: 16,
     borderRadius: 8,
-    marginTop: 16,
-    width: '100%',
+    marginBottom: 16,
+    width: "100%",
   },
   clarificationTitle: {
-    color: '#FFF',
+    color: "#FFF",
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginTop: 12,
     marginBottom: 8,
   },
   substepText: {
-    color: '#FFF',
+    color: "#FFF",
     fontSize: 14,
     marginBottom: 6,
     paddingLeft: 8,
   },
   tipText: {
-    color: '#4CAF50',
+    color: "#4CAF50",
     fontSize: 14,
     marginBottom: 6,
     paddingLeft: 8,
   },
   mistakeText: {
-    color: '#FF6B6B',
+    color: "#FF6B6B",
     fontSize: 14,
     marginBottom: 6,
     paddingLeft: 8,
   },
   projectSuggestionCard: {
-    backgroundColor: '#2A2A2A',
+    backgroundColor: "#2A2A2A",
     padding: 20,
     margin: 10,
     borderRadius: 10,
     borderWidth: 1,
-    borderColor: '#444',
+    borderColor: "#444",
   },
   similarityScore: {
-    color: '#4CAF50',
+    color: "#4CAF50",
     fontSize: 16,
     marginTop: 8,
   },
   materialsText: {
-    color: '#fff',
+    color: "#fff",
     fontSize: 14,
     marginTop: 8,
   },
   sectionHeader: {
-    color: '#fff',
+    color: "#fff",
     fontSize: 20,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     padding: 16,
     paddingBottom: 8,
   },
+  headerText: {
+    color: "#fff",
+    fontSize: 24,
+    fontWeight: "bold",
+    marginTop: 16,
+    marginBottom: 16,
+  },
   similarProjectCard: {
-    borderColor: '#4CAF50',
+    borderColor: "#4CAF50",
     borderWidth: 2,
   },
   aiProjectCard: {
-    borderColor: '#007AFF',
+    borderColor: "#007AFF",
     borderWidth: 2,
   },
   sourceText: {
-    color: '#888',
+    color: "#888",
     fontSize: 12,
     marginTop: 8,
-    fontStyle: 'italic',
+    fontStyle: "italic",
+  },
+  helpButtonLoading: {
+    opacity: 0.8,
+  },
+  
+  helpButtonLoadingContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+  },
+  
+  smallLoaderRing: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: "#444",
+    borderTopColor: "#fff",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

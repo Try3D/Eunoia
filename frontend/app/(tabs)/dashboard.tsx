@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import {
   ScrollView,
   View,
   Text,
-  Image,
   StyleSheet,
   useColorScheme,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Ionicons } from "@expo/vector-icons";
 
 // Color schemes
 const colors = {
@@ -44,7 +42,9 @@ type LeaderboardEntry = {
 export default function DashboardScreen() {
   const [projects, setProjects] = useState([]);
   const [achievements, setAchievements] = useState([]);
-  const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>([]);
+  const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>(
+    [],
+  );
   const colorScheme = useColorScheme();
   const theme = colors[colorScheme ?? "light"];
   const styles = makeStyles(theme);
@@ -53,11 +53,12 @@ export default function DashboardScreen() {
     const fetchDashboardData = async () => {
       try {
         // Fetch all data in parallel
-        const [projectsRes, achievementsRes, leaderboardRes] = await Promise.all([
-          fetch('http://10.31.23.91:8000/projects'),
-          fetch('http://10.31.23.91:8000/achievements'),
-          fetch('http://10.31.23.91:8000/leaderboard')
-        ]);
+        const [projectsRes, achievementsRes, leaderboardRes] =
+          await Promise.all([
+            fetch("http://10.57.140.132:8000/projects"),
+            fetch("http://10.57.140.132:8000/achievements"),
+            fetch("http://10.57.140.132:8000/leaderboard"),
+          ]);
 
         const projectsData = await projectsRes.json();
         const achievementsData = await achievementsRes.json();
@@ -67,7 +68,7 @@ export default function DashboardScreen() {
         setAchievements(achievementsData);
         setLeaderboardData(leaderboardData);
       } catch (error) {
-        console.error('Error fetching dashboard data:', error);
+        console.error("Error fetching dashboard data:", error);
       }
     };
 
@@ -252,8 +253,8 @@ const makeStyles = (theme: typeof colors.light) =>
       textAlign: "center",
     },
     leaderboardRow: {
-      flexDirection: 'row',
-      alignItems: 'center',
+      flexDirection: "row",
+      alignItems: "center",
       paddingVertical: 12,
       borderBottomWidth: 1,
       borderBottomColor: theme.border,
@@ -261,7 +262,7 @@ const makeStyles = (theme: typeof colors.light) =>
     rank: {
       width: 40,
       fontSize: 16,
-      fontWeight: '600',
+      fontWeight: "600",
       color: theme.text,
     },
     userInfo: {
@@ -269,7 +270,7 @@ const makeStyles = (theme: typeof colors.light) =>
     },
     username: {
       fontSize: 16,
-      fontWeight: '500',
+      fontWeight: "500",
       color: theme.text,
     },
     stats: {
