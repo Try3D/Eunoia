@@ -175,6 +175,87 @@ async def analyze_image(file: UploadFile = File(...), db: Session = Depends(get_
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.post("/analyze-items")
+async def analyze_items(request: dict):
+    """Generate project ideas from a list of items"""
+    try:
+        items_list = request.get("items")
+        if not items_list:
+            raise HTTPException(status_code=400, detail="No items provided")
+
+        print(f"Analyzing items: {items_list}")
+        
+        # Find similar projects based on materials
+        items_array = [item.strip() for item in items_list.split(',')]
+        similar_matches = find_similar_materials(items_array)
+
+        # Format similar projects with similarity scores
+        similar_projects = [
+            {
+                **match[0],
+                "similarity": float(match[1]),
+                "title": match[0].get("title", "Untitled Project"),
+                "materials": match[0].get("materials_required", []),
+                "steps": match[0].get("steps", []),
+                "tips": match[0].get("tips", []),
+                "difficulty": match[0].get("difficulty", "Medium"),
+                "timeRequired": match[0].get("time_required", "Unknown"),
+                "warnings": {},
+            }
+            for match in similar_matches
+        ]
+
+        # Generate AI project
+        project_response = client.models.generate_content(
+            model="gemini-2.0-flash-exp",
+            contents=[
+                f"Using these items: {items_list}\n\n"
+                "Generate a DIY project and return it in this exact JSON format (no markdown):\n"
+                "{\n"
+                '  "title": "Project Name",\n'
+                '  "materials": ["item1", "item2", "item3"],\n'
+                '  "difficulty": "Easy/Medium/Hard",\n'
+                '  "timeRequired": "estimated time",\n'
+                '  "steps": ["step1", "step2", "step3"],\n'
+                '  "tips": ["tip1", "tip2"],\n'
+                '  "warnings": {"1": "warning in step 1 (if any)", "2": "warning in step 2 (if any)"}\n'
+                "}"
+            ],
+        )
+
+        # Parse the AI response
+        try:
+            response_text = project_response.text
+            if "```" in response_text:
+                response_text = response_text.split("```")[1]
+                if response_text.startswith("json\n"):
+                    response_text = response_text[5:]
+
+            ai_project = json.loads(response_text.strip())
+        except json.JSONDecodeError:
+            ai_project = {
+                "title": "Custom Project",
+                "materials": items_array,
+                "difficulty": "Medium",
+                "timeRequired": "30 minutes",
+                "steps": ["Step 1: Gather materials", "Step 2: Create your project"],
+                "tips": ["Be creative"],
+                "warnings": {},
+            }
+
+        return {
+            "status": "success",
+            "message": {
+                "similar_projects": similar_projects,
+                "ai_projects": [ai_project],
+            },
+        }
+
+    except Exception as e:
+        print(f"Error analyzing items: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.post("/step")
 async def complete_step(request: dict, db: Session = Depends(get_db)):
     """Mark a step as complete and update progress"""
@@ -341,47 +422,6 @@ def get_leaderboard(db: Session = Depends(get_db)):
 
     print(result)
     return result
-
-
-@app.post("/generate/{category}")
-async def generate_project(category: str):
-    """Generate project ideas for a specific category"""
-    try:
-        # Create a category-specific prompt
-        prompt = f"""Generate 3 DIY project ideas for the {category} category. 
-        Return them in this exact JSON format (no markdown):
-        {{
-          "similar_projects": [],
-          "ai_projects": [
-            {{
-              "title": "Project Name",
-              "materials": ["item1", "item2", "item3"],
-              "difficulty": "Easy/Medium/Hard",
-              "timeRequired": "estimated time",
-              "steps": ["step1", "step2", "step3"],
-              "tips": ["tip1", "tip2"],
-              "warnings": {{"1": "warning for step 1", "2": "warning for step 2"}}
-            }}
-          ]
-        }}"""
-
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-exp", contents=[prompt]
-        )
-
-        # Clean and parse the response
-        cleaned_response = response.text.strip()
-        if "```" in cleaned_response:
-            cleaned_response = cleaned_response.split("```")[1]
-            if cleaned_response.startswith("json\n"):
-                cleaned_response = cleaned_response[5:]
-
-        result = json.loads(cleaned_response)
-        print(result)
-        return {"status": "success", "message": result}
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 
 if __name__ == "__main__":
