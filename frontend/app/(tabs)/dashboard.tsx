@@ -5,8 +5,11 @@ import {
   Text,
   StyleSheet,
   useColorScheme,
+  Pressable,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useProjects } from '../../context/ProjectContext';
+import { useRouter } from 'expo-router';
 
 // Color schemes
 const colors = {
@@ -43,7 +46,8 @@ type LeaderboardEntry = {
 };
 
 export default function DashboardScreen() {
-  const [projects, setProjects] = useState([]);
+  const router = useRouter();
+  const { projects } = useProjects();
   const [achievements, setAchievements] = useState([]);
   const [leaderboardData, setLeaderboardData] = useState<LeaderboardEntry[]>(
     [],
@@ -52,22 +56,23 @@ export default function DashboardScreen() {
   const theme = colors[colorScheme ?? "light"];
   const styles = makeStyles(theme);
 
+  const navigateToCamera = () => {
+    router.push('/(tabs)');
+  };
+
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
         // Fetch all data in parallel
-        const [projectsRes, achievementsRes, leaderboardRes] =
+        const [achievementsRes, leaderboardRes] =
           await Promise.all([
-            fetch("http://10.57.140.132:8000/projects"),
             fetch("http://10.57.140.132:8000/achievements"),
             fetch("http://10.57.140.132:8000/leaderboard"),
           ]);
 
-        const projectsData = await projectsRes.json();
         const achievementsData = await achievementsRes.json();
         const leaderboardData = await leaderboardRes.json();
 
-        setProjects(projectsData);
         setAchievements(achievementsData);
         setLeaderboardData(leaderboardData);
       } catch (error) {
@@ -77,6 +82,45 @@ export default function DashboardScreen() {
 
     fetchDashboardData();
   }, []);
+
+  const renderOngoingProjects = () => {
+    if (projects.length === 0) {
+      return (
+        <Pressable 
+          style={styles.emptyStateContainer}
+          onPress={navigateToCamera}
+        >
+          <Text style={styles.emptyStateText}>
+            No projects yet! Tap here to start your DIY journey 🛠️
+          </Text>
+        </Pressable>
+      );
+    }
+
+    return projects.map((project) => (
+      <Pressable
+        key={project.title}
+        style={styles.projectCard}
+        onPress={navigateToCamera}
+      >
+        <Text style={styles.projectTitle}>{project.title}</Text>
+        <Text style={styles.lastUpdated}>
+          Last updated: {new Date(project.lastUpdated).toLocaleDateString()}
+        </Text>
+        <View style={styles.progressContainer}>
+          <View
+            style={[
+              styles.progressBar,
+              { width: `${project.progress}%` },
+            ]}
+          />
+        </View>
+        <Text style={styles.progressText}>
+          {project.progress.toFixed(0)}% Complete
+        </Text>
+      </Pressable>
+    ));
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -94,25 +138,7 @@ export default function DashboardScreen() {
         {/* Ongoing Projects Section */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Ongoing Projects</Text>
-          {projects.map((project) => (
-            <View key={project.id} style={styles.projectCard}>
-              <View style={styles.projectHeader}>
-                <Text style={styles.projectTitle}>{project.title}</Text>
-                <Text style={styles.projectDue}>Due: {project.dueDate}</Text>
-              </View>
-              <View style={styles.progressContainer}>
-                <View
-                  style={[
-                    styles.progressBar,
-                    { width: `${project.progress}%` },
-                  ]}
-                />
-              </View>
-              <Text style={styles.progressText}>
-                {project.progress}% Complete
-              </Text>
-            </View>
-          ))}
+          {renderOngoingProjects()}
         </View>
 
         {/* Achievements Section */}
@@ -191,7 +217,7 @@ const makeStyles = (theme: typeof colors.light) =>
     },
     projectCard: {
       marginBottom: 16,
-      padding: 12,
+      padding: 16,
       backgroundColor: theme.cardAlt,
       borderRadius: 8,
     },
@@ -202,9 +228,10 @@ const makeStyles = (theme: typeof colors.light) =>
       marginBottom: 8,
     },
     projectTitle: {
-      fontSize: 16,
-      fontWeight: "500",
+      fontSize: 18,
+      fontWeight: "600",
       color: theme.text,
+      marginBottom: 4,
     },
     projectDue: {
       fontSize: 12,
@@ -286,5 +313,26 @@ const makeStyles = (theme: typeof colors.light) =>
       fontWeight: "600",
       color: theme.text,
       marginBottom: 8,
+    },
+    emptyStateContainer: {
+      padding: 20,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: theme.cardAlt,
+      borderRadius: 8,
+      borderWidth: 2,
+      borderStyle: 'dashed',
+      borderColor: theme.border,
+    },
+    emptyStateText: {
+      fontSize: 16,
+      color: theme.textSecondary,
+      textAlign: 'center',
+      lineHeight: 24,
+    },
+    lastUpdated: {
+      fontSize: 12,
+      color: theme.textSecondary,
+      marginBottom: 12,
     },
   });

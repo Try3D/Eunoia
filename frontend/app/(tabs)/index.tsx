@@ -14,6 +14,7 @@ import {
 } from "react-native";
 import { Image } from "expo-image";
 import { Ionicons } from "@expo/vector-icons";
+import { useProjects } from '../../context/ProjectContext';
 
 const { width, height } = Dimensions.get("window");
 const SQUARE_SIZE = Math.min(width, height) * 0.8;
@@ -67,6 +68,7 @@ export default function App() {
   const [projectSuggestions, setProjectSuggestions] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
   const [loadingClarification, setLoadingClarification] = useState<number | null>(null);
+  const { addProject, updateProjectProgress } = useProjects();
 
   useEffect(() => {
     requestPermission();
@@ -124,25 +126,16 @@ export default function App() {
 
   const handleStepCompletion = async (stepNumber: number) => {
     try {
-      const response = await fetch("http://10.57.140.132:8000/step", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          projectTitle: analysisState.project?.title,
-          stepNumber: stepNumber,
-        }),
-      });
-
-      if (response.ok) {
-        setCompletedSteps((prev) => new Set(prev.add(stepNumber)));
-        Alert.alert("Success", "Step marked as complete!");
-      } else {
-        Alert.alert("Error", "Failed to mark step as complete");
+      // Update local state
+      setCompletedSteps(prev => new Set(prev.add(stepNumber)));
+      
+      // Update shared context
+      if (analysisState.project?.title) {
+        updateProjectProgress(analysisState.project.title, stepNumber);
       }
+      
+      Alert.alert("Success", "Step marked as complete!");
     } catch (error) {
-      console.error("Error marking step complete:", error);
       Alert.alert("Error", "Failed to mark step as complete");
     }
   };
@@ -180,6 +173,13 @@ export default function App() {
   };
 
   const handleProjectSelection = (project) => {
+    // Add project to shared context
+    addProject({
+      title: project.title,
+      totalSteps: project.steps.length,
+      completedSteps: [],
+    });
+    
     setSelectedProject(project);
     setAnalysisState({
       status: "complete",
