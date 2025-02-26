@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import { Image } from "expo-image";
 import { Ionicons } from "@expo/vector-icons";
-import { useProjects } from '../../context/ProjectContext';
+import { useProjects } from "../../context/ProjectContext";
 
 const { width, height } = Dimensions.get("window");
 const SQUARE_SIZE = Math.min(width, height) * 0.8;
@@ -67,7 +67,9 @@ export default function App() {
   }>({});
   const [projectSuggestions, setProjectSuggestions] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
-  const [loadingClarification, setLoadingClarification] = useState<number | null>(null);
+  const [loadingClarification, setLoadingClarification] = useState<
+    number | null
+  >(null);
   const { addProject, updateProjectProgress } = useProjects();
 
   useEffect(() => {
@@ -97,7 +99,7 @@ export default function App() {
           name: "photo.jpg",
         } as any);
 
-        const response = await fetch("http://10.57.140.132:8000/analyze", {
+        const response = await fetch("http://10.123.179.55:8000/analyze", {
           method: "POST",
           body: formData,
           headers: {
@@ -127,13 +129,13 @@ export default function App() {
   const handleStepCompletion = async (stepNumber: number) => {
     try {
       // Update local state
-      setCompletedSteps(prev => new Set(prev.add(stepNumber)));
-      
+      setCompletedSteps((prev) => new Set(prev.add(stepNumber)));
+
       // Update shared context
       if (analysisState.project?.title) {
         updateProjectProgress(analysisState.project.title, stepNumber);
       }
-      
+
       Alert.alert("Success", "Step marked as complete!");
     } catch (error) {
       Alert.alert("Error", "Failed to mark step as complete");
@@ -143,7 +145,7 @@ export default function App() {
   const handleStepClarification = async (stepNumber: number) => {
     try {
       setLoadingClarification(stepNumber);
-      const response = await fetch("http://10.57.140.132:8000/clarify-step", {
+      const response = await fetch("http://10.123.179.55:8000/clarify-step", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -179,7 +181,7 @@ export default function App() {
       totalSteps: project.steps.length,
       completedSteps: [],
     });
-    
+
     setSelectedProject(project);
     setAnalysisState({
       status: "complete",
@@ -357,7 +359,7 @@ export default function App() {
 
                       {/* Scrollable container for clarification content */}
                       <View style={styles.cardContentContainer}>
-                        <ScrollView 
+                        <ScrollView
                           style={styles.cardScrollContent}
                           showsVerticalScrollIndicator={true}
                         >
@@ -389,7 +391,9 @@ export default function App() {
                               <Text style={styles.clarificationTitle}>
                                 Watch Out For:
                               </Text>
-                              {stepClarifications[index + 1].common_mistakes.map(
+                              {stepClarifications[
+                                index + 1
+                              ].common_mistakes.map(
                                 (mistake: string, i: number) => (
                                   <Text key={i} style={styles.mistakeText}>
                                     • {mistake}
@@ -416,20 +420,34 @@ export default function App() {
                         <Pressable
                           style={[
                             styles.helpButton,
-                            loadingClarification === index + 1 && styles.helpButtonLoading
+                            loadingClarification === index + 1 &&
+                              styles.helpButtonLoading,
                           ]}
                           onPress={() => handleStepClarification(index + 1)}
                           disabled={loadingClarification === index + 1}
                         >
                           {loadingClarification === index + 1 ? (
                             <View style={styles.helpButtonLoadingContent}>
-                              <Animated.View style={[styles.smallLoaderRing, { transform: [{ rotate: spin }] }]}>
-                                <Ionicons name="hammer" size={16} color="white" />
+                              <Animated.View
+                                style={[
+                                  styles.smallLoaderRing,
+                                  { transform: [{ rotate: spin }] },
+                                ]}
+                              >
+                                <Ionicons
+                                  name="hammer"
+                                  size={16}
+                                  color="white"
+                                />
                               </Animated.View>
-                              <Text style={styles.helpButtonText}>Generating...</Text>
+                              <Text style={styles.helpButtonText}>
+                                Generating...
+                              </Text>
                             </View>
                           ) : (
-                            <Text style={styles.helpButtonText}>Need Help?</Text>
+                            <Text style={styles.helpButtonText}>
+                              Need Help?
+                            </Text>
                           )}
                         </Pressable>
 
@@ -449,33 +467,34 @@ export default function App() {
                           </Text>
                         </Pressable>
                       </View>
-                      
+
                       <Text style={styles.pageIndicator}>
-                        {index + 2}/{(analysisState.project?.steps.length || 0) + 2}
+                        {index + 2}/
+                        {(analysisState.project?.steps.length || 0) + 2}
                       </Text>
                     </View>
                   ))}
 
                   {/* Tips Card */}
                   {analysisState.project?.tips?.length > 0 && (
-                  <View style={styles.card}>
-                    <Text style={styles.tipsTitle}>Helpful Tips</Text>
-                    <ScrollView 
-                      style={styles.cardScrollContent}
-                      showsVerticalScrollIndicator={true}
-                    >
-                      {analysisState.project?.tips.map((tip, index) => (
-                        <Text key={index} style={styles.tipItem}>
-                          • {tip}
-                        </Text>
-                      ))}
-                    </ScrollView>
-                    <Text style={styles.pageIndicator}>
-                      {(analysisState.project?.steps.length || 0) + 2}/
-                      {(analysisState.project?.steps.length || 0) + 2}
-                    </Text>
-                  </View>
-                    )}
+                    <View style={styles.card}>
+                      <Text style={styles.tipsTitle}>Helpful Tips</Text>
+                      <ScrollView
+                        style={styles.cardScrollContent}
+                        showsVerticalScrollIndicator={true}
+                      >
+                        {analysisState.project?.tips.map((tip, index) => (
+                          <Text key={index} style={styles.tipItem}>
+                            • {tip}
+                          </Text>
+                        ))}
+                      </ScrollView>
+                      <Text style={styles.pageIndicator}>
+                        {(analysisState.project?.steps.length || 0) + 2}/
+                        {(analysisState.project?.steps.length || 0) + 2}
+                      </Text>
+                    </View>
+                  )}
                 </>
               )}
             </GestureScrollView>
@@ -889,14 +908,14 @@ const styles = StyleSheet.create({
   helpButtonLoading: {
     opacity: 0.8,
   },
-  
+
   helpButtonLoadingContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
     gap: 8,
   },
-  
+
   smallLoaderRing: {
     width: 24,
     height: 24,
@@ -908,3 +927,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+

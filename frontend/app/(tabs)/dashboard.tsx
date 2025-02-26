@@ -8,8 +8,8 @@ import {
   Pressable,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useProjects } from '../../context/ProjectContext';
-import { useRouter } from 'expo-router';
+import { useProjects } from "../../context/ProjectContext";
+import { useRouter } from "expo-router";
 
 // Color schemes
 const colors = {
@@ -57,18 +57,17 @@ export default function DashboardScreen() {
   const styles = makeStyles(theme);
 
   const navigateToCamera = () => {
-    router.push('/(tabs)');
+    router.push("/(tabs)");
   };
 
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
         // Fetch all data in parallel
-        const [achievementsRes, leaderboardRes] =
-          await Promise.all([
-            fetch("http://10.57.140.132:8000/achievements"),
-            fetch("http://10.57.140.132:8000/leaderboard"),
-          ]);
+        const [achievementsRes, leaderboardRes] = await Promise.all([
+          fetch("http://10.123.179.55:8000/achievements"),
+          fetch("http://10.123.179.55:8000/leaderboard"),
+        ]);
 
         const achievementsData = await achievementsRes.json();
         const leaderboardData = await leaderboardRes.json();
@@ -86,7 +85,7 @@ export default function DashboardScreen() {
   const renderOngoingProjects = () => {
     if (projects.length === 0) {
       return (
-        <Pressable 
+        <Pressable
           style={styles.emptyStateContainer}
           onPress={navigateToCamera}
         >
@@ -109,10 +108,7 @@ export default function DashboardScreen() {
         </Text>
         <View style={styles.progressContainer}>
           <View
-            style={[
-              styles.progressBar,
-              { width: `${project.progress}%` },
-            ]}
+            style={[styles.progressBar, { width: `${project.progress}%` }]}
           />
         </View>
         <Text style={styles.progressText}>
@@ -166,7 +162,8 @@ export default function DashboardScreen() {
               <View style={styles.userInfo}>
                 <Text style={styles.username}>{user.username}</Text>
                 <Text style={styles.stats}>
-                  {user.projects_completed} Projects • {user.total_xp} XP • {user.streak_days} day streak
+                  {user.projects_completed} Projects • {user.total_xp} XP •{" "}
+                  {user.streak_days} day streak
                 </Text>
               </View>
             </View>
@@ -316,18 +313,18 @@ const makeStyles = (theme: typeof colors.light) =>
     },
     emptyStateContainer: {
       padding: 20,
-      alignItems: 'center',
-      justifyContent: 'center',
+      alignItems: "center",
+      justifyContent: "center",
       backgroundColor: theme.cardAlt,
       borderRadius: 8,
       borderWidth: 2,
-      borderStyle: 'dashed',
+      borderStyle: "dashed",
       borderColor: theme.border,
     },
     emptyStateText: {
       fontSize: 16,
       color: theme.textSecondary,
-      textAlign: 'center',
+      textAlign: "center",
       lineHeight: 24,
     },
     lastUpdated: {
